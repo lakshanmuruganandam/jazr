@@ -7,9 +7,9 @@
 A one-button response to jellyfish blooms at coastal nuclear-plant seawater intakes: guide, lift and release every live animal alive.</p>
 
 <p align="center">
-  <a href="SITE_URL"><b>🌐 Website</b></a> ·
-  <a href="SITE_URL/3d/"><b>🧊 Live 3D twin</b></a> ·
-  <a href="SITE_URL/dashboard/"><b>🖥️ Bloom Incident OS</b></a> ·
+  <a href="https://lakshanmuruganandam.github.io/jazr"><b>🌐 Website</b></a> ·
+  <a href="https://lakshanmuruganandam.github.io/jazr/3d/"><b>🧊 Live 3D twin</b></a> ·
+  <a href="https://lakshanmuruganandam.github.io/jazr/dashboard/"><b>🖥️ Bloom Incident OS</b></a> ·
   <a href="media/pitch.mp4"><b>▶ Pitch film</b></a> ·
   <a href="media/tour.mp4"><b>▶ Narrated 3D tour</b></a> ·
   <a href="media/JAZR_Proposal_10slides.pdf"><b>📄 Proposal deck</b></a>
