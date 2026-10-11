@@ -21,6 +21,12 @@ After the early-warning alert, JAZR guides the bloom away from the plant's scree
   <img alt="virtual tank" src="https://img.shields.io/badge/virtual_tank-900%2F900_guided-14BEAA">
   <img alt="twin agreement" src="https://img.shields.io/badge/browser_twin_vs_Python-≤1.4_pt-14BEAA">
 </p>
+<p align="center">
+  <a href="https://jazr.vercel.app"><img alt="Pitch film" src="https://img.shields.io/badge/▶_Pitch_film-1:52-E8607A?style=for-the-badge"></a>
+  <a href="media/tour.mp4"><img alt="Narrated 3D tour" src="https://img.shields.io/badge/▶_Narrated_3D_tour-1:56-B48CFF?style=for-the-badge"></a>
+  <a href="https://jazr.vercel.app/dashboard/sim/"><img alt="Live simulation" src="https://img.shields.io/badge/Live_simulation-open-7FD88F?style=for-the-badge"></a>
+  <a href="media/JAZR_Proposal_10slides.pdf"><img alt="Proposal deck" src="https://img.shields.io/badge/Proposal_deck-PDF-F2F2F2?style=for-the-badge"></a>
+</p>
 
 <p align="center"><i>ATRC Advanced Technology Pioneers 2026 · ENEC track · Engineered at IIT Delhi – Abu Dhabi</i><br>
 <b>Lakshan Muruganandam · Tarunika Ravikumar · Shouq Alhosani</b></p>
@@ -92,25 +98,9 @@ Seasonal jellyfish blooms drift onto coasts and can choke a power plant's seawat
 
 <p align="center"><img src="media/readme/diagram.jpg" width="100%" alt="JAZR plan view of one intake lane"></p>
 
-```mermaid
-flowchart LR
-    A[Early-warning alert] --> OS[Bloom Incident OS<br/>auto-deploy ~10 min<br/>operator veto]
-    OS --> L1[1 · Layer 1<br/>moving-belt angled screen 11°]
-    L1 --> AP[2 · Apex + flared entrances<br/>15–35% of lane flow]
-    L1 -. leakers .-> L2[2b · Layer 2<br/>hydro-jet curtain, no air<br/>to surface skimmer]
-    L2 --> AP
-    AP --> DW[3 · Flat-plate dewatering]
-    DW --> TG[4 · Turtle-excluder grid ~15 cm]
-    TG -- turtles, big bells --> ESC[Escape chute: sea, alive]
-    TG --> HL[5 · HydroLift<br/>water-only float chambers]
-    HL --> HT[6 · Head tank + dissolved O₂<br/>1.6 m gravity pipe]
-    HT --> FC{7 · 10-day drift forecast}
-    FC -- Near --> N[Outlet 5 km offshore]
-    FC -- Far --> F[Outlet ~10 km alongshore]
-    N --> R[Released alive<br/>diffuser ≤1 m/s]
-    F --> R
-    L1 -. clean water .-> P[Plant's own screens<br/>untouched]
-```
+<p align="center"><img src="media/readme/flow.png" alt="JAZR process flow: alert, Bloom Incident OS, Layer 1 belt screen, entrances, Layer 2, dewatering, turtle grid, HydroLift, head tank and pipe, forecast picks Near or Far, released alive" width="100%"></p>
+
+<sub>Diagram source: <a href="media/readme/flow.mmd">media/readme/flow.mmd</a> (Mermaid).</sub>
 
 **Key properties:**
 - Four independent lanes, one per unit.

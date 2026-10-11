@@ -1,0 +1,17 @@
+flowchart LR
+    A["Early-warning alert"] --> OS["Bloom Incident OS<br/>auto-deploy ~10 min<br/>operator veto"]
+    OS --> L1["1 · Layer 1<br/>moving-belt angled screen 11°"]
+    L1 --> AP["2 · Apex + flared entrances<br/>15–35% of lane flow"]
+    L1 -.->|"leakers"| L2["2b · Layer 2<br/>hydro-jet curtain, no air<br/>to surface skimmer"]
+    L2 --> AP
+    AP --> DW["3 · Flat-plate dewatering"]
+    DW --> TG["4 · Turtle-excluder grid ~15 cm"]
+    TG -->|"turtles, big bells"| ESC["Escape chute: sea, alive"]
+    TG --> HL["5 · HydroLift<br/>water-only float chambers"]
+    HL --> HT["6 · Head tank + dissolved O₂<br/>1.6 m gravity pipe"]
+    HT --> FC{"7 · 10-day drift forecast"}
+    FC -->|"Near"| N["Outlet 5 km offshore"]
+    FC -->|"Far"| F["Outlet ~10 km alongshore"]
+    N --> R["Released alive<br/>diffuser ≤1 m/s"]
+    F --> R
+    L1 -.->|"clean water"| P["Plant's own screens<br/>untouched"]
