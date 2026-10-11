@@ -133,6 +133,13 @@ h3{font-size:clamp(20px,2.2vw,24px);letter-spacing:-.01em;line-height:1.2}
 .team b em{font-style:normal;font-size:11px;letter-spacing:.12em;text-transform:uppercase;color:var(--amber);border:1px solid var(--amber);border-radius:6px;padding:2px 7px;margin-left:6px;vertical-align:3px;white-space:nowrap}
 .team span{display:block;color:var(--ink-2);font-size:14px;margin-top:4px}
 @media(max-width:760px){.team .tm{grid-template-columns:1fr}}
+.choices{grid-template-columns:repeat(3,1fr)!important;max-width:none!important}
+.choice .body .t{font-size:clamp(20px,2.1vw,28px)!important;padding-right:30px}
+.choice .body .d{font-size:14px}
+.choice.c .play{background:#BFE3FF;animation:pulseC 2.6s infinite}
+@keyframes pulseC{0%{box-shadow:0 0 0 0 rgba(191,227,255,.6)}70%{box-shadow:0 0 0 18px rgba(191,227,255,0)}100%{box-shadow:0 0 0 0 rgba(191,227,255,0)}}
+@media(max-width:900px){.choices{grid-template-columns:1fr 1fr!important}.choice.c{grid-column:1/-1}}
+@media(max-width:640px){.choices{grid-template-columns:1fr!important}}
 /* stats */
 .stats{padding:clamp(70px,9vw,120px) 0 clamp(60px,8vw,110px);border-top:1px solid var(--line);background:linear-gradient(180deg,var(--navy),var(--navy-2))}
 .big-stats{display:grid;grid-template-columns:repeat(4,1fr);gap:clamp(18px,3vw,40px);margin-top:44px}
@@ -351,11 +358,19 @@ footer .disc{margin-top:22px;font-size:12.5px}
           <span class="play"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linejoin="round"><path d="M12 2 3 7v10l9 5 9-5V7z"/><path d="M3 7l9 5 9-5M12 12v10"/></svg></span>
           <span class="dur">Interactive</span>
         </span>
-        <span class="body"><span class="t">Launch the live 3D twin</span><span class="d">Fly the intake. Trigger a bloom. Press deploy. Watch it work.</span><span class="arrow">↗</span></span>
+        <span class="body"><span class="t">Launch the 3D twin</span><span class="d">Fly the intake. Trigger a bloom. Press deploy. Watch it work.</span><span class="arrow">↗</span></span>
+      </a>
+      <a class="choice c rv d4" href="dashboard/index.html" aria-label="Open the Bloom Incident OS dashboard">
+        <span class="thumb">
+          <video class="pv" src="media/preview/dash_loop.mp4" poster="media/preview/dash_poster.jpg" muted loop autoplay playsinline preload="auto" aria-hidden="true"></video>
+          <span class="chip"><i class="live"></i>Control system · 14 tabs</span>
+          <span class="play"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2"><rect x="3" y="3" width="18" height="18" rx="2"/><path d="M3 9h18M9 21V9"/></svg></span>
+          <span class="dur">Live dashboard</span>
+        </span>
+        <span class="body"><span class="t">Open the dashboard</span><span class="d">Bloom Incident OS: the operator's console. Deploy, veto, alarms, live simulation.</span><span class="arrow">↗</span></span>
       </a>
     </div>
     <div class="sec-btns rv d4">
-      <a class="btn" href="dashboard/index.html"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="3" y="3" width="18" height="18" rx="2"/><path d="M3 9h18M9 21V9"/></svg>Bloom Incident OS dashboard</a>
       <button class="btn" data-video="media/tour.mp4" data-cap="Narrated 3D tour of JAZR"><svg viewBox="0 0 24 24" fill="currentColor"><path d="M8 5.5v13l11-6.5z"/></svg>Narrated 3D tour</button>
       <a class="btn" href="media/JAZR_Proposal_10slides.pdf" target="_blank" rel="noopener"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M14 3H6a2 2 0 0 0-2 2v14a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V9z"/><path d="M14 3v6h6"/></svg>Proposal deck PDF</a>
       <a class="btn" href="https://github.com/lakshanmuruganandam/jazr" target="_blank" rel="noopener"><svg viewBox="0 0 24 24" fill="currentColor"><path d="M12 .5a11.5 11.5 0 0 0-3.6 22.4c.6.1.8-.3.8-.6v-2c-3.2.7-3.9-1.5-3.9-1.5-.5-1.3-1.3-1.7-1.3-1.7-1-.7.1-.7.1-.7 1.2.1 1.8 1.2 1.8 1.2 1 1.8 2.8 1.3 3.5 1 .1-.8.4-1.3.7-1.6-2.6-.3-5.3-1.3-5.3-5.7 0-1.3.5-2.3 1.2-3.1-.1-.3-.5-1.5.1-3.1 0 0 1-.3 3.2 1.2a11 11 0 0 1 5.8 0C17.3 4.6 18.3 5 18.3 5c.6 1.6.2 2.8.1 3.1.8.8 1.2 1.8 1.2 3.1 0 4.4-2.7 5.4-5.3 5.7.4.4.8 1.1.8 2.2v3.2c0 .3.2.7.8.6A11.5 11.5 0 0 0 12 .5z"/></svg>GitHub</a>
