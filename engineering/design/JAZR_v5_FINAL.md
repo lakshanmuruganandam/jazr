@@ -78,8 +78,8 @@ Edge-AI camera counts + closed-loop tuning suggestions (operator accepts) · Bay
 
 ## 6. Practical path and economics
 - **JAZR Core first:** OS + twin + forecast + **one-lane pilot**, with release by the shorter route first. This cuts the downside about 4×.
-- **Expand** only if pilot data + ENEC's event records clear the **break-even ≈0.9 unit-days per unit-year**. Payback probability ≈87% at Hanul's historical rate, ≈99.9% at Gravelines' recent rate.
-- Cost order: AED 30–80 M per unit (bottom-up higher, ~USD 51 M); the far pipe is the largest single item.
+- **Expand** only if pilot data and ENEC's event records show it pays back.
+- Cost (2026 market benchmarks, deck slide 9): start with the Core pilot at about AED 4–11 M. Lifetime cost is about AED 2–11 M per unit-year over the 60-year design life (lean retrofit with a shared Near pipe up to full new build), equal to about 0.5–2 avoided outage-days a year at about AED 5–6 M per day. The marine pipe and the screen structure are the largest items.
 - **Regulatory:** FANR/Nawah modification review + seismic + cyber; **EAD permit amendment for live release (highest risk)**; marine-works permit; no autonomous craft.
 
 ## 7. What only real tests can settle
