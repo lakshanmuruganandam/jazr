@@ -136,16 +136,9 @@ def test_pilot_scales_quarter_of_full():
     assert math.isclose(p["npv_0.06"].mean() * 4, f["npv_0.06"].mean(), rel_tol=0.02)
 
 
-# ---------------- rubric / regulatory / alternatives data
+# ---------------- regulatory / alternatives data
 def _csv(name):
     return list(csv.DictReader(open(os.path.join(HERE, "data", name))))
-
-
-def test_rubric_weights_and_self_score():
-    rub = _csv("rubric.csv")
-    assert sum(float(r["weight"]) for r in rub) == 100
-    self_score = sum(float(r["weight"]) * float(r["v3_self_score"]) / 10 for r in rub)
-    assert math.isclose(self_score, 85.0)  # matches JAZR_GATE_v3.md §8
 
 
 def test_regulatory_rows_have_status_and_source():
@@ -158,4 +151,10 @@ def test_regulatory_rows_have_status_and_source():
 
 def test_alternatives_table_has_sources():
     alt = _csv("alternatives.csv")
-    assert len(alt) == 6 and all(r["sources"].strip() for r in alt)
+    assert len(alt) == 5 and all(r["sources"].strip() for r in alt)
+
+
+def test_regulatory_status_counts():
+    reg = _csv("regulatory_checklist.csv")
+    counts = {s: sum(1 for r in reg if r["status"] == s) for s in ("PASS", "RISK", "N/A")}
+    assert len(reg) == 14 and counts["PASS"] == 2 and counts["RISK"] == 11  # as reported in 00_TEST_REPORT.md

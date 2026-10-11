@@ -556,12 +556,6 @@
   "carbon_payback_years_S1": 6.7,
   "carbon_payback_years_S2": 0.4
  },
- "T7_rubric": {
-  "v3_self_score": 85.0,
-  "redteam_score_with_tank": 67.0,
-  "redteam_score_no_tank": 59.5,
-  "benchmark_estimate": 70.5
- },
  "T6b_regulatory_counts": {
   "PASS": 2,
   "RISK": 11,

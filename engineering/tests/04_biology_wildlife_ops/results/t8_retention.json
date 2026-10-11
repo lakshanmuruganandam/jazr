@@ -17,7 +17,7 @@
     "JAZR closed floor (seal gap 0-10 cm)": 0.9883449490671966,
     "JAZR closed floor, unseated bar (10 cm everywhere)": 0.981875
   },
-  "reference_context": "public reference model: open 2 m skirt 0-55% at 0.2 m/s; closed bag 84-100% (github.com/Shaaha-7/ENEC)",
+  "reference_context": "public reference model: open 2 m skirt 0-55% at 0.2 m/s; closed bag 84-100%",
   "verdicts": {
     "T8a_closed_vs_open_model": [
       "PASS (model)",

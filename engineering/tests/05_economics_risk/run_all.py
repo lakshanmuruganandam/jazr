@@ -1,4 +1,4 @@
-"""Run every economics / risk / emissions / rubric test and write out/*.json|csv and charts/*.png.
+"""Run every economics / risk / emissions test and write out/*.json|csv and charts/*.png.
 Usage:  python3 run_all.py
 """
 import csv
@@ -265,13 +265,6 @@ ax.axvline(0, color=INK, lw=0.8)
 fig.tight_layout()
 fig.savefig(os.path.join(CH, "emissions_compare.png"), dpi=150)
 plt.close(fig)
-
-# ------------------------------------------------------------- T7 rubric
-rub = list(csv.DictReader(open(os.path.join(HERE, "data", "rubric.csv"))))
-def wscore(col):
-    return round(sum(float(r["weight"]) * float(r[col]) / 10 for r in rub), 1)
-R["T7_rubric"] = {c: wscore(c) for c in ("v3_self_score", "redteam_score_with_tank", "redteam_score_no_tank",
-                                         "benchmark_estimate")}
 
 # ------------------------------------------------------------- T8 regulatory summary
 reg = list(csv.DictReader(open(os.path.join(HERE, "data", "regulatory_checklist.csv"))))

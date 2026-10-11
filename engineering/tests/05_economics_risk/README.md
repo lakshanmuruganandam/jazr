@@ -1,4 +1,4 @@
-# 05 · Economics, risk, emissions, regulatory and rubric tests: JAZR Gate v3
+# 05 · Economics, risk, emissions and regulatory tests: JAZR Gate v3
 
 *Run on 11 Oct 2026. Re-run with `python3 run_all.py` (about 7 s). Tests: `python3 -m pytest tests -q` (19 passing).*
 *Never-invent rule: every input sits in `inputs.py` with a label. **VERIFIED** means a source was read. **DOC** means a figure from v3 or the audit. **MODEL** means twin output. **ASSUMED** means an engineering or economic assumption. Change the assumptions, not the code.*
@@ -10,7 +10,7 @@
 | `run_all.py` | Writes `out/results.json`, `out/npv_table.csv` and `charts/*.png` |
 | `data/site_event_counts.csv` | 51 coastal nuclear sites and 41 generation-affecting events, from `13_global_incidents.md` (§A–G and the §J "searched, none found" list) |
 | `data/event_severity.csv` | Unit-days lost for each of 19 events (ranges; "n.s." durations marked ASSUMED) |
-| `data/alternatives.csv`, `data/regulatory_checklist.csv`, `data/rubric.csv` | Tests T4, T6 and T7 |
+| `data/alternatives.csv`, `data/regulatory_checklist.csv` | Tests T4 and T6 |
 | `tests/test_economics.py` | Checks that the cost and emissions tables compute and their totals agree, plus checks on the NPV, break-even and data |
 
 ---
@@ -179,20 +179,6 @@ Median NPV at 6% is −80 M (A·S0), +54 M (A·S2) and −164 M (B·S2), in USD.
 | R14 | Works inside an operating nuclear intake (work control, derate) | RISK |
 
 **Verdict.** No requirement is a blocker in principle, but the permit path takes years. Add a one-line "permit path" slide: FANR/Nawah mod + cyber → EAD EIA + permit amendment → ADM marine works → CICPA. **Add cyber security to v3.**
-
-## T7 · Rubric test (official ENEC weights; `data/rubric.csv`)
-
-|---|---|---|---|---|
-| Relevance (20) | 9 | 8 | 8 | 8 |
-| Innovation (20) | 9 | 7 | 7 | 6 |
-| **Feasibility (25)** | 7 | **5** | 4 | 6 |
-| Sustainability (20) | 9 | 7 | 6 | 7 |
-| Communication (15) | 9 | 7 | 5 | 9 |
-| **Total** | **85** | **67** | **59.5** | **70.5** |
-
-**What a judge will probe:**
-- **Feasibility:** cost (5 km pipe), payback, permits, and unknown the plant geometry and η.
-- **Relevance:** 108 t/h needs ~3 lines per unit, and the system sits in the plant's flow path.
 
 
 ## T8 · Competition-rule compliance (from `00_official_pages.md`): team to-dos

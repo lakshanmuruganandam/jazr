@@ -4,7 +4,7 @@
 
 <h1 align="center">JAZR | جَزْر</h1>
 <p align="center"><b>The plant keeps running. The sea keeps living.</b><br>
-A one-button response to jellyfish blooms at coastal nuclear-plant seawater intakes: guide, lift and release every live animal alive.</p>
+A one-button response to jellyfish blooms at coastal nuclear-plant seawater intakes: guide, lift and return the jellyfish to the sea alive.</p>
 
 <p align="center">
   <a href="https://jazr.vercel.app"><b>🌐 Website</b></a> ·

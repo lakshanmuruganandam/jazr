@@ -9,7 +9,7 @@
 | 02 | Hydraulics & structures | 300 | 180 | 43 | 77 (many deliberate stress cases) | — | `run_all.py` (~50 s) |
 | 03 | CFD of the angled screen and outer line | 5 tests | screen sweep at 11° ✔, mass ~1e-13 | through-velocity uneven | outer line 0–14% | 2D only | — |
 | 04 | Biology, wildlife, FMEA, operations | 41 | 12 | 11 | 8 | 9 | **pytest 16/16** |
-| 05 | Economics, risk, regulatory, rubric, compliance | 19 tests + 14 permit items | 19 tests pass; 2 permits PASS | — | — | 11 permit RISK | **pytest 19/19** |
+| 05 | Economics, risk, regulatory, compliance | 19 tests + 14 permit items | 19 tests pass; 2 permits PASS | — | — | 11 permit RISK | **pytest 19/19** |
 | 06 | Physical test protocols (pre-registered) | 16 tank + 8 flume + 5 pilot | — | — | — | to run | data sheets ready |
 | 07 | Virtual tank (SIMULATED T01–T16) | 16 protocols × ≥3 runs | 7 | — | 5 (+1 kill: turtle, camera only) | 3 report-only | — |
 | 08 | FEA, seismic, extremes, controls, human factors, LCA, climate | 81 | 48 | 12 | 15 (4 are rejected alternatives) | 6 | **pytest 23/23** |
@@ -17,7 +17,7 @@
 
 Alert-arrival timing ✔ · wind drift ✔ · release-point ranking ✔ · stranding/beaching ✔ · real-data hindcast ✔ (292 windows) · retention (closed vs open) ✔ · sizing regression ✔ · cost and emissions tables ✔ · dashboard/OS smoke test ✔.
 
-**Beyond theirs:** CFD, FEA and modal analysis, fatigue, seismic, extreme events and 2085 climate, model-checked control logic (26,633 states), cyber, human factors, LCA, Sobol/Morris sensitivity, Monte Carlo, FMEA/FTA, operations DES, economics Monte Carlo, regulatory checklist, virtual tank, pre-registered physical protocols.
+**Also covered:** CFD, FEA and modal analysis, fatigue, seismic, extreme events and 2085 climate, model-checked control logic (26,633 states), cyber, human factors, LCA, Sobol/Morris sensitivity, Monte Carlo, FMEA/FTA, operations DES, economics Monte Carlo, regulatory checklist, virtual tank, pre-registered physical protocols.
 
 ## What the tests changed (v3 → v4)
 | Finding | Source | v4 change |

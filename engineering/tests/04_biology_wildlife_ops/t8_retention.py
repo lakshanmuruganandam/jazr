@@ -40,7 +40,7 @@ for dn, f in dists.items():
     keep_c_bad = 1 - near_bed * 0.3 - wave_over
     out["JAZR closed floor, unseated bar (10 cm everywhere)"] = float(keep_c_bad.mean())
     res[dn] = out
-res["reference_context"] = "public reference model: open 2 m skirt 0-55% at 0.2 m/s; closed bag 84-100% (github.com/Shaaha-7/ENEC)"
+res["reference_context"] = "public reference model: open 2 m skirt 0-55% at 0.2 m/s; closed bag 84-100%"
 worst_closed = min(v["JAZR closed floor, unseated bar (10 cm everywhere)"] for k, v in res.items() if isinstance(v, dict))
 worst_open = min(v["open skirt 2 m"] for k, v in res.items() if isinstance(v, dict))
 res["verdicts"] = {
