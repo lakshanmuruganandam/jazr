@@ -102,12 +102,10 @@ No live animal is killed. The system uses no nets, acoustics or electric fields,
 
 ## Team · IIT Delhi – Abu Dhabi
 
-| Member | Role |
-|---|---|
-| **Lakshan Muruganandam** | Team lead · systems, simulation & software |
-| **Tarunika Ravikumar** | Marine biology, no-harm & test design |
-| **Shouq Alhosani** (UAE national) | Regulatory, operations & UAE stakeholders |
+- **Lakshan Muruganandam**
+- **Tarunika Ravikumar**
+- **Shouq Alhosani** (UAE national)
 
-See [AI_DECLARATION.md](AI_DECLARATION.md) for how AI tools were used.
+AI use is declared in [AI_DECLARATION.md](AI_DECLARATION.md).
 
 <sub>© 2026 Team JAZR, IIT Delhi – Abu Dhabi. All rights reserved. Shared for evaluation in ATRC Advanced Technology Pioneers 2026. No real plant's internal data was used; all inputs are public data or stated assumptions.</sub>
