@@ -126,6 +126,13 @@ h3{font-size:clamp(20px,2.2vw,24px);letter-spacing:-.01em;line-height:1.2}
 @keyframes livep{0%{box-shadow:0 0 0 0 rgba(255,90,90,.7)}70%{box-shadow:0 0 0 8px rgba(255,90,90,0)}100%{box-shadow:0 0 0 0 rgba(255,90,90,0)}}
 @media (prefers-reduced-motion:reduce){.choice .thumb video{transform:none}}
 
+.team{margin-top:clamp(40px,6vw,64px)}
+.team .tm{display:grid;grid-template-columns:repeat(3,1fr);gap:14px;margin-top:14px;text-align:left}
+.team .tm>div{border:1px solid rgba(95,240,220,.22);border-radius:16px;padding:18px 20px;background:rgba(11,34,48,.6)}
+.team b{display:block;font-family:var(--fh);font-size:20px;color:var(--ink)}
+.team b em{font-style:normal;font-size:11px;letter-spacing:.12em;text-transform:uppercase;color:var(--amber);border:1px solid var(--amber);border-radius:6px;padding:2px 7px;margin-left:6px;vertical-align:3px;white-space:nowrap}
+.team span{display:block;color:var(--ink-2);font-size:14px;margin-top:4px}
+@media(max-width:760px){.team .tm{grid-template-columns:1fr}}
 /* stats */
 .stats{padding:clamp(70px,9vw,120px) 0 clamp(60px,8vw,110px);border-top:1px solid var(--line);background:linear-gradient(180deg,var(--navy),var(--navy-2))}
 .big-stats{display:grid;grid-template-columns:repeat(4,1fr);gap:clamp(18px,3vw,40px);margin-top:44px}
@@ -604,6 +611,14 @@ footer .disc{margin-top:22px;font-size:12.5px}
       <a class="btn" href="3d/index.html">Launch the live 3D twin</a>
       <a class="btn" href="dashboard/index.html">Bloom Incident OS</a>
     </div>
+    <div class="team rv d3">
+      <p class="eyebrow">The team · IIT Delhi – Abu Dhabi</p>
+      <div class="tm">
+        <div><b>Lakshan Muruganandam</b><span>Team lead · systems, simulation &amp; software</span></div>
+        <div><b>Tarunika Ravikumar</b><span>Marine biology, no-harm &amp; test design</span></div>
+        <div><b>Shouq Alhosani <em>UAE national</em></b><span>Regulatory, operations &amp; UAE stakeholders</span></div>
+      </div>
+    </div>
   </div>
 </section>
 </main>
@@ -614,6 +629,7 @@ footer .disc{margin-top:22px;font-size:12.5px}
       <a class="brand" href="#top"><img src="media/jazr_mark.svg" alt="" width="30" height="30">JAZR</a>
       <div class="links">
         <span>Engineered at IIT Delhi – Abu Dhabi</span>
+        <span>Lakshan Muruganandam · Tarunika Ravikumar · Shouq Alhosani</span>
         <span>ATRC ATP 2026</span>
         <span>ENEC track</span>
         <a href="https://github.com/lakshanmuruganandam/jazr" target="_blank" rel="noopener">GitHub ↗</a>

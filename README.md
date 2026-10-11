@@ -7,9 +7,9 @@
 A one-button response to jellyfish blooms at coastal nuclear-plant seawater intakes: guide, lift and release every live animal alive.</p>
 
 <p align="center">
-  <a href="https://lakshanmuruganandam.github.io/jazr"><b>🌐 Website</b></a> ·
-  <a href="https://lakshanmuruganandam.github.io/jazr/3d/"><b>🧊 Live 3D twin</b></a> ·
-  <a href="https://lakshanmuruganandam.github.io/jazr/dashboard/"><b>🖥️ Bloom Incident OS</b></a> ·
+  <a href="https://jazr.vercel.app"><b>🌐 Website</b></a> ·
+  <a href="https://jazr.vercel.app/3d/"><b>🧊 Live 3D twin</b></a> ·
+  <a href="https://jazr.vercel.app/dashboard/"><b>🖥️ Bloom Incident OS</b></a> ·
   <a href="media/pitch.mp4"><b>▶ Pitch film</b></a> ·
   <a href="media/tour.mp4"><b>▶ Narrated 3D tour</b></a> ·
   <a href="media/JAZR_Proposal_10slides.pdf"><b>📄 Proposal deck</b></a>
@@ -100,8 +100,14 @@ cd ../08_controls_extremes_FEA && pytest -q               # 23 passed
 
 No live animal is killed. The system uses no nets, acoustics or electric fields, and puts no bubbles in the animal path. O₂ stays at 75–99% saturation. Temperature and salinity are matched at release. Turtles always have an exit where they can reach air. Outlets sit away from reefs, beaches and other intakes. Dead-on-arrival animals go only to beneficial reuse.
 
-## Team
+## Team · IIT Delhi – Abu Dhabi
 
-IIT Delhi – Abu Dhabi. See [AI_DECLARATION.md](AI_DECLARATION.md) for how AI tools were used.
+| Member | Role |
+|---|---|
+| **Lakshan Muruganandam** | Team lead · systems, simulation & software |
+| **Tarunika Ravikumar** | Marine biology, no-harm & test design |
+| **Shouq Alhosani** (UAE national) | Regulatory, operations & UAE stakeholders |
+
+See [AI_DECLARATION.md](AI_DECLARATION.md) for how AI tools were used.
 
 <sub>© 2026 Team JAZR, IIT Delhi – Abu Dhabi. All rights reserved. Shared for evaluation in ATRC Advanced Technology Pioneers 2026. No real plant's internal data was used; all inputs are public data or stated assumptions.</sub>
