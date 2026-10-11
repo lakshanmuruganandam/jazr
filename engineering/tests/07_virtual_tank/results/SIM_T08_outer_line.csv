@@ -1,0 +1,19 @@
+run,line_angle_deg,flow_direction(flood/ebb),n_released,n_deflected,n_through,video_file,data_type
+1,15,flood,30,30,0,SIM_log seed=815,SIMULATED virtual tank - not physical evidence
+2,15,flood,30,30,0,SIM_log seed=825,SIMULATED virtual tank - not physical evidence
+3,15,flood,30,30,0,SIM_log seed=835,SIMULATED virtual tank - not physical evidence
+4,15,ebb,30,30,0,SIM_log seed=815,SIMULATED virtual tank - not physical evidence
+5,15,ebb,30,30,0,SIM_log seed=825,SIMULATED virtual tank - not physical evidence
+6,15,ebb,30,30,0,SIM_log seed=835,SIMULATED virtual tank - not physical evidence
+7,20,flood,30,29,1,SIM_log seed=820,SIMULATED virtual tank - not physical evidence
+8,20,flood,30,29,1,SIM_log seed=830,SIMULATED virtual tank - not physical evidence
+9,20,flood,30,27,3,SIM_log seed=840,SIMULATED virtual tank - not physical evidence
+10,20,ebb,30,29,1,SIM_log seed=820,SIMULATED virtual tank - not physical evidence
+11,20,ebb,30,28,2,SIM_log seed=830,SIMULATED virtual tank - not physical evidence
+12,20,ebb,30,28,2,SIM_log seed=840,SIMULATED virtual tank - not physical evidence
+13,25,flood,30,29,1,SIM_log seed=825,SIMULATED virtual tank - not physical evidence
+14,25,flood,30,29,0,SIM_log seed=835,SIMULATED virtual tank - not physical evidence
+15,25,flood,30,28,2,SIM_log seed=845,SIMULATED virtual tank - not physical evidence
+16,25,ebb,30,29,1,SIM_log seed=825,SIMULATED virtual tank - not physical evidence
+17,25,ebb,30,29,1,SIM_log seed=835,SIMULATED virtual tank - not physical evidence
+18,25,ebb,30,28,2,SIM_log seed=845,SIMULATED virtual tank - not physical evidence

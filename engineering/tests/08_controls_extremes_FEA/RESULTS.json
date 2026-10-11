@@ -1,0 +1,549 @@
+[
+  {
+    "test": "A1 stress OP1",
+    "value": 0.378,
+    "criterion": "util <= 1 (0.60 fy); MARGINAL > 0.9",
+    "verdict": "PASS",
+    "detail": "OP1 operating: D+L+rollup+dP(1.5xtrip)+Hs1.0 wave+0.5 m/s current+20 m/s wind"
+  },
+  {
+    "test": "A1 stress ACC1",
+    "value": 0.805,
+    "criterion": "util <= 1 (0.91 fy); MARGINAL > 0.9",
+    "verdict": "PASS",
+    "detail": "ACC1 stuck drum, blinded bay dP=3 kPa: D+dP_acc+current"
+  },
+  {
+    "test": "A1 stress SURV0",
+    "value": 0.318,
+    "criterion": "util <= 1 (0.80 fy); MARGINAL > 0.9",
+    "verdict": "PASS",
+    "detail": "SURV0 stowed 100-yr wave+surge+SLR2085, wave along x (channel axis)"
+  },
+  {
+    "test": "A1 stress SURV45",
+    "value": 0.589,
+    "criterion": "util <= 1 (0.80 fy); MARGINAL > 0.9",
+    "verdict": "PASS",
+    "detail": "SURV45 stowed 100-yr, 45 deg"
+  },
+  {
+    "test": "A1 stress SURV90",
+    "value": 0.521,
+    "criterion": "util <= 1 (0.80 fy); MARGINAL > 0.9",
+    "verdict": "PASS",
+    "detail": "SURV90 stowed 100-yr, normal to gantry"
+  },
+  {
+    "test": "A2 pile lateral deflection, operating (rail alignment)",
+    "value": 21.0,
+    "criterion": "<= 25 mm [ASM: guide-rail/mesh-edge retention]",
+    "verdict": "PASS"
+  },
+  {
+    "test": "A2b pile lateral deflection, stuck-drum accident",
+    "value": 50.2,
+    "criterion": "<= 75 mm (mesh stays in rails) [ASM]",
+    "verdict": "PASS"
+  },
+  {
+    "test": "A3 modal: f1 vs wave band 0.125-0.5 Hz (2-8 s)",
+    "value": 1.498,
+    "criterion": "no mode within 2-8 s wave band; f1 > 0.5 Hz (T1 < 2 s)",
+    "verdict": "PASS",
+    "detail": "T1=0.67 s; data waves 1.5-6.25 s (mean period); modes in band: []"
+  },
+  {
+    "test": "A4 current VIV (in-line onset Vr>1)",
+    "value": 0.84,
+    "criterion": "Vr < 1 (DNV-RP-C205 in-line onset)",
+    "verdict": "PASS",
+    "detail": "{'U=0.5 m/s': 0.3, 'U=1.0 m/s': 0.6, 'U=1.4 m/s': 0.84}"
+  },
+  {
+    "test": "A5 linear buckling (gravity + roll-up)",
+    "value": 102.7,
+    "criterion": "load factor >= 10 (sway/global) [ENG]",
+    "verdict": "PASS"
+  },
+  {
+    "test": "A6 fatigue 60 y fixity_CP (unsheltered Kt=1)",
+    "value": 0.0,
+    "criterion": "Miner D x DFF <= 1 (DNV-RP-C203)",
+    "verdict": "PASS",
+    "detail": "life ~2.44e+05 y"
+  },
+  {
+    "test": "A6 fatigue 60 y fixity_freecorr (unsheltered Kt=1)",
+    "value": 0.058,
+    "criterion": "Miner D x DFF <= 1 (DNV-RP-C203)",
+    "verdict": "PASS",
+    "detail": "life ~1.03e+03 y"
+  },
+  {
+    "test": "A6 fatigue 60 y top_air_SCF2 (unsheltered Kt=1)",
+    "value": 0.0,
+    "criterion": "Miner D x DFF <= 1 (DNV-RP-C203)",
+    "verdict": "PASS",
+    "detail": "life ~7.68e+06 y"
+  },
+  {
+    "test": "A7 sensitivity: pile fixity 3-7 D",
+    "value": 0.886,
+    "criterion": "worst util <= 1",
+    "verdict": "PASS",
+    "detail": "{\"fixity 3D\": {\"OP1\": 0.329, \"ACC1\": 0.703, \"SURV0\": 0.272, \"SURV45\": 0.5, \"SURV90\": 0.442}, \"fixity 5D\": {\"OP1\": 0.378, \"ACC1\": 0.805, \"SURV0\": 0.318, \"SURV45\": 0.589, \"SURV90\": 0.521}, \"fixity 7D\": {\"OP1\": 0.419, \"ACC1\": 0.886, \"SURV0\": 0.362, \"SURV45\": 0.677, \"SURV90\": 0.601}}"
+  },
+  {
+    "test": "A7 sensitivity: membrane sag 2-8 % of span",
+    "value": 1.081,
+    "criterion": "worst util <= 1",
+    "verdict": "FAIL",
+    "detail": "{\"sag 2%\": {\"OP1\": 0.483, \"ACC1\": 1.081, \"SURV0\": 0.318, \"SURV45\": 0.589, \"SURV90\": 0.521}, \"sag 5%\": {\"OP1\": 0.295, \"ACC1\": 0.584, \"SURV0\": 0.318, \"SURV45\": 0.589, \"SURV90\": 0.521}, \"sag 8%\": {\"OP1\": 0.248, \"ACC1\": 0.46, \"SURV0\": 0.318, \"SURV45\": 0.589, \"SURV90\": 0.521}}"
+  },
+  {
+    "test": "A8 mesh wire tension, op 1.5 x trip (elastic-taut)",
+    "value": 0.43,
+    "criterion": "wire stress <= 270.0 MPa",
+    "verdict": "PASS",
+    "detail": "T=45.1 kN/m, sag 0.208 m"
+  },
+  {
+    "test": "A8 mesh wire tension, op 1.5 x trip (set sag 3%)",
+    "value": 0.29,
+    "criterion": "wire stress <= 270.0 MPa",
+    "verdict": "PASS",
+    "detail": "T=31.2 kN/m, sag 0.3 m"
+  },
+  {
+    "test": "A8 mesh wire tension, hard limit (elastic-taut)",
+    "value": 0.51,
+    "criterion": "wire stress <= 360.0 MPa",
+    "verdict": "PASS",
+    "detail": "T=71.7 kN/m, sag 0.262 m"
+  },
+  {
+    "test": "A8 mesh wire tension, hard limit (set sag 3%)",
+    "value": 0.44,
+    "criterion": "wire stress <= 360.0 MPa",
+    "verdict": "PASS",
+    "detail": "T=62.5 kN/m, sag 0.3 m"
+  },
+  {
+    "test": "A8 mesh wire tension, stuck-drum accident (elastic-taut)",
+    "value": 0.71,
+    "criterion": "wire stress <= 410.0 MPa",
+    "verdict": "PASS",
+    "detail": "T=113.8 kN/m, sag 0.33 m"
+  },
+  {
+    "test": "A8 mesh wire tension, stuck-drum accident (set sag 3%)",
+    "value": 0.78,
+    "criterion": "wire stress <= 410.0 MPa",
+    "verdict": "PASS",
+    "detail": "T=125.0 kN/m, sag 0.3 m"
+  },
+  {
+    "test": "A8b mesh bulge vs 0.6 m downstream clearance (accident, elastic)",
+    "value": 0.33,
+    "criterion": "sag <= 0.6 m [ASM]",
+    "verdict": "PASS"
+  },
+  {
+    "test": "A8c wire bending on drum wrap (roll-up fatigue)",
+    "value": 820,
+    "criterion": "E*d/D <= 0.4 fy = 180 MPa (~56160 wraps in 60 y)",
+    "verdict": "FAIL",
+    "detail": "D_core=0.61 m, d=2.5 mm -> need D >= 2.78 m or d <= 0.55 mm, or hinged link/balanced-weave belt (no wire bending)"
+  },
+  {
+    "test": "A8d edge retention clip load @0.25 m (accident, 3% sag)",
+    "value": 31.2,
+    "criterion": "INFO: size clips; or make them shear-release above hard limit (passive fail-open)",
+    "verdict": "INFO"
+  },
+  {
+    "test": "A8e rigid wedge-wire alternative (bars span 1 m), accident",
+    "value": 271,
+    "criterion": "<= 0.91 fy = 410 MPa",
+    "verdict": "PASS",
+    "detail": "rigid panels cannot roll; listed only to show the membrane choice is forced by roll-up"
+  },
+  {
+    "test": "B1 seismic RSA S1",
+    "value": 0.136,
+    "criterion": "stress <= 0.80 fy (elastic, R=1)",
+    "verdict": "PASS",
+    "detail": "S1 IBC design (2/3 MCE, Site D); Sa(T1)=0.18 g; head disp {'x': 11.8, 'y': 27.9}"
+  },
+  {
+    "test": "B1 seismic RSA S2",
+    "value": 0.159,
+    "criterion": "stress <= 1.00 fy (elastic, R=1)",
+    "verdict": "PASS",
+    "detail": "S2 MCE 2475-yr (Seismic II/I no-collapse); Sa(T1)=0.27 g; head disp {'x': 17.7, 'y': 41.9}"
+  },
+  {
+    "test": "B1 seismic RSA S3",
+    "value": 0.388,
+    "criterion": "stress <= 1.00 fy (elastic, R=1)",
+    "verdict": "PASS",
+    "detail": "S3 nuclear envelope PGA 0.3 g; Sa(T1)=0.674 g; head disp {'x': 46.5, 'y': 104.7}"
+  },
+  {
+    "test": "B2 nuclear seismic classification",
+    "value": "Seismic II/I (assumed)",
+    "criterion": "Structure in UHS/CW path near safety SSCs must not collapse onto them or block the intake; the plant site SSE & intake layout not public",
+    "verdict": "INFO",
+    "detail": "Needs: site-specific SSE spectra from Nawah FSAR Ch.2/3; II/I interaction analysis; post-quake fail-open (all bays up) on PLC seismic trip; seismic qualification of drum brakes"
+  },
+  {
+    "test": "C1 wind survival (stowed): design gust vs data 100-yr",
+    "value": "design 45.0 m/s; ERA5 Gumbel 100-yr 23.5 m/s",
+    "criterion": "design >= max(code 38-45 m/s, data EVA); FEA SURV cases pass at 45 m/s (A1)",
+    "verdict": "PASS",
+    "detail": "ERA5 under-estimates gusts; Abu Dhabi municipal basic wind speed not found -> confirm with ADM/DMT"
+  },
+  {
+    "test": "C2 wind operating limit (roll-down/up <= 20 m/s gust)",
+    "value": "0.000 % of hours exceed",
+    "criterion": "availability >= 99 % of hours",
+    "verdict": "PASS",
+    "detail": "gust>15 m/s 0.26 % hours; shamal (280-360 deg) share of gusts>12 m/s 85 %"
+  },
+  {
+    "test": "C3 100-yr Hs: data POT vs design",
+    "value": "design Hs100 4.0 m; data POT near 1.76 m, off 3.96 m",
+    "criterion": "design >= literature 3.0-4.5 m (9-16 m depth, Neelamani) and data EVA",
+    "verdict": "PASS",
+    "detail": "only 4 years of data -> data EVA is indicative; literature governs"
+  },
+  {
+    "test": "C4 deployed-screen wave dP envelope",
+    "value": "Hs 1.73 m -> peak wave dP = 0.5 x trip; Hs 4.00 m -> hard limit",
+    "criterion": "filter needed if Hs_noise < data p99 Hs (0.88 m); deployed survival Hs > op Hs",
+    "verdict": "INFO",
+    "detail": "0.00 % of hours nearshore exceed Hs 1.73 m (unsheltered); spikes are periodic 2-6 s -> D filter test"
+  },
+  {
+    "test": "C5 air gap 2085 SSP5-8.5 median - inner gantry (sheltered Kt=0.5 ASM)",
+    "value": "0.4 m",
+    "criterion": "crest below deck soffit +5.6 m MSL with >= 1.0 m margin [ENG]",
+    "verdict": "MARGINAL",
+    "detail": "SWL 2.41 m, Hmax 3.72 m, crest 5.2 m; raise soffit to 6.2 m MSL"
+  },
+  {
+    "test": "C5 air gap 2085 SSP5-8.5 median - outer guide line (exposed)",
+    "value": "-2.39 m",
+    "criterion": "crest below deck soffit +5.6 m MSL with >= 1.0 m margin [ENG]",
+    "verdict": "FAIL",
+    "detail": "SWL 2.41 m, Hmax 7.44 m, crest 7.99 m; raise soffit to 8.99 m MSL"
+  },
+  {
+    "test": "C5 air gap 2085 low-confidence high-end - inner gantry (sheltered Kt=0.5 ASM)",
+    "value": "-0.49 m",
+    "criterion": "crest below deck soffit +5.6 m MSL with >= 1.0 m margin [ENG]",
+    "verdict": "FAIL",
+    "detail": "SWL 3.3 m, Hmax 3.72 m, crest 6.09 m; raise soffit to 7.09 m MSL"
+  },
+  {
+    "test": "C5 air gap 2085 low-confidence high-end - outer guide line (exposed)",
+    "value": "-3.28 m",
+    "criterion": "crest below deck soffit +5.6 m MSL with >= 1.0 m margin [ENG]",
+    "verdict": "FAIL",
+    "detail": "SWL 3.3 m, Hmax 7.44 m, crest 8.88 m; raise soffit to 9.88 m MSL"
+  },
+  {
+    "test": "C6 low tide (LAT) screen approach velocity at nominal 100 m3/s",
+    "value": 0.128,
+    "criterion": "<= 0.12 m/s (NMFS active screen)",
+    "verdict": "MARGINAL",
+    "detail": "[{\"bed\": -5.5, \"Q\": 100.0, \"depth_LAT\": 4.3, \"lane_v\": 0.83, \"screen_v\": 0.128}, {\"bed\": -5.5, \"Q\": 172.5, \"depth_LAT\": 4.3, \"lane_v\": 1.43, \"screen_v\": 0.221}, {\"bed\": -7.5, \"Q\": 100.0, \"depth_LAT\": 6.3, \"lane_v\": 0.57, \"screen_v\": 0.119}, {\"bed\": -7.5, \"Q\": 172.5, \"depth_LAT\": 6.3, \"lane_v\": 0.98, \"screen_v\": 0.205}]"
+  },
+  {
+    "test": "C6b low tide screen velocity at max 172.5 m3/s",
+    "value": 0.221,
+    "criterion": "<= 0.12 m/s",
+    "verdict": "FAIL",
+    "detail": "relief: add bays/lengthen line for low-water max-flow, or accept higher approach at LAT"
+  },
+  {
+    "test": "C7 duplex 2205/2507 mesh & crevices at SST 36-38 C",
+    "value": "data max 36.3 C; design 38.0 C",
+    "criterion": "NORSOK M-001 Rev.5: 25Cr duplex <= 20 C in seawater with crevices (via TWI)",
+    "verdict": "FAIL",
+    "detail": "woven-mesh knuckles and rail contacts are crevices; immersion is in the hottest months. Use titanium Gr2, Cu-Ni 90/10, or polymer (HDPE/PET/UHMWPE) mesh; keep duplex only above water"
+  },
+  {
+    "test": "C8 electrical/drive equipment vs air temperature (ERA5 grid max; land sites hotter)",
+    "value": "41.2 C, 0 h > 45 C",
+    "criterion": "standard IEC motor/VFD/PLC rating 40 C ambient",
+    "verdict": "MARGINAL",
+    "detail": "derate motors (~0.9 at 50 C), shaded/air-conditioned panels, solar-load on drums & load cells (temperature-compensated range)"
+  },
+  {
+    "test": "C9 HDPE seabed pipe at 36-38 C",
+    "value": "PE100 pressure derating ~0.75-0.8 at 35-40 C [ENG]",
+    "criterion": "pipe is low-pressure (~7 m head) -> derated rating still >> duty",
+    "verdict": "PASS",
+    "detail": "check ring stiffness/creep for ballast loads at temperature"
+  },
+  {
+    "test": "C10 sandstorm/dust on stowed drums",
+    "value": "4.9 % hours with 10-m wind > 8 m/s (dust-lifting proxy)",
+    "criterion": "drums, bearings, brakes, load cells sealed IP66; rolled mesh under a shroud; camera/lens wash",
+    "verdict": "INFO",
+    "detail": "the plant already designs penetrations > 6 m above grade for dust (ENEC 2012). Abrasion of rolled mesh by trapped sand on every roll-down -> brush/spray on lowering too"
+  },
+  {
+    "test": "C11 envelope policy: storm stow vs bloom",
+    "value": "stow wind gust > 20.0 m/s only for motion; stay deployed up to Hs 4.0 m",
+    "criterion": "screen must not be forced up in a shamal (onshore drift drives blooms)",
+    "verdict": "MARGINAL",
+    "detail": "design rule: roll-down/up blocked above 20 m/s gust but a deployed bay may stay down; hard-limit relief still active. Needs deployed-storm load case in detailed design"
+  },
+  {
+    "test": "E1 alarm rate, naive HMI (V0 v3 as specified)",
+    "value": "39.8/h, peak 10/10 min, 0 flood windows",
+    "criterion": "<= 6/h average and no 10-min window > 10 (ISA-18.2/EEMUA 191)",
+    "verdict": "FAIL"
+  },
+  {
+    "test": "E2 alarm rate, rationalised (V0 v3 as specified)",
+    "value": "0.9/h, peak 1/10 min, 0 flood windows",
+    "criterion": "<= 6/h average and no flood",
+    "verdict": "PASS",
+    "detail": "fault-dense scenario: 9 injected faults in 8 h; a normal bloom shift has far fewer"
+  },
+  {
+    "test": "E3 operator workload (V0 v3 as specified)",
+    "value": "5% of shift time on alarms/approvals (rationalised), 199% naive",
+    "criterion": "<= 50 % for 1 operator (V3: 1-2 operators) [ASM]",
+    "verdict": "PASS"
+  },
+  {
+    "test": "E1 alarm rate, naive HMI (V8 redesign (belt + flap))",
+    "value": "3.2/h, peak 6/10 min, 0 flood windows",
+    "criterion": "<= 6/h average and no 10-min window > 10 (ISA-18.2/EEMUA 191)",
+    "verdict": "PASS"
+  },
+  {
+    "test": "E2 alarm rate, rationalised (V8 redesign (belt + flap))",
+    "value": "0.9/h, peak 1/10 min, 0 flood windows",
+    "criterion": "<= 6/h average and no flood",
+    "verdict": "PASS",
+    "detail": "fault-dense scenario: 9 injected faults in 8 h; a normal bloom shift has far fewer"
+  },
+  {
+    "test": "E3 operator workload (V8 redesign (belt + flap))",
+    "value": "5% of shift time on alarms/approvals (rationalised), 17% naive",
+    "criterion": "<= 50 % for 1 operator (V3: 1-2 operators) [ASM]",
+    "verdict": "PASS"
+  },
+  {
+    "test": "E4 procedure coverage (every observed OS transition / alarm has a written response)",
+    "value": "6 transitions, missing []; alarms without response []",
+    "criterion": "100 % coverage",
+    "verdict": "PASS"
+  },
+  {
+    "test": "F1 LCA: JAZR 60-y CO2 vs avoided unit-days",
+    "value": "P50 1.6 unit-days (P10-P90 1.3-2.0)",
+    "criterion": "carbon break-even <= 5 avoided unit-days over 60 y [ASM]",
+    "verdict": "PASS"
+  },
+  {
+    "test": "F2 per bloom-day operations vs boats/crews",
+    "value": "JAZR 5.1 t/d vs boats 14.8 t/d",
+    "criterion": "JAZR operating CO2 per bloom day < status quo",
+    "verdict": "PASS"
+  },
+  {
+    "test": "F3 embodied CO2 hot-spots",
+    "value": "HDPE pipe 5 km, 1.2 m ID SDR26, marine installation (fuel), training wall (steel sheet piles)",
+    "criterion": "INFO",
+    "verdict": "INFO",
+    "detail": "steel (piles + training wall) and HDPE pipe dominate; polymer mesh would cut mesh CO2 ~4x"
+  },
+  {
+    "test": "G1 reported intake-incident trend (global catalogue)",
+    "value": "x1.59 per decade, doubling 15 y",
+    "criterion": "INFO - reporting-biased; plan capacity on design density, not on trend",
+    "verdict": "INFO",
+    "detail": "2026 fitted ~3.4/yr; if trend continued: 2050 ~10/yr, 2085 ~53/yr (not a forecast)"
+  },
+  {
+    "test": "G2 warmer water -> longer hot season (SST>=32 C proxy)",
+    "value": "120 d/yr now -> 174 d/yr (2085, +0.5 C/dec)",
+    "criterion": "deployed-days margin: fatigue/energy/wear designed for 60 d/yr [V3 ~2 months]",
+    "verdict": "MARGINAL",
+    "detail": "if blooms track hot season, duty rises; fatigue (A6) has large margin, corrosion (C7) and drum-wrap cycles (A8c) get worse"
+  },
+  {
+    "test": "G3 SST 2085 vs material limits",
+    "value": "max data 35.9 C + 3.0 C = 38.9 C",
+    "criterion": "mesh/rail materials rated for >= 40 C seawater",
+    "verdict": "FAIL",
+    "detail": "reinforces C7: specify titanium or polymer wetted parts"
+  },
+  {
+    "test": "G4 modular lift headroom",
+    "value": "367 t/h per line; 0.3/m3 needs 2 lines @172.5 m3/s, 1/m3 needs 5",
+    "criterion": "v3 pilot = 1 line per unit; design density 0.3/m3 at max flow",
+    "verdict": "MARGINAL",
+    "detail": "gantry/screen scale with flow not density; lines (screw+pump+pipe) are the modular unit; reserve space for 2-3 lines per lane"
+  },
+  {
+    "test": "D1 model check MC1a n=1 all events/inputs: invariants I1-I9",
+    "value": "1114 states, 15609 transitions, violations []",
+    "criterion": "0 violations",
+    "verdict": "PASS",
+    "detail": "Config(n=1, K=1, L=2, pers=2, to=2, dwell=1, cycle_every=0, busy_line=True, tdma=True, hysteresis=0.1)"
+  },
+  {
+    "test": "D2 deadlock/liveness MC1a n=1 all events/inputs",
+    "value": "deadlocks 0, states unable to reach safe IDLE 0",
+    "criterion": "0 and 0",
+    "verdict": "PASS"
+  },
+  {
+    "test": "D1 model check MC1b n=2: invariants I1-I9",
+    "value": "26633 states, 638588 transitions, violations []",
+    "criterion": "0 violations",
+    "verdict": "PASS",
+    "detail": "Config(n=2, K=1, L=2, pers=1, to=2, dwell=1, cycle_every=0, busy_line=True, tdma=True, hysteresis=0.1)"
+  },
+  {
+    "test": "D2 deadlock/liveness MC1b n=2",
+    "value": "deadlocks 0, states unable to reach safe IDLE 0",
+    "criterion": "0 and 0",
+    "verdict": "PASS"
+  },
+  {
+    "test": "D3a pulse rule (<=1 bay raising) under comms loss - v3 as written (no local staging rule)",
+    "value": "510320 violating transitions",
+    "criterion": "0",
+    "verdict": "FAIL",
+    "detail": "v3 specifies staging but not how it survives loss of the central PLC"
+  },
+  {
+    "test": "D3b pulse rule under comms loss - TDMA only",
+    "value": "276192 violating transitions",
+    "criterion": "0",
+    "verdict": "FAIL",
+    "detail": "(State(os='OPERATE', bays=(Bay(mode='RAISING', pers=0, stall=0, dwell=0, pos_prev=1, want_up=True), Bay(mode='RAISING', pers=1, stall=0, dwell=0, pos_prev=2, want_up=True), Bay(mode='DOWN', pers=0, stall=0, dwell=0, pos_prev=2, want_up=False)), outlet='A', alarms=frozenset()), (0, 1, 2), (False, Fal"
+  },
+  {
+    "test": "D3b pulse rule under comms loss - busy-line only",
+    "value": "322472 violating transitions",
+    "criterion": "0",
+    "verdict": "FAIL",
+    "detail": "(State(os='OPERATE', bays=(Bay(mode='DOWN', pers=0, stall=0, dwell=0, pos_prev=2, want_up=False), Bay(mode='RAISING', pers=1, stall=0, dwell=0, pos_prev=2, want_up=True), Bay(mode='RAISING', pers=1, stall=0, dwell=0, pos_prev=2, want_up=True)), outlet='A', alarms=frozenset()), (2, 1, 1), (False, Fal"
+  },
+  {
+    "test": "D3c pulse rule under comms loss - TDMA slots + hard-wired busy loop (proposed)",
+    "value": "36823 states, 0 violations",
+    "criterion": "0",
+    "verdict": "PASS"
+  },
+  {
+    "test": "D4 wildlife (screw stop / diverter) + outlet selection exhaustive table",
+    "value": "16800 cases, 0 violations",
+    "criterion": "0 (screw never runs with turtle/camera fault; outlet always safe or RECOVER; no flapping)",
+    "verdict": "PASS"
+  },
+  {
+    "test": "D5 IT/OT separation: forecast/twin inputs cannot change bay commands or OS",
+    "value": "159798 checks, 0 differences",
+    "criterion": "0 differences",
+    "verdict": "PASS"
+  },
+  {
+    "test": "D6 dP filter (tau 30 s, 2oo3, 20 s persistence) vs wave spikes Hs 0.5-2.0 m",
+    "value": "false trips 0.0/bay-day; latency 42 s",
+    "criterion": "0 false trips/day and latency <= 60 s [ASM: audit 'blinds in <2 min at 1/m3']",
+    "verdict": "PASS"
+  },
+  {
+    "test": "D6b naive single-transmitter threshold vs waves",
+    "value": "Hs 0.5: 0/bay-day, Hs 1.0: 0/bay-day, Hs 1.5: 52/bay-day, Hs 2.0: 828/bay-day",
+    "criterion": "0 false trips/day",
+    "verdict": "FAIL",
+    "detail": "what an unfiltered 'roll up on high dP' does when dP sits at 60 % of trip"
+  },
+  {
+    "test": "D7 stuck-high transmitter (F1) with 2oo3 + 2oo2 hard channel",
+    "value": "false dP raises 0",
+    "criterion": "0",
+    "verdict": "PASS"
+  },
+  {
+    "test": "D7b same fault with single-transmitter hard-wired trip (1oo1)",
+    "value": "false dP raises 1 (bay lost for the rest of the bloom)",
+    "criterion": "0",
+    "verdict": "FAIL"
+  },
+  {
+    "test": "D8 stuck-drum detection latency (F3 seized drive)",
+    "value": "1868 s",
+    "criterion": "<= 300 s [ASM]",
+    "verdict": "MARGINAL",
+    "detail": "latent until the bay is next commanded; add hourly inch-test / motor-current & brake-torque monitoring"
+  },
+  {
+    "test": "D9 deploy time alert -> OPERATE (2 approvals, 6 drums at once, 0.1 m/s)",
+    "value": "573 s",
+    "criterion": "<= 600 s [V3 'about 10 min']",
+    "verdict": "MARGINAL",
+    "detail": "0.2 m/s drums: 348 s"
+  },
+  {
+    "test": "D10 roll-up pulse < 1 t (v3 claim)",
+    "value": "0.3/m3: max 812 kg; 1/m3: >= 1173 kg; audit residence 300 s: 1615 kg; sticking 10 %: 1724 kg",
+    "criterion": "every pulse < 1000 kg",
+    "verdict": "MARGINAL",
+    "detail": "holds only at <=0.3/m3 with 60 s residence and <=2 % sticking; fails at 1/m3 ('high-flux mode')"
+  },
+  {
+    "test": "D11 biomass reaching plant with roll-up cleaning + open relief bay (no faults, 0.3/m3)",
+    "value": "18-29 % (belt clean-in-place + flap relief: 1.2 %)",
+    "criterion": "<= 10 % (v3 twin assumes inner-screen efficiency 0.9)",
+    "verdict": "FAIL",
+    "detail": "raised bays pass ~2x their share of flow (no mesh) and the open relief bay takes ~5 % of flow even when clean"
+  },
+  {
+    "test": "D12 per-bay dP trigger selectivity",
+    "value": "bays are parallel paths: all transmitters read one line dP (max line dP in V0 16 Pa)",
+    "criterion": "trigger must identify the blinded bay",
+    "verdict": "MARGINAL",
+    "detail": "v3 'on high dP that one bay rolls up' is not bay-selective; use line dP + round-robin/oldest-cleaned + per-bay flow or camera"
+  },
+  {
+    "test": "D13 seismic/E-stop fail-open time (all bays up, staged 1 at a time)",
+    "value": "2046 s",
+    "criterion": "<= 600 s [ASM]",
+    "verdict": "MARGINAL",
+    "detail": "pulse rule and fast fail-open conflict; hydraulically tolerable because relief path caps line dP (~1 kPa) below the 3 kPa structural accident case"
+  },
+  {
+    "test": "D14 immediate responses: comms-loss alarm, camera fault screw stop, RECOVER on stale forecast",
+    "value": "0 / 0 / 0 s",
+    "criterion": "same scan (<= 1 s)",
+    "verdict": "PASS",
+    "detail": "outlet after A unsafe + stale: RECOVER; after forecast fresh: B"
+  },
+  {
+    "test": "D15 redesign check: belt clean-in-place + flap relief, full fault scenario",
+    "value": "0.3/m3: leakage 9.5 %, max pulse 372 kg; 1/m3: leakage 12.0 %, max pulse 1639 kg",
+    "criterion": "leakage <= 10 %, pulses < 1 t",
+    "verdict": "PASS",
+    "detail": "remaining 1/m3 pulses come from the seismic raise-all with loaded faces -> clean-then-raise sequence"
+  },
+  {
+    "test": "D16 cybersecurity checklist (13 items)",
+    "value": "PASS 4, RISK 9",
+    "criterion": "no RISK on items that move bays",
+    "verdict": "MARGINAL",
+    "detail": "architecture PASS (no remote control, one-way flow, local protection); identity, integrity, time-source and offshore telemetry are unspecified"
+  }
+]

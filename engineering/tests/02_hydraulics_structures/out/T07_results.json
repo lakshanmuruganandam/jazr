@@ -1,0 +1,274 @@
+{
+ "checks": [
+  {
+   "test": "T07",
+   "check": "screw D=2.0 m: Q per screw at min(Nagel, 4.2 m/s tip)",
+   "value": 0.8211,
+   "unit": "m3/s",
+   "criterion": ">= 2 m3/s with one duty screw PASS; 2 screws MARGINAL",
+   "source": "Nagel/Rorres; Red Bluff calibration",
+   "verdict": "FAIL",
+   "note": "n=31.5 rpm, screws needed 3"
+  },
+  {
+   "test": "T07",
+   "check": "screw D=2.0 m: flight depth vs 45 cm bell",
+   "value": 0.5,
+   "unit": "m",
+   "criterion": ">= 0.68 m (1.5 x bell, ASSUMPTION)",
+   "source": "geometry",
+   "verdict": "MARGINAL",
+   "note": ""
+  },
+  {
+   "test": "T07",
+   "check": "screw D=2.5 m: Q per screw at min(Nagel, 4.2 m/s tip)",
+   "value": 1.382,
+   "unit": "m3/s",
+   "criterion": ">= 2 m3/s with one duty screw PASS; 2 screws MARGINAL",
+   "source": "Nagel/Rorres; Red Bluff calibration",
+   "verdict": "MARGINAL",
+   "note": "n=27.1 rpm, screws needed 2"
+  },
+  {
+   "test": "T07",
+   "check": "screw D=2.5 m: flight depth vs 45 cm bell",
+   "value": 0.625,
+   "unit": "m",
+   "criterion": ">= 0.68 m (1.5 x bell, ASSUMPTION)",
+   "source": "geometry",
+   "verdict": "MARGINAL",
+   "note": ""
+  },
+  {
+   "test": "T07",
+   "check": "screw D=3.0 m: Q per screw at min(Nagel, 4.2 m/s tip)",
+   "value": 2.1148,
+   "unit": "m3/s",
+   "criterion": ">= 2 m3/s with one duty screw PASS; 2 screws MARGINAL",
+   "source": "Nagel/Rorres; Red Bluff calibration",
+   "verdict": "PASS",
+   "note": "n=24.0 rpm, screws needed 1"
+  },
+  {
+   "test": "T07",
+   "check": "screw D=3.0 m: flight depth vs 45 cm bell",
+   "value": 0.75,
+   "unit": "m",
+   "criterion": ">= 0.68 m (1.5 x bell, ASSUMPTION)",
+   "source": "geometry",
+   "verdict": "PASS",
+   "note": ""
+  },
+  {
+   "test": "T07",
+   "check": "screw D=3.5 m: Q per screw at min(Nagel, 4.2 m/s tip)",
+   "value": 3.0303,
+   "unit": "m3/s",
+   "criterion": ">= 2 m3/s with one duty screw PASS; 2 screws MARGINAL",
+   "source": "Nagel/Rorres; Red Bluff calibration",
+   "verdict": "PASS",
+   "note": "n=21.7 rpm, screws needed 1"
+  },
+  {
+   "test": "T07",
+   "check": "screw D=3.5 m: flight depth vs 45 cm bell",
+   "value": 0.875,
+   "unit": "m",
+   "criterion": ">= 0.68 m (1.5 x bell, ASSUMPTION)",
+   "source": "geometry",
+   "verdict": "PASS",
+   "note": ""
+  },
+  {
+   "test": "T07",
+   "check": "screw D=4.0 m: Q per screw at min(Nagel, 4.2 m/s tip)",
+   "value": 4.1381,
+   "unit": "m3/s",
+   "criterion": ">= 2 m3/s with one duty screw PASS; 2 screws MARGINAL",
+   "source": "Nagel/Rorres; Red Bluff calibration",
+   "verdict": "PASS",
+   "note": "n=19.8 rpm, screws needed 1"
+  },
+  {
+   "test": "T07",
+   "check": "screw D=4.0 m: flight depth vs 45 cm bell",
+   "value": 1.0,
+   "unit": "m",
+   "criterion": ">= 0.68 m (1.5 x bell, ASSUMPTION)",
+   "source": "geometry",
+   "verdict": "PASS",
+   "note": ""
+  },
+  {
+   "test": "T07",
+   "check": "selected D=3.0 m tip speed",
+   "value": 3.7758,
+   "unit": "m/s",
+   "criterion": "<= 4.2 m/s (Red Bluff, trout ~100% survival) PASS; <= 5 m/s MARGINAL",
+   "source": "USBR Tracy vol.25; strike literature",
+   "verdict": "PASS",
+   "note": "NO scyphozoan data - tank test #4"
+  },
+  {
+   "test": "T07",
+   "check": "screw power, 2 m3/s, lift 5.0 m [open trough]",
+   "value": 143.6464,
+   "unit": "kW",
+   "criterion": "sizing result",
+   "source": "rho g Q H/eta",
+   "verdict": "PASS",
+   "note": "screw length 12 m at 30 deg"
+  },
+  {
+   "test": "T07",
+   "check": "screw power, 2 m3/s, lift 5.0 m [rotating tube]",
+   "value": 134.07,
+   "unit": "kW",
+   "criterion": "sizing result",
+   "source": "rho g Q H/eta",
+   "verdict": "PASS",
+   "note": "screw length 12 m at 30 deg"
+  },
+  {
+   "test": "T07",
+   "check": "single-stage lift 5.0 m vs Red Bluff proven max 5.9 m",
+   "value": 5.0,
+   "unit": "m",
+   "criterion": "<= 5.9 m PASS (proven); <= 9 m MARGINAL (vendor range, unproven for fish/jelly); else FAIL -> 2 stages",
+   "source": "15_ precedents s.3",
+   "verdict": "PASS",
+   "note": "length 12 m"
+  },
+  {
+   "test": "T07",
+   "check": "screw power, 2 m3/s, lift 7.0 m [open trough]",
+   "value": 201.105,
+   "unit": "kW",
+   "criterion": "sizing result",
+   "source": "rho g Q H/eta",
+   "verdict": "PASS",
+   "note": "screw length 16 m at 30 deg"
+  },
+  {
+   "test": "T07",
+   "check": "screw power, 2 m3/s, lift 7.0 m [rotating tube]",
+   "value": 187.698,
+   "unit": "kW",
+   "criterion": "sizing result",
+   "source": "rho g Q H/eta",
+   "verdict": "PASS",
+   "note": "screw length 16 m at 30 deg"
+  },
+  {
+   "test": "T07",
+   "check": "single-stage lift 7.0 m vs Red Bluff proven max 5.9 m",
+   "value": 7.0,
+   "unit": "m",
+   "criterion": "<= 5.9 m PASS (proven); <= 9 m MARGINAL (vendor range, unproven for fish/jelly); else FAIL -> 2 stages",
+   "source": "15_ precedents s.3",
+   "verdict": "MARGINAL",
+   "note": "length 16 m"
+  },
+  {
+   "test": "T07",
+   "check": "screw power, 2 m3/s, lift 11.0 m [open trough]",
+   "value": 316.0221,
+   "unit": "kW",
+   "criterion": "sizing result",
+   "source": "rho g Q H/eta",
+   "verdict": "PASS",
+   "note": "screw length 24 m at 30 deg"
+  },
+  {
+   "test": "T07",
+   "check": "screw power, 2 m3/s, lift 11.0 m [rotating tube]",
+   "value": 294.954,
+   "unit": "kW",
+   "criterion": "sizing result",
+   "source": "rho g Q H/eta",
+   "verdict": "PASS",
+   "note": "screw length 24 m at 30 deg"
+  },
+  {
+   "test": "T07",
+   "check": "single-stage lift 11.0 m vs Red Bluff proven max 5.9 m",
+   "value": 11.0,
+   "unit": "m",
+   "criterion": "<= 5.9 m PASS (proven); <= 9 m MARGINAL (vendor range, unproven for fish/jelly); else FAIL -> 2 stages",
+   "source": "15_ precedents s.3",
+   "verdict": "FAIL",
+   "note": "length 24 m"
+  },
+  {
+   "test": "T07",
+   "check": "rotating-tube screw (D3 m, 11 m lift) rotating mass incl. water",
+   "value": 86.7909,
+   "unit": "t",
+   "criterion": "<= 80 t per bearing pair (ASSUMPTION: large screw pumps are tens of t)",
+   "source": "geometry",
+   "verdict": "MARGINAL",
+   "note": "tube 21 t, flights 13 t, water 52 t; long span -> deflection, consider 2 stages"
+  },
+  {
+   "test": "T07",
+   "check": "screws needed if the full NMFS-style bypass (18 m3/s) is lifted without dewatering",
+   "value": 9,
+   "unit": "screws/unit",
+   "criterion": "<= 2 PASS; <= 4 MARGINAL",
+   "source": "T06 + this test",
+   "verdict": "FAIL",
+   "note": "=> dewater the bypass before the lift"
+  }
+ ],
+ "extra": {
+  "k": 0.19551133570900667,
+  "rows": [
+   {
+    "D": 2.0,
+    "n_max_Nagel": 31.498026247371833,
+    "tip_at_nmax": 3.2984655953773943,
+    "n_used": 31.498026247371833,
+    "Q_per_screw": 0.8210961578428024,
+    "screws_for_2m3s": 3,
+    "flight_depth": 0.5
+   },
+   {
+    "D": 2.5,
+    "n_max_Nagel": 27.144176165949066,
+    "tip_at_nmax": 3.5531643512788644,
+    "n_used": 27.144176165949066,
+    "Q_per_screw": 1.3820297236784598,
+    "screws_for_2m3s": 2,
+    "flight_depth": 0.625
+   },
+   {
+    "D": 3.0,
+    "n_max_Nagel": 24.037492838456807,
+    "tip_at_nmax": 3.7758005456006583,
+    "n_used": 24.037492838456807,
+    "Q_per_screw": 2.1148210493740676,
+    "screws_for_2m3s": 1,
+    "flight_depth": 0.75
+   },
+   {
+    "D": 3.5,
+    "n_max_Nagel": 21.689921227683303,
+    "tip_at_nmax": 3.9748856691734846,
+    "n_used": 21.689921227683303,
+    "Q_per_screw": 3.0302802842335264,
+    "screws_for_2m3s": 1,
+    "flight_depth": 0.875
+   },
+   {
+    "D": 4.0,
+    "n_max_Nagel": 19.842513149602492,
+    "tip_at_nmax": 4.155806235970004,
+    "n_used": 19.842513149602492,
+    "Q_per_screw": 4.1380653330158,
+    "screws_for_2m3s": 1,
+    "flight_depth": 1.0
+   }
+  ]
+ }
+}

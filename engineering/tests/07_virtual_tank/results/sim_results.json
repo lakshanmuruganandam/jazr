@@ -1,0 +1,1280 @@
+{
+ "T01": {
+  "test": "T01",
+  "hover_frac": {
+   "mean": 0.19999999999999998,
+   "min": 0.13333333333333333,
+   "max": 0.23333333333333334,
+   "n": 3
+  },
+  "scan": {
+   "0.05": {
+    "sd_drho": 0.011777065982428092,
+    "hover_5mm": 0.9723333333333334,
+    "hover_10mm": 1.0,
+    "hover_3mm": 0.37466666666666665
+   },
+   "0.1": {
+    "sd_drho": 0.02355413196485503,
+    "hover_5mm": 0.8636666666666667,
+    "hover_10mm": 1.0,
+    "hover_3mm": 0.42766666666666664
+   },
+   "0.2": {
+    "sd_drho": 0.047108263929704665,
+    "hover_5mm": 0.7006666666666667,
+    "hover_10mm": 0.997,
+    "hover_3mm": 0.35033333333333333
+   },
+   "0.5": {
+    "sd_drho": 0.11607097642724926,
+    "hover_5mm": 0.37866666666666665,
+    "hover_10mm": 0.8543333333333333,
+    "hover_3mm": 0.16866666666666666
+   },
+   "1.0": {
+    "sd_drho": 0.21437854073539056,
+    "hover_5mm": 0.21466666666666667,
+    "hover_10mm": 0.589,
+    "hover_3mm": 0.09166666666666666
+   },
+   "2.0": {
+    "sd_drho": 0.3926499761616226,
+    "hover_5mm": 0.12533333333333332,
+    "hover_10mm": 0.3536666666666667,
+    "hover_3mm": 0.056
+   }
+  },
+  "criterion": ">=80% hover",
+  "verdict": "FAIL (nominal) / SENSITIVE",
+  "note": "hover = |w_s|<=5 mm/s; nominal scatter: gel % sd 0.05, air 0.02%+-0.02%, 0.1 g/L salt steps",
+  "wall_s": 0.1,
+  "label": "SIMULATED virtual tank - not physical evidence"
+ },
+ "T09": {
+  "test": "T09",
+  "paths": {
+   "gelatin:screw": {
+    "intact_frac": 1.0,
+    "mean_score": 0.0
+   },
+   "gelatin:siphon_0.5m": {
+    "intact_frac": 1.0,
+    "mean_score": 0.4222222222222222
+   },
+   "gelatin:pump": {
+    "intact_frac": 0.0,
+    "mean_score": 2.9
+   },
+   "gelatin:tube_1m": {
+    "intact_frac": 0.9777777777777777,
+    "mean_score": 0.5888888888888889
+   },
+   "gelatin:tube_3m": {
+    "intact_frac": 1.0,
+    "mean_score": 0.8666666666666667
+   },
+   "gelatin:tube_5m": {
+    "intact_frac": 1.0,
+    "mean_score": 0.9111111111111111
+   },
+   "agar:screw": {
+    "intact_frac": 1.0,
+    "mean_score": 0.0
+   },
+   "agar:siphon_0.5m": {
+    "intact_frac": 0.6666666666666666,
+    "mean_score": 0.9777777777777777
+   },
+   "agar:pump": {
+    "intact_frac": 0.0,
+    "mean_score": 2.966666666666667
+   },
+   "agar:tube_1m": {
+    "intact_frac": 0.6333333333333333,
+    "mean_score": 1.0888888888888888
+   },
+   "agar:tube_3m": {
+    "intact_frac": 0.6333333333333333,
+    "mean_score": 1.288888888888889
+   },
+   "agar:tube_5m": {
+    "intact_frac": 0.6777777777777778,
+    "mean_score": 1.211111111111111
+   }
+  },
+  "criterion": ">=90% intact via screw/siphon; kill <50%",
+  "verdict": "PASS (SENSITIVE to gel recipe)",
+  "note": "intact = damage score <=1 (no tear). Model is parametric (strain/impact), not flow-resolved",
+  "wall_s": 0.0,
+  "label": "SIMULATED virtual tank - not physical evidence"
+ },
+ "T15": {
+  "test": "T15",
+  "conditions": {
+   "U=11.0cm/s b=0.0": {
+    "F_sim": {
+     "mean": 0.15585104924954082,
+     "min": 0.15585104924954082,
+     "max": 0.15585104924954082,
+     "n": 3
+    },
+    "F_calc": 0.09874228128259524
+   },
+   "U=11.0cm/s b=0.25": {
+    "F_sim": {
+     "mean": 0.3736469932057112,
+     "min": 0.3272323250731251,
+     "max": 0.4057349635792406,
+     "n": 3
+    },
+    "F_calc": 0.21485588982786924
+   },
+   "U=11.0cm/s b=0.5": {
+    "F_sim": {
+     "mean": 1.482486767353495,
+     "min": 0.8666486741795046,
+     "max": 1.935371884321459,
+     "n": 3
+    },
+    "F_calc": 0.5969419732084167
+   },
+   "U=11.0cm/s b=0.75": {
+    "F_sim": {
+     "mean": 6.881583635687467,
+     "min": 4.051260750997627,
+     "max": 9.136693959925969,
+     "n": 3
+    },
+    "F_calc": 3.0004188653370414
+   },
+   "U=5.5cm/s b=0.0": {
+    "F_sim": {
+     "mean": 0.038962762312385206,
+     "min": 0.038962762312385206,
+     "max": 0.038962762312385206,
+     "n": 3
+    },
+    "F_calc": 0.02468557032064881
+   },
+   "U=5.5cm/s b=0.25": {
+    "F_sim": {
+     "mean": 0.0934117483014278,
+     "min": 0.08180808126828128,
+     "max": 0.10143374089481015,
+     "n": 3
+    },
+    "F_calc": 0.05371397245696731
+   },
+   "U=5.5cm/s b=0.5": {
+    "F_sim": {
+     "mean": 0.37062169183837373,
+     "min": 0.21666216854487616,
+     "max": 0.4838429710803647,
+     "n": 3
+    },
+    "F_calc": 0.14923549330210417
+   },
+   "U=5.5cm/s b=0.75": {
+    "F_sim": {
+     "mean": 1.7203959089218668,
+     "min": 1.0128151877494067,
+     "max": 2.2841734899814923,
+     "n": 3
+    },
+    "F_calc": 0.7501047163342603
+   }
+  },
+  "criterion": "force scales with blinding; compare with calc",
+  "verdict": "PASS (scales with blinding)",
+  "note": "forces 0.01-1 N at tank scale: below luggage-scale resolution; use a 0.01 N spring scale or load cell",
+  "wall_s": 2.8,
+  "label": "SIMULATED virtual tank - not physical evidence"
+ },
+ "T02": {
+  "test": "T02/T03",
+  "conditions": {
+   "T02 no screen, bypass off": {
+    "eta_r_protocol": {
+     "mean": 0.0,
+     "min": 0.0,
+     "max": 0.0,
+     "n": 3
+    },
+    "eta_r_all": {
+     "mean": 0.0,
+     "min": 0.0,
+     "max": 0.0,
+     "n": 15
+    },
+    "intake_frac": {
+     "mean": 0.9577777777777778,
+     "min": 0.9333333333333333,
+     "max": 1.0,
+     "n": 15
+    },
+    "stuck_frac": {
+     "mean": 0.0,
+     "min": 0.0,
+     "max": 0.0,
+     "n": 15
+    },
+    "lost_frac": {
+     "mean": 0.042222222222222223,
+     "min": 0.0,
+     "max": 0.06666666666666667,
+     "n": 15
+    }
+   },
+   "T02 no screen, bypass on (control)": {
+    "eta_r_protocol": {
+     "mean": 0.2111111111111111,
+     "min": 0.16666666666666666,
+     "max": 0.3,
+     "n": 3
+    },
+    "eta_r_all": {
+     "mean": 0.1733333333333333,
+     "min": 0.1,
+     "max": 0.3,
+     "n": 15
+    },
+    "intake_frac": {
+     "mean": 0.7822222222222224,
+     "min": 0.7,
+     "max": 0.8666666666666667,
+     "n": 15
+    },
+    "stuck_frac": {
+     "mean": 0.0,
+     "min": 0.0,
+     "max": 0.0,
+     "n": 15
+    },
+    "lost_frac": {
+     "mean": 0.04444444444444444,
+     "min": 0.0,
+     "max": 0.1,
+     "n": 15
+    }
+   },
+   "T03 screen 8 deg": {
+    "eta_r_protocol": {
+     "mean": 0.4666666666666666,
+     "min": 0.43333333333333335,
+     "max": 0.5,
+     "n": 3
+    },
+    "eta_r_all": {
+     "mean": 0.5,
+     "min": 0.43333333333333335,
+     "max": 0.5666666666666667,
+     "n": 15
+    },
+    "intake_frac": {
+     "mean": 0.0,
+     "min": 0.0,
+     "max": 0.0,
+     "n": 15
+    },
+    "stuck_frac": {
+     "mean": 0.4022222222222223,
+     "min": 0.13333333333333333,
+     "max": 0.5666666666666667,
+     "n": 15
+    },
+    "lost_frac": {
+     "mean": 0.09777777777777778,
+     "min": 0.0,
+     "max": 0.3333333333333333,
+     "n": 15
+    }
+   },
+   "T03 screen 11 deg": {
+    "eta_r_protocol": {
+     "mean": 0.5,
+     "min": 0.4666666666666667,
+     "max": 0.5333333333333333,
+     "n": 3
+    },
+    "eta_r_all": {
+     "mean": 0.5088888888888888,
+     "min": 0.43333333333333335,
+     "max": 0.5666666666666667,
+     "n": 15
+    },
+    "intake_frac": {
+     "mean": 0.0,
+     "min": 0.0,
+     "max": 0.0,
+     "n": 15
+    },
+    "stuck_frac": {
+     "mean": 0.4155555555555555,
+     "min": 0.16666666666666666,
+     "max": 0.5666666666666667,
+     "n": 15
+    },
+    "lost_frac": {
+     "mean": 0.07555555555555556,
+     "min": 0.0,
+     "max": 0.26666666666666666,
+     "n": 15
+    }
+   },
+   "T03 screen 15 deg": {
+    "eta_r_protocol": {
+     "mean": 0.5555555555555555,
+     "min": 0.5333333333333333,
+     "max": 0.6,
+     "n": 3
+    },
+    "eta_r_all": {
+     "mean": 0.571111111111111,
+     "min": 0.4666666666666667,
+     "max": 0.6666666666666666,
+     "n": 15
+    },
+    "intake_frac": {
+     "mean": 0.0,
+     "min": 0.0,
+     "max": 0.0,
+     "n": 15
+    },
+    "stuck_frac": {
+     "mean": 0.39333333333333337,
+     "min": 0.3,
+     "max": 0.5333333333333333,
+     "n": 15
+    },
+    "lost_frac": {
+     "mean": 0.035555555555555556,
+     "min": 0.0,
+     "max": 0.13333333333333333,
+     "n": 15
+    }
+   },
+   "T03 screen 20 deg": {
+    "eta_r_protocol": {
+     "mean": 0.6888888888888888,
+     "min": 0.6333333333333333,
+     "max": 0.7666666666666667,
+     "n": 3
+    },
+    "eta_r_all": {
+     "mean": 0.6155555555555555,
+     "min": 0.43333333333333335,
+     "max": 0.7666666666666667,
+     "n": 15
+    },
+    "intake_frac": {
+     "mean": 0.0,
+     "min": 0.0,
+     "max": 0.0,
+     "n": 15
+    },
+    "stuck_frac": {
+     "mean": 0.3688888888888889,
+     "min": 0.2,
+     "max": 0.5666666666666667,
+     "n": 15
+    },
+    "lost_frac": {
+     "mean": 0.015555555555555555,
+     "min": 0.0,
+     "max": 0.16666666666666666,
+     "n": 15
+    }
+   }
+  },
+  "verdict_T02": "REFERENCE (no criterion)",
+  "verdict_T03": "FAIL",
+  "criterion": "eta_r >= 0.7 at 11 deg; kill if <0.4 at every angle",
+  "note": "eta_r = n_bypass / n_released (conservative; stuck bells count against)",
+  "wall_s": 567.0,
+  "label": "SIMULATED virtual tank - not physical evidence"
+ },
+ "T16": {
+  "test": "T16",
+  "discrepancy": {
+   "mean": 0.020833333333333332,
+   "min": 0.0,
+   "max": 0.0625,
+   "n": 3
+  },
+  "pass_prob": {
+   "p0=0.0 n=15": 0.4825,
+   "p0=0.0 n=30": 0.6145,
+   "p0=0.0 n=60": 0.6855,
+   "p0=0.02 n=15": 0.3605,
+   "p0=0.02 n=30": 0.5385,
+   "p0=0.02 n=60": 0.664,
+   "p0=0.05 n=15": 0.271,
+   "p0=0.05 n=30": 0.4705,
+   "p0=0.05 n=60": 0.6125
+  },
+  "criterion": "<=5% discrepancy",
+  "verdict": "FAIL / SENSITIVE (one miss in ~15 counts = 6.7%)",
+  "note": "'video_count' = logged ground truth; counters: miss 2% + 3% per coincident arrival (<1 s), double-count 0.5%",
+  "wall_s": 29.7,
+  "label": "SIMULATED virtual tank - not physical evidence"
+ },
+ "T04": {
+  "test": "T04",
+  "conditions": {
+   "2 entrances": {
+    "spacing_cm": 26.204215320839243,
+    "eta_r": {
+     "mean": 0.5088888888888888,
+     "min": 0.43333333333333335,
+     "max": 0.5666666666666667,
+     "n": 15
+    },
+    "stuck": {
+     "mean": 12.466666666666667,
+     "min": 5.0,
+     "max": 17.0,
+     "n": 15
+    },
+    "stuck_protocol": {
+     "mean": 13.333333333333334,
+     "min": 9.0,
+     "max": 16.0,
+     "n": 3
+    }
+   },
+   "4 entrances": {
+    "spacing_cm": 13.102107660419621,
+    "eta_r": {
+     "mean": 0.7133333333333333,
+     "min": 0.5666666666666667,
+     "max": 0.8333333333333334,
+     "n": 15
+    },
+    "stuck": {
+     "mean": 8.466666666666667,
+     "min": 5.0,
+     "max": 13.0,
+     "n": 15
+    },
+    "stuck_protocol": {
+     "mean": 7.0,
+     "min": 6.0,
+     "max": 8.0,
+     "n": 3
+    }
+   }
+  },
+  "criterion": "more entrances -> fewer stuck",
+  "verdict": "PASS",
+  "wall_s": 134.3,
+  "label": "SIMULATED virtual tank - not physical evidence"
+ },
+ "T06": {
+  "test": "T06",
+  "runs": 10,
+  "deploy_time": {
+   "mean": 8.569627796781228,
+   "min": 6.455357471078546,
+   "max": 11.318938150919067,
+   "n": 10
+  },
+  "gap_mm": {
+   "mean": 1.8205083267385755,
+   "min": 1.0393697045720167,
+   "max": 2.494906893600766,
+   "n": 10
+  },
+  "frac_runs_with_under": 0.0,
+  "pinned_runs": 0,
+  "under_during_lowering": {
+   "mean": 9.2,
+   "min": 4.0,
+   "max": 12.0,
+   "n": 10
+  },
+  "criterion": "gap ~0 and 0 bells under (seated); kill if bells pass under in >10% of runs",
+  "verdict": "PASS",
+  "wall_s": 28.2,
+  "label": "SIMULATED virtual tank - not physical evidence"
+ },
+ "T07": {
+  "test": "T07",
+  "single_bay_pulse_frac": {
+   "mean": 0.3393547937569677,
+   "min": 0.0,
+   "max": 0.9130434782608695,
+   "n": 8
+  },
+  "by_bay": {
+   "1": {
+    "mean": 0.0,
+    "min": 0.0,
+    "max": 0.0,
+    "n": 2
+   },
+   "2": {
+    "mean": 0.019230769230769232,
+    "min": 0.0,
+    "max": 0.038461538461538464,
+    "n": 2
+   },
+   "3": {
+    "mean": 0.5416666666666667,
+    "min": 0.5,
+    "max": 0.5833333333333334,
+    "n": 2
+   },
+   "4": {
+    "mean": 0.7965217391304348,
+    "min": 0.68,
+    "max": 0.9130434782608695,
+    "n": 2
+   }
+  },
+  "all_bays_pulse_frac": {
+   "mean": 1.314975845410628,
+   "min": 1.2,
+   "max": 1.4782608695652173,
+   "n": 3
+  },
+  "criterion": "pulse is a small fraction of bells on the face (operationalised: <=35%, ~one bay of four + margin)",
+  "verdict": "PASS on average / FAIL for the downstream bay",
+  "wall_s": 60.0,
+  "label": "SIMULATED virtual tank - not physical evidence"
+ },
+ "T08": {
+  "test": "T08",
+  "conditions": {
+   "15 deg flood": {
+    "eta_g": {
+     "mean": 1.0,
+     "min": 1.0,
+     "max": 1.0,
+     "n": 3
+    },
+    "through": {
+     "mean": 0.0,
+     "min": 0.0,
+     "max": 0.0,
+     "n": 3
+    }
+   },
+   "15 deg ebb": {
+    "eta_g": {
+     "mean": 1.0,
+     "min": 1.0,
+     "max": 1.0,
+     "n": 3
+    },
+    "through": {
+     "mean": 0.0,
+     "min": 0.0,
+     "max": 0.0,
+     "n": 3
+    }
+   },
+   "20 deg flood": {
+    "eta_g": {
+     "mean": 0.9444444444444445,
+     "min": 0.9,
+     "max": 0.9666666666666667,
+     "n": 3
+    },
+    "through": {
+     "mean": 0.05555555555555556,
+     "min": 0.03333333333333333,
+     "max": 0.1,
+     "n": 3
+    }
+   },
+   "20 deg ebb": {
+    "eta_g": {
+     "mean": 0.9444444444444443,
+     "min": 0.9333333333333333,
+     "max": 0.9666666666666667,
+     "n": 3
+    },
+    "through": {
+     "mean": 0.05555555555555556,
+     "min": 0.03333333333333333,
+     "max": 0.06666666666666667,
+     "n": 3
+    }
+   },
+   "25 deg flood": {
+    "eta_g": {
+     "mean": 0.9555555555555556,
+     "min": 0.9333333333333333,
+     "max": 0.9666666666666667,
+     "n": 3
+    },
+    "through": {
+     "mean": 0.03333333333333333,
+     "min": 0.0,
+     "max": 0.06666666666666667,
+     "n": 3
+    }
+   },
+   "25 deg ebb": {
+    "eta_g": {
+     "mean": 0.9555555555555556,
+     "min": 0.9333333333333333,
+     "max": 0.9666666666666667,
+     "n": 3
+    },
+    "through": {
+     "mean": 0.044444444444444446,
+     "min": 0.03333333333333333,
+     "max": 0.06666666666666667,
+     "n": 3
+    }
+   }
+  },
+  "criterion": "eta_g >= 0.4 in both directions",
+  "verdict": "PASS at 15 deg,20 deg,25 deg",
+  "note": "curtain covers z=3-19 cm of 25 cm (open top 6 cm); far-field 5 cm/s",
+  "wall_s": 9.6,
+  "label": "SIMULATED virtual tank - not physical evidence"
+ },
+ "T11": {
+  "test": "T11",
+  "returned": {
+   "mean": 1.0,
+   "min": 1.0,
+   "max": 1.0,
+   "n": 6
+  },
+  "stuck": {
+   "mean": 0.0,
+   "min": 0.0,
+   "max": 0.0,
+   "n": 6
+  },
+  "criterion": "report (no target)",
+  "verdict": "REPORTED",
+  "wall_s": 7.0,
+  "label": "SIMULATED virtual tank - not physical evidence"
+ },
+ "T12": {
+  "test": "T12",
+  "conditions": {
+   "0.3 m": {
+    "ret_after_3": {
+     "mean": 0.7944444444444443,
+     "min": 0.5666666666666667,
+     "max": 1.0,
+     "n": 6
+    },
+    "ret_after_1": {
+     "mean": 0.6111111111111112,
+     "min": 0.4,
+     "max": 0.8333333333333334,
+     "n": 6
+    }
+   },
+   "0.6 m": {
+    "ret_after_3": {
+     "mean": 0.5555555555555557,
+     "min": 0.3333333333333333,
+     "max": 0.8,
+     "n": 6
+    },
+    "ret_after_1": {
+     "mean": 0.3666666666666667,
+     "min": 0.06666666666666667,
+     "max": 0.6333333333333333,
+     "n": 6
+    }
+   },
+   "1.0 m": {
+    "ret_after_3": {
+     "mean": 0.2611111111111111,
+     "min": 0.0,
+     "max": 0.5333333333333333,
+     "n": 6
+    },
+    "ret_after_1": {
+     "mean": 0.13888888888888887,
+     "min": 0.0,
+     "max": 0.3,
+     "n": 6
+    }
+   }
+  },
+  "criterion": "returns fall with distance",
+  "verdict": "PASS",
+  "note": "tidal 1.1 cm/s (~0.05 m/s prototype), 60 s half-cycles, 10% net intake draw; excursion ~0.66 m",
+  "wall_s": 38.8,
+  "label": "SIMULATED virtual tank - not physical evidence"
+ },
+ "T14": {
+  "test": "T14",
+  "extruded_total": 0,
+  "fragments_total": 540,
+  "prototype_extrusion_cases": [
+   "mesoglea upper (assumed) | prototype, 75% blinded | d/a=1.5",
+   "mesoglea lower (assumed) | prototype, 75% blinded | d/a=1.5",
+   "mesoglea lower (assumed) | prototype, 75% blinded | d/a=2",
+   "mesoglea lower (assumed) | prototype, 75% blinded | d/a=4"
+  ],
+  "criterion": "report; sets the mesh opening",
+  "verdict": "REPORTED / SENSITIVE (tank cannot reproduce prototype Cauchy number)",
+  "wall_s": 26.4,
+  "label": "SIMULATED virtual tank - not physical evidence"
+ },
+ "T10": {
+  "test": "T10",
+  "conditions": {
+   "clay_weighted|person_mock": {
+    "n": 30,
+    "diverted_or_exit": 0.9333333333333333,
+    "screw_path": 2,
+    "intake": 0,
+    "not_in_bypass": 0
+   },
+   "clay_weighted|camera": {
+    "n": 30,
+    "diverted_or_exit": 0.9666666666666667,
+    "screw_path": 1,
+    "intake": 0,
+    "not_in_bypass": 0
+   },
+   "clay_weighted|camera+door": {
+    "n": 30,
+    "diverted_or_exit": 0.8666666666666667,
+    "screw_path": 4,
+    "intake": 0,
+    "not_in_bypass": 0
+   },
+   "neutral_passive|person_mock": {
+    "n": 30,
+    "diverted_or_exit": 0.3333333333333333,
+    "screw_path": 1,
+    "intake": 0,
+    "not_in_bypass": 19
+   },
+   "neutral_passive|camera": {
+    "n": 30,
+    "diverted_or_exit": 0.36666666666666664,
+    "screw_path": 0,
+    "intake": 0,
+    "not_in_bypass": 19
+   },
+   "neutral_passive|camera+door": {
+    "n": 30,
+    "diverted_or_exit": 0.36666666666666664,
+    "screw_path": 0,
+    "intake": 0,
+    "not_in_bypass": 19
+   },
+   "swimmer|person_mock": {
+    "n": 30,
+    "diverted_or_exit": 0.4666666666666667,
+    "screw_path": 10,
+    "intake": 0,
+    "not_in_bypass": 6
+   },
+   "swimmer|camera": {
+    "n": 30,
+    "diverted_or_exit": 0.7333333333333333,
+    "screw_path": 2,
+    "intake": 0,
+    "not_in_bypass": 6
+   },
+   "swimmer|camera+door": {
+    "n": 30,
+    "diverted_or_exit": 0.8,
+    "screw_path": 0,
+    "intake": 0,
+    "not_in_bypass": 6
+   }
+  },
+  "criterion": "100% diverted or exit; kill: any turtle reaching screw path",
+  "F_bell_pile_N": 0.006135923151542566,
+  "door_threshold_N": 0.006,
+  "verdict": "KILL (some configurations) / SENSITIVE to detection probability",
+  "note": "Door forces are mN at 1:20 -> below spring-scale resolution; force scales x8000 (lambda^3) to prototype",
+  "wall_s": 23.2,
+  "label": "SIMULATED virtual tank - not physical evidence"
+ },
+ "T13": {
+  "test": "T13",
+  "conditions": {
+   "no waves": {
+    "eta_r": {
+     "mean": 0.45555555555555555,
+     "min": 0.4,
+     "max": 0.5,
+     "n": 6
+    },
+    "rel_change": 0.0,
+    "leaks": 0
+   },
+   "H=1 cm T=1.0 s": {
+    "eta_r": {
+     "mean": 0.4777777777777778,
+     "min": 0.43333333333333335,
+     "max": 0.5666666666666667,
+     "n": 6
+    },
+    "rel_change": 0.04878048780487812,
+    "leaks": 0
+   },
+   "H=2 cm T=1.0 s": {
+    "eta_r": {
+     "mean": 0.5111111111111112,
+     "min": 0.4666666666666667,
+     "max": 0.6,
+     "n": 6
+    },
+    "rel_change": 0.1219512195121953,
+    "leaks": 0
+   },
+   "H=4 cm T=1.0 s": {
+    "eta_r": {
+     "mean": 0.8222222222222223,
+     "min": 0.7,
+     "max": 0.9,
+     "n": 6
+    },
+    "rel_change": 0.804878048780488,
+    "leaks": 0
+   },
+   "H=2 cm T=1.5 s": {
+    "eta_r": {
+     "mean": 0.5555555555555555,
+     "min": 0.5333333333333333,
+     "max": 0.5666666666666667,
+     "n": 6
+    },
+    "rel_change": 0.21951219512195105,
+    "leaks": 0
+   },
+   "H=4 cm T=1.5 s": {
+    "eta_r": {
+     "mean": 0.8388888888888889,
+     "min": 0.8,
+     "max": 0.9,
+     "n": 6
+    },
+    "rel_change": 0.8414634146341464,
+    "leaks": 0
+   }
+  },
+  "worst_rel_change": 0.04878048780487812,
+  "criterion": "eta_r drops <20%",
+  "verdict": "PASS",
+  "wall_s": 141.4,
+  "label": "SIMULATED virtual tank - not physical evidence"
+ },
+ "T05": {
+  "test": "T05",
+  "design_rate_per_min": 37.20979206533832,
+  "rates": [
+   10,
+   20,
+   37,
+   74
+  ],
+  "conditions": {
+   "10/min cycling=N": {
+    "dh0": {
+     "mean": 0.282219563308248,
+     "min": 0.282219563308248,
+     "max": 0.282219563308248,
+     "n": 3
+    },
+    "dh5": {
+     "mean": 1.9037838911019407,
+     "min": 1.5550701376776443,
+     "max": 2.492289446141366,
+     "n": 3
+    },
+    "cover1": {
+     "mean": 3.463039345610517,
+     "min": 1.1349251096554782,
+     "max": 6.5016079243687965,
+     "n": 3
+    },
+    "cover5": {
+     "mean": 17.393829647053646,
+     "min": 15.065799160531808,
+     "max": 20.160706939270067,
+     "n": 3
+    },
+    "cover_max": {
+     "mean": 19.04388462230698,
+     "min": 16.17077459768077,
+     "max": 22.366420316069725,
+     "n": 3
+    },
+    "intake": {
+     "mean": 0.0,
+     "min": 0.0,
+     "max": 0.0,
+     "n": 3
+    },
+    "fed": {
+     "mean": 50.0,
+     "min": 50.0,
+     "max": 50.0,
+     "n": 3
+    },
+    "t_cover50": [
+     null,
+     null,
+     null
+    ]
+   },
+   "10/min cycling=Y": {
+    "dh0": {
+     "mean": 0.282219563308248,
+     "min": 0.282219563308248,
+     "max": 0.282219563308248,
+     "n": 3
+    },
+    "dh5": {
+     "mean": 0.4481895930583679,
+     "min": 0.3565454653479305,
+     "max": 0.5437623743414857,
+     "n": 3
+    },
+    "cover1": {
+     "mean": 3.4167705706630653,
+     "min": 1.1349251096554782,
+     "max": 6.362801599526441,
+     "n": 3
+    },
+    "cover5": {
+     "mean": 3.872312520784746,
+     "min": 1.3225980633529226,
+     "max": 6.183145648214498,
+     "n": 3
+    },
+    "cover_max": {
+     "mean": 9.335711672340558,
+     "min": 8.067119549633885,
+     "max": 10.170847100199751,
+     "n": 3
+    },
+    "intake": {
+     "mean": 12.333333333333334,
+     "min": 8.0,
+     "max": 15.0,
+     "n": 3
+    },
+    "fed": {
+     "mean": 50.0,
+     "min": 50.0,
+     "max": 50.0,
+     "n": 3
+    },
+    "t_cover50": [
+     null,
+     null,
+     null
+    ]
+   },
+   "20/min cycling=N": {
+    "dh0": {
+     "mean": 0.282219563308248,
+     "min": 0.282219563308248,
+     "max": 0.282219563308248,
+     "n": 3
+    },
+    "dh5": {
+     "mean": 3.6958760135457775,
+     "min": 3.217772060559377,
+     "max": 4.102146651014505,
+     "n": 3
+    },
+    "cover1": {
+     "mean": 8.678121268764654,
+     "min": 7.200261333869219,
+     "max": 10.187550168000135,
+     "n": 3
+    },
+    "cover5": {
+     "mean": 25.60001811363222,
+     "min": 24.99528015675605,
+     "max": 26.07504486699865,
+     "n": 3
+    },
+    "cover_max": {
+     "mean": 29.06388064466114,
+     "min": 27.881638627196754,
+     "max": 30.48300269483472,
+     "n": 3
+    },
+    "intake": {
+     "mean": 0.0,
+     "min": 0.0,
+     "max": 0.0,
+     "n": 3
+    },
+    "fed": {
+     "mean": 99.0,
+     "min": 99.0,
+     "max": 99.0,
+     "n": 3
+    },
+    "t_cover50": [
+     null,
+     null,
+     null
+    ]
+   },
+   "20/min cycling=Y": {
+    "dh0": {
+     "mean": 0.282219563308248,
+     "min": 0.282219563308248,
+     "max": 0.282219563308248,
+     "n": 3
+    },
+    "dh5": {
+     "mean": 1.0132164008226443,
+     "min": 0.7639125012804714,
+     "max": 1.376197868040852,
+     "n": 3
+    },
+    "cover1": {
+     "mean": 9.11052151916997,
+     "min": 5.320230972499381,
+     "max": 11.370096337853107,
+     "n": 3
+    },
+    "cover5": {
+     "mean": 11.833176167350487,
+     "min": 8.15369172212534,
+     "max": 18.24971787280415,
+     "n": 3
+    },
+    "cover_max": {
+     "mean": 19.04011569865699,
+     "min": 17.448439311778184,
+     "max": 19.973830503850774,
+     "n": 3
+    },
+    "intake": {
+     "mean": 24.0,
+     "min": 21.0,
+     "max": 27.0,
+     "n": 3
+    },
+    "fed": {
+     "mean": 99.0,
+     "min": 99.0,
+     "max": 99.0,
+     "n": 3
+    },
+    "t_cover50": [
+     null,
+     null,
+     null
+    ]
+   },
+   "37/min cycling=N": {
+    "dh0": {
+     "mean": 0.282219563308248,
+     "min": 0.282219563308248,
+     "max": 0.282219563308248,
+     "n": 3
+    },
+    "dh5": {
+     "mean": 4.6319279998443035,
+     "min": 2.936623407940032,
+     "max": 5.6671836534366,
+     "n": 3
+    },
+    "cover1": {
+     "mean": 15.350677442283141,
+     "min": 12.604511163943076,
+     "max": 19.974510852602105,
+     "n": 3
+    },
+    "cover5": {
+     "mean": 33.16768633239615,
+     "min": 29.776732242858156,
+     "max": 36.93632417303936,
+     "n": 3
+    },
+    "cover_max": {
+     "mean": 36.77248116234582,
+     "min": 36.24884421849648,
+     "max": 37.57360995237774,
+     "n": 3
+    },
+    "intake": {
+     "mean": 0.0,
+     "min": 0.0,
+     "max": 0.0,
+     "n": 3
+    },
+    "fed": {
+     "mean": 184.0,
+     "min": 184.0,
+     "max": 184.0,
+     "n": 3
+    },
+    "t_cover50": [
+     null,
+     null,
+     null
+    ]
+   },
+   "37/min cycling=Y": {
+    "dh0": {
+     "mean": 0.282219563308248,
+     "min": 0.282219563308248,
+     "max": 0.282219563308248,
+     "n": 3
+    },
+    "dh5": {
+     "mean": 2.3004951808713874,
+     "min": 1.6781454196231378,
+     "max": 2.8172685815511866,
+     "n": 3
+    },
+    "cover1": {
+     "mean": 16.384230257150467,
+     "min": 12.537468334171322,
+     "max": 20.222568066174034,
+     "n": 3
+    },
+    "cover5": {
+     "mean": 25.03865173736892,
+     "min": 24.110484205365047,
+     "max": 26.367153564735027,
+     "n": 3
+    },
+    "cover_max": {
+     "mean": 34.92222993521387,
+     "min": 33.46861138199548,
+     "max": 36.95149350554575,
+     "n": 3
+    },
+    "intake": {
+     "mean": 38.0,
+     "min": 37.0,
+     "max": 40.0,
+     "n": 3
+    },
+    "fed": {
+     "mean": 184.0,
+     "min": 184.0,
+     "max": 184.0,
+     "n": 3
+    },
+    "t_cover50": [
+     null,
+     null,
+     null
+    ]
+   },
+   "74/min cycling=N": {
+    "dh0": {
+     "mean": 0.282219563308248,
+     "min": 0.282219563308248,
+     "max": 0.282219563308248,
+     "n": 3
+    },
+    "dh5": {
+     "mean": 4.937947074536423,
+     "min": 3.3481416426362407,
+     "max": 6.391886605360771,
+     "n": 3
+    },
+    "cover1": {
+     "mean": 27.558273078187593,
+     "min": 23.01267689449563,
+     "max": 29.939037938463084,
+     "n": 3
+    },
+    "cover5": {
+     "mean": 55.301143454928855,
+     "min": 53.06218174795099,
+     "max": 58.870764936477244,
+     "n": 3
+    },
+    "cover_max": {
+     "mean": 58.69131550498984,
+     "min": 55.06151090669028,
+     "max": 63.95800440663964,
+     "n": 3
+    },
+    "intake": {
+     "mean": 0.0,
+     "min": 0.0,
+     "max": 0.0,
+     "n": 3
+    },
+    "fed": {
+     "mean": 369.0,
+     "min": 369.0,
+     "max": 369.0,
+     "n": 3
+    },
+    "t_cover50": [
+     241.0,
+     217.0,
+     273.0
+    ]
+   },
+   "74/min cycling=Y": {
+    "dh0": {
+     "mean": 0.282219563308248,
+     "min": 0.282219563308248,
+     "max": 0.282219563308248,
+     "n": 3
+    },
+    "dh5": {
+     "mean": 4.623616446524298,
+     "min": 2.6764396715651424,
+     "max": 6.03290701668816,
+     "n": 3
+    },
+    "cover1": {
+     "mean": 28.461381502515888,
+     "min": 27.03865656125001,
+     "max": 30.25058067538225,
+     "n": 3
+    },
+    "cover5": {
+     "mean": 37.705785255113554,
+     "min": 28.7893738292983,
+     "max": 43.136864199873244,
+     "n": 3
+    },
+    "cover_max": {
+     "mean": 45.462356799006095,
+     "min": 43.80843467753272,
+     "max": 47.35126725164456,
+     "n": 3
+    },
+    "intake": {
+     "mean": 61.0,
+     "min": 57.0,
+     "max": 64.0,
+     "n": 3
+    },
+    "fed": {
+     "mean": 369.0,
+     "min": 369.0,
+     "max": 369.0,
+     "n": 3
+    },
+    "t_cover50": [
+     null,
+     null,
+     null
+    ]
+   }
+  },
+  "verdict": "FAIL",
+  "criterion": "cycling keeps dP stable at design rate (operationalised: dP(5min) <= 1.5 x dP(t0)); kill: >50% face covered in <1 min at design rate",
+  "note": "dP values are far below what two clear tubes can resolve (~0.5 mm): see README",
+  "wall_s": 454.4,
+  "label": "SIMULATED virtual tank - not physical evidence"
+ }
+}

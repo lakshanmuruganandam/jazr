@@ -1,0 +1,12 @@
+stage,description,target,plausible_low,plausible_high,basis
+1,"Screen face (conveyor belt, smooth polymer mesh)",0.998,0.99,0.999,ESTIMATE; no relative shear on belt; static mesh would be 0.97-0.995
+2,Entrance + flared transition (accel <=0.2 ft/s/ft),0.999,0.995,1.0,ESTIMATE; NMFS 8.6.2.8
+3,"Dewatering (horizontal flat plate, >=0.3 m depth)",0.997,0.985,0.999,ESTIMATE; USGS fish >98% 24 h (REPORTED)
+4,Turtle excluder (round bars 30-55 deg),0.998,0.99,0.999,ESTIMATE
+5,Lift: water-only fish lock,0.998,0.99,0.999,ESTIMATE; alternative screw x2 0.96 (0.85-0.99)
+6,"Head tank + down-leg (no free fall, no air)",0.999,0.995,1.0,ESTIMATE; NMFS 8.6.3.9-10
+7,"Gravity pipe 10.5 km, 2.9 h, O2 held",0.995,0.97,0.998,ESTIMATE; largest unknown; no gelatinous data
+8,Submerged diffuser outlet (<=1 m/s),0.999,0.995,1.0,ESTIMATE
+9,Post-release 24-96 h (delayed mortality),0.995,0.95,0.998,ESTIMATE; Hudson fish 90% -> 35% at 96 h is the cautionary case
+ALL,"End-to-end (product), fish-lock chain",0.9782,0.8676,0.992,CALC from the ESTIMATES above
+ALL-screw,End-to-end with two-stage screw instead of lock,0.941,0.7449,0.9831,CALC

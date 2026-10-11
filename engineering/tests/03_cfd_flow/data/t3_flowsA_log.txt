@@ -1,0 +1,25 @@
+{'theta': 8.0, 'spacing': 30.0, 'fb': 0.02} time-averaged 0s
+{'theta': 8.0, 'spacing': 60.0, 'fb': 0.01} converged 0s
+{'theta': 8.0, 'spacing': 60.0, 'fb': 0.02} converged 0s
+{'theta': 8.0, 'spacing': 60.0, 'fb': 0.03} converged 0s
+{'theta': 8.0, 'spacing': 60.0, 'fb': 0.04} converged 0s
+{'theta': 11.0, 'spacing': 15.0, 'fb': 0.01} time-averaged 0s
+{'theta': 11.0, 'spacing': 15.0, 'fb': 0.02} time-averaged 0s
+{'theta': 11.0, 'spacing': 15.0, 'fb': 0.03} time-averaged 0s
+{'theta': 11.0, 'spacing': 15.0, 'fb': 0.04} time-averaged 0s
+{'theta': 11.0, 'spacing': 30.0, 'fb': 0.01} converged 0s
+{'theta': 11.0, 'spacing': 30.0, 'fb': 0.02} converged 0s
+{'theta': 11.0, 'spacing': 30.0, 'fb': 0.03} converged 0s
+{'theta': 11.0, 'spacing': 30.0, 'fb': 0.04} converged 0s
+{'theta': 11.0, 'spacing': 60.0, 'fb': 0.01} converged 0s
+{'theta': 11.0, 'spacing': 60.0, 'fb': 0.02} converged 0s
+{'theta': 11.0, 'spacing': 60.0, 'fb': 0.03} converged 0s
+{'theta': 11.0, 'spacing': 60.0, 'fb': 0.04} converged 0s
+{'theta': 8.0, 'spacing': 15.0, 'fb': 0.01} time-averaged 1036s
+{'theta': 8.0, 'spacing': 30.0, 'fb': 0.03} time-averaged 1035s
+{'theta': 8.0, 'spacing': 30.0, 'fb': 0.04} time-averaged 1036s
+{'theta': 8.0, 'spacing': 30.0, 'fb': 0.01} time-averaged 1036s
+{'theta': 8.0, 'spacing': 15.0, 'fb': 0.02} time-averaged 1036s
+{'theta': 8.0, 'spacing': 15.0, 'fb': 0.04} time-averaged 1036s
+{'theta': 8.0, 'spacing': 15.0, 'fb': 0.03} time-averaged 1036s
+wall 1038.1387209892273

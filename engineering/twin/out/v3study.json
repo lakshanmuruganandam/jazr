@@ -1,0 +1,209 @@
+{
+ "Gate (guard 0.9, outlet 3 km)|median": {
+  "captured": 0.14858333333333335,
+  "lo": 0.139,
+  "hi": 0.169,
+  "handlings": 1.3534583333333332,
+  "peak_held_t": 0.0,
+  "far": 0.565,
+  "swarm_t": 12180.0
+ },
+ "Gate (guard 0.9, outlet 3 km)|onshore 3 cm/s": {
+  "captured": 0.28012499999999996,
+  "lo": 0.272,
+  "hi": 0.285,
+  "handlings": 2.5521666666666665,
+  "peak_held_t": 0.0,
+  "far": 0.28141666666666665,
+  "swarm_t": 12180.0
+ },
+ "Gate (guard 0.9, outlet 3 km)|10-day bloom": {
+  "captured": 0.40970833333333334,
+  "lo": 0.3933333333333333,
+  "hi": 0.439,
+  "handlings": 3.7069583333333336,
+  "peak_held_t": 0.0,
+  "far": 0.37287499999999996,
+  "swarm_t": 12180.0
+ },
+ "Gate (guard 0.9, outlet 3 km)|guard 0.5": {
+  "captured": 0.6290833333333333,
+  "lo": 0.6066666666666667,
+  "hi": 0.6506666666666666,
+  "handlings": 0.626625,
+  "peak_held_t": 0.0,
+  "far": 0.21995833333333334,
+  "swarm_t": 12180.0
+ },
+ "Gate, outlet 5 km|median": {
+  "captured": 0.09470833333333334,
+  "lo": 0.08566666666666667,
+  "hi": 0.11133333333333334,
+  "handlings": 0.8648333333333333,
+  "peak_held_t": 0.0,
+  "far": 0.8427916666666666,
+  "swarm_t": 12180.0
+ },
+ "Gate, outlet 5 km|onshore 3 cm/s": {
+  "captured": 0.19966666666666666,
+  "lo": 0.19,
+  "hi": 0.209,
+  "handlings": 1.7735833333333333,
+  "peak_held_t": 0.0,
+  "far": 0.556,
+  "swarm_t": 12180.0
+ },
+ "Gate, outlet 5 km|10-day bloom": {
+  "captured": 0.22312500000000002,
+  "lo": 0.21233333333333335,
+  "hi": 0.23166666666666666,
+  "handlings": 2.025625,
+  "peak_held_t": 0.0,
+  "far": 0.6409583333333333,
+  "swarm_t": 12180.0
+ },
+ "Gate, outlet 5 km|guard 0.5": {
+  "captured": 0.481875,
+  "lo": 0.448,
+  "hi": 0.5093333333333333,
+  "handlings": 0.477,
+  "peak_held_t": 0.0,
+  "far": 0.47220833333333334,
+  "swarm_t": 12180.0
+ },
+ "Gate + outer guide line (0.4)|median": {
+  "captured": 0.0895,
+  "lo": 0.083,
+  "hi": 0.097,
+  "handlings": 1.4615,
+  "peak_held_t": 0.0,
+  "far": 0.6144166666666666,
+  "swarm_t": 12180.0
+ },
+ "Gate + outer guide line (0.4)|onshore 3 cm/s": {
+  "captured": 0.17825,
+  "lo": 0.17033333333333334,
+  "hi": 0.188,
+  "handlings": 2.8291666666666666,
+  "peak_held_t": 0.0,
+  "far": 0.32354166666666667,
+  "swarm_t": 12180.0
+ },
+ "Gate + outer guide line (0.4)|10-day bloom": {
+  "captured": 0.264125,
+  "lo": 0.25133333333333335,
+  "hi": 0.274,
+  "handlings": 4.257375,
+  "peak_held_t": 0.0,
+  "far": 0.4824583333333333,
+  "swarm_t": 12180.0
+ },
+ "Gate + outer guide line (0.4)|guard 0.5": {
+  "captured": 0.4073333333333333,
+  "lo": 0.389,
+  "hi": 0.429,
+  "handlings": 0.997125,
+  "peak_held_t": 0.0,
+  "far": 0.3807083333333333,
+  "swarm_t": 12180.0
+ },
+ "Gate + outer guide (0.4) + outlet 5 km|median": {
+  "captured": 0.05483333333333333,
+  "lo": 0.049666666666666665,
+  "hi": 0.06266666666666666,
+  "handlings": 0.9066666666666667,
+  "peak_held_t": 0.0,
+  "far": 0.8794166666666666,
+  "swarm_t": 12180.0
+ },
+ "Gate + outer guide (0.4) + outlet 5 km|onshore 3 cm/s": {
+  "captured": 0.12233333333333334,
+  "lo": 0.11633333333333333,
+  "hi": 0.135,
+  "handlings": 1.9444583333333334,
+  "peak_held_t": 0.0,
+  "far": 0.6341249999999999,
+  "swarm_t": 12180.0
+ },
+ "Gate + outer guide (0.4) + outlet 5 km|10-day bloom": {
+  "captured": 0.13279166666666667,
+  "lo": 0.129,
+  "hi": 0.13833333333333334,
+  "handlings": 2.2014583333333335,
+  "peak_held_t": 0.0,
+  "far": 0.722125,
+  "swarm_t": 12180.0
+ },
+ "Gate + outer guide (0.4) + outlet 5 km|guard 0.5": {
+  "captured": 0.280625,
+  "lo": 0.2653333333333333,
+  "hi": 0.297,
+  "handlings": 0.6804166666666667,
+  "peak_held_t": 0.0,
+  "far": 0.6636666666666666,
+  "swarm_t": 12180.0
+ },
+ "Gate + outer guide (0.6) + outlet 5 km|median": {
+  "captured": 0.036041666666666666,
+  "lo": 0.03266666666666666,
+  "hi": 0.042666666666666665,
+  "handlings": 0.9264583333333334,
+  "peak_held_t": 0.0,
+  "far": 0.8970833333333333,
+  "swarm_t": 12180.0
+ },
+ "Gate + outer guide (0.6) + outlet 5 km|onshore 3 cm/s": {
+  "captured": 0.08141666666666666,
+  "lo": 0.07266666666666667,
+  "hi": 0.092,
+  "handlings": 2.0315833333333333,
+  "peak_held_t": 0.0,
+  "far": 0.6734583333333333,
+  "swarm_t": 12180.0
+ },
+ "Gate + outer guide (0.6) + outlet 5 km|10-day bloom": {
+  "captured": 0.08995833333333333,
+  "lo": 0.086,
+  "hi": 0.096,
+  "handlings": 2.286583333333333,
+  "peak_held_t": 0.0,
+  "far": 0.7619583333333333,
+  "swarm_t": 12180.0
+ },
+ "Gate + outer guide (0.6) + outlet 5 km|guard 0.5": {
+  "captured": 0.18441666666666667,
+  "lo": 0.17033333333333334,
+  "hi": 0.19766666666666666,
+  "handlings": 0.7777499999999999,
+  "peak_held_t": 0.0,
+  "far": 0.755125,
+  "swarm_t": 12180.0
+ },
+ "today|median": {
+  "captured": 0.9546666666666667,
+  "lo": 0.9233333333333333,
+  "hi": 0.9856666666666667,
+  "handlings": 0.0,
+  "peak_held_t": 0.0,
+  "far": 0.017583333333333333,
+  "swarm_t": 12180.0
+ },
+ "today|10-day bloom": {
+  "captured": 1.0,
+  "lo": 1.0,
+  "hi": 1.0,
+  "handlings": 0.0,
+  "peak_held_t": 0.0,
+  "far": 0.0,
+  "swarm_t": 12180.0
+ },
+ "today|onshore 3 cm/s": {
+  "captured": 0.9684583333333333,
+  "lo": 0.9406666666666667,
+  "hi": 0.9956666666666667,
+  "handlings": 0.0,
+  "peak_held_t": 0.0,
+  "far": 0.011375,
+  "swarm_t": 12180.0
+ }
+}

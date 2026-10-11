@@ -1,0 +1,166 @@
+{
+  "T1h_breakwater_siphon": [
+    "MARGINAL",
+    "pressure head at an assumed +3..+6 m crest goes below +0.5 m in: L3000_clean_crest6m, L5000_clean_crest6m -> air release/bubbles under bells [SRC 22]. Route THROUGH the breakwater (culvert/HDD) or set head tank >= crest + 2 m"
+  ],
+  "T1a_pipe_shear_fish": [
+    "PASS",
+    "bulk strain (Kolmogorov) 176-278 1/s < 500 1/s (Neitzel 2004) and < 400 1/s larval guideline; wall strain only in a 59 um sublayer"
+  ],
+  "T1b_pipe_shear_jellyfish": [
+    "UNKNOWN",
+    "stressor is small (bell-scale strain ~0.6 1/s, 47 min) but there is no scyphozoan threshold; wall rubbing over 5 km unknown"
+  ],
+  "T1c_pressure": [
+    "PASS",
+    "medusae have no gas spaces; fish see pressure only rise above surface-acclimation (no decompression below ambient) provided the hydraulic grade line stays above the breakwater crest (see T1h)"
+  ],
+  "T1d_screw": [
+    "UNKNOWN",
+    "leading-edge contact probability for a 30-45 cm bell 0.61-0.91 per pass; tip speed 4.2 m/s; no jellyfish data; air exposure contrary to husbandry advice"
+  ],
+  "T1e_pump": [
+    "MARGINAL",
+    "screw-centrifugal pumps give 87-99% fish survival but a 45 cm bell must pass the impeller eye; delete the pump by gravity-feeding the pipe from a high head tank (two screws in series)"
+  ],
+  "T1f_screen_contact_and_drum": [
+    "UNKNOWN",
+    "up to 60 s sliding contact; roll-up through brush/drum crushes any bell left on the face -> interlock: roll up only after the bay face is swept/clear"
+  ],
+  "T1g_thermal": [
+    "PASS",
+    "transport adds <0.05 C; but release water must avoid the +5 C discharge plume"
+  ],
+  "T1i_oxygen": [
+    "MARGINAL",
+    "pilot load ok; 0.3/m3 on ONE line ends at 3.0 mg/L (sublethal 2.61); 1/m3 on one line -> -2.8 mg/L (anoxic). Requires >=3 lines at design density or O2 injection (Huon precedent)"
+  ],
+  "T1j_spawning": [
+    "UNKNOWN",
+    "stressed medusae can release gametes/brooded planulae [SRC 23]; no Catostylus test. Pick outlet away from hard substrate; count planulae in transport water in tank test"
+  ],
+  "T1k_bypass_accel": [
+    "PASS",
+    "velocity gradient 0.067 1/s vs NMFS 0.2 1/s (if accelerated over >=3 m)"
+  ],
+  "T2a_approach_0.10": [
+    "PASS",
+    "0.10 m/s < EPA 316(b) 0.15 m/s impingement BTA and below every measured turtle cruising speed; BUT local velocity rises under partial blinding (St Lucie pinning) -> needs per-bay DP limit"
+  ],
+  "T2b_lane_sweep_0.5": [
+    "MARGINAL",
+    "0.5 m/s equals the top of measured turtle cruising (0.27-0.50); juveniles (net 0.13-0.17) will be conveyed to the bypass -> the bypass protection is safety-critical, not a backup"
+  ],
+  "T2c_bypass_mouth_0.4-0.7": [
+    "FAIL",
+    "exceeds juvenile turtle sustained speed: once at the mouth a juvenile cannot swim out; protection relies entirely on diverter/stop"
+  ],
+  "T2d_dugong_dolphin_lane": [
+    "MARGINAL",
+    "dugong cruising 0.6-1.1 m/s can leave the lane; no verified humpback-dolphin speed; both are larger than bells -> add a large-animal bar rack at lane entrance (clear spacing ~0.5 m, sized to pass 45 cm bells) and stop-work on sighting"
+  ],
+  "T2e_breath_hold": [
+    "FAIL (if entry possible)",
+    "pipe residence 47 min full-bore approaches the 55 min tow-time limit and adds pump strike; no air-breather may enter: design must make entry physically impossible, not just unlikely"
+  ],
+  "T2f_camera_requirement": [
+    "FAIL",
+    "required system protection >= 0.99975 (10 turtles/unit-season, target 0.01/site-yr); 1 camera at recall 0.85 gives 0.955; 3 independent cameras 0.9989; 2 cameras+physical grid 0.99966 -> tolerates only ~7 turtle passages/unit-season (grid untested)"
+  ],
+  "T2g_stop_distance": [
+    "REQUIREMENT",
+    "camera must sit >= 10 m (diverter) and >= 37 m (screw stop) upstream of the screw entry at 0.7 m/s; collector entrances closer than that need their own final gate"
+  ],
+  "T3a_fish_survival_chain": [
+    "UNKNOWN",
+    "analogue chain median 48% (5-95%: 32-70%); without pump 52%; the two dominant terms (pipe slurry, release) have no data"
+  ],
+  "T3b_fish_return_claim": [
+    "MARGINAL",
+    "'fish-return benefit' is only a benefit if chain survival exceeds the plant-screen baseline, which is not public; claim as 'measured in pilot', not as benefit"
+  ],
+  "T3c_bycatch_volume": [
+    "UNKNOWN",
+    "at 0.1-10 fish/1000 m3 [ASSUME] the lane would send 173-69120 fish/unit-day into the bypass; need a channel fish survey (EAD baseline)"
+  ],
+  "T4a_live_release_O2": [
+    "PASS",
+    "live release adds only respiration (T1); at pilot load with 20% dead, decay demand = 0.004x the assumed flushing supply"
+  ],
+  "T4b_dead_release": [
+    "FAIL",
+    "releasing dead biomass at design density: water-column decay demand 0.6x the assumed flushing supply (lower-bound rate), but carcasses sink: standing carcasses would need 350 km2 to stay <0.1 kg/m2 -> dead fraction must go to 'recover' (dewater/compost), never the outlet"
+  ],
+  "T4c_stranding": [
+    "MARGINAL",
+    "from 5 km: 46 h at 3 cm/s residual, 14 h at 10 cm/s wind drift -- inside the 72 h forecast window, so outlet choice must use wind; criterion: <5% of forecast particles beach within 72 h, plus beach count survey"
+  ],
+  "T4d_exclusion_artificial_reef": [
+    "MARGINAL",
+    "a 5 km outlet may sit within ~1-2 km of ENEC's 3.8 km artificial reef; set outlets >=2 km from reef/coral nurseries and verify with drift forecast"
+  ],
+  "T4e_EAD_compliance": [
+    "UNKNOWN",
+    "numeric limits not retrieved; needs EAD pre-consultation; plan DO/turbidity buoy at each outlet with auto-switch to recover mode"
+  ],
+  "T5a_FMEA": [
+    "MARGINAL",
+    "32 modes; 5 with RPN>=200; top: Camera diverter/Camera misses turtle (turbidity/night/occlusion) (360); Pump/Impeller damage to bells/fish (252); Archimedes screw/Leading-edge damage to bells/fish (245); Bloom Incident OS/Late/absent alert (224)"
+  ],
+  "T5b_FTA_intake": [
+    "PASS (conditional)",
+    "P(blockage | bloom) 0.089 vs today 0.30 -> 70% reduction; dominated by 'not deployed in time' (0.050): alert lead and auto-Ready matter more than screen hardware"
+  ],
+  "T5c_FTA_wildlife": [
+    "FAIL",
+    "P(any wildlife harm | bloom, unit) 0.201; biggest terms stranding 0.100, dead-release 0.050, turtle-into-screw 0.0225 -- all [ASSUME] but no target <0.01 is met"
+  ],
+  "T5d_common_mode": [
+    "FAIL vs claim",
+    "v3 says 'no common-mode failure across units'; alert, bloom density, water clarity, power and software are common (beta 0.5-1.0) -> P(all 4 affected) is ~10^2-10^5 x the independent value. Re-word and add diverse local control"
+  ],
+  "T6a_response_time": [
+    "PASS",
+    "far alert: approval latency p90 65 min; 99.99% deployed before arrival (deploy timed to T-1 h)"
+  ],
+  "T6b_close_alert": [
+    "FAIL",
+    "close alerts (15% [ASSUME]): 5% deployed before arrival; mean 0.51 h unprotected; p90 response 79 min (2 human approvals dominate); with pre-authorised auto-deploy: 59% before arrival, 0.04 h unprotected"
+  ],
+  "T6c_availability": [
+    "PASS",
+    "bloom-hour availability (>= n-1 bays and >= 1 lift line) 0.994 vs criterion 0.95; 4.7% of blooms below 0.95"
+  ],
+  "T6d_crew_hours": [
+    "PASS",
+    "JAZR 423 person-h per bloom vs today 1097-3459 (reduction 61-88% at 13% leakage); still not zero: residual screen crew + repairs"
+  ],
+  "T7a_bay_redundancy": [
+    "MARGINAL",
+    "at MTBF 2,000-8,000 h a 10-day bloom sees 2.2-0.5 bay failures per unit; to keep P(>=2 bays down) <= 1% need MTBF >= 1000 h at 8 h MTTR or >= 2900 h at 24 h MTTR -> spare bay drive cassettes on the gantry, MTTR <= 8 h"
+  ],
+  "T7b_fail_open": [
+    "FAIL as specified",
+    "motor-driven roll-up has PFD 0.01-0.05 per demand [ASSUME] -> a blinded bay can stay down; add an independent gravity/shear-pin release (PFD -> 1e-05-5e-04)"
+  ],
+  "T7c_load_cells": [
+    "MARGINAL",
+    "single cell PFD 1.7e-03 and 0.4 spurious/yr per drum; 2oo3 (two cells + lane dP) gives PFD 9.4e-05 and 0.02 spurious/yr -> specify 2oo3"
+  ],
+  "T8a_closed_vs_open_model": [
+    "PASS (model)",
+    "closed floor keeps >= 97.7% even with an unseated bar vs open 2 m skirt down to 4% -- consistent with a public 84-100% vs 0-55%"
+  ],
+  "T8b_floor_seal_physical": [
+    "UNKNOWN",
+    "retention depends on the bottom bar seating in a rail that collects sand/barnacles; needs seat sensor + tank test with sand in rail and bells at the bed"
+  ],
+  "T8c_mesh_extrusion": [
+    "UNKNOWN",
+    "bells/fragments extruding through mesh under dP not modelled (16_FLAW_AUDIT #5) -> tank test at 2 densities"
+  ],
+  "T9_bloom_os_smoke": [
+    "PASS",
+    "pytest state-machine + analysis sanity suite (exit 0)"
+  ]
+}

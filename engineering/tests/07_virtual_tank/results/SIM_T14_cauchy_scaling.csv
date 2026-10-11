@@ -1,0 +1,61 @@
+material,E_Pa,condition,dP_Pa,fragment_over_opening,dP_crit_Pa,Cauchy_dP_over_E,model_outcome,data_type
+agar ~1.5%,30000,"tank 1:20, clean",0.4,1.5,15000.0,1e-05,holds,SIMULATED virtual tank - not physical evidence
+agar ~1.5%,30000,"tank 1:20, clean",0.4,2,30000.0,1e-05,holds,SIMULATED virtual tank - not physical evidence
+agar ~1.5%,30000,"tank 1:20, clean",0.4,4,90000.0,1e-05,holds,SIMULATED virtual tank - not physical evidence
+agar ~1.5%,30000,"tank 1:20, 75% blinded",12.13,1.5,15000.0,0.0004,holds,SIMULATED virtual tank - not physical evidence
+agar ~1.5%,30000,"tank 1:20, 75% blinded",12.13,2,30000.0,0.0004,holds,SIMULATED virtual tank - not physical evidence
+agar ~1.5%,30000,"tank 1:20, 75% blinded",12.13,4,90000.0,0.0004,holds,SIMULATED virtual tank - not physical evidence
+agar ~1.5%,30000,"prototype 0.10 m/s, clean",8.25,1.5,15000.0,0.00028,holds,SIMULATED virtual tank - not physical evidence
+agar ~1.5%,30000,"prototype 0.10 m/s, clean",8.25,2,30000.0,0.00028,holds,SIMULATED virtual tank - not physical evidence
+agar ~1.5%,30000,"prototype 0.10 m/s, clean",8.25,4,90000.0,0.00028,holds,SIMULATED virtual tank - not physical evidence
+agar ~1.5%,30000,"prototype, 75% blinded",250.69,1.5,15000.0,0.00836,holds,SIMULATED virtual tank - not physical evidence
+agar ~1.5%,30000,"prototype, 75% blinded",250.69,2,30000.0,0.00836,holds,SIMULATED virtual tank - not physical evidence
+agar ~1.5%,30000,"prototype, 75% blinded",250.69,4,90000.0,0.00836,holds,SIMULATED virtual tank - not physical evidence
+gelatin ~3% (nominal surrogate),5000,"tank 1:20, clean",0.4,1.5,2500.0,8e-05,holds,SIMULATED virtual tank - not physical evidence
+gelatin ~3% (nominal surrogate),5000,"tank 1:20, clean",0.4,2,5000.0,8e-05,holds,SIMULATED virtual tank - not physical evidence
+gelatin ~3% (nominal surrogate),5000,"tank 1:20, clean",0.4,4,15000.0,8e-05,holds,SIMULATED virtual tank - not physical evidence
+gelatin ~3% (nominal surrogate),5000,"tank 1:20, 75% blinded",12.13,1.5,2500.0,0.00243,holds,SIMULATED virtual tank - not physical evidence
+gelatin ~3% (nominal surrogate),5000,"tank 1:20, 75% blinded",12.13,2,5000.0,0.00243,holds,SIMULATED virtual tank - not physical evidence
+gelatin ~3% (nominal surrogate),5000,"tank 1:20, 75% blinded",12.13,4,15000.0,0.00243,holds,SIMULATED virtual tank - not physical evidence
+gelatin ~3% (nominal surrogate),5000,"prototype 0.10 m/s, clean",8.25,1.5,2500.0,0.00165,holds,SIMULATED virtual tank - not physical evidence
+gelatin ~3% (nominal surrogate),5000,"prototype 0.10 m/s, clean",8.25,2,5000.0,0.00165,holds,SIMULATED virtual tank - not physical evidence
+gelatin ~3% (nominal surrogate),5000,"prototype 0.10 m/s, clean",8.25,4,15000.0,0.00165,holds,SIMULATED virtual tank - not physical evidence
+gelatin ~3% (nominal surrogate),5000,"prototype, 75% blinded",250.69,1.5,2500.0,0.05014,holds,SIMULATED virtual tank - not physical evidence
+gelatin ~3% (nominal surrogate),5000,"prototype, 75% blinded",250.69,2,5000.0,0.05014,holds,SIMULATED virtual tank - not physical evidence
+gelatin ~3% (nominal surrogate),5000,"prototype, 75% blinded",250.69,4,15000.0,0.05014,holds,SIMULATED virtual tank - not physical evidence
+very soft gel,1000,"tank 1:20, clean",0.4,1.5,500.0,0.0004,holds,SIMULATED virtual tank - not physical evidence
+very soft gel,1000,"tank 1:20, clean",0.4,2,1000.0,0.0004,holds,SIMULATED virtual tank - not physical evidence
+very soft gel,1000,"tank 1:20, clean",0.4,4,3000.0,0.0004,holds,SIMULATED virtual tank - not physical evidence
+very soft gel,1000,"tank 1:20, 75% blinded",12.13,1.5,500.0,0.01213,holds,SIMULATED virtual tank - not physical evidence
+very soft gel,1000,"tank 1:20, 75% blinded",12.13,2,1000.0,0.01213,holds,SIMULATED virtual tank - not physical evidence
+very soft gel,1000,"tank 1:20, 75% blinded",12.13,4,3000.0,0.01213,holds,SIMULATED virtual tank - not physical evidence
+very soft gel,1000,"prototype 0.10 m/s, clean",8.25,1.5,500.0,0.00825,holds,SIMULATED virtual tank - not physical evidence
+very soft gel,1000,"prototype 0.10 m/s, clean",8.25,2,1000.0,0.00825,holds,SIMULATED virtual tank - not physical evidence
+very soft gel,1000,"prototype 0.10 m/s, clean",8.25,4,3000.0,0.00825,holds,SIMULATED virtual tank - not physical evidence
+very soft gel,1000,"prototype, 75% blinded",250.69,1.5,500.0,0.25069,holds,SIMULATED virtual tank - not physical evidence
+very soft gel,1000,"prototype, 75% blinded",250.69,2,1000.0,0.25069,holds,SIMULATED virtual tank - not physical evidence
+very soft gel,1000,"prototype, 75% blinded",250.69,4,3000.0,0.25069,holds,SIMULATED virtual tank - not physical evidence
+mesoglea upper (assumed),300,"tank 1:20, clean",0.4,1.5,150.0,0.00133,holds,SIMULATED virtual tank - not physical evidence
+mesoglea upper (assumed),300,"tank 1:20, clean",0.4,2,300.0,0.00133,holds,SIMULATED virtual tank - not physical evidence
+mesoglea upper (assumed),300,"tank 1:20, clean",0.4,4,900.0,0.00133,holds,SIMULATED virtual tank - not physical evidence
+mesoglea upper (assumed),300,"tank 1:20, 75% blinded",12.13,1.5,150.0,0.04044,holds,SIMULATED virtual tank - not physical evidence
+mesoglea upper (assumed),300,"tank 1:20, 75% blinded",12.13,2,300.0,0.04044,holds,SIMULATED virtual tank - not physical evidence
+mesoglea upper (assumed),300,"tank 1:20, 75% blinded",12.13,4,900.0,0.04044,holds,SIMULATED virtual tank - not physical evidence
+mesoglea upper (assumed),300,"prototype 0.10 m/s, clean",8.25,1.5,150.0,0.0275,holds,SIMULATED virtual tank - not physical evidence
+mesoglea upper (assumed),300,"prototype 0.10 m/s, clean",8.25,2,300.0,0.0275,holds,SIMULATED virtual tank - not physical evidence
+mesoglea upper (assumed),300,"prototype 0.10 m/s, clean",8.25,4,900.0,0.0275,holds,SIMULATED virtual tank - not physical evidence
+mesoglea upper (assumed),300,"prototype, 75% blinded",250.69,1.5,150.0,0.83563,EXTRUDES,SIMULATED virtual tank - not physical evidence
+mesoglea upper (assumed),300,"prototype, 75% blinded",250.69,2,300.0,0.83563,holds,SIMULATED virtual tank - not physical evidence
+mesoglea upper (assumed),300,"prototype, 75% blinded",250.69,4,900.0,0.83563,holds,SIMULATED virtual tank - not physical evidence
+mesoglea lower (assumed),50,"tank 1:20, clean",0.4,1.5,25.0,0.00799,holds,SIMULATED virtual tank - not physical evidence
+mesoglea lower (assumed),50,"tank 1:20, clean",0.4,2,50.0,0.00799,holds,SIMULATED virtual tank - not physical evidence
+mesoglea lower (assumed),50,"tank 1:20, clean",0.4,4,150.0,0.00799,holds,SIMULATED virtual tank - not physical evidence
+mesoglea lower (assumed),50,"tank 1:20, 75% blinded",12.13,1.5,25.0,0.24267,holds,SIMULATED virtual tank - not physical evidence
+mesoglea lower (assumed),50,"tank 1:20, 75% blinded",12.13,2,50.0,0.24267,holds,SIMULATED virtual tank - not physical evidence
+mesoglea lower (assumed),50,"tank 1:20, 75% blinded",12.13,4,150.0,0.24267,holds,SIMULATED virtual tank - not physical evidence
+mesoglea lower (assumed),50,"prototype 0.10 m/s, clean",8.25,1.5,25.0,0.165,holds,SIMULATED virtual tank - not physical evidence
+mesoglea lower (assumed),50,"prototype 0.10 m/s, clean",8.25,2,50.0,0.165,holds,SIMULATED virtual tank - not physical evidence
+mesoglea lower (assumed),50,"prototype 0.10 m/s, clean",8.25,4,150.0,0.165,holds,SIMULATED virtual tank - not physical evidence
+mesoglea lower (assumed),50,"prototype, 75% blinded",250.69,1.5,25.0,5.01375,EXTRUDES,SIMULATED virtual tank - not physical evidence
+mesoglea lower (assumed),50,"prototype, 75% blinded",250.69,2,50.0,5.01375,EXTRUDES,SIMULATED virtual tank - not physical evidence
+mesoglea lower (assumed),50,"prototype, 75% blinded",250.69,4,150.0,5.01375,EXTRUDES,SIMULATED virtual tank - not physical evidence

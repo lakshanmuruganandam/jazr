@@ -1,0 +1,650 @@
+{
+  "variants": {
+    "V0 v3 as specified (open relief bay, 2oo3+filter, hard 2oo2, TDMA+busy)": {
+      "deploy_time_s": 453,
+      "raises": 162,
+      "max_event_kg": 1108.1465936093434,
+      "events_over_1t": 8,
+      "mean_event_kg": 527.7979081675587,
+      "max_release_in_any_raise_window_kg": 1108.1465936093418,
+      "max_line_dp": 15.516647104343013,
+      "max_raising_during_comms_loss": 1,
+      "screw_with_turtle_or_camfault_s": 0,
+      "leakage_to_plant_fraction": 0.37819634183558287,
+      "relief_and_open_bay_fraction": 0.349322144569579,
+      "dp_triggered_raises": 0,
+      "false_dp_raises": 0,
+      "seismic_all_up_s": 2046,
+      "stuck_bay7_fault": true
+    },
+    "V1 passive flap relief (closed below 600 Pa)": {
+      "deploy_time_s": 453,
+      "raises": 162,
+      "max_event_kg": 1187.0094089717243,
+      "events_over_1t": 11,
+      "mean_event_kg": 564.7872424721049,
+      "max_release_in_any_raise_window_kg": 1187.0094089717259,
+      "max_line_dp": 23.643647596013405,
+      "max_raising_during_comms_loss": 1,
+      "screw_with_turtle_or_camfault_s": 0,
+      "leakage_to_plant_fraction": 0.3338622018695603,
+      "relief_and_open_bay_fraction": 0.3029644320980161,
+      "dp_triggered_raises": 0,
+      "false_dp_raises": 0,
+      "seismic_all_up_s": 2046,
+      "stuck_bay7_fault": true
+    },
+    "V2 naive sensing: 1 transmitter, no filter/persistence": {
+      "deploy_time_s": 453,
+      "raises": 161,
+      "max_event_kg": 988.114799242823,
+      "events_over_1t": 0,
+      "mean_event_kg": 477.56697369399245,
+      "max_release_in_any_raise_window_kg": 988.1147992428257,
+      "max_line_dp": 8.90381397461981,
+      "max_raising_during_comms_loss": 1,
+      "screw_with_turtle_or_camfault_s": 0,
+      "leakage_to_plant_fraction": 0.4619305934848534,
+      "relief_and_open_bay_fraction": 0.43596665051221295,
+      "dp_triggered_raises": 1,
+      "false_dp_raises": 1,
+      "seismic_all_up_s": 1895,
+      "stuck_bay7_fault": true
+    },
+    "V3 hard-wired trip on single transmitter (1oo1)": {
+      "deploy_time_s": 453,
+      "raises": 161,
+      "max_event_kg": 988.1153034197182,
+      "events_over_1t": 0,
+      "mean_event_kg": 477.86865791149177,
+      "max_release_in_any_raise_window_kg": 988.1153034197195,
+      "max_line_dp": 8.903822961487029,
+      "max_raising_during_comms_loss": 1,
+      "screw_with_turtle_or_camfault_s": 0,
+      "leakage_to_plant_fraction": 0.46144541670159567,
+      "relief_and_open_bay_fraction": 0.4354650720256365,
+      "dp_triggered_raises": 1,
+      "false_dp_raises": 1,
+      "seismic_all_up_s": 1895,
+      "stuck_bay7_fault": true
+    },
+    "V4 comms-loss rule without busy line (TDMA only)": {
+      "deploy_time_s": 453,
+      "raises": 162,
+      "max_event_kg": 1108.1465936093434,
+      "events_over_1t": 8,
+      "mean_event_kg": 527.7979081675587,
+      "max_release_in_any_raise_window_kg": 1108.1465936093418,
+      "max_line_dp": 15.516647104343013,
+      "max_raising_during_comms_loss": 1,
+      "screw_with_turtle_or_camfault_s": 0,
+      "leakage_to_plant_fraction": 0.37819634183558287,
+      "relief_and_open_bay_fraction": 0.349322144569579,
+      "dp_triggered_raises": 0,
+      "false_dp_raises": 0,
+      "seismic_all_up_s": 2046,
+      "stuck_bay7_fault": true
+    },
+    "V5 audit residence tau=300 s": {
+      "deploy_time_s": 453,
+      "raises": 162,
+      "max_event_kg": 1614.8500815871016,
+      "events_over_1t": 151,
+      "mean_event_kg": 1149.1722760945067,
+      "max_release_in_any_raise_window_kg": 1614.8500815871062,
+      "max_line_dp": 74.3853423213744,
+      "max_raising_during_comms_loss": 1,
+      "screw_with_turtle_or_camfault_s": 0,
+      "leakage_to_plant_fraction": 0.5991549953176436,
+      "relief_and_open_bay_fraction": 0.5362873210068815,
+      "dp_triggered_raises": 0,
+      "false_dp_raises": 0,
+      "seismic_all_up_s": 2046,
+      "stuck_bay7_fault": true
+    },
+    "V6 drum speed 0.2 m/s": {
+      "deploy_time_s": 228,
+      "raises": 266,
+      "max_event_kg": 1148.4871585551973,
+      "events_over_1t": 9,
+      "mean_event_kg": 450.6233748443197,
+      "max_release_in_any_raise_window_kg": 1148.4871585551964,
+      "max_line_dp": 34.82638563599788,
+      "max_raising_during_comms_loss": 1,
+      "screw_with_turtle_or_camfault_s": 0,
+      "leakage_to_plant_fraction": 0.3815651315112117,
+      "relief_and_open_bay_fraction": 0.34098850212552884,
+      "dp_triggered_raises": 0,
+      "false_dp_raises": 0,
+      "seismic_all_up_s": 1063,
+      "stuck_bay7_fault": true
+    },
+    "V7 sticking s0=10 %": {
+      "deploy_time_s": 453,
+      "raises": 162,
+      "max_event_kg": 1723.5003372861709,
+      "events_over_1t": 146,
+      "mean_event_kg": 1141.7904957178364,
+      "max_release_in_any_raise_window_kg": 1723.5003372861756,
+      "max_line_dp": 63.134102227307096,
+      "max_raising_during_comms_loss": 1,
+      "screw_with_turtle_or_camfault_s": 0,
+      "leakage_to_plant_fraction": 0.5422229035809174,
+      "relief_and_open_bay_fraction": 0.4797590637292803,
+      "dp_triggered_raises": 0,
+      "false_dp_raises": 0,
+      "seismic_all_up_s": 2046,
+      "stuck_bay7_fault": true
+    },
+    "V8 redesign: endless-belt clean-in-place + flap relief": {
+      "deploy_time_s": 453,
+      "raises": 15,
+      "max_event_kg": 372.15397114719343,
+      "events_over_1t": 0,
+      "mean_event_kg": 331.41394347892293,
+      "max_release_in_any_raise_window_kg": 372.1539711471939,
+      "max_line_dp": 600.9927524654788,
+      "max_raising_during_comms_loss": 0,
+      "screw_with_turtle_or_camfault_s": 0,
+      "leakage_to_plant_fraction": 0.09465235727408029,
+      "relief_and_open_bay_fraction": 0.09307578025924149,
+      "dp_triggered_raises": 0,
+      "false_dp_raises": 0,
+      "seismic_all_up_s": 2129,
+      "stuck_bay7_fault": true
+    },
+    "V9 redesign V8 at 1.0 ind/m3 whole bloom": {
+      "deploy_time_s": 453,
+      "raises": 15,
+      "max_event_kg": 1639.3642158707082,
+      "events_over_1t": 7,
+      "mean_event_kg": 1157.3534838133578,
+      "max_release_in_any_raise_window_kg": 1639.3642158707073,
+      "max_line_dp": 604.2135217744392,
+      "max_raising_during_comms_loss": 0,
+      "screw_with_turtle_or_camfault_s": 0,
+      "leakage_to_plant_fraction": 0.1195165000581451,
+      "relief_and_open_bay_fraction": 0.11762138508263237,
+      "dp_triggered_raises": 0,
+      "false_dp_raises": 0,
+      "seismic_all_up_s": 2129,
+      "stuck_bay7_fault": true
+    }
+  },
+  "sweep": [
+    {
+      "density": 0.1,
+      "clean_age": 600,
+      "clean_in_place": false,
+      "max_event_kg": 172.35824724252367,
+      "events_over_1t": 0,
+      "mean_event_kg": 164.19218024652378,
+      "leakage_to_plant_fraction": 0.2505331401807697,
+      "raises": 92,
+      "max_line_dp": NaN
+    },
+    {
+      "density": 0.1,
+      "clean_age": 1200,
+      "clean_in_place": false,
+      "max_event_kg": 191.44240137369337,
+      "events_over_1t": 0,
+      "mean_event_kg": 167.70531891944938,
+      "leakage_to_plant_fraction": 0.24416450145467783,
+      "raises": 88,
+      "max_line_dp": NaN
+    },
+    {
+      "density": 0.1,
+      "clean_age": 2400,
+      "clean_in_place": false,
+      "max_event_kg": 231.81499038056845,
+      "events_over_1t": 0,
+      "mean_event_kg": 185.48383418473446,
+      "leakage_to_plant_fraction": 0.2182099602429253,
+      "raises": 72,
+      "max_line_dp": NaN
+    },
+    {
+      "density": 0.1,
+      "clean_age": 4800,
+      "clean_in_place": false,
+      "max_event_kg": 312.3997254107901,
+      "events_over_1t": 0,
+      "mean_event_kg": 278.7982331735062,
+      "leakage_to_plant_fraction": 0.14544872388351335,
+      "raises": 30,
+      "max_line_dp": NaN
+    },
+    {
+      "density": 0.3,
+      "clean_age": 600,
+      "clean_in_place": false,
+      "max_event_kg": 473.1479076429274,
+      "events_over_1t": 0,
+      "mean_event_kg": 458.7924499261624,
+      "leakage_to_plant_fraction": 0.28881677433854913,
+      "raises": 92,
+      "max_line_dp": NaN
+    },
+    {
+      "density": 0.3,
+      "clean_age": 1200,
+      "clean_in_place": false,
+      "max_event_kg": 519.8177704781067,
+      "events_over_1t": 0,
+      "mean_event_kg": 468.53359103812863,
+      "leakage_to_plant_fraction": 0.2821018807679619,
+      "raises": 88,
+      "max_line_dp": NaN
+    },
+    {
+      "density": 0.3,
+      "clean_age": 2400,
+      "clean_in_place": false,
+      "max_event_kg": 618.1396624530994,
+      "events_over_1t": 0,
+      "mean_event_kg": 517.578141089099,
+      "leakage_to_plant_fraction": 0.2558281453568715,
+      "raises": 72,
+      "max_line_dp": NaN
+    },
+    {
+      "density": 0.3,
+      "clean_age": 4800,
+      "clean_in_place": false,
+      "max_event_kg": 811.5482516188589,
+      "events_over_1t": 0,
+      "mean_event_kg": 761.494529210174,
+      "leakage_to_plant_fraction": 0.18480695683608953,
+      "raises": 30,
+      "max_line_dp": NaN
+    },
+    {
+      "density": 1.0,
+      "clean_age": 600,
+      "clean_in_place": false,
+      "max_event_kg": 1172.5859115399196,
+      "events_over_1t": 85,
+      "mean_event_kg": 1145.5526614598714,
+      "leakage_to_plant_fraction": 0.4500796287263697,
+      "raises": 92,
+      "max_line_dp": NaN
+    },
+    {
+      "density": 1.0,
+      "clean_age": 1200,
+      "clean_in_place": false,
+      "max_event_kg": 1221.1825769311408,
+      "events_over_1t": 87,
+      "mean_event_kg": 1166.0701592778355,
+      "leakage_to_plant_fraction": 0.44408690181222216,
+      "raises": 88,
+      "max_line_dp": NaN
+    },
+    {
+      "density": 1.0,
+      "clean_age": 2400,
+      "clean_in_place": false,
+      "max_event_kg": 1441.0715853920374,
+      "events_over_1t": 71,
+      "mean_event_kg": 1262.499745556383,
+      "leakage_to_plant_fraction": 0.43157838426466283,
+      "raises": 72,
+      "max_line_dp": NaN
+    },
+    {
+      "density": 1.0,
+      "clean_age": 4800,
+      "clean_in_place": false,
+      "max_event_kg": 2227.195976912216,
+      "events_over_1t": 50,
+      "mean_event_kg": 2090.297736282939,
+      "leakage_to_plant_fraction": 0.8444670658588675,
+      "raises": 50,
+      "max_line_dp": NaN
+    },
+    {
+      "density": 0.1,
+      "clean_age": 600,
+      "clean_in_place": true,
+      "max_event_kg": 0.0,
+      "events_over_1t": 0,
+      "mean_event_kg": 0.0,
+      "leakage_to_plant_fraction": 0.011590355628633826,
+      "raises": 0,
+      "max_line_dp": NaN
+    },
+    {
+      "density": 0.1,
+      "clean_age": 1200,
+      "clean_in_place": true,
+      "max_event_kg": 0.0,
+      "events_over_1t": 0,
+      "mean_event_kg": 0.0,
+      "leakage_to_plant_fraction": 0.011590355628633826,
+      "raises": 0,
+      "max_line_dp": NaN
+    },
+    {
+      "density": 0.1,
+      "clean_age": 2400,
+      "clean_in_place": true,
+      "max_event_kg": 0.0,
+      "events_over_1t": 0,
+      "mean_event_kg": 0.0,
+      "leakage_to_plant_fraction": 0.011590355628633826,
+      "raises": 0,
+      "max_line_dp": NaN
+    },
+    {
+      "density": 0.1,
+      "clean_age": 4800,
+      "clean_in_place": true,
+      "max_event_kg": 0.0,
+      "events_over_1t": 0,
+      "mean_event_kg": 0.0,
+      "leakage_to_plant_fraction": 0.011590355628633826,
+      "raises": 0,
+      "max_line_dp": NaN
+    },
+    {
+      "density": 0.3,
+      "clean_age": 600,
+      "clean_in_place": true,
+      "max_event_kg": 0.0,
+      "events_over_1t": 0,
+      "mean_event_kg": 0.0,
+      "leakage_to_plant_fraction": 0.011880079742548141,
+      "raises": 0,
+      "max_line_dp": NaN
+    },
+    {
+      "density": 0.3,
+      "clean_age": 1200,
+      "clean_in_place": true,
+      "max_event_kg": 0.0,
+      "events_over_1t": 0,
+      "mean_event_kg": 0.0,
+      "leakage_to_plant_fraction": 0.011880079742548141,
+      "raises": 0,
+      "max_line_dp": NaN
+    },
+    {
+      "density": 0.3,
+      "clean_age": 2400,
+      "clean_in_place": true,
+      "max_event_kg": 0.0,
+      "events_over_1t": 0,
+      "mean_event_kg": 0.0,
+      "leakage_to_plant_fraction": 0.011880079742548141,
+      "raises": 0,
+      "max_line_dp": NaN
+    },
+    {
+      "density": 0.3,
+      "clean_age": 4800,
+      "clean_in_place": true,
+      "max_event_kg": 0.0,
+      "events_over_1t": 0,
+      "mean_event_kg": 0.0,
+      "leakage_to_plant_fraction": 0.011880079742548141,
+      "raises": 0,
+      "max_line_dp": NaN
+    },
+    {
+      "density": 1.0,
+      "clean_age": 600,
+      "clean_in_place": true,
+      "max_event_kg": 0.0,
+      "events_over_1t": 0,
+      "mean_event_kg": 0.0,
+      "leakage_to_plant_fraction": 0.01291301757569803,
+      "raises": 0,
+      "max_line_dp": NaN
+    },
+    {
+      "density": 1.0,
+      "clean_age": 1200,
+      "clean_in_place": true,
+      "max_event_kg": 0.0,
+      "events_over_1t": 0,
+      "mean_event_kg": 0.0,
+      "leakage_to_plant_fraction": 0.01291301757569803,
+      "raises": 0,
+      "max_line_dp": NaN
+    },
+    {
+      "density": 1.0,
+      "clean_age": 2400,
+      "clean_in_place": true,
+      "max_event_kg": 0.0,
+      "events_over_1t": 0,
+      "mean_event_kg": 0.0,
+      "leakage_to_plant_fraction": 0.01291301757569803,
+      "raises": 0,
+      "max_line_dp": NaN
+    },
+    {
+      "density": 1.0,
+      "clean_age": 4800,
+      "clean_in_place": true,
+      "max_event_kg": 0.0,
+      "events_over_1t": 0,
+      "mean_event_kg": 0.0,
+      "leakage_to_plant_fraction": 0.01291301757569803,
+      "raises": 0,
+      "max_line_dp": NaN
+    }
+  ],
+  "filter": [
+    {
+      "Hs": 0.5,
+      "tau": 0,
+      "pers": 0,
+      "false_trips_per_bay_day": 0.0,
+      "latency_s": 1.0
+    },
+    {
+      "Hs": 0.5,
+      "tau": 5,
+      "pers": 5,
+      "false_trips_per_bay_day": 0.0,
+      "latency_s": 9.0
+    },
+    {
+      "Hs": 0.5,
+      "tau": 15,
+      "pers": 10,
+      "false_trips_per_bay_day": 0.0,
+      "latency_s": 23.0
+    },
+    {
+      "Hs": 0.5,
+      "tau": 30,
+      "pers": 20,
+      "false_trips_per_bay_day": 0.0,
+      "latency_s": 42.0
+    },
+    {
+      "Hs": 0.5,
+      "tau": 60,
+      "pers": 30,
+      "false_trips_per_bay_day": 0.0,
+      "latency_s": 66.0
+    },
+    {
+      "Hs": 0.5,
+      "tau": 120,
+      "pers": 30,
+      "false_trips_per_bay_day": 0.0,
+      "latency_s": 88.0
+    },
+    {
+      "Hs": 0.5,
+      "tau": "raw",
+      "pers": 0,
+      "false_trips_per_bay_day": 0.0,
+      "latency_s": 0.0
+    },
+    {
+      "Hs": 1.0,
+      "tau": 0,
+      "pers": 0,
+      "false_trips_per_bay_day": 0.0,
+      "latency_s": -1.0
+    },
+    {
+      "Hs": 1.0,
+      "tau": 5,
+      "pers": 5,
+      "false_trips_per_bay_day": 0.0,
+      "latency_s": 9.0
+    },
+    {
+      "Hs": 1.0,
+      "tau": 15,
+      "pers": 10,
+      "false_trips_per_bay_day": 0.0,
+      "latency_s": 22.0
+    },
+    {
+      "Hs": 1.0,
+      "tau": 30,
+      "pers": 20,
+      "false_trips_per_bay_day": 0.0,
+      "latency_s": 42.0
+    },
+    {
+      "Hs": 1.0,
+      "tau": 60,
+      "pers": 30,
+      "false_trips_per_bay_day": 0.0,
+      "latency_s": 65.0
+    },
+    {
+      "Hs": 1.0,
+      "tau": 120,
+      "pers": 30,
+      "false_trips_per_bay_day": 0.0,
+      "latency_s": 88.0
+    },
+    {
+      "Hs": 1.0,
+      "tau": "raw",
+      "pers": 0,
+      "false_trips_per_bay_day": 0.0,
+      "latency_s": 0.0
+    },
+    {
+      "Hs": 1.5,
+      "tau": 0,
+      "pers": 0,
+      "false_trips_per_bay_day": 56.0,
+      "latency_s": -1.0
+    },
+    {
+      "Hs": 1.5,
+      "tau": 5,
+      "pers": 5,
+      "false_trips_per_bay_day": 0.0,
+      "latency_s": 9.0
+    },
+    {
+      "Hs": 1.5,
+      "tau": 15,
+      "pers": 10,
+      "false_trips_per_bay_day": 0.0,
+      "latency_s": 22.0
+    },
+    {
+      "Hs": 1.5,
+      "tau": 30,
+      "pers": 20,
+      "false_trips_per_bay_day": 0.0,
+      "latency_s": 41.0
+    },
+    {
+      "Hs": 1.5,
+      "tau": 60,
+      "pers": 30,
+      "false_trips_per_bay_day": 0.0,
+      "latency_s": 65.0
+    },
+    {
+      "Hs": 1.5,
+      "tau": 120,
+      "pers": 30,
+      "false_trips_per_bay_day": 0.0,
+      "latency_s": 87.0
+    },
+    {
+      "Hs": 1.5,
+      "tau": "raw",
+      "pers": 0,
+      "false_trips_per_bay_day": 52.0,
+      "latency_s": 0.0
+    },
+    {
+      "Hs": 2.0,
+      "tau": 0,
+      "pers": 0,
+      "false_trips_per_bay_day": 833.6,
+      "latency_s": -2.0
+    },
+    {
+      "Hs": 2.0,
+      "tau": 5,
+      "pers": 5,
+      "false_trips_per_bay_day": 0.0,
+      "latency_s": 9.0
+    },
+    {
+      "Hs": 2.0,
+      "tau": 15,
+      "pers": 10,
+      "false_trips_per_bay_day": 0.0,
+      "latency_s": 22.0
+    },
+    {
+      "Hs": 2.0,
+      "tau": 30,
+      "pers": 20,
+      "false_trips_per_bay_day": 0.0,
+      "latency_s": 41.0
+    },
+    {
+      "Hs": 2.0,
+      "tau": 60,
+      "pers": 30,
+      "false_trips_per_bay_day": 0.0,
+      "latency_s": 64.0
+    },
+    {
+      "Hs": 2.0,
+      "tau": 120,
+      "pers": 30,
+      "false_trips_per_bay_day": 0.0,
+      "latency_s": 86.0
+    },
+    {
+      "Hs": 2.0,
+      "tau": "raw",
+      "pers": 0,
+      "false_trips_per_bay_day": 828.0,
+      "latency_s": 0.0
+    }
+  ],
+  "timing": {
+    "deploy_s_from_final_approval": 453,
+    "deploy_s_from_alert": 573,
+    "stuck_drum_alarm_latency_s": 1868,
+    "comms_loss_alarm_latency_s": 0,
+    "camera_fault_alarm_latency_s": 0,
+    "recover_mode_latency_s": 0,
+    "seismic_all_up_s": 2046,
+    "outlet_after_A_unsafe": "RECOVER",
+    "outlet_after_forecast_fresh_and_A_unsafe": "B"
+  },
+  "runtime_s": 397.4
+}

@@ -1,0 +1,106 @@
+{
+ "checks": [
+  {
+   "test": "T09",
+   "check": "total power per unit [3 km; best (new pipe, clean water)]",
+   "value": 301.1567,
+   "unit": "kW",
+   "criterion": "< 0.1 % of 1,400 MWe PASS; < 0.25 % MARGINAL (ASSUMED)",
+   "source": "sum of T04/T07/T08",
+   "verdict": "PASS",
+   "note": "0.022 % of unit; screw 186 (lift 6.7 m), dewater 60, drums 42, CW 2.6, ctrl 10 kW"
+  },
+  {
+   "test": "T09",
+   "check": "total power per unit [3 km; worst (aged, 13.5 % bells)]",
+   "value": 349.0539,
+   "unit": "kW",
+   "criterion": "< 0.1 % of 1,400 MWe PASS; < 0.25 % MARGINAL (ASSUMED)",
+   "source": "sum of T04/T07/T08",
+   "verdict": "PASS",
+   "note": "0.025 % of unit; screw 231 (lift 8.3 m), dewater 60, drums 42, CW 5.9, ctrl 10 kW"
+  },
+  {
+   "test": "T09",
+   "check": "total power per unit [5 km; best (new pipe, clean water)]",
+   "value": 379.5757,
+   "unit": "kW",
+   "criterion": "< 0.1 % of 1,400 MWe PASS; < 0.25 % MARGINAL (ASSUMED)",
+   "source": "sum of T04/T07/T08",
+   "verdict": "PASS",
+   "note": "0.027 % of unit; screw 265 (lift 9.5 m), dewater 60, drums 42, CW 2.6, ctrl 10 kW"
+  },
+  {
+   "test": "T09",
+   "check": "total power per unit [5 km; worst (aged, 13.5 % bells)]",
+   "value": 457.2083,
+   "unit": "kW",
+   "criterion": "< 0.1 % of 1,400 MWe PASS; < 0.25 % MARGINAL (ASSUMED)",
+   "source": "sum of T04/T07/T08",
+   "verdict": "PASS",
+   "note": "0.033 % of unit; screw 339 (lift 12.1 m), dewater 60, drums 42, CW 5.9, ctrl 10 kW"
+  },
+  {
+   "test": "T09",
+   "check": "4 units, 5 km, worst case",
+   "value": 1.8288,
+   "unit": "MW",
+   "criterion": "< 0.1 % of 5,600 MWe",
+   "source": "calc",
+   "verdict": "PASS",
+   "note": "0.033 % of plant gross"
+  },
+  {
+   "test": "T09",
+   "check": "energy per 60-day bloom season, 4 units, worst",
+   "value": 2633.5198,
+   "unit": "MWh",
+   "criterion": "vs one avoided unit-day = 32,280 MWh (1,345 MW x 24 h)",
+   "source": "16_FLAW_AUDIT #10",
+   "verdict": "PASS",
+   "note": "= 8.2 % of one unit-day"
+  }
+ ],
+ "extra": {
+  "3000.0|best (new pipe, clean water)": {
+   "lift": 6.667690295609616,
+   "screw": 186.2369245692461,
+   "dewater": 60.33149999999999,
+   "drums": 42.0,
+   "cw": 2.588235294117647,
+   "ctrl": 10.0,
+   "total": 301.1566598633637,
+   "pct": 0.021511189990240265
+  },
+  "3000.0|worst (aged, 13.5 % bells)": {
+   "lift": 8.264578359229262,
+   "screw": 230.84000429622233,
+   "dewater": 60.33149999999999,
+   "drums": 42.0,
+   "cw": 5.882352941176471,
+   "ctrl": 10.0,
+   "total": 349.0538572373988,
+   "pct": 0.024932418374099912
+  },
+  "5000.0|best (new pipe, clean water)": {
+   "lift": 9.47526424885026,
+   "screw": 264.6559745506989,
+   "dewater": 60.33149999999999,
+   "drums": 42.0,
+   "cw": 2.588235294117647,
+   "ctrl": 10.0,
+   "total": 379.5757098448165,
+   "pct": 0.02711255070320118
+  },
+  "5000.0|worst (aged, 13.5 % bells)": {
+   "lift": 12.136744354883005,
+   "screw": 338.99444076232595,
+   "dewater": 60.33149999999999,
+   "drums": 42.0,
+   "cw": 5.882352941176471,
+   "ctrl": 10.0,
+   "total": 457.2082937035024,
+   "pct": 0.032657735264535886
+  }
+ }
+}

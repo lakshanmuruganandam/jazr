@@ -1,0 +1,16 @@
+486 pool runs
+0
+50
+100
+150
+200
+250
+300
+350
+400
+450
+best fixed arm (-1.0, 0.25, 0.0) oracle {'nominal': (-1.0, 0.25, 0.0), 'density1': (-1.0, 0.25, 0.0), 'fouled': (-1.0, 0.25, 0.0), 'fault': (0.8, 0.0, 0.5)}
+AI controller (discounted Thompson)        nominal: 0.989 density 0.3->1: 1.000 fouled bay: 0.998 fouled + belt fault: 0.783 all: 0.942
+best fixed (commissioning)                 nominal: 1.000 density 0.3->1: 1.000 fouled bay: 1.000 fouled + belt fault: 0.756 all: 0.939
+v4.1 fixed (equal split, no belt/jet)      nominal: 0.783 density 0.3->1: 0.949 fouled bay: 0.756 fouled + belt fault: 0.756 all: 0.811
+oracle                                     nominal: 1.000 density 0.3->1: 1.000 fouled bay: 1.000 fouled + belt fault: 0.866 all: 0.966

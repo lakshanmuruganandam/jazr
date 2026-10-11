@@ -1,0 +1,4 @@
+test,run,counter_A,counter_B,video_count,discrepancy,data_type
+T03 11deg bypass count,1,16,15,16,0.062,SIMULATED virtual tank - not physical evidence
+T03 11deg bypass count,2,14,14,14,0.0,SIMULATED virtual tank - not physical evidence
+T03 11deg bypass count,3,14,14,14,0.0,SIMULATED virtual tank - not physical evidence

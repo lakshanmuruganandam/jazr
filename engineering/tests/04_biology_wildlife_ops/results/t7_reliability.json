@@ -1,0 +1,198 @@
+{
+  "bays": {
+    "MTBF500_MTTR4": {
+      "P_bay_fails_in_bloom": 0.38121660819385916,
+      "expected_failures_in_bloom": 8.64,
+      "unavail_per_bay": 0.007936507936507936,
+      "P_ge2_bays_down": 0.008856706972064643
+    },
+    "MTBF500_MTTR8": {
+      "P_bay_fails_in_bloom": 0.38121660819385916,
+      "expected_failures_in_bloom": 8.64,
+      "unavail_per_bay": 0.015748031496062992,
+      "P_ge2_bays_down": 0.0321030530459937
+    },
+    "MTBF500_MTTR24": {
+      "P_bay_fails_in_bloom": 0.38121660819385916,
+      "expected_failures_in_bloom": 8.64,
+      "unavail_per_bay": 0.04580152671755725,
+      "P_ge2_bays_down": 0.19842747939050276
+    },
+    "MTBF500_MTTR72": {
+      "P_bay_fails_in_bloom": 0.38121660819385916,
+      "expected_failures_in_bloom": 8.64,
+      "unavail_per_bay": 0.1258741258741259,
+      "P_ge2_bays_down": 0.6810901834151651
+    },
+    "MTBF1000_MTTR4": {
+      "P_bay_fails_in_bloom": 0.21337213893344653,
+      "expected_failures_in_bloom": 4.32,
+      "unavail_per_bay": 0.00398406374501992,
+      "P_ge2_bays_down": 0.0023276071148033983
+    },
+    "MTBF1000_MTTR8": {
+      "P_bay_fails_in_bloom": 0.21337213893344653,
+      "expected_failures_in_bloom": 4.32,
+      "unavail_per_bay": 0.007936507936507936,
+      "P_ge2_bays_down": 0.008856706972064643
+    },
+    "MTBF1000_MTTR24": {
+      "P_bay_fails_in_bloom": 0.21337213893344653,
+      "expected_failures_in_bloom": 4.32,
+      "unavail_per_bay": 0.0234375,
+      "P_ge2_bays_down": 0.06557640018261124
+    },
+    "MTBF1000_MTTR72": {
+      "P_bay_fails_in_bloom": 0.21337213893344653,
+      "expected_failures_in_bloom": 4.32,
+      "unavail_per_bay": 0.06716417910447761,
+      "P_ge2_bays_down": 0.3431506911050496
+    },
+    "MTBF2000_MTTR4": {
+      "P_bay_fails_in_bloom": 0.11307956328284252,
+      "expected_failures_in_bloom": 2.16,
+      "unavail_per_bay": 0.001996007984031936,
+      "P_ge2_bays_down": 0.0005967259790181645
+    },
+    "MTBF2000_MTTR8": {
+      "P_bay_fails_in_bloom": 0.11307956328284252,
+      "expected_failures_in_bloom": 2.16,
+      "unavail_per_bay": 0.00398406374501992,
+      "P_ge2_bays_down": 0.0023276071148033983
+    },
+    "MTBF2000_MTTR24": {
+      "P_bay_fails_in_bloom": 0.11307956328284252,
+      "expected_failures_in_bloom": 2.16,
+      "unavail_per_bay": 0.011857707509881422,
+      "P_ge2_bays_down": 0.01896534322234744
+    },
+    "MTBF2000_MTTR72": {
+      "P_bay_fails_in_bloom": 0.11307956328284252,
+      "expected_failures_in_bloom": 2.16,
+      "unavail_per_bay": 0.03474903474903475,
+      "P_ge2_bays_down": 0.12807002097795595
+    },
+    "MTBF4000_MTTR4": {
+      "P_bay_fails_in_bloom": 0.05823546641575128,
+      "expected_failures_in_bloom": 1.08,
+      "unavail_per_bay": 0.000999000999000999,
+      "P_ge2_bays_down": 0.00015107645397494096
+    },
+    "MTBF4000_MTTR8": {
+      "P_bay_fails_in_bloom": 0.05823546641575128,
+      "expected_failures_in_bloom": 1.08,
+      "unavail_per_bay": 0.001996007984031936,
+      "P_ge2_bays_down": 0.0005967259790181645
+    },
+    "MTBF4000_MTTR24": {
+      "P_bay_fails_in_bloom": 0.05823546641575128,
+      "expected_failures_in_bloom": 1.08,
+      "unavail_per_bay": 0.005964214711729622,
+      "P_ge2_bays_down": 0.005107613427139612
+    },
+    "MTBF4000_MTTR72": {
+      "P_bay_fails_in_bloom": 0.05823546641575128,
+      "expected_failures_in_bloom": 1.08,
+      "unavail_per_bay": 0.01768172888015717,
+      "P_ge2_bays_down": 0.03965344876802579
+    },
+    "MTBF8000_MTTR4": {
+      "P_bay_fails_in_bloom": 0.029554466451491845,
+      "expected_failures_in_bloom": 0.54,
+      "unavail_per_bay": 0.0004997501249375312,
+      "P_ge2_bays_down": 3.800865589953517e-05
+    },
+    "MTBF8000_MTTR8": {
+      "P_bay_fails_in_bloom": 0.029554466451491845,
+      "expected_failures_in_bloom": 0.54,
+      "unavail_per_bay": 0.000999000999000999,
+      "P_ge2_bays_down": 0.00015107645397494096
+    },
+    "MTBF8000_MTTR24": {
+      "P_bay_fails_in_bloom": 0.029554466451491845,
+      "expected_failures_in_bloom": 0.54,
+      "unavail_per_bay": 0.0029910269192422734,
+      "P_ge2_bays_down": 0.0013258318245523704
+    },
+    "MTBF8000_MTTR72": {
+      "P_bay_fails_in_bloom": 0.029554466451491845,
+      "expected_failures_in_bloom": 0.54,
+      "unavail_per_bay": 0.008919722497522299,
+      "P_ge2_bays_down": 0.011070947224610106
+    },
+    "MTBF16000_MTTR4": {
+      "P_bay_fails_in_bloom": 0.014888060396937353,
+      "expected_failures_in_bloom": 0.27,
+      "unavail_per_bay": 0.00024993751562109475,
+      "P_ge2_bays_down": 9.532275447754479e-06
+    },
+    "MTBF16000_MTTR8": {
+      "P_bay_fails_in_bloom": 0.014888060396937353,
+      "expected_failures_in_bloom": 0.27,
+      "unavail_per_bay": 0.0004997501249375312,
+      "P_ge2_bays_down": 3.800865589953517e-05
+    },
+    "MTBF16000_MTTR24": {
+      "P_bay_fails_in_bloom": 0.014888060396937353,
+      "expected_failures_in_bloom": 0.27,
+      "unavail_per_bay": 0.0014977533699450823,
+      "P_ge2_bays_down": 0.00033778221956071164
+    },
+    "MTBF16000_MTTR72": {
+      "P_bay_fails_in_bloom": 0.014888060396937353,
+      "expected_failures_in_bloom": 0.27,
+      "unavail_per_bay": 0.004479840716774514,
+      "P_ge2_bays_down": 0.0029274628536586356
+    }
+  },
+  "required_bay_MTBF_h_for_P(>=2 down)<=1%": {
+    "4": 500,
+    "8": 1000,
+    "24": 2900,
+    "72": 8500
+  },
+  "rollup_on_demand": {
+    "motor_only": [
+      0.01,
+      0.05
+    ],
+    "motor_plus_independent_release": [
+      1e-05,
+      0.0005
+    ],
+    "demands_per_bloom_per_unit": "~ n_bays x cycling (30% at high flux) -> tens to hundreds"
+  },
+  "load_cell_architectures_per_drum": {
+    "1oo1": {
+      "PFDavg": 0.00168,
+      "spurious_per_yr": 0.438
+    },
+    "1oo2": {
+      "PFDavg": 8.739628800000002e-05,
+      "spurious_per_yr": 0.876
+    },
+    "2oo3 (2 cells + lane dP)": {
+      "PFDavg": 9.418886400000002e-05,
+      "spurious_per_yr": 0.0229512
+    }
+  },
+  "required_availability": {
+    "screen (>= n-1 bays) during bloom hours": ">= 0.95 per bloom, >= 0.99 season [criterion]",
+    "lift (>= 1 line)": ">= 0.99 (a lift outage converts the screen into a store that later dumps)",
+    "wildlife protection function (camera+diverter+stop)": "PFD <= 1e-3 per demand -> SIL-2-like integrity although not nuclear-safety-related"
+  },
+  "verdicts": {
+    "T7a_bay_redundancy": [
+      "MARGINAL",
+      "at MTBF 2,000-8,000 h a 10-day bloom sees 2.2-0.5 bay failures per unit; to keep P(>=2 bays down) <= 1% need MTBF >= 1000 h at 8 h MTTR or >= 2900 h at 24 h MTTR -> spare bay drive cassettes on the gantry, MTTR <= 8 h"
+    ],
+    "T7b_fail_open": [
+      "FAIL as specified",
+      "motor-driven roll-up has PFD 0.01-0.05 per demand [ASSUME] -> a blinded bay can stay down; add an independent gravity/shear-pin release (PFD -> 1e-05-5e-04)"
+    ],
+    "T7c_load_cells": [
+      "MARGINAL",
+      "single cell PFD 1.7e-03 and 0.4 spurious/yr per drum; 2oo3 (two cells + lane dP) gives PFD 9.4e-05 and 0.02 spurious/yr -> specify 2oo3"
+    ]
+  }
+}

@@ -1,0 +1,13 @@
+screen,lift,pipe,chain_p05,chain_median,chain_p95,screen_stage_median,eta_r,swarm_released_alive_median,swarm_p05,swarm_p95,data_type
+v4.1 screen,screw,O2,0.64,0.723,0.816,0.969,0.7733,0.559,0.495,0.631,MODEL-BASED Monte Carlo (literature analogues + assumptions)
+v4.1 screen,screw,noO2_0.3m3,0.334,0.53,0.739,0.969,0.7733,0.41,0.258,0.572,MODEL-BASED Monte Carlo (literature analogues + assumptions)
+v4.1 screen,fish_lock,O2,0.664,0.745,0.833,0.969,0.7733,0.576,0.513,0.645,MODEL-BASED Monte Carlo (literature analogues + assumptions)
+v4.1 screen,fish_lock,noO2_0.3m3,0.345,0.546,0.758,0.969,0.7733,0.422,0.267,0.586,MODEL-BASED Monte Carlo (literature analogues + assumptions)
+v4.1 screen,vacuum_pump,O2,0.392,0.552,0.729,0.969,0.7733,0.427,0.303,0.564,MODEL-BASED Monte Carlo (literature analogues + assumptions)
+v4.1 screen,vacuum_pump,noO2_0.3m3,0.227,0.393,0.632,0.969,0.7733,0.304,0.175,0.489,MODEL-BASED Monte Carlo (literature analogues + assumptions)
+best-combo screen,screw,O2,0.655,0.739,0.831,0.988,1.0,0.739,0.655,0.831,MODEL-BASED Monte Carlo (literature analogues + assumptions)
+best-combo screen,screw,noO2_0.3m3,0.341,0.541,0.754,0.988,1.0,0.541,0.341,0.754,MODEL-BASED Monte Carlo (literature analogues + assumptions)
+best-combo screen,fish_lock,O2,0.679,0.76,0.85,0.988,1.0,0.76,0.679,0.85,MODEL-BASED Monte Carlo (literature analogues + assumptions)
+best-combo screen,fish_lock,noO2_0.3m3,0.353,0.558,0.774,0.988,1.0,0.558,0.353,0.774,MODEL-BASED Monte Carlo (literature analogues + assumptions)
+best-combo screen,vacuum_pump,O2,0.401,0.564,0.744,0.988,1.0,0.564,0.401,0.744,MODEL-BASED Monte Carlo (literature analogues + assumptions)
+best-combo screen,vacuum_pump,noO2_0.3m3,0.231,0.402,0.646,0.988,1.0,0.402,0.231,0.646,MODEL-BASED Monte Carlo (literature analogues + assumptions)

@@ -1,0 +1,199 @@
+{
+ "protocol": "N=1500, 4 tide phases x 2 seeds",
+ "tolerance_pp": 3,
+ "worst_pp": 1.44,
+ "rows": [
+  {
+   "case": "Today, onshore 2.5 cm/s, 72 h",
+   "source": "v4study",
+   "python_pct": 97,
+   "js_pct": 96.9,
+   "diff_pp": -0.1,
+   "js_range": [
+    94,
+    99.2
+   ],
+   "pass": true
+  },
+  {
+   "case": "Today, no residual, 72 h",
+   "source": "v3study",
+   "python_pct": 95.5,
+   "js_pct": 95.4,
+   "diff_pp": -0.1,
+   "js_range": [
+    92,
+    98.3
+   ],
+   "pass": true
+  },
+  {
+   "case": "Today, onshore 3 cm/s, 72 h",
+   "source": "v3study",
+   "python_pct": 96.8,
+   "js_pct": 96.9,
+   "diff_pp": 0,
+   "js_range": [
+    94,
+    99.2
+   ],
+   "pass": true
+  },
+  {
+   "case": "Today, 10-day bloom",
+   "source": "v3study",
+   "python_pct": 100,
+   "js_pct": 100,
+   "diff_pp": 0,
+   "js_range": [
+    100,
+    100
+   ],
+   "pass": true
+  },
+  {
+   "case": "FAR release (10 km, 3 km out), eta_r 0.9, vr -2.5, 240 h",
+   "source": "v5_far",
+   "python_pct": 10.6,
+   "js_pct": 10.1,
+   "diff_pp": -0.6,
+   "js_range": [
+    9.3,
+    10.9
+   ],
+   "pass": true
+  },
+  {
+   "case": "FAR release, + ur 1 cm/s, 240 h",
+   "source": "v5_far",
+   "python_pct": 12.9,
+   "js_pct": 12.8,
+   "diff_pp": -0.1,
+   "js_range": [
+    10.9,
+    14.7
+   ],
+   "pass": true
+  },
+  {
+   "case": "NEAR release-only (5 km), eta_r 0.9, vr -2.5, 240 h",
+   "source": "v5_noharm",
+   "python_pct": 49.9,
+   "js_pct": 50.2,
+   "diff_pp": 0.2,
+   "js_range": [
+    48.7,
+    52.9
+   ],
+   "pass": true
+  },
+  {
+   "case": "NEAR release-only (5 km), 72 h",
+   "source": "v4b",
+   "python_pct": 17.9,
+   "js_pct": 17.8,
+   "diff_pp": -0.2,
+   "js_range": [
+    16.2,
+    18.7
+   ],
+   "pass": true
+  },
+  {
+   "case": "Offshore 10 km release, 240 h",
+   "source": "v5_far",
+   "python_pct": 28.1,
+   "js_pct": 26.6,
+   "diff_pp": -1.4,
+   "js_range": [
+    24.6,
+    27.8
+   ],
+   "pass": true
+  },
+  {
+   "case": "Alongshore 5 km release, 240 h",
+   "source": "v5_far",
+   "python_pct": 27.1,
+   "js_pct": 26.8,
+   "diff_pp": -0.3,
+   "js_range": [
+    25.2,
+    28.8
+   ],
+   "pass": true
+  },
+  {
+   "case": "Hold-unlimited (removed recover), eta_r 0.9, 240 h",
+   "source": "v5_noharm",
+   "python_pct": 10.4,
+   "js_pct": 10,
+   "diff_pp": -0.5,
+   "js_range": [
+    9.2,
+    10.7
+   ],
+   "pass": true
+  },
+  {
+   "case": "Hold (removed recover), eta_r 0.7, 240 h",
+   "source": "v4b",
+   "python_pct": 30,
+   "js_pct": 29.8,
+   "diff_pp": -0.3,
+   "js_range": [
+    28.5,
+    30.9
+   ],
+   "pass": true
+  },
+  {
+   "case": "Outer line 0.4 + near release, vr -2.5, 72 h",
+   "source": "v4study",
+   "python_pct": 11.3,
+   "js_pct": 10.6,
+   "diff_pp": -0.6,
+   "js_range": [
+    8.9,
+    12.2
+   ],
+   "pass": true
+  },
+  {
+   "case": "Gate 3 km (x 1.2 km), no residual, 72 h",
+   "source": "v3study",
+   "python_pct": 14.9,
+   "js_pct": 14.9,
+   "diff_pp": 0.1,
+   "js_range": [
+    13.5,
+    16.4
+   ],
+   "pass": true
+  },
+  {
+   "case": "FAR release, eta_r 0.99, vr -2.5, 72 h",
+   "source": "expected (coordinator, no JSON)",
+   "python_pct": 1.1,
+   "js_pct": 0.9,
+   "diff_pp": -0.2,
+   "js_range": [
+    0.5,
+    1.4
+   ],
+   "pass": true
+  },
+  {
+   "case": "FAR release, eta_r 0.996, vr -2.5, 72 h",
+   "source": "expected (coordinator, no JSON)",
+   "python_pct": 0.4,
+   "js_pct": 0.4,
+   "diff_pp": 0,
+   "js_range": [
+    0.1,
+    0.7
+   ],
+   "pass": true
+  }
+ ]
+}

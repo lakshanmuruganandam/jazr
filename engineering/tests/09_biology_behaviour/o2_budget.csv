@@ -1,0 +1,73 @@
+mass_case,resp_case,mgO2_per_h_per_animal,mgO2_per_g_per_h,density_per_m3,DO_drop_mg_L_3h,DO_sat_mg_L_34C_42ppt,DO_end_if_start_100pct,DO_end_pct_sat
+"mean 0.33 kg (Hashemi 2025, n=503)",SRR low (C=0.34%WW),5.5,0.0167,1,0.02,5.66,5.64,99.7
+"mean 0.33 kg (Hashemi 2025, n=503)",SRR low (C=0.34%WW),5.5,0.0167,5,0.08,5.66,5.57,98.5
+"mean 0.33 kg (Hashemi 2025, n=503)",SRR low (C=0.34%WW),5.5,0.0167,10,0.16,5.66,5.49,97.1
+"mean 0.33 kg (Hashemi 2025, n=503)",SRR low (C=0.34%WW),5.5,0.0167,20,0.33,5.66,5.33,94.2
+"mean 0.33 kg (Hashemi 2025, n=503)",SRR low (C=0.34%WW),5.5,0.0167,50,0.82,5.66,4.83,85.4
+"mean 0.33 kg (Hashemi 2025, n=503)",SRR low (C=0.34%WW),5.5,0.0167,100,1.65,5.66,4.01,70.8
+"mean 0.33 kg (Hashemi 2025, n=503)",SRR high (C=0.60%WW),9.37,0.0284,1,0.03,5.66,5.63,99.5
+"mean 0.33 kg (Hashemi 2025, n=503)",SRR high (C=0.60%WW),9.37,0.0284,5,0.14,5.66,5.51,97.5
+"mean 0.33 kg (Hashemi 2025, n=503)",SRR high (C=0.60%WW),9.37,0.0284,10,0.28,5.66,5.37,95.0
+"mean 0.33 kg (Hashemi 2025, n=503)",SRR high (C=0.60%WW),9.37,0.0284,20,0.56,5.66,5.09,90.1
+"mean 0.33 kg (Hashemi 2025, n=503)",SRR high (C=0.60%WW),9.37,0.0284,50,1.41,5.66,4.25,75.1
+"mean 0.33 kg (Hashemi 2025, n=503)",SRR high (C=0.60%WW),9.37,0.0284,100,2.81,5.66,2.84,50.3
+"mean 0.33 kg (Hashemi 2025, n=503)",Stomolophus active (Larson 1987),23.43,0.071,1,0.07,5.66,5.58,98.8
+"mean 0.33 kg (Hashemi 2025, n=503)",Stomolophus active (Larson 1987),23.43,0.071,5,0.35,5.66,5.3,93.8
+"mean 0.33 kg (Hashemi 2025, n=503)",Stomolophus active (Larson 1987),23.43,0.071,10,0.7,5.66,4.95,87.6
+"mean 0.33 kg (Hashemi 2025, n=503)",Stomolophus active (Larson 1987),23.43,0.071,20,1.41,5.66,4.25,75.1
+"mean 0.33 kg (Hashemi 2025, n=503)",Stomolophus active (Larson 1987),23.43,0.071,50,3.51,5.66,2.14,37.9
+"mean 0.33 kg (Hashemi 2025, n=503)",Stomolophus active (Larson 1987),23.43,0.071,100,7.03,5.66,-1.37,-24.3
+"mean 0.33 kg (Hashemi 2025, n=503)","Stomolophus active x2 (handling-stress margin, ASSUMED)",46.86,0.142,1,0.14,5.66,5.51,97.5
+"mean 0.33 kg (Hashemi 2025, n=503)","Stomolophus active x2 (handling-stress margin, ASSUMED)",46.86,0.142,5,0.7,5.66,4.95,87.6
+"mean 0.33 kg (Hashemi 2025, n=503)","Stomolophus active x2 (handling-stress margin, ASSUMED)",46.86,0.142,10,1.41,5.66,4.25,75.1
+"mean 0.33 kg (Hashemi 2025, n=503)","Stomolophus active x2 (handling-stress margin, ASSUMED)",46.86,0.142,20,2.81,5.66,2.84,50.3
+"mean 0.33 kg (Hashemi 2025, n=503)","Stomolophus active x2 (handling-stress margin, ASSUMED)",46.86,0.142,50,7.03,5.66,-1.37,-24.3
+"mean 0.33 kg (Hashemi 2025, n=503)","Stomolophus active x2 (handling-stress margin, ASSUMED)",46.86,0.142,100,14.06,5.66,-8.4,-148.6
+Nov UAE bell 11.8 cm ~0.13 kg (00_data),SRR low (C=0.34%WW),2.29,0.0176,1,0.01,5.66,5.65,99.9
+Nov UAE bell 11.8 cm ~0.13 kg (00_data),SRR low (C=0.34%WW),2.29,0.0176,5,0.03,5.66,5.62,99.4
+Nov UAE bell 11.8 cm ~0.13 kg (00_data),SRR low (C=0.34%WW),2.29,0.0176,10,0.07,5.66,5.59,98.8
+Nov UAE bell 11.8 cm ~0.13 kg (00_data),SRR low (C=0.34%WW),2.29,0.0176,20,0.14,5.66,5.52,97.6
+Nov UAE bell 11.8 cm ~0.13 kg (00_data),SRR low (C=0.34%WW),2.29,0.0176,50,0.34,5.66,5.31,93.9
+Nov UAE bell 11.8 cm ~0.13 kg (00_data),SRR low (C=0.34%WW),2.29,0.0176,100,0.69,5.66,4.97,87.9
+Nov UAE bell 11.8 cm ~0.13 kg (00_data),SRR high (C=0.60%WW),3.91,0.03,1,0.01,5.66,5.64,99.8
+Nov UAE bell 11.8 cm ~0.13 kg (00_data),SRR high (C=0.60%WW),3.91,0.03,5,0.06,5.66,5.6,99.0
+Nov UAE bell 11.8 cm ~0.13 kg (00_data),SRR high (C=0.60%WW),3.91,0.03,10,0.12,5.66,5.54,97.9
+Nov UAE bell 11.8 cm ~0.13 kg (00_data),SRR high (C=0.60%WW),3.91,0.03,20,0.23,5.66,5.42,95.9
+Nov UAE bell 11.8 cm ~0.13 kg (00_data),SRR high (C=0.60%WW),3.91,0.03,50,0.59,5.66,5.07,89.6
+Nov UAE bell 11.8 cm ~0.13 kg (00_data),SRR high (C=0.60%WW),3.91,0.03,100,1.17,5.66,4.48,79.3
+Nov UAE bell 11.8 cm ~0.13 kg (00_data),Stomolophus active (Larson 1987),9.23,0.071,1,0.03,5.66,5.63,99.5
+Nov UAE bell 11.8 cm ~0.13 kg (00_data),Stomolophus active (Larson 1987),9.23,0.071,5,0.14,5.66,5.52,97.6
+Nov UAE bell 11.8 cm ~0.13 kg (00_data),Stomolophus active (Larson 1987),9.23,0.071,10,0.28,5.66,5.38,95.1
+Nov UAE bell 11.8 cm ~0.13 kg (00_data),Stomolophus active (Larson 1987),9.23,0.071,20,0.55,5.66,5.1,90.2
+Nov UAE bell 11.8 cm ~0.13 kg (00_data),Stomolophus active (Larson 1987),9.23,0.071,50,1.38,5.66,4.27,75.5
+Nov UAE bell 11.8 cm ~0.13 kg (00_data),Stomolophus active (Larson 1987),9.23,0.071,100,2.77,5.66,2.89,51.0
+Nov UAE bell 11.8 cm ~0.13 kg (00_data),"Stomolophus active x2 (handling-stress margin, ASSUMED)",18.46,0.142,1,0.06,5.66,5.6,99.0
+Nov UAE bell 11.8 cm ~0.13 kg (00_data),"Stomolophus active x2 (handling-stress margin, ASSUMED)",18.46,0.142,5,0.28,5.66,5.38,95.1
+Nov UAE bell 11.8 cm ~0.13 kg (00_data),"Stomolophus active x2 (handling-stress margin, ASSUMED)",18.46,0.142,10,0.55,5.66,5.1,90.2
+Nov UAE bell 11.8 cm ~0.13 kg (00_data),"Stomolophus active x2 (handling-stress margin, ASSUMED)",18.46,0.142,20,1.11,5.66,4.55,80.4
+Nov UAE bell 11.8 cm ~0.13 kg (00_data),"Stomolophus active x2 (handling-stress margin, ASSUMED)",18.46,0.142,50,2.77,5.66,2.89,51.0
+Nov UAE bell 11.8 cm ~0.13 kg (00_data),"Stomolophus active x2 (handling-stress margin, ASSUMED)",18.46,0.142,100,5.54,5.66,0.12,2.1
+max 1.7 kg (Hashemi 2025),SRR low (C=0.34%WW),25.66,0.0151,1,0.08,5.66,5.58,98.6
+max 1.7 kg (Hashemi 2025),SRR low (C=0.34%WW),25.66,0.0151,5,0.38,5.66,5.27,93.2
+max 1.7 kg (Hashemi 2025),SRR low (C=0.34%WW),25.66,0.0151,10,0.77,5.66,4.89,86.4
+max 1.7 kg (Hashemi 2025),SRR low (C=0.34%WW),25.66,0.0151,20,1.54,5.66,4.12,72.8
+max 1.7 kg (Hashemi 2025),SRR low (C=0.34%WW),25.66,0.0151,50,3.85,5.66,1.81,31.9
+max 1.7 kg (Hashemi 2025),SRR low (C=0.34%WW),25.66,0.0151,100,7.7,5.66,-2.04,-36.1
+max 1.7 kg (Hashemi 2025),SRR high (C=0.60%WW),43.77,0.0257,1,0.13,5.66,5.52,97.7
+max 1.7 kg (Hashemi 2025),SRR high (C=0.60%WW),43.77,0.0257,5,0.66,5.66,5.0,88.4
+max 1.7 kg (Hashemi 2025),SRR high (C=0.60%WW),43.77,0.0257,10,1.31,5.66,4.34,76.8
+max 1.7 kg (Hashemi 2025),SRR high (C=0.60%WW),43.77,0.0257,20,2.63,5.66,3.03,53.6
+max 1.7 kg (Hashemi 2025),SRR high (C=0.60%WW),43.77,0.0257,50,6.57,5.66,-0.91,-16.1
+max 1.7 kg (Hashemi 2025),SRR high (C=0.60%WW),43.77,0.0257,100,13.13,5.66,-7.48,-132.2
+max 1.7 kg (Hashemi 2025),Stomolophus active (Larson 1987),120.7,0.071,1,0.36,5.66,5.29,93.6
+max 1.7 kg (Hashemi 2025),Stomolophus active (Larson 1987),120.7,0.071,5,1.81,5.66,3.84,68.0
+max 1.7 kg (Hashemi 2025),Stomolophus active (Larson 1987),120.7,0.071,10,3.62,5.66,2.03,36.0
+max 1.7 kg (Hashemi 2025),Stomolophus active (Larson 1987),120.7,0.071,20,7.24,5.66,-1.59,-28.1
+max 1.7 kg (Hashemi 2025),Stomolophus active (Larson 1987),120.7,0.071,50,18.1,5.66,-12.45,-220.1
+max 1.7 kg (Hashemi 2025),Stomolophus active (Larson 1987),120.7,0.071,100,36.21,5.66,-30.55,-540.3
+max 1.7 kg (Hashemi 2025),"Stomolophus active x2 (handling-stress margin, ASSUMED)",241.4,0.142,1,0.72,5.66,4.93,87.2
+max 1.7 kg (Hashemi 2025),"Stomolophus active x2 (handling-stress margin, ASSUMED)",241.4,0.142,5,3.62,5.66,2.03,36.0
+max 1.7 kg (Hashemi 2025),"Stomolophus active x2 (handling-stress margin, ASSUMED)",241.4,0.142,10,7.24,5.66,-1.59,-28.1
+max 1.7 kg (Hashemi 2025),"Stomolophus active x2 (handling-stress margin, ASSUMED)",241.4,0.142,20,14.48,5.66,-8.83,-156.1
+max 1.7 kg (Hashemi 2025),"Stomolophus active x2 (handling-stress margin, ASSUMED)",241.4,0.142,50,36.21,5.66,-30.55,-540.3
+max 1.7 kg (Hashemi 2025),"Stomolophus active x2 (handling-stress margin, ASSUMED)",241.4,0.142,100,72.42,5.66,-66.76,-1180.6

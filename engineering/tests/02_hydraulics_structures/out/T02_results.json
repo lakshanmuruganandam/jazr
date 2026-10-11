@@ -1,0 +1,386 @@
+{
+ "checks": [
+  {
+   "test": "T02",
+   "check": "clean head loss [perforated plate f=0.40]",
+   "value": 4.4638,
+   "unit": "mm",
+   "criterion": "<= 15 mm clean (assumption: <1% of typical CW-pump head budget; NMFS 0.09 m = heavily blocked)",
+   "source": "Idelchik / Kirschmer; NMFS 2022 s.8.5 (repository.library.noaa.gov/view/noaa/43053)",
+   "verdict": "PASS",
+   "note": ""
+  },
+  {
+   "test": "T02",
+   "check": "blinding at which 200 Pa setpoint is reached [perforated plate f=0.40]",
+   "value": 52.6269,
+   "unit": "%",
+   "criterion": "informative: v3 '200 Pa' corresponds to this blockage",
+   "source": "calc",
+   "verdict": "PASS",
+   "note": ""
+  },
+  {
+   "test": "T02",
+   "check": "clean head loss [perforated plate f=0.50]",
+   "value": 2.2271,
+   "unit": "mm",
+   "criterion": "<= 15 mm clean (assumption: <1% of typical CW-pump head budget; NMFS 0.09 m = heavily blocked)",
+   "source": "Idelchik / Kirschmer; NMFS 2022 s.8.5 (repository.library.noaa.gov/view/noaa/43053)",
+   "verdict": "PASS",
+   "note": ""
+  },
+  {
+   "test": "T02",
+   "check": "blinding at which 200 Pa setpoint is reached [perforated plate f=0.50]",
+   "value": 66.5382,
+   "unit": "%",
+   "criterion": "informative: v3 '200 Pa' corresponds to this blockage",
+   "source": "calc",
+   "verdict": "PASS",
+   "note": ""
+  },
+  {
+   "test": "T02",
+   "check": "clean head loss [woven wire f=0.60]",
+   "value": 0.4916,
+   "unit": "mm",
+   "criterion": "<= 15 mm clean (assumption: <1% of typical CW-pump head budget; NMFS 0.09 m = heavily blocked)",
+   "source": "Idelchik / Kirschmer; NMFS 2022 s.8.5 (repository.library.noaa.gov/view/noaa/43053)",
+   "verdict": "PASS",
+   "note": ""
+  },
+  {
+   "test": "T02",
+   "check": "blinding at which 200 Pa setpoint is reached [woven wire f=0.60]",
+   "value": 84.2793,
+   "unit": "%",
+   "criterion": "informative: v3 '200 Pa' corresponds to this blockage",
+   "source": "calc",
+   "verdict": "PASS",
+   "note": ""
+  },
+  {
+   "test": "T02",
+   "check": "clean head loss [woven wire 2mm/20mm f=0.81]",
+   "value": 0.1539,
+   "unit": "mm",
+   "criterion": "<= 15 mm clean (assumption: <1% of typical CW-pump head budget; NMFS 0.09 m = heavily blocked)",
+   "source": "Idelchik / Kirschmer; NMFS 2022 s.8.5 (repository.library.noaa.gov/view/noaa/43053)",
+   "verdict": "PASS",
+   "note": ""
+  },
+  {
+   "test": "T02",
+   "check": "blinding at which 200 Pa setpoint is reached [woven wire 2mm/20mm f=0.81]",
+   "value": 91.2027,
+   "unit": "%",
+   "criterion": "informative: v3 '200 Pa' corresponds to this blockage",
+   "source": "calc",
+   "verdict": "PASS",
+   "note": ""
+  },
+  {
+   "test": "T02",
+   "check": "clean head loss [wedge-wire 4mm bar/12mm gap (Kirschmer beta=2.42)]",
+   "value": 0.2851,
+   "unit": "mm",
+   "criterion": "<= 15 mm clean (assumption: <1% of typical CW-pump head budget; NMFS 0.09 m = heavily blocked)",
+   "source": "Idelchik / Kirschmer; NMFS 2022 s.8.5 (repository.library.noaa.gov/view/noaa/43053)",
+   "verdict": "PASS",
+   "note": ""
+  },
+  {
+   "test": "T02",
+   "check": "blinding at which 200 Pa setpoint is reached [wedge-wire 4mm bar/12mm gap (Kirschmer beta=2.42)]",
+   "value": 88.0282,
+   "unit": "%",
+   "criterion": "informative: v3 '200 Pa' corresponds to this blockage",
+   "source": "calc",
+   "verdict": "PASS",
+   "note": ""
+  },
+  {
+   "test": "T02",
+   "check": "v3 200 Pa trip in head",
+   "value": 1.989,
+   "unit": "cm",
+   "criterion": "must exceed filtered transient noise (see below)",
+   "source": "NMFS 2022 s.8.5 (repository.library.noaa.gov/view/noaa/43053)",
+   "verdict": "PASS",
+   "note": ""
+  },
+  {
+   "test": "T02",
+   "check": "raw dp 99.9-pct on clean screen [calm Hs 0.22; waves along channel (normal comp. sin11=0.19)]",
+   "value": 23.8837,
+   "unit": "Pa",
+   "criterion": "< 200 Pa setpoint (else nuisance trips without filtering)",
+   "source": "NMFS 2022 s.8.5 (repository.library.noaa.gov/view/noaa/43053)",
+   "verdict": "PASS",
+   "note": ""
+  },
+  {
+   "test": "T02",
+   "check": "60-s filtered dp max on clean screen [calm Hs 0.22; waves along channel (normal comp. sin11=0.19)]",
+   "value": 15.8193,
+   "unit": "Pa",
+   "criterion": "< 50% of 200 Pa setpoint",
+   "source": "NMFS 2022 s.8.5 (repository.library.noaa.gov/view/noaa/43053)",
+   "verdict": "PASS",
+   "note": ""
+  },
+  {
+   "test": "T02",
+   "check": "tide+flow-compensated blockage index max, clean [calm Hs 0.22; waves along channel (normal comp. sin11=0.19)]",
+   "value": 4.221,
+   "unit": "%",
+   "criterion": "< 15% false reading (trip proposed at 30-40% est. blockage)",
+   "source": "calc",
+   "verdict": "PASS",
+   "note": ""
+  },
+  {
+   "test": "T02",
+   "check": "raw dp 99.9-pct on clean screen [calm Hs 0.22; waves normal to screen (worst)]",
+   "value": 43.7425,
+   "unit": "Pa",
+   "criterion": "< 200 Pa setpoint (else nuisance trips without filtering)",
+   "source": "NMFS 2022 s.8.5 (repository.library.noaa.gov/view/noaa/43053)",
+   "verdict": "PASS",
+   "note": ""
+  },
+  {
+   "test": "T02",
+   "check": "60-s filtered dp max on clean screen [calm Hs 0.22; waves normal to screen (worst)]",
+   "value": 17.4539,
+   "unit": "Pa",
+   "criterion": "< 50% of 200 Pa setpoint",
+   "source": "NMFS 2022 s.8.5 (repository.library.noaa.gov/view/noaa/43053)",
+   "verdict": "PASS",
+   "note": ""
+  },
+  {
+   "test": "T02",
+   "check": "tide+flow-compensated blockage index max, clean [calm Hs 0.22; waves normal to screen (worst)]",
+   "value": 13.2292,
+   "unit": "%",
+   "criterion": "< 15% false reading (trip proposed at 30-40% est. blockage)",
+   "source": "calc",
+   "verdict": "PASS",
+   "note": ""
+  },
+  {
+   "test": "T02",
+   "check": "raw dp 99.9-pct on clean screen [p90 Hs 0.58; waves along channel (normal comp. sin11=0.19)]",
+   "value": 33.4686,
+   "unit": "Pa",
+   "criterion": "< 200 Pa setpoint (else nuisance trips without filtering)",
+   "source": "NMFS 2022 s.8.5 (repository.library.noaa.gov/view/noaa/43053)",
+   "verdict": "PASS",
+   "note": ""
+  },
+  {
+   "test": "T02",
+   "check": "60-s filtered dp max on clean screen [p90 Hs 0.58; waves along channel (normal comp. sin11=0.19)]",
+   "value": 16.6925,
+   "unit": "Pa",
+   "criterion": "< 50% of 200 Pa setpoint",
+   "source": "NMFS 2022 s.8.5 (repository.library.noaa.gov/view/noaa/43053)",
+   "verdict": "PASS",
+   "note": ""
+  },
+  {
+   "test": "T02",
+   "check": "tide+flow-compensated blockage index max, clean [p90 Hs 0.58; waves along channel (normal comp. sin11=0.19)]",
+   "value": 8.5763,
+   "unit": "%",
+   "criterion": "< 15% false reading (trip proposed at 30-40% est. blockage)",
+   "source": "calc",
+   "verdict": "PASS",
+   "note": ""
+  },
+  {
+   "test": "T02",
+   "check": "raw dp 99.9-pct on clean screen [p90 Hs 0.58; waves normal to screen (worst)]",
+   "value": 182.9048,
+   "unit": "Pa",
+   "criterion": "< 200 Pa setpoint (else nuisance trips without filtering)",
+   "source": "NMFS 2022 s.8.5 (repository.library.noaa.gov/view/noaa/43053)",
+   "verdict": "MARGINAL",
+   "note": ""
+  },
+  {
+   "test": "T02",
+   "check": "60-s filtered dp max on clean screen [p90 Hs 0.58; waves normal to screen (worst)]",
+   "value": 32.8535,
+   "unit": "Pa",
+   "criterion": "< 50% of 200 Pa setpoint",
+   "source": "NMFS 2022 s.8.5 (repository.library.noaa.gov/view/noaa/43053)",
+   "verdict": "PASS",
+   "note": ""
+  },
+  {
+   "test": "T02",
+   "check": "tide+flow-compensated blockage index max, clean [p90 Hs 0.58; waves normal to screen (worst)]",
+   "value": 44.0233,
+   "unit": "%",
+   "criterion": "< 15% false reading (trip proposed at 30-40% est. blockage)",
+   "source": "calc",
+   "verdict": "FAIL",
+   "note": ""
+  },
+  {
+   "test": "T02",
+   "check": "raw dp 99.9-pct on clean screen [max Hs 1.36; waves along channel (normal comp. sin11=0.19)]",
+   "value": 102.1989,
+   "unit": "Pa",
+   "criterion": "< 200 Pa setpoint (else nuisance trips without filtering)",
+   "source": "NMFS 2022 s.8.5 (repository.library.noaa.gov/view/noaa/43053)",
+   "verdict": "MARGINAL",
+   "note": ""
+  },
+  {
+   "test": "T02",
+   "check": "60-s filtered dp max on clean screen [max Hs 1.36; waves along channel (normal comp. sin11=0.19)]",
+   "value": 23.7573,
+   "unit": "Pa",
+   "criterion": "< 50% of 200 Pa setpoint",
+   "source": "NMFS 2022 s.8.5 (repository.library.noaa.gov/view/noaa/43053)",
+   "verdict": "PASS",
+   "note": ""
+  },
+  {
+   "test": "T02",
+   "check": "tide+flow-compensated blockage index max, clean [max Hs 1.36; waves along channel (normal comp. sin11=0.19)]",
+   "value": 31.688,
+   "unit": "%",
+   "criterion": "< 15% false reading (trip proposed at 30-40% est. blockage)",
+   "source": "calc",
+   "verdict": "FAIL",
+   "note": ""
+  },
+  {
+   "test": "T02",
+   "check": "raw dp 99.9-pct on clean screen [max Hs 1.36; waves normal to screen (worst)]",
+   "value": 1701.26,
+   "unit": "Pa",
+   "criterion": "< 200 Pa setpoint (else nuisance trips without filtering)",
+   "source": "NMFS 2022 s.8.5 (repository.library.noaa.gov/view/noaa/43053)",
+   "verdict": "FAIL",
+   "note": ""
+  },
+  {
+   "test": "T02",
+   "check": "60-s filtered dp max on clean screen [max Hs 1.36; waves normal to screen (worst)]",
+   "value": 124.6578,
+   "unit": "Pa",
+   "criterion": "< 50% of 200 Pa setpoint",
+   "source": "NMFS 2022 s.8.5 (repository.library.noaa.gov/view/noaa/43053)",
+   "verdict": "MARGINAL",
+   "note": ""
+  },
+  {
+   "test": "T02",
+   "check": "tide+flow-compensated blockage index max, clean [max Hs 1.36; waves normal to screen (worst)]",
+   "value": 73.0102,
+   "unit": "%",
+   "criterion": "< 15% false reading (trip proposed at 30-40% est. blockage)",
+   "source": "calc",
+   "verdict": "FAIL",
+   "note": ""
+  },
+  {
+   "test": "T02",
+   "check": "blockage at which a FIXED 200 Pa setpoint trips, over tide LAT..HAT x flow 75..172.5 m3/s",
+   "value": 39.6938,
+   "unit": "pct-points spread",
+   "criterion": "spread < 15 pct-points (else setpoint must be tide/flow compensated)",
+   "source": "calc",
+   "verdict": "FAIL",
+   "note": "trips between 42% and 82% blockage"
+  }
+ ],
+ "extra": {
+  "mesh_table": {
+   "perforated plate f=0.40": {
+    "zeta": 8.757885257447354,
+    "dp_clean": 44.8841619444177,
+    "dp_50": 179.5366477776708,
+    "dp_90": 4488.416194441769,
+    "b_at_200Pa": 0.526269264537239,
+    "b_at_900Pa": 0.7766811896651942
+   },
+   "perforated plate f=0.50": {
+    "zeta": 4.3695340815808175,
+    "dp_clean": 22.393862168101695,
+    "dp_50": 89.57544867240678,
+    "dp_90": 2239.386216810169,
+    "b_at_200Pa": 0.6653818432294678,
+    "b_at_900Pa": 0.8422594881596089
+   },
+   "woven wire f=0.60": {
+    "zeta": 0.9644444444444445,
+    "dp_clean": 4.9427777777777795,
+    "dp_50": 19.771111111111118,
+    "dp_90": 494.2777777777778,
+    "b_at_200Pa": 0.8427934833129082,
+    "b_at_900Pa": 0.9258921373358941
+   },
+   "woven wire 2mm/20mm f=0.81": {
+    "zeta": 0.3020221002895899,
+    "dp_clean": 1.5478632639841488,
+    "dp_50": 6.191453055936595,
+    "dp_90": 154.78632639841484,
+    "b_at_200Pa": 0.91202661584365,
+    "b_at_900Pa": 0.9585289489994104
+   },
+   "wedge-wire 4mm bar/12mm gap (Kirschmer beta=2.42)": {
+    "zeta": 0.5593114279761787,
+    "dp_clean": 2.8664710683779164,
+    "dp_50": 11.465884273511666,
+    "dp_90": 286.64710683779157,
+    "b_at_200Pa": 0.8802821845259045,
+    "b_at_900Pa": 0.9435644805662848
+   }
+  },
+  "noise": {
+   "calm Hs 0.22 | waves along channel (normal comp. sin11=0.19)": {
+    "raw_p999": 23.883666865330337,
+    "f60_max": 15.819320097137808,
+    "b_index_max": 0.04220979338406183,
+    "clean_mean": 11.104546712923904
+   },
+   "calm Hs 0.22 | waves normal to screen (worst)": {
+    "raw_p999": 43.74249972305373,
+    "f60_max": 17.453861429671775,
+    "b_index_max": 0.13229205867781924,
+    "clean_mean": 11.104546712923904
+   },
+   "p90 Hs 0.58 | waves along channel (normal comp. sin11=0.19)": {
+    "raw_p999": 33.468648381213214,
+    "f60_max": 16.692459895725467,
+    "b_index_max": 0.08576306145155,
+    "clean_mean": 11.104546712923904
+   },
+   "p90 Hs 0.58 | waves normal to screen (worst)": {
+    "raw_p999": 182.90475786057596,
+    "f60_max": 32.853500381666784,
+    "b_index_max": 0.4402325419982669,
+    "clean_mean": 11.104546712923904
+   },
+   "max Hs 1.36 | waves along channel (normal comp. sin11=0.19)": {
+    "raw_p999": 102.19892382348772,
+    "f60_max": 23.757280865004052,
+    "b_index_max": 0.316880130280796,
+    "clean_mean": 11.104546712923904
+   },
+   "max Hs 1.36 | waves normal to screen (worst)": {
+    "raw_p999": 1701.2600364842224,
+    "f60_max": 124.65775355002543,
+    "b_index_max": 0.7301017859747867,
+    "clean_mean": 11.104546712923904
+   }
+  }
+ }
+}

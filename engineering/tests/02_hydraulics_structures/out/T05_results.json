@@ -1,0 +1,288 @@
+{
+ "checks": [
+  {
+   "test": "T05",
+   "check": "routine roll-up pulse, 10 m bay, c=0.1 ind/m3 (phi=5%)",
+   "value": 0.0924,
+   "unit": "t",
+   "criterion": "< 1 t (v3)",
+   "source": "coverage->mass",
+   "verdict": "PASS",
+   "note": ""
+  },
+  {
+   "test": "T05",
+   "check": "routine roll-up pulse, 5 m bay, c=0.1 ind/m3 (phi=5%)",
+   "value": 0.0462,
+   "unit": "t",
+   "criterion": "< 1 t (v3)",
+   "source": "coverage->mass",
+   "verdict": "PASS",
+   "note": ""
+  },
+  {
+   "test": "T05",
+   "check": "routine roll-up pulse, 10 m bay, c=0.3 ind/m3 (phi=14%)",
+   "value": 0.2975,
+   "unit": "t",
+   "criterion": "< 1 t (v3)",
+   "source": "coverage->mass",
+   "verdict": "PASS",
+   "note": ""
+  },
+  {
+   "test": "T05",
+   "check": "routine roll-up pulse, 5 m bay, c=0.3 ind/m3 (phi=14%)",
+   "value": 0.1488,
+   "unit": "t",
+   "criterion": "< 1 t (v3)",
+   "source": "coverage->mass",
+   "verdict": "PASS",
+   "note": ""
+  },
+  {
+   "test": "T05",
+   "check": "routine roll-up pulse, 10 m bay, c=1.0 ind/m3 (phi=40%)",
+   "value": 0.9833,
+   "unit": "t",
+   "criterion": "< 1 t (v3)",
+   "source": "coverage->mass",
+   "verdict": "PASS",
+   "note": ""
+  },
+  {
+   "test": "T05",
+   "check": "routine roll-up pulse, 5 m bay, c=1.0 ind/m3 (phi=40%)",
+   "value": 0.4917,
+   "unit": "t",
+   "criterion": "< 1 t (v3)",
+   "source": "coverage->mass",
+   "verdict": "PASS",
+   "note": ""
+  },
+  {
+   "test": "T05",
+   "check": "routine roll-up pulse, 10 m bay, c=2.0 ind/m3 (phi=57%)",
+   "value": 1.6119,
+   "unit": "t",
+   "criterion": "< 1 t (v3)",
+   "source": "coverage->mass",
+   "verdict": "FAIL",
+   "note": ""
+  },
+  {
+   "test": "T05",
+   "check": "routine roll-up pulse, 5 m bay, c=2.0 ind/m3 (phi=57%)",
+   "value": 0.806,
+   "unit": "t",
+   "criterion": "< 1 t (v3)",
+   "source": "coverage->mass",
+   "verdict": "PASS",
+   "note": ""
+  },
+  {
+   "test": "T05",
+   "check": "pulse when a bay trips at 100 Pa (phi_bay>=53%), 10 m bay",
+   "value": 1.4226,
+   "unit": "t",
+   "criterion": "< 1 t (v3)",
+   "source": "coverage->mass",
+   "verdict": "MARGINAL",
+   "note": ""
+  },
+  {
+   "test": "T05",
+   "check": "pulse when a bay trips at 100 Pa (phi_bay>=53%), 5 m bay",
+   "value": 0.7113,
+   "unit": "t",
+   "criterion": "< 1 t (v3)",
+   "source": "coverage->mass",
+   "verdict": "PASS",
+   "note": ""
+  },
+  {
+   "test": "T05",
+   "check": "pulse when a bay trips at 100 Pa (phi_bay>=53%), 3 m bay",
+   "value": 0.4268,
+   "unit": "t",
+   "criterion": "< 1 t (v3)",
+   "source": "coverage->mass",
+   "verdict": "PASS",
+   "note": ""
+  },
+  {
+   "test": "T05",
+   "check": "pulse when a bay trips at 200 Pa (phi_bay>=67%), 10 m bay",
+   "value": 2.0816,
+   "unit": "t",
+   "criterion": "< 1 t (v3)",
+   "source": "coverage->mass",
+   "verdict": "FAIL",
+   "note": ""
+  },
+  {
+   "test": "T05",
+   "check": "pulse when a bay trips at 200 Pa (phi_bay>=67%), 5 m bay",
+   "value": 1.0408,
+   "unit": "t",
+   "criterion": "< 1 t (v3)",
+   "source": "coverage->mass",
+   "verdict": "MARGINAL",
+   "note": ""
+  },
+  {
+   "test": "T05",
+   "check": "pulse when a bay trips at 200 Pa (phi_bay>=67%), 3 m bay",
+   "value": 0.6245,
+   "unit": "t",
+   "criterion": "< 1 t (v3)",
+   "source": "coverage->mass",
+   "verdict": "PASS",
+   "note": ""
+  },
+  {
+   "test": "T05",
+   "check": "pulse when a bay trips at 500 Pa (phi_bay>=79%), 10 m bay",
+   "value": 2.9527,
+   "unit": "t",
+   "criterion": "< 1 t (v3)",
+   "source": "coverage->mass",
+   "verdict": "FAIL",
+   "note": ""
+  },
+  {
+   "test": "T05",
+   "check": "pulse when a bay trips at 500 Pa (phi_bay>=79%), 5 m bay",
+   "value": 1.4763,
+   "unit": "t",
+   "criterion": "< 1 t (v3)",
+   "source": "coverage->mass",
+   "verdict": "MARGINAL",
+   "note": ""
+  },
+  {
+   "test": "T05",
+   "check": "pulse when a bay trips at 500 Pa (phi_bay>=79%), 3 m bay",
+   "value": 0.8858,
+   "unit": "t",
+   "criterion": "< 1 t (v3)",
+   "source": "coverage->mass",
+   "verdict": "PASS",
+   "note": ""
+  },
+  {
+   "test": "T05",
+   "check": "max bay width for a <1 t pulse at a 200 Pa trip",
+   "value": 4.8041,
+   "unit": "m",
+   "criterion": ">= 10 m (v3 bay) PASS; >= 5 m MARGINAL",
+   "source": "calc",
+   "verdict": "FAIL",
+   "note": ""
+  },
+  {
+   "test": "T05",
+   "check": "T03 dynamic max relief pulse [A static, mu=0.3 @ 1.0]",
+   "value": 2.1329,
+   "unit": "t",
+   "criterion": "< 1 t (v3)",
+   "source": "T03 model",
+   "verdict": "FAIL",
+   "note": ""
+  },
+  {
+   "test": "T05",
+   "check": "T03 dynamic max relief pulse [A static, mu=0.3 @ 2.0]",
+   "value": 2.3159,
+   "unit": "t",
+   "criterion": "< 1 t (v3)",
+   "source": "T03 model",
+   "verdict": "FAIL",
+   "note": ""
+  },
+  {
+   "test": "T05",
+   "check": "T03 dynamic max relief pulse [B static, mu=0.1 @ 2.0]",
+   "value": 2.166,
+   "unit": "t",
+   "criterion": "< 1 t (v3)",
+   "source": "T03 model",
+   "verdict": "FAIL",
+   "note": ""
+  },
+  {
+   "test": "T05",
+   "check": "T03 dynamic max relief pulse [C cycling, roll-up releases (cf=0) @ 2.0]",
+   "value": 2.3159,
+   "unit": "t",
+   "criterion": "< 1 t (v3)",
+   "source": "T03 model",
+   "verdict": "FAIL",
+   "note": ""
+  },
+  {
+   "test": "T05",
+   "check": "T03 dynamic max relief pulse [D cycling, bucket lip/trough (cf=0.8) @ 2.0]",
+   "value": 2.3159,
+   "unit": "t",
+   "criterion": "< 1 t (v3)",
+   "source": "T03 model",
+   "verdict": "FAIL",
+   "note": ""
+  },
+  {
+   "test": "T05",
+   "check": "T03 dynamic max relief pulse [E duplex curtain + trough (cf=0.8) @ 1.0]",
+   "value": 2.1651,
+   "unit": "t",
+   "criterion": "< 1 t (v3)",
+   "source": "T03 model",
+   "verdict": "FAIL",
+   "note": ""
+  },
+  {
+   "test": "T05",
+   "check": "T03 dynamic max relief pulse [E duplex curtain + trough (cf=0.8) @ 2.0]",
+   "value": 2.2894,
+   "unit": "t",
+   "criterion": "< 1 t (v3)",
+   "source": "T03 model",
+   "verdict": "FAIL",
+   "note": ""
+  },
+  {
+   "test": "T05",
+   "check": "T03 dynamic max relief pulse [G duplex + trough, 4 bays cycling on demand @ 1.0]",
+   "value": 2.434,
+   "unit": "t",
+   "criterion": "< 1 t (v3)",
+   "source": "T03 model",
+   "verdict": "FAIL",
+   "note": ""
+  },
+  {
+   "test": "T05",
+   "check": "T03 dynamic max relief pulse [G duplex + trough, 4 bays cycling on demand @ 2.0]",
+   "value": 2.5362,
+   "unit": "t",
+   "criterion": "< 1 t (v3)",
+   "source": "T03 model",
+   "verdict": "FAIL",
+   "note": ""
+  },
+  {
+   "test": "T05",
+   "check": "single-layer full cover of one 10 m x 7 m bay",
+   "value": 1.9014,
+   "unit": "t",
+   "criterion": "< 1 t (v3)",
+   "source": "geometry",
+   "verdict": "FAIL",
+   "note": "stacking makes it larger"
+  }
+ ],
+ "extra": {
+  "b_trip_200": 0.6653818432294678,
+  "w_need": 4.804100977815699
+ }
+}

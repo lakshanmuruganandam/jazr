@@ -1,0 +1,376 @@
+{
+  "V0 v3 as specified": {
+    "naive": {
+      "total": 318,
+      "per_hour": 39.75,
+      "max_per_10min": 10,
+      "flood_windows": 0,
+      "windows_over_1": 42,
+      "counts_10min": [
+        2,
+        1,
+        6,
+        8,
+        8,
+        8,
+        9,
+        8,
+        8,
+        9,
+        8,
+        8,
+        8,
+        8,
+        8,
+        10,
+        8,
+        8,
+        2,
+        0,
+        0,
+        7,
+        8,
+        8,
+        8,
+        8,
+        8,
+        8,
+        8,
+        8,
+        8,
+        8,
+        8,
+        9,
+        8,
+        8,
+        9,
+        8,
+        8,
+        8,
+        7,
+        8,
+        6,
+        4,
+        4,
+        1,
+        0,
+        0
+      ]
+    },
+    "rationalised": {
+      "total": 7,
+      "per_hour": 0.875,
+      "max_per_10min": 1,
+      "flood_windows": 0,
+      "windows_over_1": 0,
+      "counts_10min": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        1,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        1,
+        0,
+        0,
+        1,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        1,
+        0,
+        0,
+        1,
+        0,
+        0,
+        1,
+        0,
+        0,
+        1,
+        0,
+        0,
+        0,
+        0,
+        0
+      ]
+    },
+    "approvals": 3,
+    "busy_fraction_naive": 1.99375,
+    "busy_fraction_rationalised": 0.05,
+    "rationalised_alarm_list": [
+      [
+        1.004,
+        "SENSOR_DISAGREE"
+      ],
+      [
+        2.522,
+        "DRUM_STUCK_B7"
+      ],
+      [
+        3.003,
+        "COMMS_LOSS_LOCAL_MODE"
+      ],
+      [
+        5.603,
+        "CAMERA_FAULT_SCREW_STOPPED"
+      ],
+      [
+        6.003,
+        "OUTLET_RECOVER_MODE"
+      ],
+      [
+        6.603,
+        "WIND_HIGH_MOTION_BLOCKED"
+      ],
+      [
+        7.003,
+        "SEISMIC_TRIP"
+      ]
+    ]
+  },
+  "V8 redesign (belt + flap)": {
+    "naive": {
+      "total": 26,
+      "per_hour": 3.25,
+      "max_per_10min": 6,
+      "flood_windows": 0,
+      "windows_over_1": 5,
+      "counts_10min": [
+        2,
+        1,
+        0,
+        0,
+        0,
+        0,
+        1,
+        0,
+        0,
+        1,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        1,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        1,
+        0,
+        0,
+        1,
+        0,
+        0,
+        1,
+        0,
+        0,
+        5,
+        6,
+        4,
+        2,
+        0,
+        0
+      ]
+    },
+    "rationalised": {
+      "total": 7,
+      "per_hour": 0.875,
+      "max_per_10min": 1,
+      "flood_windows": 0,
+      "windows_over_1": 0,
+      "counts_10min": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        1,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        1,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        1,
+        0,
+        0,
+        1,
+        0,
+        0,
+        1,
+        0,
+        0,
+        1,
+        1,
+        0,
+        0,
+        0,
+        0
+      ]
+    },
+    "approvals": 3,
+    "busy_fraction_naive": 0.16875,
+    "busy_fraction_rationalised": 0.05,
+    "rationalised_alarm_list": [
+      [
+        1.004,
+        "SENSOR_DISAGREE"
+      ],
+      [
+        3.003,
+        "COMMS_LOSS_LOCAL_MODE"
+      ],
+      [
+        5.603,
+        "CAMERA_FAULT_SCREW_STOPPED"
+      ],
+      [
+        6.003,
+        "OUTLET_RECOVER_MODE"
+      ],
+      [
+        6.603,
+        "WIND_HIGH_MOTION_BLOCKED"
+      ],
+      [
+        7.003,
+        "SEISMIC_TRIP"
+      ],
+      [
+        7.301,
+        "DRUM_STUCK_B7"
+      ]
+    ]
+  },
+  "procedure_coverage": {
+    "observed_transitions": [
+      [
+        "ALERT",
+        "READY"
+      ],
+      [
+        "DEPLOYING",
+        "OPERATE"
+      ],
+      [
+        "IDLE",
+        "ALERT"
+      ],
+      [
+        "OPERATE",
+        "SAFE"
+      ],
+      [
+        "READY",
+        "DEPLOYING"
+      ],
+      [
+        "SAFE",
+        "IDLE"
+      ]
+    ],
+    "missing": [],
+    "alarms_without_response": []
+  },
+  "verdicts": [
+    {
+      "test": "E1 alarm rate, naive HMI (V0 v3 as specified)",
+      "value": "39.8/h, peak 10/10 min, 0 flood windows",
+      "criterion": "<= 6/h average and no 10-min window > 10 (ISA-18.2/EEMUA 191)",
+      "verdict": "FAIL"
+    },
+    {
+      "test": "E2 alarm rate, rationalised (V0 v3 as specified)",
+      "value": "0.9/h, peak 1/10 min, 0 flood windows",
+      "criterion": "<= 6/h average and no flood",
+      "verdict": "PASS",
+      "detail": "fault-dense scenario: 9 injected faults in 8 h; a normal bloom shift has far fewer"
+    },
+    {
+      "test": "E3 operator workload (V0 v3 as specified)",
+      "value": "5% of shift time on alarms/approvals (rationalised), 199% naive",
+      "criterion": "<= 50 % for 1 operator (V3: 1-2 operators) [ASM]",
+      "verdict": "PASS"
+    },
+    {
+      "test": "E1 alarm rate, naive HMI (V8 redesign (belt + flap))",
+      "value": "3.2/h, peak 6/10 min, 0 flood windows",
+      "criterion": "<= 6/h average and no 10-min window > 10 (ISA-18.2/EEMUA 191)",
+      "verdict": "PASS"
+    },
+    {
+      "test": "E2 alarm rate, rationalised (V8 redesign (belt + flap))",
+      "value": "0.9/h, peak 1/10 min, 0 flood windows",
+      "criterion": "<= 6/h average and no flood",
+      "verdict": "PASS",
+      "detail": "fault-dense scenario: 9 injected faults in 8 h; a normal bloom shift has far fewer"
+    },
+    {
+      "test": "E3 operator workload (V8 redesign (belt + flap))",
+      "value": "5% of shift time on alarms/approvals (rationalised), 17% naive",
+      "criterion": "<= 50 % for 1 operator (V3: 1-2 operators) [ASM]",
+      "verdict": "PASS"
+    },
+    {
+      "test": "E4 procedure coverage (every observed OS transition / alarm has a written response)",
+      "value": "6 transitions, missing []; alarms without response []",
+      "criterion": "100 % coverage",
+      "verdict": "PASS"
+    }
+  ]
+}

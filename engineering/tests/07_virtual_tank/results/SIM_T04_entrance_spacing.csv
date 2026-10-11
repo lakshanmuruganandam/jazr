@@ -1,0 +1,7 @@
+run,spacing_cm,n_released,n_bypass,n_intake,n_stuck,video_file,data_type
+1,26.2,30,14,0,16,SIM_log seed=10000,SIMULATED virtual tank - not physical evidence
+2,26.2,30,16,0,9,SIM_log seed=10097,SIMULATED virtual tank - not physical evidence
+3,26.2,30,15,0,15,SIM_log seed=10194,SIMULATED virtual tank - not physical evidence
+1,13.1,30,22,0,6,SIM_log seed=10000,SIMULATED virtual tank - not physical evidence
+2,13.1,30,22,0,8,SIM_log seed=10097,SIMULATED virtual tank - not physical evidence
+3,13.1,30,23,0,7,SIM_log seed=10194,SIMULATED virtual tank - not physical evidence

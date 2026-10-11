@@ -1,0 +1,6 @@
+v3 Morris mu* (pct-pts over full range): {'eta_r': np.float64(37.16), 'eta_g': np.float64(31.65), 'ur': np.float64(24.2), 'vr': np.float64(15.84), 'gate_y': np.float64(15.4), 'hours': np.float64(9.88), 'swim': np.float64(9.52), 'U0': np.float64(1.51)}
+today Morris mu* (pct-pts over full range): {'ur': np.float64(30.28), 'swim': np.float64(5.6), 'vr': np.float64(4.77), 'hours': np.float64(4.3), 'U0': np.float64(1.83), 'eta_g': np.float64(0.0), 'eta_r': np.float64(0.0), 'gate_y': np.float64(0.0)}
+morris done 7475 s
+real 7476.18
+user 733.94
+sys 13.83

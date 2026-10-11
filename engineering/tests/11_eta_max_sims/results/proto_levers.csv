@@ -1,0 +1,72 @@
+group,config,seeds,bells,eta_mean,eta_ci_lo,eta_ci_hi,eta_cp_lo,jam_rate,held,lingering,leaked,apex_share,contacts_per_bell,t_face_s,t_face_p90_s,face_cover_max,data_type
+P1_entrance_flow,3% (no dewatering),5,10000,1.0,1.0,1,0.9996,0.0,0.0,0.0,0.0,0.28,1.14,16.3,35.7,0.0,SIMULATED prototype 2D CFD tracker - upper bound
+P1_entrance_flow,10% + dewatering,5,10000,1.0,1.0,1,0.9996,0.0,0.0,0.0,0.0,0.266,0.93,12.5,22.8,0.0,SIMULATED prototype 2D CFD tracker - upper bound
+P1_entrance_flow,20% + dewatering,5,10000,1.0,1.0,1,0.9996,0.0,0.0,0.0,0.0,0.246,0.86,12.4,23.8,0.0,SIMULATED prototype 2D CFD tracker - upper bound
+P1_entrance_flow,35% + dewatering,5,10000,1.0,1.0,1,0.9996,0.0,0.0,0.0,0.0,0.216,0.78,12.2,25.8,0.0,SIMULATED prototype 2D CFD tracker - upper bound
+P1_entrance_flow,50% + dewatering,5,10000,1.0,1.0,1,0.9996,0.0,0.0,0.0,0.0,0.194,0.69,11.6,27.0,0.0,SIMULATED prototype 2D CFD tracker - upper bound
+P2_apex_scoop,apex + 2 m scoops,5,10000,1.0,1.0,1,0.9996,0.0,0.0,0.0,0.0,0.248,0.94,15.0,26.5,0.0,SIMULATED prototype 2D CFD tracker - upper bound
+P2_apex_scoop,apex + 4 m scoops,5,10000,1.0,1.0,1,0.9996,0.0,0.0,0.0,0.0,0.246,0.86,12.4,23.8,0.0,SIMULATED prototype 2D CFD tracker - upper bound
+P2_apex_scoop,apex + 6 m scoops,5,10000,1.0,1.0,1,0.9996,0.0,0.0,0.0,0.0,0.25,0.83,10.9,21.6,0.0,SIMULATED prototype 2D CFD tracker - upper bound
+P2_apex_scoop,"NO apex entrance, 2 m",5,10000,0.7568,0.7473,0.7663,0.7483,0.0,0.0,0.0,0.2432,0.304,0.93,15.9,28.0,0.0,SIMULATED prototype 2D CFD tracker - upper bound
+P2_apex_scoop,"NO apex entrance, 4 m",5,10000,0.765,0.7526,0.7774,0.7566,0.0,0.0,0.0,0.235,0.294,0.87,13.6,25.7,0.0,SIMULATED prototype 2D CFD tracker - upper bound
+P2_apex_scoop,"apex share 50%, 4 m",5,10000,1.0,1.0,1,0.9996,0.0,0.0,0.0,0.0,0.261,0.9,12.1,22.6,0.0,SIMULATED prototype 2D CFD tracker - upper bound
+P2_apex_scoop,"35% equal split | half flow, rheo 10",5,10000,0.9724,0.9653,0.9795,0.969,0.0276,0.008,0.0196,0.0,0.194,31.4,34.3,75.7,0.0,SIMULATED prototype 2D CFD tracker - upper bound
+P2_apex_scoop,"35% apex share 50% | half flow, rheo 10",5,10000,0.9987,0.997,1,0.9978,0.0013,0.0,0.0013,0.0,0.239,26.39,33.2,68.1,0.0,SIMULATED prototype 2D CFD tracker - upper bound
+P3_conveyor,belt 0.00 x sweep,5,10000,1.0,1.0,1,0.9996,0.0,0.0,0.0,0.0,0.246,0.86,12.4,23.8,0.0,SIMULATED prototype 2D CFD tracker - upper bound
+P3_conveyor,"belt 0.00 | half flow, rheotactic 10 cm/s",5,10000,0.9984,0.9971,0.9997,0.9974,0.0016,0.0002,0.0014,0.0,0.243,26.38,35.2,69.3,0.0,SIMULATED prototype 2D CFD tracker - upper bound
+P3_conveyor,belt 0.25 x sweep,5,10000,1.0,1.0,1,0.9996,0.0,0.0,0.0,0.0,0.246,0.86,12.4,23.8,0.0,SIMULATED prototype 2D CFD tracker - upper bound
+P3_conveyor,"belt 0.25 | half flow, rheotactic 10 cm/s",5,10000,0.9984,0.9971,0.9997,0.9974,0.0016,0.0002,0.0014,0.0,0.243,26.38,35.2,69.3,0.0,SIMULATED prototype 2D CFD tracker - upper bound
+P3_conveyor,belt 0.50 x sweep,5,10000,1.0,1.0,1,0.9996,0.0,0.0,0.0,0.0,0.246,0.86,12.4,23.8,0.0,SIMULATED prototype 2D CFD tracker - upper bound
+P3_conveyor,"belt 0.50 | half flow, rheotactic 10 cm/s",5,10000,0.9984,0.9971,0.9997,0.9974,0.0016,0.0002,0.0014,0.0,0.243,26.38,35.2,69.3,0.0,SIMULATED prototype 2D CFD tracker - upper bound
+P3_conveyor,belt 1.00 x sweep,5,10000,1.0,1.0,1,0.9996,0.0,0.0,0.0,0.0,0.246,0.86,11.9,22.8,0.0,SIMULATED prototype 2D CFD tracker - upper bound
+P3_conveyor,"belt 1.00 | half flow, rheotactic 10 cm/s",5,10000,0.9985,0.9963,1,0.9975,0.0015,0.0001,0.0014,0.0,0.243,20.95,27.2,52.6,0.0,SIMULATED prototype 2D CFD tracker - upper bound
+P5_friction,mu 0.05,5,10000,1.0,1.0,1,0.9996,0.0,0.0,0.0,0.0,0.246,0.86,12.4,23.8,0.0,SIMULATED prototype 2D CFD tracker - upper bound
+P5_friction,mu 0.1,5,10000,1.0,1.0,1,0.9996,0.0,0.0,0.0,0.0,0.246,0.86,12.4,23.8,0.0,SIMULATED prototype 2D CFD tracker - upper bound
+P5_friction,mu 0.2,5,10000,1.0,1.0,1,0.9996,0.0,0.0,0.0,0.0,0.246,0.86,12.4,23.8,0.0,SIMULATED prototype 2D CFD tracker - upper bound
+P5_friction,mu 0.4,5,10000,1.0,1.0,1,0.9996,0.0,0.0,0.0,0.0,0.246,0.86,12.4,23.8,0.0,SIMULATED prototype 2D CFD tracker - upper bound
+P5_friction,mu 4.0,5,10000,1.0,1.0,1,0.9996,0.0,0.0,0.0,0.0,0.246,0.86,12.5,24.0,0.0,SIMULATED prototype 2D CFD tracker - upper bound
+P6_baffles,no baffles,5,10000,1.0,1.0,1,0.9996,0.0,0.0,0.0,0.0,0.246,0.86,12.4,23.8,0.0,SIMULATED prototype 2D CFD tracker - upper bound
+P6_baffles,graded baffle k->10,5,10000,1.0,1.0,1,0.9996,0.0,0.0,0.0,0.0,0.231,0.87,13.0,25.2,0.0,SIMULATED prototype 2D CFD tracker - upper bound
+P6_baffles,graded baffle k->30,5,10000,1.0,1.0,1,0.9996,0.0,0.0,0.0,0.0,0.209,0.96,13.6,26.7,0.0,SIMULATED prototype 2D CFD tracker - upper bound
+P7_walljet,jet 0.00 x sweep,5,10000,1.0,1.0,1,0.9996,0.0,0.0,0.0,0.0,0.246,0.86,12.4,23.8,0.0,SIMULATED prototype 2D CFD tracker - upper bound
+P7_walljet,"jet 0.00 | half flow, rheotactic 10 cm/s",5,10000,0.9984,0.9971,0.9997,0.9974,0.0016,0.0002,0.0014,0.0,0.243,26.38,35.2,69.3,0.0,SIMULATED prototype 2D CFD tracker - upper bound
+P7_walljet,jet 0.10 x sweep,5,10000,1.0,1.0,1,0.9996,0.0,0.0,0.0,0.0,0.246,0.86,11.7,22.5,0.0,SIMULATED prototype 2D CFD tracker - upper bound
+P7_walljet,"jet 0.10 | half flow, rheotactic 10 cm/s",5,10000,0.9989,0.9979,0.9999,0.998,0.0011,0.0,0.0011,0.0,0.243,24.32,32.4,63.7,0.0,SIMULATED prototype 2D CFD tracker - upper bound
+P7_walljet,jet 0.25 x sweep,5,10000,1.0,1.0,1,0.9996,0.0,0.0,0.0,0.0,0.246,0.86,10.8,20.8,0.0,SIMULATED prototype 2D CFD tracker - upper bound
+P7_walljet,"jet 0.25 | half flow, rheotactic 10 cm/s",5,10000,0.9985,0.9967,1,0.9975,0.0015,0.0001,0.0014,0.0,0.243,21.93,29.1,57.0,0.0,SIMULATED prototype 2D CFD tracker - upper bound
+P7_walljet,jet 0.50 x sweep,5,10000,1.0,1.0,1,0.9996,0.0,0.0,0.0,0.0,0.246,0.86,9.6,18.4,0.0,SIMULATED prototype 2D CFD tracker - upper bound
+P7_walljet,"jet 0.50 | half flow, rheotactic 10 cm/s",5,10000,0.9988,0.9975,1,0.9979,0.0012,0.0,0.0012,0.0,0.243,18.63,24.4,48.2,0.0,SIMULATED prototype 2D CFD tracker - upper bound
+P8_size_swim,6.5-12 cm passive,5,10000,1.0,1.0,1,0.9996,0.0,0.0,0.0,0.0,0.246,0.86,12.4,23.8,0.0,SIMULATED prototype 2D CFD tracker - upper bound
+P8_size_swim,30-45 cm passive (old assumption),5,10000,1.0,1.0,1,0.9996,0.0,0.0,0.0,0.0,0.244,1.08,12.8,23.8,0.0,SIMULATED prototype 2D CFD tracker - upper bound
+P8_size_swim,swim 3.6 cm/s random,5,10000,1.0,1.0,1,0.9996,0.0,0.0,0.0,0.0,0.245,0.91,12.5,24.0,0.0,SIMULATED prototype 2D CFD tracker - upper bound
+P8_size_swim,swim 3.6 cm/s rheotactic,5,10000,1.0,1.0,1,0.9996,0.0,0.0,0.0,0.0,0.245,0.94,13.3,25.6,0.0,SIMULATED prototype 2D CFD tracker - upper bound
+P8_size_swim,"swim 3.6 cm/s rheotactic, half flow",5,10000,1.0,1.0,1,0.9996,0.0,0.0,0.0,0.0,0.245,1.68,28.5,55.0,0.0,SIMULATED prototype 2D CFD tracker - upper bound
+P8_size_swim,swim 10.0 cm/s random,5,10000,1.0,1.0,1,0.9996,0.0,0.0,0.0,0.0,0.288,1.51,15.2,30.0,0.0,SIMULATED prototype 2D CFD tracker - upper bound
+P8_size_swim,swim 10.0 cm/s rheotactic,5,10000,1.0,1.0,1,0.9996,0.0,0.0,0.0,0.0,0.244,1.83,15.1,29.2,0.0,SIMULATED prototype 2D CFD tracker - upper bound
+P8_size_swim,"swim 10.0 cm/s rheotactic, half flow",5,10000,0.9984,0.9971,0.9997,0.9974,0.0016,0.0002,0.0014,0.0,0.243,26.38,35.2,69.3,0.0,SIMULATED prototype 2D CFD tracker - upper bound
+P9_density,0.3 /m3,5,10000,1.0,1.0,1,0.9996,0.0,0.0,0.0,0.0,0.246,0.86,12.4,23.8,0.02,SIMULATED prototype 2D CFD tracker - upper bound
+P9_density,1.0 /m3,5,10000,1.0,1.0,1,0.9996,0.0,0.0,0.0,0.0,0.246,0.86,12.4,23.8,0.066,SIMULATED prototype 2D CFD tracker - upper bound
+P9_density,"1.0 /m3, 30-45 cm bells",5,10000,1.0,1.0,1,0.9996,0.0,0.0,0.0,0.0,0.244,1.08,13.0,24.0,0.9,SIMULATED prototype 2D CFD tracker - upper bound
+P9_density,"1.0 /m3, 30-45 cm, mu 2",5,10000,1.0,1.0,1,0.9996,0.0,0.0,0.0,0.0,0.244,1.08,15.4,28.6,0.9,SIMULATED prototype 2D CFD tracker - upper bound
+CUE_proto,"cue -3 cm/s | full flow, rheo 3.6",5,10000,1.0,1.0,1,0.9996,0.0,0.0,0.0,0.0,0.227,0.94,14.4,27.6,0.0,SIMULATED prototype 2D CFD tracker - upper bound
+CUE_proto,"cue -3 cm/s | half flow, rheo 10",5,10000,0.9324,0.9224,0.9424,0.9273,0.0676,0.0167,0.0509,0.0,0.14,36.18,43.5,86.9,0.0,SIMULATED prototype 2D CFD tracker - upper bound
+CUE_proto,"cue -2 cm/s | full flow, rheo 3.6",5,10000,1.0,1.0,1,0.9996,0.0,0.0,0.0,0.0,0.234,0.95,14.1,27.0,0.0,SIMULATED prototype 2D CFD tracker - upper bound
+CUE_proto,"cue -2 cm/s | half flow, rheo 10",5,10000,0.9588,0.948,0.9696,0.9547,0.0412,0.013,0.0282,0.0,0.174,32.28,40.4,79.8,0.0,SIMULATED prototype 2D CFD tracker - upper bound
+CUE_proto,"cue -1 cm/s | full flow, rheo 3.6",5,10000,1.0,1.0,1,0.9996,0.0,0.0,0.0,0.0,0.239,0.93,13.7,26.2,0.0,SIMULATED prototype 2D CFD tracker - upper bound
+CUE_proto,"cue -1 cm/s | half flow, rheo 10",5,10000,0.9791,0.9733,0.9849,0.9761,0.0209,0.008,0.0129,0.0,0.211,29.19,37.8,74.4,0.0,SIMULATED prototype 2D CFD tracker - upper bound
+CUE_proto,"cue +0 cm/s | full flow, rheo 3.6",5,10000,1.0,1.0,1,0.9996,0.0,0.0,0.0,0.0,0.245,0.94,13.3,25.6,0.0,SIMULATED prototype 2D CFD tracker - upper bound
+CUE_proto,"cue +0 cm/s | half flow, rheo 10",5,10000,0.9984,0.9971,0.9997,0.9974,0.0016,0.0002,0.0014,0.0,0.243,26.38,35.2,69.3,0.0,SIMULATED prototype 2D CFD tracker - upper bound
+CUE_proto,"cue +1 cm/s | full flow, rheo 3.6",5,10000,1.0,1.0,1,0.9996,0.0,0.0,0.0,0.0,0.25,0.94,12.9,25.0,0.0,SIMULATED prototype 2D CFD tracker - upper bound
+CUE_proto,"cue +1 cm/s | half flow, rheo 10",5,10000,1.0,1.0,1,0.9996,0.0,0.0,0.0,0.0,0.26,23.63,32.6,65.3,0.0,SIMULATED prototype 2D CFD tracker - upper bound
+CUE_proto,"cue +2 cm/s | full flow, rheo 3.6",5,10000,1.0,1.0,1,0.9996,0.0,0.0,0.0,0.0,0.257,0.94,12.6,24.4,0.0,SIMULATED prototype 2D CFD tracker - upper bound
+CUE_proto,"cue +2 cm/s | half flow, rheo 10",5,10000,1.0,1.0,1,0.9996,0.0,0.0,0.0,0.0,0.278,21.52,30.5,61.8,0.0,SIMULATED prototype 2D CFD tracker - upper bound
+CUE_proto,"cue +3 cm/s | full flow, rheo 3.6",5,10000,1.0,1.0,1,0.9996,0.0,0.0,0.0,0.0,0.263,0.93,12.3,24.0,0.0,SIMULATED prototype 2D CFD tracker - upper bound
+CUE_proto,"cue +3 cm/s | half flow, rheo 10",5,10000,1.0,1.0,1,0.9996,0.0,0.0,0.0,0.0,0.296,19.82,29.0,58.7,0.0,SIMULATED prototype 2D CFD tracker - upper bound
+COMBO_proto,v4.1 | nominal,5,10000,1.0,1.0,1,0.9996,0.0,0.0,0.0,0.0,0.246,0.86,12.4,23.8,0.0,SIMULATED prototype 2D CFD tracker - upper bound
+COMBO_proto,"v4.1 | half flow, rheo 10 cm/s",5,10000,0.9984,0.9971,0.9997,0.9974,0.0016,0.0002,0.0014,0.0,0.243,26.38,35.2,69.3,0.0,SIMULATED prototype 2D CFD tracker - upper bound
+COMBO_proto,v4.1 | 1 /m3,5,10000,1.0,1.0,1,0.9996,0.0,0.0,0.0,0.0,0.246,0.86,12.4,23.8,0.066,SIMULATED prototype 2D CFD tracker - upper bound
+COMBO_proto,"v4.1 | half flow, rheo 10, 1 /m3, mu 0.4",5,10000,0.9984,0.9971,0.9997,0.9974,0.0016,0.0002,0.0014,0.0,0.243,26.38,35.2,69.3,0.05,SIMULATED prototype 2D CFD tracker - upper bound
+COMBO_proto,best | nominal,5,10000,1.0,1.0,1,0.9996,0.0,0.0,0.0,0.0,0.228,0.82,10.7,21.4,0.0,SIMULATED prototype 2D CFD tracker - upper bound
+COMBO_proto,"best | half flow, rheo 10 cm/s",5,10000,0.9954,0.9932,0.9976,0.9939,0.0046,0.0002,0.0044,0.0,0.222,24.76,28.6,59.3,0.0,SIMULATED prototype 2D CFD tracker - upper bound
+COMBO_proto,best | 1 /m3,5,10000,1.0,1.0,1,0.9996,0.0,0.0,0.0,0.0,0.228,0.82,10.7,21.4,0.061,SIMULATED prototype 2D CFD tracker - upper bound
+COMBO_proto,"best | half flow, rheo 10, 1 /m3, mu 0.4",5,10000,0.9954,0.9932,0.9976,0.9939,0.0046,0.0002,0.0044,0.0,0.222,24.76,28.6,59.3,0.047,SIMULATED prototype 2D CFD tracker - upper bound

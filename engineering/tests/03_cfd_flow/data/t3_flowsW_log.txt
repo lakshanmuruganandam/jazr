@@ -1,0 +1,15 @@
+14 flows to warm-solve
+{'theta': 20.0, 'spacing': 60.0, 'fb': 0.04} converged 2580s
+{'theta': 20.0, 'spacing': 60.0, 'fb': 0.02} converged 2588s
+{'theta': 20.0, 'spacing': 30.0, 'fb': 0.04} converged 2597s
+{'theta': 20.0, 'spacing': 15.0, 'fb': 0.02} time-averaged 3626s
+{'theta': 20.0, 'spacing': 15.0, 'fb': 0.04} time-averaged 3626s
+{'theta': 8.0, 'spacing': 30.0, 'fb': 0.04} time-averaged 4701s
+{'theta': 8.0, 'spacing': 15.0, 'fb': 0.02} time-averaged 4701s
+{'theta': 8.0, 'spacing': 15.0, 'fb': 0.04} time-averaged 4701s
+{'theta': 20.0, 'split': 'terminal50'} time-averaged 2103s
+{'theta': 11.0, 'terminal': False} time-averaged 3157s
+{'theta': 11.0, 'terminal': False, 'fb': 0.04} time-averaged 3155s
+{'theta': 20.0, 'b': 4.0} time-averaged 1048s
+{'theta': 11.0, 'b': 4.0} time-averaged 3154s
+{'theta': 11.0, 'b': 1.0} time-averaged 2131s

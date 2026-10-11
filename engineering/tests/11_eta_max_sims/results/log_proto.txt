@@ -1,0 +1,73 @@
+P1_entrance_flow  3% (no dewatering)                               eta 1.000 [1.000-1.000] jam 0.000 cont 1.14 tface 16.3 cov 0.0
+P1_entrance_flow  10% + dewatering                                 eta 1.000 [1.000-1.000] jam 0.000 cont 0.93 tface 12.5 cov 0.0
+P1_entrance_flow  20% + dewatering                                 eta 1.000 [1.000-1.000] jam 0.000 cont 0.86 tface 12.4 cov 0.0
+P1_entrance_flow  35% + dewatering                                 eta 1.000 [1.000-1.000] jam 0.000 cont 0.78 tface 12.2 cov 0.0
+P1_entrance_flow  50% + dewatering                                 eta 1.000 [1.000-1.000] jam 0.000 cont 0.69 tface 11.6 cov 0.0
+P2_apex_scoop     apex + 2 m scoops                                eta 1.000 [1.000-1.000] jam 0.000 cont 0.94 tface 15.0 cov 0.0
+P2_apex_scoop     apex + 4 m scoops                                eta 1.000 [1.000-1.000] jam 0.000 cont 0.86 tface 12.4 cov 0.0
+P2_apex_scoop     apex + 6 m scoops                                eta 1.000 [1.000-1.000] jam 0.000 cont 0.83 tface 10.9 cov 0.0
+P2_apex_scoop     NO apex entrance, 2 m                            eta 0.757 [0.747-0.766] jam 0.000 cont 0.93 tface 15.9 cov 0.0
+P2_apex_scoop     NO apex entrance, 4 m                            eta 0.765 [0.753-0.777] jam 0.000 cont 0.87 tface 13.6 cov 0.0
+P2_apex_scoop     apex share 50%, 4 m                              eta 1.000 [1.000-1.000] jam 0.000 cont 0.9 tface 12.1 cov 0.0
+P2_apex_scoop     35% equal split | half flow, rheo 10             eta 0.972 [0.965-0.980] jam 0.028 cont 31.4 tface 34.3 cov 0.0
+P2_apex_scoop     35% apex share 50% | half flow, rheo 10          eta 0.999 [0.997-1.000] jam 0.001 cont 26.39 tface 33.2 cov 0.0
+P3_conveyor       belt 0.00 x sweep                                eta 1.000 [1.000-1.000] jam 0.000 cont 0.86 tface 12.4 cov 0.0
+P3_conveyor       belt 0.00 | half flow, rheotactic 10 cm/s        eta 0.998 [0.997-1.000] jam 0.002 cont 26.38 tface 35.2 cov 0.0
+P3_conveyor       belt 0.25 x sweep                                eta 1.000 [1.000-1.000] jam 0.000 cont 0.86 tface 12.4 cov 0.0
+P3_conveyor       belt 0.25 | half flow, rheotactic 10 cm/s        eta 0.998 [0.997-1.000] jam 0.002 cont 26.38 tface 35.2 cov 0.0
+P3_conveyor       belt 0.50 x sweep                                eta 1.000 [1.000-1.000] jam 0.000 cont 0.86 tface 12.4 cov 0.0
+P3_conveyor       belt 0.50 | half flow, rheotactic 10 cm/s        eta 0.998 [0.997-1.000] jam 0.002 cont 26.38 tface 35.2 cov 0.0
+P3_conveyor       belt 1.00 x sweep                                eta 1.000 [1.000-1.000] jam 0.000 cont 0.86 tface 11.9 cov 0.0
+P3_conveyor       belt 1.00 | half flow, rheotactic 10 cm/s        eta 0.999 [0.996-1.000] jam 0.002 cont 20.95 tface 27.2 cov 0.0
+P5_friction       mu 0.05                                          eta 1.000 [1.000-1.000] jam 0.000 cont 0.86 tface 12.4 cov 0.0
+P5_friction       mu 0.1                                           eta 1.000 [1.000-1.000] jam 0.000 cont 0.86 tface 12.4 cov 0.0
+P5_friction       mu 0.2                                           eta 1.000 [1.000-1.000] jam 0.000 cont 0.86 tface 12.4 cov 0.0
+P5_friction       mu 0.4                                           eta 1.000 [1.000-1.000] jam 0.000 cont 0.86 tface 12.4 cov 0.0
+P5_friction       mu 4.0                                           eta 1.000 [1.000-1.000] jam 0.000 cont 0.86 tface 12.5 cov 0.0
+P6_baffles        no baffles                                       eta 1.000 [1.000-1.000] jam 0.000 cont 0.86 tface 12.4 cov 0.0
+P6_baffles        graded baffle k->10                              eta 1.000 [1.000-1.000] jam 0.000 cont 0.87 tface 13.0 cov 0.0
+P6_baffles        graded baffle k->30                              eta 1.000 [1.000-1.000] jam 0.000 cont 0.96 tface 13.6 cov 0.0
+P7_walljet        jet 0.00 x sweep                                 eta 1.000 [1.000-1.000] jam 0.000 cont 0.86 tface 12.4 cov 0.0
+P7_walljet        jet 0.00 | half flow, rheotactic 10 cm/s         eta 0.998 [0.997-1.000] jam 0.002 cont 26.38 tface 35.2 cov 0.0
+P7_walljet        jet 0.10 x sweep                                 eta 1.000 [1.000-1.000] jam 0.000 cont 0.86 tface 11.7 cov 0.0
+P7_walljet        jet 0.10 | half flow, rheotactic 10 cm/s         eta 0.999 [0.998-1.000] jam 0.001 cont 24.32 tface 32.4 cov 0.0
+P7_walljet        jet 0.25 x sweep                                 eta 1.000 [1.000-1.000] jam 0.000 cont 0.86 tface 10.8 cov 0.0
+P7_walljet        jet 0.25 | half flow, rheotactic 10 cm/s         eta 0.999 [0.997-1.000] jam 0.002 cont 21.93 tface 29.1 cov 0.0
+P7_walljet        jet 0.50 x sweep                                 eta 1.000 [1.000-1.000] jam 0.000 cont 0.86 tface 9.6 cov 0.0
+P7_walljet        jet 0.50 | half flow, rheotactic 10 cm/s         eta 0.999 [0.998-1.000] jam 0.001 cont 18.63 tface 24.4 cov 0.0
+P8_size_swim      6.5-12 cm passive                                eta 1.000 [1.000-1.000] jam 0.000 cont 0.86 tface 12.4 cov 0.0
+P8_size_swim      30-45 cm passive (old assumption)                eta 1.000 [1.000-1.000] jam 0.000 cont 1.08 tface 12.8 cov 0.0
+P8_size_swim      swim 3.6 cm/s random                             eta 1.000 [1.000-1.000] jam 0.000 cont 0.91 tface 12.5 cov 0.0
+P8_size_swim      swim 3.6 cm/s rheotactic                         eta 1.000 [1.000-1.000] jam 0.000 cont 0.94 tface 13.3 cov 0.0
+P8_size_swim      swim 3.6 cm/s rheotactic, half flow              eta 1.000 [1.000-1.000] jam 0.000 cont 1.68 tface 28.5 cov 0.0
+P8_size_swim      swim 10.0 cm/s random                            eta 1.000 [1.000-1.000] jam 0.000 cont 1.51 tface 15.2 cov 0.0
+P8_size_swim      swim 10.0 cm/s rheotactic                        eta 1.000 [1.000-1.000] jam 0.000 cont 1.83 tface 15.1 cov 0.0
+P8_size_swim      swim 10.0 cm/s rheotactic, half flow             eta 0.998 [0.997-1.000] jam 0.002 cont 26.38 tface 35.2 cov 0.0
+P9_density        0.3 /m3                                          eta 1.000 [1.000-1.000] jam 0.000 cont 0.86 tface 12.4 cov 0.02
+P9_density        1.0 /m3                                          eta 1.000 [1.000-1.000] jam 0.000 cont 0.86 tface 12.4 cov 0.066
+P9_density        1.0 /m3, 30-45 cm bells                          eta 1.000 [1.000-1.000] jam 0.000 cont 1.08 tface 13.0 cov 0.9
+P9_density        1.0 /m3, 30-45 cm, mu 2                          eta 1.000 [1.000-1.000] jam 0.000 cont 1.08 tface 15.4 cov 0.9
+CUE_proto         cue -3 cm/s | full flow, rheo 3.6                eta 1.000 [1.000-1.000] jam 0.000 cont 0.94 tface 14.4 cov 0.0
+CUE_proto         cue -3 cm/s | half flow, rheo 10                 eta 0.932 [0.922-0.942] jam 0.068 cont 36.18 tface 43.5 cov 0.0
+CUE_proto         cue -2 cm/s | full flow, rheo 3.6                eta 1.000 [1.000-1.000] jam 0.000 cont 0.95 tface 14.1 cov 0.0
+CUE_proto         cue -2 cm/s | half flow, rheo 10                 eta 0.959 [0.948-0.970] jam 0.041 cont 32.28 tface 40.4 cov 0.0
+CUE_proto         cue -1 cm/s | full flow, rheo 3.6                eta 1.000 [1.000-1.000] jam 0.000 cont 0.93 tface 13.7 cov 0.0
+CUE_proto         cue -1 cm/s | half flow, rheo 10                 eta 0.979 [0.973-0.985] jam 0.021 cont 29.19 tface 37.8 cov 0.0
+CUE_proto         cue +0 cm/s | full flow, rheo 3.6                eta 1.000 [1.000-1.000] jam 0.000 cont 0.94 tface 13.3 cov 0.0
+CUE_proto         cue +0 cm/s | half flow, rheo 10                 eta 0.998 [0.997-1.000] jam 0.002 cont 26.38 tface 35.2 cov 0.0
+CUE_proto         cue +1 cm/s | full flow, rheo 3.6                eta 1.000 [1.000-1.000] jam 0.000 cont 0.94 tface 12.9 cov 0.0
+CUE_proto         cue +1 cm/s | half flow, rheo 10                 eta 1.000 [1.000-1.000] jam 0.000 cont 23.63 tface 32.6 cov 0.0
+CUE_proto         cue +2 cm/s | full flow, rheo 3.6                eta 1.000 [1.000-1.000] jam 0.000 cont 0.94 tface 12.6 cov 0.0
+CUE_proto         cue +2 cm/s | half flow, rheo 10                 eta 1.000 [1.000-1.000] jam 0.000 cont 21.52 tface 30.5 cov 0.0
+CUE_proto         cue +3 cm/s | full flow, rheo 3.6                eta 1.000 [1.000-1.000] jam 0.000 cont 0.93 tface 12.3 cov 0.0
+CUE_proto         cue +3 cm/s | half flow, rheo 10                 eta 1.000 [1.000-1.000] jam 0.000 cont 19.82 tface 29.0 cov 0.0
+COMBO_proto       v4.1 | nominal                                   eta 1.000 [1.000-1.000] jam 0.000 cont 0.86 tface 12.4 cov 0.0
+COMBO_proto       v4.1 | half flow, rheo 10 cm/s                   eta 0.998 [0.997-1.000] jam 0.002 cont 26.38 tface 35.2 cov 0.0
+COMBO_proto       v4.1 | 1 /m3                                     eta 1.000 [1.000-1.000] jam 0.000 cont 0.86 tface 12.4 cov 0.066
+COMBO_proto       v4.1 | half flow, rheo 10, 1 /m3, mu 0.4         eta 0.998 [0.997-1.000] jam 0.002 cont 26.38 tface 35.2 cov 0.05
+COMBO_proto       best | nominal                                   eta 1.000 [1.000-1.000] jam 0.000 cont 0.82 tface 10.7 cov 0.0
+COMBO_proto       best | half flow, rheo 10 cm/s                   eta 0.995 [0.993-0.998] jam 0.005 cont 24.76 tface 28.6 cov 0.0
+COMBO_proto       best | 1 /m3                                     eta 1.000 [1.000-1.000] jam 0.000 cont 0.82 tface 10.7 cov 0.061
+COMBO_proto       best | half flow, rheo 10, 1 /m3, mu 0.4         eta 0.995 [0.993-0.998] jam 0.005 cont 24.76 tface 28.6 cov 0.047
+wall 65
+CHAINDONE

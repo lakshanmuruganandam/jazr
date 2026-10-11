@@ -1,0 +1,24 @@
+23 flows
+{'fb': 0.1, 'b': 2.0}  True 0 38s
+{'fb': 0.03, 'b': 2.0}  True 0 51s
+{'fb': 0.1, 'b': 4.0}  True 0 53s
+{'fb': 0.2, 'b': 2.0}  True 0 54s
+{'fb': 0.2, 'b': 4.0}  True 0 51s
+{'fb': 0.03, 'b': 4.0}  True 0 106s
+{'fb': 0.1, 'b': 6.0}  False 3201 119s
+{'fb': 0.03, 'b': 6.0}  False 3201 120s
+{'fb': 0.2, 'b': 6.0}  True 0 76s
+{'fb': 0.35, 'b': 2.0}  True 0 45s
+{'fb': 0.35, 'b': 4.0}  True 0 47s
+{'fb': 0.35, 'b': 6.0}  True 0 51s
+{'fb': 0.5, 'b': 2.0}  True 0 58s
+{'fb': 0.2, 'b': 2.0, 'terminal': False}  True 0 41s
+{'fb': 0.5, 'b': 4.0}  True 0 59s
+{'fb': 0.5, 'b': 6.0}  True 0 59s
+{'fb': 0.2, 'b': 4.0, 'terminal': False}  True 0 44s
+{'fb': 0.2, 'b': 4.0, 'split': 'terminal50'}  True 0 50s
+{'fb': 0.2, 'b': 4.0} kprof True 0 36s
+{'fb': 0.35, 'b': 4.0, 'split': 'terminal50'}  True 0 38s
+{'fb': 0.35, 'b': 4.0} kprof True 0 38s
+{'fb': 0.2, 'b': 4.0} kprof True 0 33s
+{'fb': 0.35, 'b': 4.0} kprof True 0 32s

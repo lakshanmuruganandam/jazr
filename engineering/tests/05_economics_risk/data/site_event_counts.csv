@@ -1,0 +1,52 @@
+site,country,n_gen_events,first_cod_year_approx,catalogue_rows,note
+Kalpakkam MAPS,India,1,1984,20,1995-96 station shutdown
+Kudankulam,India,0,2013,22;23,ingress reported; no generation impact stated
+Kashiwazaki-Kariwa,Japan,1,1985,30,1999 output -30%
+Fugen ATR,Japan,1,1979,31,1999 manual shutdown; plant closed 2003 (T capped)
+Shimane,Japan,1,1974,32,2011 -6%
+Ohi,Japan,2,1979,33;34,2012 and ~2005 small derates; 2024 pump outage excluded (output n.s.)
+Uljin/Hanul 1-6,S.Korea,11,1988,40-46,9 shutdowns 1996-2006 [41][43] + 2 in 2021
+Hanbit (Yeonggwang),S.Korea,1,1986,44,2009 output reduction
+Shin Hanul 1-2 (APR1400),S.Korea,0,2022,47,2024 screen damage; no output loss stated
+Saeul/Shin Kori 3 (APR1400),S.Korea,0,2016,48,2024 strainer damage; no output loss stated
+Kori,S.Korea,0,1978,49,2024 24 h crews; no output loss stated
+Wolsong,S.Korea,0,1983,49,2024 trawlers failed; no output loss stated
+Hongyanhe,China,4,2013,53-55,trips/shutdowns 2014 2017 2020 2023 per 14_ file S1/S20
+Gravelines,France,4,1980,59;60;62;63,1990s + 2025 + 2026 x2
+Paluel,France,1,1985,61,2025
+Torness,UK,1,1988,64,2011 (2021 disputed; excluded)
+Oskarshamn,Sweden,2,1972,66;67,2005 and 2013
+St. Lucie,USA,5,1976,68;69;71;72;76,1983 1984 1993 1993 2011
+Turkey Point,USA,1,1972,70,1984 both units 11 d
+Calvert Cliffs,USA,2,1975,73;74,2006 x2
+Diablo Canyon,USA,2,1985,75;77,2008 and 2012
+Koeberg,South Africa,1,1984,78;79,2020 trip; 2023 Unusual Event (output n.s.; not counted)
+Bushehr,Iran,0,2011,9,"""major threat"" study; no public outage"
+Tsuruga,Japan,0,1970,J,searched; none found
+Mihama,Japan,0,1970,J,searched; none found
+Takahama,Japan,0,1974,J,searched; none found
+Genkai,Japan,0,1975,J,searched; none found
+Sendai,Japan,0,1984,J,searched; none found
+Tomari,Japan,0,1989,J,searched; none found
+Ikata,Japan,0,1977,J,searched; none found
+Ringhals,Sweden,0,1975,J,searched; none found
+Forsmark,Sweden,0,1980,J,searched; none found
+Olkiluoto,Finland,0,1978,J,searched; none found
+Loviisa,Finland,0,1977,J,searched; none found
+Flamanville,France,0,1985,J,searched; none found
+Penly,France,0,1990,J,searched; none found
+Blayais,France,0,1981,J,searched; none found
+Doel,Belgium,0,1974,J,searched; none found
+Borssele,Netherlands,0,1973,J,searched; none found
+Hunterston,UK,0,1964,J,searched; none found (closed 2022; T capped)
+Heysham,UK,0,1983,J,searched; none found
+Sizewell,UK,0,1966,J,searched; none found
+Hinkley Point,UK,0,1965,J,searched; none found
+Angra,Brazil,0,1985,J,searched; none found
+Laguna Verde,Mexico,0,1990,J,searched; none found
+Point Lepreau,Canada,0,1983,J,searched; none found
+Tarapur,India,0,1969,J,searched; none found
+KANUPP/K-2/K-3,Pakistan,0,1972,J,searched; none found
+Chinshan,Taiwan,0,1978,J,searched; none found (closed 2019)
+Kuosheng,Taiwan,0,1981,J,searched; none found (closed 2023)
+Maanshan,Taiwan,0,1984,J,searched; none found (closed 2025)

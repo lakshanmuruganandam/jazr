@@ -1,0 +1,380 @@
+{
+  "static": {
+    "OP1 operating: D+L+rollup+dP(1.5xtrip)+Hs1.0 wave+0.5 m/s current+20 m/s wind": {
+      "drum": {
+        "sigma_MPa": 19.1,
+        "allow_MPa": 270.0,
+        "util": 0.071
+      },
+      "girder": {
+        "sigma_MPa": 28.6,
+        "allow_MPa": 213.0,
+        "util": 0.134
+      },
+      "pile": {
+        "sigma_MPa": 80.6,
+        "allow_MPa": 213.0,
+        "util": 0.378
+      },
+      "post": {
+        "sigma_MPa": 30.1,
+        "allow_MPa": 270.0,
+        "util": 0.111
+      },
+      "pile_head_drift_mm": 21.0,
+      "max_pile_lateral_mm": 21.0,
+      "drum_mid_defl_mm": 23.5,
+      "util_max": 0.378,
+      "allowable_rule": "0.60 fy"
+    },
+    "ACC1 stuck drum, blinded bay dP=3 kPa: D+dP_acc+current": {
+      "drum": {
+        "sigma_MPa": 24.8,
+        "allow_MPa": 409.5,
+        "util": 0.061
+      },
+      "girder": {
+        "sigma_MPa": 89.1,
+        "allow_MPa": 323.1,
+        "util": 0.276
+      },
+      "pile": {
+        "sigma_MPa": 260.0,
+        "allow_MPa": 323.1,
+        "util": 0.805
+      },
+      "post": {
+        "sigma_MPa": 169.4,
+        "allow_MPa": 409.5,
+        "util": 0.414
+      },
+      "pile_head_drift_mm": 50.2,
+      "max_pile_lateral_mm": 50.2,
+      "drum_mid_defl_mm": 55.2,
+      "util_max": 0.805,
+      "allowable_rule": "0.91 fy"
+    },
+    "SURV0 stowed 100-yr wave+surge+SLR2085, wave along x (channel axis)": {
+      "drum": {
+        "sigma_MPa": 13.3,
+        "allow_MPa": 360.0,
+        "util": 0.037
+      },
+      "girder": {
+        "sigma_MPa": 55.3,
+        "allow_MPa": 284.0,
+        "util": 0.195
+      },
+      "pile": {
+        "sigma_MPa": 90.2,
+        "allow_MPa": 284.0,
+        "util": 0.318
+      },
+      "post": {
+        "sigma_MPa": 28.0,
+        "allow_MPa": 360.0,
+        "util": 0.078
+      },
+      "pile_head_drift_mm": 45.5,
+      "max_pile_lateral_mm": 45.5,
+      "drum_mid_defl_mm": 46.1,
+      "util_max": 0.318,
+      "allowable_rule": "0.80 fy"
+    },
+    "SURV45 stowed 100-yr, 45 deg": {
+      "drum": {
+        "sigma_MPa": 12.1,
+        "allow_MPa": 360.0,
+        "util": 0.034
+      },
+      "girder": {
+        "sigma_MPa": 40.2,
+        "allow_MPa": 284.0,
+        "util": 0.142
+      },
+      "pile": {
+        "sigma_MPa": 167.2,
+        "allow_MPa": 284.0,
+        "util": 0.589
+      },
+      "post": {
+        "sigma_MPa": 28.4,
+        "allow_MPa": 360.0,
+        "util": 0.079
+      },
+      "pile_head_drift_mm": 98.9,
+      "max_pile_lateral_mm": 98.9,
+      "drum_mid_defl_mm": 109.7,
+      "util_max": 0.589,
+      "allowable_rule": "0.80 fy"
+    },
+    "SURV90 stowed 100-yr, normal to gantry": {
+      "drum": {
+        "sigma_MPa": 13.0,
+        "allow_MPa": 360.0,
+        "util": 0.036
+      },
+      "girder": {
+        "sigma_MPa": 5.2,
+        "allow_MPa": 284.0,
+        "util": 0.018
+      },
+      "pile": {
+        "sigma_MPa": 148.1,
+        "allow_MPa": 284.0,
+        "util": 0.521
+      },
+      "post": {
+        "sigma_MPa": 22.4,
+        "allow_MPa": 360.0,
+        "util": 0.062
+      },
+      "pile_head_drift_mm": 132.2,
+      "max_pile_lateral_mm": 132.2,
+      "drum_mid_defl_mm": 148.2,
+      "util_max": 0.521,
+      "allowable_rule": "0.80 fy"
+    }
+  },
+  "extra": {
+    "survival_SWL_mMSL": 2.41,
+    "survival_depth_m": 9.91,
+    "Hmax_m": 7.44,
+    "base_shear_kN": {
+      "0.0": 326.7,
+      "45.0": 326.7,
+      "90.0": 326.7
+    },
+    "rollup_tension_kN": 45.4,
+    "membrane_pull_op_kN_per_m": 31.2,
+    "membrane_pull_acc_kN_per_m": 125.0
+  },
+  "modal_Hz": [
+    1.4982065378268838,
+    2.3481630664891737,
+    3.6877856823776254,
+    7.6367629466117375,
+    7.893901632145372,
+    10.393495422039914,
+    10.507235735117323,
+    15.625914610351217
+  ],
+  "modal_periods_s": [
+    0.667464715145669,
+    0.4258648022665382,
+    0.2711654326276548,
+    0.13094553372822418,
+    0.12668006856429806,
+    0.09621402227006819,
+    0.09517251018341544,
+    0.06399625397527521
+  ],
+  "mode_dirs": [
+    "y (normal)",
+    "x (along gantry)",
+    "y (normal)",
+    "y (normal)",
+    "x (along gantry)",
+    "y (normal)",
+    "x (along gantry)",
+    "y (normal)"
+  ],
+  "viv_Vr": {
+    "U=0.5 m/s": 0.3,
+    "U=1.0 m/s": 0.6,
+    "U=1.4 m/s": 0.84
+  },
+  "buckling_factors": [
+    102.70382713304755,
+    298.82849099288336,
+    361.6252907058068
+  ],
+  "sensitivity": {
+    "fixity 3D": {
+      "OP1": 0.329,
+      "ACC1": 0.703,
+      "SURV0": 0.272,
+      "SURV45": 0.5,
+      "SURV90": 0.442
+    },
+    "fixity 5D": {
+      "OP1": 0.378,
+      "ACC1": 0.805,
+      "SURV0": 0.318,
+      "SURV45": 0.589,
+      "SURV90": 0.521
+    },
+    "fixity 7D": {
+      "OP1": 0.419,
+      "ACC1": 0.886,
+      "SURV0": 0.362,
+      "SURV45": 0.677,
+      "SURV90": 0.601
+    },
+    "sag 2%": {
+      "OP1": 0.483,
+      "ACC1": 1.081,
+      "SURV0": 0.318,
+      "SURV45": 0.589,
+      "SURV90": 0.521
+    },
+    "sag 5%": {
+      "OP1": 0.295,
+      "ACC1": 0.584,
+      "SURV0": 0.318,
+      "SURV45": 0.589,
+      "SURV90": 0.521
+    },
+    "sag 8%": {
+      "OP1": 0.248,
+      "ACC1": 0.46,
+      "SURV0": 0.318,
+      "SURV45": 0.589,
+      "SURV90": 0.521
+    }
+  },
+  "fatigue_unsheltered": {
+    "fixity_CP": {
+      "D_60y": 8.19785228131608e-05,
+      "DFF": 3.0,
+      "D_x_DFF": 0.0002459355684394824,
+      "fatigue_life_years": 243966.3379344182
+    },
+    "fixity_freecorr": {
+      "D_60y": 0.019461074606016347,
+      "DFF": 3.0,
+      "D_x_DFF": 0.05838322381804904,
+      "fatigue_life_years": 1027.6924786988404
+    },
+    "top_air_SCF2": {
+      "D_60y": 7.815471322967888e-06,
+      "DFF": 1.0,
+      "D_x_DFF": 7.815471322967888e-06,
+      "fatigue_life_years": 7677080.181162418
+    }
+  },
+  "fatigue_sheltered_Kt0p5": {
+    "fixity_CP": {
+      "D_60y": 2.482207070786643e-06,
+      "DFF": 3.0,
+      "D_x_DFF": 7.446621212359929e-06,
+      "fatigue_life_years": 8057345.511332278
+    },
+    "fixity_freecorr": {
+      "D_60y": 0.0024963693874233035,
+      "DFF": 3.0,
+      "D_x_DFF": 0.007489108162269911,
+      "fatigue_life_years": 8011.634856908558
+    },
+    "top_air_SCF2": {
+      "D_60y": 2.3278159266063848e-07,
+      "DFF": 1.0,
+      "D_x_DFF": 2.3278159266063848e-07,
+      "fatigue_life_years": 257752339.06690907
+    }
+  },
+  "verdicts": [
+    {
+      "test": "A1 stress OP1",
+      "value": 0.378,
+      "criterion": "util <= 1 (0.60 fy); MARGINAL > 0.9",
+      "verdict": "PASS",
+      "detail": "OP1 operating: D+L+rollup+dP(1.5xtrip)+Hs1.0 wave+0.5 m/s current+20 m/s wind"
+    },
+    {
+      "test": "A1 stress ACC1",
+      "value": 0.805,
+      "criterion": "util <= 1 (0.91 fy); MARGINAL > 0.9",
+      "verdict": "PASS",
+      "detail": "ACC1 stuck drum, blinded bay dP=3 kPa: D+dP_acc+current"
+    },
+    {
+      "test": "A1 stress SURV0",
+      "value": 0.318,
+      "criterion": "util <= 1 (0.80 fy); MARGINAL > 0.9",
+      "verdict": "PASS",
+      "detail": "SURV0 stowed 100-yr wave+surge+SLR2085, wave along x (channel axis)"
+    },
+    {
+      "test": "A1 stress SURV45",
+      "value": 0.589,
+      "criterion": "util <= 1 (0.80 fy); MARGINAL > 0.9",
+      "verdict": "PASS",
+      "detail": "SURV45 stowed 100-yr, 45 deg"
+    },
+    {
+      "test": "A1 stress SURV90",
+      "value": 0.521,
+      "criterion": "util <= 1 (0.80 fy); MARGINAL > 0.9",
+      "verdict": "PASS",
+      "detail": "SURV90 stowed 100-yr, normal to gantry"
+    },
+    {
+      "test": "A2 pile lateral deflection, operating (rail alignment)",
+      "value": 21.0,
+      "criterion": "<= 25 mm [ASM: guide-rail/mesh-edge retention]",
+      "verdict": "PASS"
+    },
+    {
+      "test": "A2b pile lateral deflection, stuck-drum accident",
+      "value": 50.2,
+      "criterion": "<= 75 mm (mesh stays in rails) [ASM]",
+      "verdict": "PASS"
+    },
+    {
+      "test": "A3 modal: f1 vs wave band 0.125-0.5 Hz (2-8 s)",
+      "value": 1.498,
+      "criterion": "no mode within 2-8 s wave band; f1 > 0.5 Hz (T1 < 2 s)",
+      "verdict": "PASS",
+      "detail": "T1=0.67 s; data waves 1.5-6.25 s (mean period); modes in band: []"
+    },
+    {
+      "test": "A4 current VIV (in-line onset Vr>1)",
+      "value": 0.84,
+      "criterion": "Vr < 1 (DNV-RP-C205 in-line onset)",
+      "verdict": "PASS",
+      "detail": "{'U=0.5 m/s': 0.3, 'U=1.0 m/s': 0.6, 'U=1.4 m/s': 0.84}"
+    },
+    {
+      "test": "A5 linear buckling (gravity + roll-up)",
+      "value": 102.7,
+      "criterion": "load factor >= 10 (sway/global) [ENG]",
+      "verdict": "PASS"
+    },
+    {
+      "test": "A6 fatigue 60 y fixity_CP (unsheltered Kt=1)",
+      "value": 0.0,
+      "criterion": "Miner D x DFF <= 1 (DNV-RP-C203)",
+      "verdict": "PASS",
+      "detail": "life ~2.44e+05 y"
+    },
+    {
+      "test": "A6 fatigue 60 y fixity_freecorr (unsheltered Kt=1)",
+      "value": 0.058,
+      "criterion": "Miner D x DFF <= 1 (DNV-RP-C203)",
+      "verdict": "PASS",
+      "detail": "life ~1.03e+03 y"
+    },
+    {
+      "test": "A6 fatigue 60 y top_air_SCF2 (unsheltered Kt=1)",
+      "value": 0.0,
+      "criterion": "Miner D x DFF <= 1 (DNV-RP-C203)",
+      "verdict": "PASS",
+      "detail": "life ~7.68e+06 y"
+    },
+    {
+      "test": "A7 sensitivity: pile fixity 3-7 D",
+      "value": 0.886,
+      "criterion": "worst util <= 1",
+      "verdict": "PASS",
+      "detail": "{\"fixity 3D\": {\"OP1\": 0.329, \"ACC1\": 0.703, \"SURV0\": 0.272, \"SURV45\": 0.5, \"SURV90\": 0.442}, \"fixity 5D\": {\"OP1\": 0.378, \"ACC1\": 0.805, \"SURV0\": 0.318, \"SURV45\": 0.589, \"SURV90\": 0.521}, \"fixity 7D\": {\"OP1\": 0.419, \"ACC1\": 0.886, \"SURV0\": 0.362, \"SURV45\": 0.677, \"SURV90\": 0.601}}"
+    },
+    {
+      "test": "A7 sensitivity: membrane sag 2-8 % of span",
+      "value": 1.081,
+      "criterion": "worst util <= 1",
+      "verdict": "FAIL",
+      "detail": "{\"sag 2%\": {\"OP1\": 0.483, \"ACC1\": 1.081, \"SURV0\": 0.318, \"SURV45\": 0.589, \"SURV90\": 0.521}, \"sag 5%\": {\"OP1\": 0.295, \"ACC1\": 0.584, \"SURV0\": 0.318, \"SURV45\": 0.589, \"SURV90\": 0.521}, \"sag 8%\": {\"OP1\": 0.248, \"ACC1\": 0.46, \"SURV0\": 0.318, \"SURV45\": 0.589, \"SURV90\": 0.521}}"
+    }
+  ]
+}

@@ -1,0 +1,109 @@
+{
+  "n_seasons": 3000,
+  "n_blooms": 9029,
+  "params": {
+    "blooms_per_season": 3.0,
+    "bloom_median_h": 72,
+    "bloom_sigma": 0.6,
+    "p_far_alert": 0.85,
+    "far_lead_h": [
+      4,
+      6
+    ],
+    "near_lead_h": [
+      0.0,
+      0.5
+    ],
+    "approve_med_min_day": 8,
+    "approve_med_min_night": 20,
+    "approve_sigma": 0.7,
+    "deploy_min": [
+      8,
+      15
+    ],
+    "p_bay_deploy_fail": 0.02,
+    "bay_mtbf_h": [
+      2000,
+      8000
+    ],
+    "bay_mttr_med_h": 8,
+    "bay_mttr_sigma": 0.5,
+    "line_mtbf_h": [
+      1500,
+      6000
+    ],
+    "line_mttr_med_h": 24,
+    "deploy_before_h": 1.0,
+    "standdown_after_h": 6.0
+  },
+  "response_min_far_p50_p90_p99": [
+    236.15632138853016,
+    284.4123365600433,
+    296.2706105342704
+  ],
+  "response_min_near_p50_p90_p99": [
+    38.34078861281171,
+    78.97735421472383,
+    139.06054463217268
+  ],
+  "approval_latency_min_p50_p90_p99": [
+    25.790985048849624,
+    64.90888944463244,
+    128.528910142863
+  ],
+  "far_margin_before_arrival_min_p1_p50": [
+    60.06682823769779,
+    63.48566377554221
+  ],
+  "auto_near_P_before_arrival": 0.5880149812734082,
+  "auto_near_unprotected_h_mean": 0.04332712378658226,
+  "P_deployed_before_arrival_far": 0.9998701467341904,
+  "P_deployed_before_arrival_near": 0.05271084337349398,
+  "unprotected_h_near_mean": 0.5118890856478274,
+  "availability_full_(>=n-1 bays & >=1 line)_bloom_hour_weighted": 0.9943403761973779,
+  "bay_availability_mean": 0.9951257804017477,
+  "lift_availability_mean": 0.9990700086779225,
+  "P_bloom_with_full_availability_below_95pct": 0.04740281315760328,
+  "crew_hours_per_bloom": {
+    "leak_0.055": {
+      "jazr_mean": 372.59646512337974,
+      "today_low_mean": 1096.6357874958633,
+      "today_high_mean": 3458.620560563876,
+      "reduction_vs_low": 0.6602368175725933,
+      "reduction_vs_high": 0.8922702104498467
+    },
+    "leak_0.13": {
+      "jazr_mean": 423.21042454626576,
+      "today_low_mean": 1096.6357874958633,
+      "today_high_mean": 3458.620560563876,
+      "reduction_vs_low": 0.6140829714187472,
+      "reduction_vs_high": 0.8776360641083832
+    },
+    "leak_0.28": {
+      "jazr_mean": 676.2802216606957,
+      "today_low_mean": 1096.6357874958633,
+      "today_high_mean": 3458.620560563876,
+      "reduction_vs_low": 0.3833137406495164,
+      "reduction_vs_high": 0.8044653324010662
+    }
+  },
+  "preseason_fixed_person_h_per_unit": 160,
+  "verdicts": {
+    "T6a_response_time": [
+      "PASS",
+      "far alert: approval latency p90 65 min; 99.99% deployed before arrival (deploy timed to T-1 h)"
+    ],
+    "T6b_close_alert": [
+      "FAIL",
+      "close alerts (15% [ASSUME]): 5% deployed before arrival; mean 0.51 h unprotected; p90 response 79 min (2 human approvals dominate); with pre-authorised auto-deploy: 59% before arrival, 0.04 h unprotected"
+    ],
+    "T6c_availability": [
+      "PASS",
+      "bloom-hour availability (>= n-1 bays and >= 1 lift line) 0.994 vs criterion 0.95; 4.7% of blooms below 0.95"
+    ],
+    "T6d_crew_hours": [
+      "PASS",
+      "JAZR 423 person-h per bloom vs today 1097-3459 (reduction 61-88% at 13% leakage); still not zero: residual screen crew + repairs"
+    ]
+  }
+}

@@ -1,0 +1,59 @@
+{
+  "MC1a n=1 all events/inputs": {
+    "cfg": "Config(n=1, K=1, L=2, pers=2, to=2, dwell=1, cycle_every=0, busy_line=True, tdma=True, hysteresis=0.1)",
+    "states": 1114,
+    "distinct_transitions": 15609,
+    "seconds": 2.4,
+    "violations": {},
+    "goal_states": 49,
+    "states_that_cannot_reach_safe_idle": 0,
+    "deadlocks": 0,
+    "examples": []
+  },
+  "MC1b n=2 (events: none/alert/approve/standdown+approve/seismic/comms; dp 0/2/cycle)": {
+    "cfg": "Config(n=2, K=1, L=2, pers=1, to=2, dwell=1, cycle_every=0, busy_line=True, tdma=True, hysteresis=0.1)",
+    "states": 26633,
+    "distinct_transitions": 638588,
+    "seconds": 93.8,
+    "violations": {},
+    "goal_states": 257,
+    "states_that_cannot_reach_safe_idle": 0,
+    "deadlocks": 0,
+    "examples": []
+  },
+  "MC4 IT/OT separation": {
+    "checked": 159798,
+    "differing": 0
+  },
+  "MC2": {
+    "TDMA only": {
+      "states": 61075,
+      "pulse_violations": 276192,
+      "counterexample": "(State(os='OPERATE', bays=(Bay(mode='RAISING', pers=0, stall=0, dwell=0, pos_prev=1, want_up=True), Bay(mode='RAISING', pers=1, stall=0, dwell=0, pos_prev=2, want_up=True), Bay(mode='DOWN', pers=0, stall=0, dwell=0, pos_prev=2, want_up=False)), outlet='A', alarms=frozenset()), (0, 1, 2), (False, False, False), 2)",
+      "other_violations": []
+    },
+    "busy-line only": {
+      "states": 112369,
+      "pulse_violations": 322472,
+      "counterexample": "(State(os='OPERATE', bays=(Bay(mode='DOWN', pers=0, stall=0, dwell=0, pos_prev=2, want_up=False), Bay(mode='RAISING', pers=1, stall=0, dwell=0, pos_prev=2, want_up=True), Bay(mode='RAISING', pers=1, stall=0, dwell=0, pos_prev=2, want_up=True)), outlet='A', alarms=frozenset()), (2, 1, 1), (False, False, False), 1)",
+      "other_violations": []
+    },
+    "TDMA + busy-line": {
+      "states": 36823,
+      "pulse_violations": 0,
+      "counterexample": null,
+      "other_violations": []
+    },
+    "none (each LBC free)": {
+      "states": 117913,
+      "pulse_violations": 510320,
+      "counterexample": "(State(os='OPERATE', bays=(Bay(mode='DOWN', pers=0, stall=0, dwell=0, pos_prev=2, want_up=False), Bay(mode='RAISING', pers=1, stall=0, dwell=0, pos_prev=2, want_up=True), Bay(mode='RAISING', pers=1, stall=0, dwell=0, pos_prev=2, want_up=True)), outlet='A', alarms=frozenset()), (2, 1, 1), (False, False, False), 1)",
+      "other_violations": []
+    }
+  },
+  "MC3": {
+    "cases": 16800,
+    "violations": 0,
+    "examples": []
+  }
+}

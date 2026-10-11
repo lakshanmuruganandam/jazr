@@ -1,0 +1,188 @@
+{
+ "checks": [
+  {
+   "test": "T10",
+   "check": "PREN 316L",
+   "value": 24.73,
+   "unit": "-",
+   "criterion": ">= 40 seawater rule of thumb (NORSOK M-001 style)",
+   "source": "composition",
+   "verdict": "FAIL",
+   "note": ""
+  },
+  {
+   "test": "T10",
+   "check": "crevice margin (316L)",
+   "value": "no data",
+   "unit": "",
+   "criterion": "CCT >= T_max + 15 K",
+   "source": "not found tonight",
+   "verdict": "FAIL",
+   "note": "316L pits/crevices in warm Gulf seawater; 2205 only for free-draining, flow-cleaned, non-crevice parts"
+  },
+  {
+   "test": "T10",
+   "check": "PREN 2205 duplex (S32205)",
+   "value": 35.45,
+   "unit": "-",
+   "criterion": ">= 40 seawater rule of thumb (NORSOK M-001 style)",
+   "source": "composition",
+   "verdict": "MARGINAL",
+   "note": ""
+  },
+  {
+   "test": "T10",
+   "check": "crevice margin (2205 duplex (S32205))",
+   "value": "no data",
+   "unit": "",
+   "criterion": "CCT >= T_max + 15 K",
+   "source": "not found tonight",
+   "verdict": "MARGINAL",
+   "note": "316L pits/crevices in warm Gulf seawater; 2205 only for free-draining, flow-cleaned, non-crevice parts"
+  },
+  {
+   "test": "T10",
+   "check": "PREN 2507 super duplex (S32750)",
+   "value": 42.68,
+   "unit": "-",
+   "criterion": ">= 40 seawater rule of thumb (NORSOK M-001 style)",
+   "source": "composition",
+   "verdict": "PASS",
+   "note": ""
+  },
+  {
+   "test": "T10",
+   "check": "crevice margin CCT - T_max (2507 super duplex (S32750))",
+   "value": 28.2,
+   "unit": "K",
+   "criterion": ">= 15 K PASS; >= 5 K MARGINAL (ASSUMED)",
+   "source": "Alleima SAF 2507 datasheet",
+   "verdict": "PASS",
+   "note": ""
+  },
+  {
+   "test": "T10",
+   "check": "PREN 6Mo (S31254 / 6Mo+N)",
+   "value": 43.33,
+   "unit": "-",
+   "criterion": ">= 40 seawater rule of thumb (NORSOK M-001 style)",
+   "source": "composition",
+   "verdict": "PASS",
+   "note": ""
+  },
+  {
+   "test": "T10",
+   "check": "crevice margin CCT - T_max (6Mo (S31254 / 6Mo+N))",
+   "value": 25.2,
+   "unit": "K",
+   "criterion": ">= 15 K PASS; >= 5 K MARGINAL (ASSUMED)",
+   "source": "Alleima SAF 2507 datasheet",
+   "verdict": "PASS",
+   "note": ""
+  },
+  {
+   "test": "T10",
+   "check": "material selection: Guide rails, bottom-bar seat, drum shafts (permanently wetted crevices)",
+   "value": "2507 super duplex or titanium Gr2; GRP/UHMWPE liner in rail slots",
+   "unit": "",
+   "criterion": "fit for 35.8 C / 48 PSU, 60-yr plant life (with replacement)",
+   "source": "see module docstring",
+   "verdict": "PASS",
+   "note": "crevice at 35.8 C needs CCT margin; 2205 marginal"
+  },
+  {
+   "test": "T10",
+   "check": "material selection: Curtain mesh",
+   "value": "2205/2507 woven wire OR UHMWPE net; 90/10 CuNi only if electrically isolated from SS/CP",
+   "unit": "",
+   "criterion": "fit for 35.8 C / 48 PSU, 60-yr plant life (with replacement)",
+   "source": "see module docstring",
+   "verdict": "MARGINAL",
+   "note": "CuNi antifouling works only while freely corroding; galvanically coupled to SS or CP it loses Cu-ion release; stored dry 10 months so antifouling value is limited"
+  },
+  {
+   "test": "T10",
+   "check": "material selection: Piles / gantry steel",
+   "value": "S355 with coating + sacrificial-anode CP + corrosion allowance in splash zone",
+   "unit": "",
+   "criterion": "fit for 35.8 C / 48 PSU, 60-yr plant life (with replacement)",
+   "source": "see module docstring",
+   "verdict": "PASS",
+   "note": "standard marine practice; splash zone is the critical zone (allowance to be set from local data, not available)"
+  },
+  {
+   "test": "T10",
+   "check": "material selection: Export pipe",
+   "value": "PE100 SDR17 (not SDR26: vacuum/collapse, T08), carbon-black UV-stabilised for breakwater crossing",
+   "unit": "",
+   "criterion": "fit for 35.8 C / 48 PSU, 60-yr plant life (with replacement)",
+   "source": "see module docstring",
+   "verdict": "PASS",
+   "note": "PE100 rated to 40 C with ISO 13761 de-rating"
+  },
+  {
+   "test": "T10",
+   "check": "material selection: Archimedes screw / head tank",
+   "value": "2205 or coated carbon steel with CP; rotating tube in 2205; bearings water-lubricated, non-metallic",
+   "unit": "",
+   "criterion": "fit for 35.8 C / 48 PSU, 60-yr plant life (with replacement)",
+   "source": "see module docstring",
+   "verdict": "PASS",
+   "note": "free-draining between seasons; inspectable"
+  },
+  {
+   "test": "T10",
+   "check": "material selection: Fasteners in mesh/rails",
+   "value": "2507 or titanium; never 316/A4 in submerged crevices",
+   "unit": "",
+   "criterion": "fit for 35.8 C / 48 PSU, 60-yr plant life (with replacement)",
+   "source": "see module docstring",
+   "verdict": "PASS",
+   "note": "316 crevice corrodes in warm seawater"
+  },
+  {
+   "test": "T10",
+   "check": "fouling exposure of curtain per season (30 d deployed)",
+   "value": 30,
+   "unit": "days",
+   "criterion": "<= 60 d before first clean (ASSUMED: barnacle/mussel settlement within weeks at 30+ C, audit #16)",
+   "source": "16_FLAW_AUDIT #16",
+   "verdict": "PASS",
+   "note": "brush pass at each roll-up keeps mesh clean; rails/slots need a pre-season brush pig"
+  },
+  {
+   "test": "T10",
+   "check": "fouling exposure of curtain per season (90 d deployed)",
+   "value": 90,
+   "unit": "days",
+   "criterion": "<= 60 d before first clean (ASSUMED: barnacle/mussel settlement within weeks at 30+ C, audit #16)",
+   "source": "16_FLAW_AUDIT #16",
+   "verdict": "MARGINAL",
+   "note": "brush pass at each roll-up keeps mesh clean; rails/slots need a pre-season brush pig"
+  }
+ ],
+ "extra": {
+  "rows": [
+   {
+    "material": "316L",
+    "PREN": 24.7,
+    "CCT_seawater_C": null
+   },
+   {
+    "material": "2205 duplex (S32205)",
+    "PREN": 35.5,
+    "CCT_seawater_C": null
+   },
+   {
+    "material": "2507 super duplex (S32750)",
+    "PREN": 42.7,
+    "CCT_seawater_C": 64.0
+   },
+   {
+    "material": "6Mo (S31254 / 6Mo+N)",
+    "PREN": 43.3,
+    "CCT_seawater_C": 61.0
+   }
+  ]
+ }
+}

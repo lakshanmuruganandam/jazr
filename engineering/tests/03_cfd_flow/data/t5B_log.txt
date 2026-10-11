@@ -1,0 +1,76 @@
+plan flow 15.0 fullmesh_1.0 converged imbalance -4.0e-16
+plan flow 15.0 mesh_0.5 converged imbalance -4.0e-16
+plan flow 15.0 mesh_0.75 converged imbalance -4.0e-16
+plan flow 15.0 solid_0.5 converged imbalance -4.0e-16
+plan flow 15.0 solid_0.75 converged imbalance 0.0e+00
+plan flow 20.0 fullmesh_1.0 converged imbalance -4.0e-16
+plan flow 20.0 mesh_0.5 converged imbalance -4.0e-16
+plan flow 20.0 mesh_0.75 converged imbalance -4.0e-16
+plan flow 20.0 solid_0.5 converged imbalance -4.0e-16
+plan flow 20.0 solid_0.75 converged imbalance 1.3e-16
+plan flow 25.0 fullmesh_1.0 converged imbalance -5.4e-16
+plan flow 25.0 mesh_0.5 converged imbalance -5.4e-16
+plan flow 25.0 mesh_0.75 converged imbalance -4.0e-16
+plan flow 25.0 solid_0.5 converged imbalance -4.0e-16
+plan flow 25.0 solid_0.75 converged imbalance 0.0e+00
+a=15 mesh_0.5     gaps=False depth=uniform met  823 eta_g 0.01 (guided 9, gap 0, under 412, below 402, face 0) conv True
+a=15 mesh_0.5     gaps=False depth=upper   met  823 eta_g 0.03 (guided 22, gap 0, under 801, below 0, face 0) conv True
+a=15 mesh_0.5     gaps=True  depth=uniform met  731 eta_g 0.01 (guided 7, gap 124, under 230, below 370, face 0) conv True
+a=15 mesh_0.5     gaps=True  depth=upper   met  731 eta_g 0.03 (guided 19, gap 239, under 473, below 0, face 0) conv True
+a=15 solid_0.5    gaps=False depth=uniform met  705 eta_g 0.01 (guided 7, gap 0, under 356, below 342, face 0) conv True
+a=15 solid_0.5    gaps=False depth=upper   met  705 eta_g 0.01 (guided 9, gap 0, under 696, below 0, face 0) conv True
+a=15 solid_0.5    gaps=True  depth=uniform met  650 eta_g 0.01 (guided 7, gap 28, under 294, below 321, face 0) conv True
+a=15 solid_0.5    gaps=True  depth=upper   met  650 eta_g 0.01 (guided 9, gap 48, under 593, below 0, face 0) conv True
+a=15 mesh_0.75    gaps=False depth=uniform met  811 eta_g 0.06 (guided 47, gap 0, under 571, below 193, face 0) conv True
+a=15 mesh_0.75    gaps=False depth=upper   met  811 eta_g 0.14 (guided 110, gap 0, under 701, below 0, face 0) conv True
+a=15 mesh_0.75    gaps=True  depth=uniform met  733 eta_g 0.05 (guided 33, gap 265, under 260, below 175, face 0) conv True
+a=15 mesh_0.75    gaps=True  depth=upper   met  733 eta_g 0.10 (guided 75, gap 498, under 160, below 0, face 0) conv True
+a=15 solid_0.75   gaps=False depth=uniform met  555 eta_g 0.01 (guided 6, gap 0, under 425, below 124, face 0) conv True
+a=15 solid_0.75   gaps=False depth=upper   met  555 eta_g 0.01 (guided 7, gap 0, under 548, below 0, face 0) conv True
+a=15 solid_0.75   gaps=True  depth=uniform met  507 eta_g 0.01 (guided 6, gap 35, under 356, below 110, face 0) conv True
+a=15 solid_0.75   gaps=True  depth=upper   met  507 eta_g 0.01 (guided 7, gap 74, under 426, below 0, face 0) conv True
+a=15 fullmesh_1.0 gaps=False depth=uniform met  790 eta_g 1.00 (guided 790, gap 0, under 0, below 0, face 0) conv True
+a=15 fullmesh_1.0 gaps=False depth=upper   met  790 eta_g 1.00 (guided 790, gap 0, under 0, below 0, face 0) conv True
+a=15 fullmesh_1.0 gaps=True  depth=uniform met  722 eta_g 0.10 (guided 74, gap 648, under 0, below 0, face 0) conv True
+a=15 fullmesh_1.0 gaps=True  depth=upper   met  722 eta_g 0.10 (guided 74, gap 648, under 0, below 0, face 0) conv True
+a=20 mesh_0.5     gaps=False depth=uniform met 1074 eta_g 0.02 (guided 19, gap 0, under 536, below 519, face 0) conv True
+a=20 mesh_0.5     gaps=False depth=upper   met 1074 eta_g 0.03 (guided 33, gap 0, under 1041, below 0, face 0) conv True
+a=20 mesh_0.5     gaps=True  depth=uniform met  980 eta_g 0.02 (guided 17, gap 142, under 344, below 477, face 0) conv True
+a=20 mesh_0.5     gaps=True  depth=upper   met  980 eta_g 0.03 (guided 30, gap 272, under 678, below 0, face 0) conv True
+a=20 solid_0.5    gaps=False depth=uniform met  926 eta_g 0.00 (guided 3, gap 0, under 463, below 460, face 0) conv True
+a=20 solid_0.5    gaps=False depth=upper   met  926 eta_g 0.01 (guided 5, gap 0, under 921, below 0, face 0) conv True
+a=20 solid_0.5    gaps=True  depth=uniform met  833 eta_g 0.00 (guided 3, gap 19, under 397, below 414, face 0) conv True
+a=20 solid_0.5    gaps=True  depth=upper   met  833 eta_g 0.01 (guided 5, gap 41, under 787, below 0, face 0) conv True
+a=20 mesh_0.75    gaps=False depth=uniform met 1055 eta_g 0.05 (guided 55, gap 0, under 746, below 254, face 0) conv True
+a=20 mesh_0.75    gaps=False depth=upper   met 1055 eta_g 0.09 (guided 93, gap 0, under 962, below 0, face 0) conv True
+a=20 mesh_0.75    gaps=True  depth=uniform met  943 eta_g 0.04 (guided 39, gap 302, under 376, below 226, face 0) conv True
+a=20 mesh_0.75    gaps=True  depth=upper   met  943 eta_g 0.07 (guided 67, gap 599, under 277, below 0, face 0) conv True
+a=20 solid_0.75   gaps=False depth=uniform met  706 eta_g 0.01 (guided 4, gap 0, under 544, below 158, face 0) conv True
+a=20 solid_0.75   gaps=False depth=upper   met  706 eta_g 0.01 (guided 8, gap 0, under 698, below 0, face 0) conv True
+a=20 solid_0.75   gaps=True  depth=uniform met  637 eta_g 0.01 (guided 4, gap 37, under 457, below 139, face 0) conv True
+a=20 solid_0.75   gaps=True  depth=upper   met  637 eta_g 0.01 (guided 8, gap 70, under 559, below 0, face 0) conv True
+a=20 fullmesh_1.0 gaps=False depth=uniform met 1033 eta_g 1.00 (guided 1033, gap 0, under 0, below 0, face 0) conv True
+a=20 fullmesh_1.0 gaps=False depth=upper   met 1033 eta_g 1.00 (guided 1033, gap 0, under 0, below 0, face 0) conv True
+a=20 fullmesh_1.0 gaps=True  depth=uniform met  936 eta_g 0.09 (guided 85, gap 851, under 0, below 0, face 0) conv True
+a=20 fullmesh_1.0 gaps=True  depth=upper   met  936 eta_g 0.09 (guided 85, gap 851, under 0, below 0, face 0) conv True
+a=25 mesh_0.5     gaps=False depth=uniform met 1333 eta_g 0.02 (guided 20, gap 0, under 674, below 639, face 0) conv True
+a=25 mesh_0.5     gaps=False depth=upper   met 1333 eta_g 0.02 (guided 31, gap 0, under 1302, below 0, face 0) conv True
+a=25 mesh_0.5     gaps=True  depth=uniform met 1208 eta_g 0.02 (guided 20, gap 134, under 475, below 579, face 0) conv True
+a=25 mesh_0.5     gaps=True  depth=upper   met 1208 eta_g 0.03 (guided 31, gap 273, under 904, below 0, face 0) conv True
+a=25 solid_0.5    gaps=False depth=uniform met 1121 eta_g 0.00 (guided 5, gap 0, under 583, below 533, face 0) conv True
+a=25 solid_0.5    gaps=False depth=upper   met 1121 eta_g 0.01 (guided 7, gap 0, under 1114, below 0, face 0) conv True
+a=25 solid_0.5    gaps=True  depth=uniform met 1014 eta_g 0.00 (guided 5, gap 22, under 502, below 485, face 0) conv True
+a=25 solid_0.5    gaps=True  depth=upper   met 1014 eta_g 0.01 (guided 7, gap 55, under 952, below 0, face 0) conv True
+a=25 mesh_0.75    gaps=False depth=uniform met 1308 eta_g 0.04 (guided 52, gap 0, under 945, below 311, face 0) conv True
+a=25 mesh_0.75    gaps=False depth=upper   met 1308 eta_g 0.07 (guided 94, gap 0, under 1214, below 0, face 0) conv True
+a=25 mesh_0.75    gaps=True  depth=uniform met 1175 eta_g 0.03 (guided 38, gap 354, under 507, below 276, face 0) conv True
+a=25 mesh_0.75    gaps=True  depth=upper   met 1175 eta_g 0.06 (guided 70, gap 629, under 476, below 0, face 0) conv True
+a=25 solid_0.75   gaps=False depth=uniform met  846 eta_g 0.01 (guided 8, gap 0, under 637, below 201, face 0) conv True
+a=25 solid_0.75   gaps=False depth=upper   met  846 eta_g 0.01 (guided 12, gap 0, under 834, below 0, face 0) conv True
+a=25 solid_0.75   gaps=True  depth=uniform met  776 eta_g 0.01 (guided 8, gap 43, under 540, below 185, face 0) conv True
+a=25 solid_0.75   gaps=True  depth=upper   met  776 eta_g 0.02 (guided 12, gap 71, under 693, below 0, face 0) conv True
+a=25 fullmesh_1.0 gaps=False depth=uniform met 1284 eta_g 1.00 (guided 1284, gap 0, under 0, below 0, face 0) conv True
+a=25 fullmesh_1.0 gaps=False depth=upper   met 1284 eta_g 1.00 (guided 1284, gap 0, under 0, below 0, face 0) conv True
+a=25 fullmesh_1.0 gaps=True  depth=uniform met 1174 eta_g 0.11 (guided 124, gap 1050, under 0, below 0, face 0) conv True
+a=25 fullmesh_1.0 gaps=True  depth=upper   met 1174 eta_g 0.11 (guided 124, gap 1050, under 0, below 0, face 0) conv True
+wall 119.37578988075256

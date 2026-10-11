@@ -1,0 +1,137 @@
+{
+  "spectra_params": {
+    "Ss": 0.178,
+    "S1": 0.075,
+    "Fa": 1.6,
+    "Fv": 2.4,
+    "SDS": 0.18986666666666666,
+    "SD1": 0.11999999999999998,
+    "source": "Irfan et al. 2012 15WCEE Table 4 (ABD)"
+  },
+  "periods_s": [
+    0.66746472759066,
+    0.4258648024196926,
+    0.2711654317823785,
+    0.13094553374891624,
+    0.12668006863881093,
+    0.0962140222867213,
+    0.09517251014082023,
+    0.06399625397887825
+  ],
+  "results": {
+    "S1 IBC design (2/3 MCE, Site D)": {
+      "drum": {
+        "sigma_MPa": 10.8,
+        "util": 0.03
+      },
+      "girder": {
+        "sigma_MPa": 17.8,
+        "util": 0.063
+      },
+      "pile": {
+        "sigma_MPa": 38.6,
+        "util": 0.136
+      },
+      "post": {
+        "sigma_MPa": 21.5,
+        "util": 0.06
+      },
+      "pile_head_disp_mm": {
+        "x": 11.8,
+        "y": 27.9
+      },
+      "mass_participation_20_modes": {
+        "x": 0.9511776854719648,
+        "y": 0.9525856572731031
+      },
+      "Sa_at_T1_g": 0.18,
+      "util_max": 0.136
+    },
+    "S2 MCE 2475-yr (Seismic II/I no-collapse)": {
+      "drum": {
+        "sigma_MPa": 12.6,
+        "util": 0.028
+      },
+      "girder": {
+        "sigma_MPa": 25.5,
+        "util": 0.072
+      },
+      "pile": {
+        "sigma_MPa": 56.3,
+        "util": 0.159
+      },
+      "post": {
+        "sigma_MPa": 25.3,
+        "util": 0.056
+      },
+      "pile_head_disp_mm": {
+        "x": 17.7,
+        "y": 41.9
+      },
+      "mass_participation_20_modes": {
+        "x": 0.9511776854719648,
+        "y": 0.9525856572731031
+      },
+      "Sa_at_T1_g": 0.27,
+      "util_max": 0.159
+    },
+    "S3 nuclear envelope PGA 0.3 g": {
+      "drum": {
+        "sigma_MPa": 21.0,
+        "util": 0.047
+      },
+      "girder": {
+        "sigma_MPa": 63.4,
+        "util": 0.178
+      },
+      "pile": {
+        "sigma_MPa": 137.6,
+        "util": 0.388
+      },
+      "post": {
+        "sigma_MPa": 45.7,
+        "util": 0.101
+      },
+      "pile_head_disp_mm": {
+        "x": 46.5,
+        "y": 104.7
+      },
+      "mass_participation_20_modes": {
+        "x": 0.9511776854719648,
+        "y": 0.9525856572731031
+      },
+      "Sa_at_T1_g": 0.674,
+      "util_max": 0.388
+    }
+  },
+  "verdicts": [
+    {
+      "test": "B1 seismic RSA S1",
+      "value": 0.136,
+      "criterion": "stress <= 0.80 fy (elastic, R=1)",
+      "verdict": "PASS",
+      "detail": "S1 IBC design (2/3 MCE, Site D); Sa(T1)=0.18 g; head disp {'x': 11.8, 'y': 27.9}"
+    },
+    {
+      "test": "B1 seismic RSA S2",
+      "value": 0.159,
+      "criterion": "stress <= 1.00 fy (elastic, R=1)",
+      "verdict": "PASS",
+      "detail": "S2 MCE 2475-yr (Seismic II/I no-collapse); Sa(T1)=0.27 g; head disp {'x': 17.7, 'y': 41.9}"
+    },
+    {
+      "test": "B1 seismic RSA S3",
+      "value": 0.388,
+      "criterion": "stress <= 1.00 fy (elastic, R=1)",
+      "verdict": "PASS",
+      "detail": "S3 nuclear envelope PGA 0.3 g; Sa(T1)=0.674 g; head disp {'x': 46.5, 'y': 104.7}"
+    },
+    {
+      "test": "B2 nuclear seismic classification",
+      "value": "Seismic II/I (assumed)",
+      "criterion": "Structure in UHS/CW path near safety SSCs must not collapse onto them or block the intake; the plant site SSE & intake layout not public",
+      "verdict": "INFO",
+      "detail": "Needs: site-specific SSE spectra from Nawah FSAR Ch.2/3; II/I interaction analysis; post-quake fail-open (all bays up) on PLC seismic trip; seismic qualification of drum brakes"
+    }
+  ]
+}

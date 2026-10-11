@@ -1,0 +1,560 @@
+{
+ "Gate (guard 0.9, outlet 3 km)|median": {
+  "published": 0.14858333333333335,
+  "reproduced_seeds12": 0.14858333333333335,
+  "exact_reproduction": true,
+  "mean30": 0.15086944444444444,
+  "ci95": [
+   0.14942770833333333,
+   0.15233895833333336
+  ],
+  "sd_seed_avg": 0.004141977620402877,
+  "sd_single_run": 0.007614460643620544,
+  "phase_means": [
+   0.14702222222222222,
+   0.1548111111111111,
+   0.14885555555555555,
+   0.15278888888888892
+  ],
+  "two_seed_estimates_P2_5_P97_5": [
+   0.14560625,
+   0.15662708333333333
+  ],
+  "published_inside_30seed_ci": false
+ },
+ "Gate (guard 0.9, outlet 3 km)|onshore 3 cm/s": {
+  "published": 0.28012499999999996,
+  "reproduced_seeds12": 0.28012499999999996,
+  "exact_reproduction": true,
+  "mean30": 0.2829055555555556,
+  "ci95": [
+   0.2811694444444444,
+   0.2845640277777778
+  ],
+  "sd_seed_avg": 0.004923297366644499,
+  "sd_single_run": 0.01043151005925806,
+  "phase_means": [
+   0.27719999999999995,
+   0.2866555555555555,
+   0.2771222222222222,
+   0.2906444444444444
+  ],
+  "two_seed_estimates_P2_5_P97_5": [
+   0.27590833333333337,
+   0.2889645833333333
+  ],
+  "published_inside_30seed_ci": false
+ },
+ "Gate (guard 0.9, outlet 3 km)|10-day bloom": {
+  "published": 0.40970833333333334,
+  "reproduced_seeds12": 0.40970833333333334,
+  "exact_reproduction": true,
+  "mean30": 0.4110972222222223,
+  "ci95": [
+   0.40946104166666664,
+   0.4127416666666667
+  ],
+  "sd_seed_avg": 0.004795885615587941,
+  "sd_single_run": 0.008912102770158673,
+  "phase_means": [
+   0.40793333333333337,
+   0.41231111111111113,
+   0.41024444444444447,
+   0.4139
+  ],
+  "two_seed_estimates_P2_5_P97_5": [
+   0.4051416666666667,
+   0.41817291666666667
+  ],
+  "published_inside_30seed_ci": true
+ },
+ "Gate (guard 0.9, outlet 3 km)|guard 0.5": {
+  "published": 0.6290833333333333,
+  "reproduced_seeds12": 0.6290833333333333,
+  "exact_reproduction": true,
+  "mean30": 0.6302166666666668,
+  "ci95": [
+   0.6282220138888889,
+   0.632319513888889
+  ],
+  "sd_seed_avg": 0.0058208240256139585,
+  "sd_single_run": 0.01597790549641246,
+  "phase_means": [
+   0.6176555555555556,
+   0.6452333333333334,
+   0.6163666666666667,
+   0.641611111111111
+  ],
+  "two_seed_estimates_P2_5_P97_5": [
+   0.6231958333333334,
+   0.6384583333333332
+  ],
+  "published_inside_30seed_ci": true
+ },
+ "Gate, outlet 5 km|median": {
+  "published": 0.09470833333333334,
+  "reproduced_seeds12": 0.09470833333333334,
+  "exact_reproduction": true,
+  "mean30": 0.09630277777777778,
+  "ci95": [
+   0.09533611111111112,
+   0.09725562500000001
+  ],
+  "sd_seed_avg": 0.0026819321798124706,
+  "sd_single_run": 0.006643376099591417,
+  "phase_means": [
+   0.09261111111111112,
+   0.10063333333333334,
+   0.09365555555555556,
+   0.09831111111111111
+  ],
+  "two_seed_estimates_P2_5_P97_5": [
+   0.09282708333333334,
+   0.09985208333333333
+  ],
+  "published_inside_30seed_ci": false
+ },
+ "Gate, outlet 5 km|onshore 3 cm/s": {
+  "published": 0.19966666666666666,
+  "reproduced_seeds12": 0.19966666666666666,
+  "exact_reproduction": true,
+  "mean30": 0.19757222222222223,
+  "ci95": [
+   0.1962222222222222,
+   0.1989194444444444
+  ],
+  "sd_seed_avg": 0.0038798238627055512,
+  "sd_single_run": 0.00851441172199686,
+  "phase_means": [
+   0.19317777777777773,
+   0.2010666666666667,
+   0.19265555555555558,
+   0.20338888888888892
+  ],
+  "two_seed_estimates_P2_5_P97_5": [
+   0.1924104166666667,
+   0.2025
+  ],
+  "published_inside_30seed_ci": false
+ },
+ "Gate, outlet 5 km|10-day bloom": {
+  "published": 0.22312500000000002,
+  "reproduced_seeds12": 0.22312500000000002,
+  "exact_reproduction": true,
+  "mean30": 0.2245194444444444,
+  "ci95": [
+   0.2229527777777778,
+   0.22598055555555557
+  ],
+  "sd_seed_avg": 0.0042958526808339,
+  "sd_single_run": 0.008051978181163984,
+  "phase_means": [
+   0.22450000000000003,
+   0.2277888888888889,
+   0.22384444444444448,
+   0.2219444444444445
+  ],
+  "two_seed_estimates_P2_5_P97_5": [
+   0.217825,
+   0.22992291666666664
+  ],
+  "published_inside_30seed_ci": true
+ },
+ "Gate, outlet 5 km|guard 0.5": {
+  "published": 0.481875,
+  "reproduced_seeds12": 0.481875,
+  "exact_reproduction": true,
+  "mean30": 0.4788777777777778,
+  "ci95": [
+   0.47741104166666665,
+   0.4803250694444444
+  ],
+  "sd_seed_avg": 0.0042630649608927824,
+  "sd_single_run": 0.015785734635721516,
+  "phase_means": [
+   0.46655555555555556,
+   0.4938888888888889,
+   0.4645000000000001,
+   0.49056666666666665
+  ],
+  "two_seed_estimates_P2_5_P97_5": [
+   0.4731708333333333,
+   0.48454791666666663
+  ],
+  "published_inside_30seed_ci": false
+ },
+ "Gate + outer guide line (0.4)|median": {
+  "published": 0.0895,
+  "reproduced_seeds12": 0.0895,
+  "exact_reproduction": true,
+  "mean30": 0.09121388888888889,
+  "ci95": [
+   0.09020277777777778,
+   0.09216409722222223
+  ],
+  "sd_seed_avg": 0.0027792922116892612,
+  "sd_single_run": 0.005357577220693371,
+  "phase_means": [
+   0.08917777777777779,
+   0.09392222222222223,
+   0.08976666666666668,
+   0.09198888888888888
+  ],
+  "two_seed_estimates_P2_5_P97_5": [
+   0.08724375,
+   0.09488125
+  ],
+  "published_inside_30seed_ci": false
+ },
+ "Gate + outer guide line (0.4)|onshore 3 cm/s": {
+  "published": 0.17825,
+  "reproduced_seeds12": 0.17825,
+  "exact_reproduction": true,
+  "mean30": 0.17904166666666665,
+  "ci95": [
+   0.17786111111111114,
+   0.18021118055555557
+  ],
+  "sd_seed_avg": 0.0033352544751177704,
+  "sd_single_run": 0.00798745076653992,
+  "phase_means": [
+   0.17636666666666667,
+   0.18116666666666664,
+   0.1746666666666667,
+   0.18396666666666664
+  ],
+  "two_seed_estimates_P2_5_P97_5": [
+   0.17493958333333334,
+   0.18353124999999998
+  ],
+  "published_inside_30seed_ci": true
+ },
+ "Gate + outer guide line (0.4)|10-day bloom": {
+  "published": 0.264125,
+  "reproduced_seeds12": 0.264125,
+  "exact_reproduction": true,
+  "mean30": 0.26574722222222225,
+  "ci95": [
+   0.2644722222222222,
+   0.26700847222222224
+  ],
+  "sd_seed_avg": 0.0036106936835070174,
+  "sd_single_run": 0.008504735412227417,
+  "phase_means": [
+   0.2624222222222223,
+   0.2668444444444445,
+   0.2657111111111111,
+   0.2680111111111111
+  ],
+  "two_seed_estimates_P2_5_P97_5": [
+   0.26132083333333334,
+   0.27067291666666665
+  ],
+  "published_inside_30seed_ci": false
+ },
+ "Gate + outer guide line (0.4)|guard 0.5": {
+  "published": 0.4073333333333333,
+  "reproduced_seeds12": 0.4073333333333333,
+  "exact_reproduction": true,
+  "mean30": 0.4098888888888889,
+  "ci95": [
+   0.4076054861111111,
+   0.41219729166666663
+  ],
+  "sd_seed_avg": 0.006536602415372527,
+  "sd_single_run": 0.012239237794852333,
+  "phase_means": [
+   0.4032888888888888,
+   0.4195888888888889,
+   0.4005666666666666,
+   0.41611111111111104
+  ],
+  "two_seed_estimates_P2_5_P97_5": [
+   0.40112916666666665,
+   0.41875833333333334
+  ],
+  "published_inside_30seed_ci": false
+ },
+ "Gate + outer guide (0.4) + outlet 5 km|median": {
+  "published": 0.05483333333333333,
+  "reproduced_seeds12": 0.05483333333333333,
+  "exact_reproduction": true,
+  "mean30": 0.057302777777777786,
+  "ci95": [
+   0.05658326388888888,
+   0.05800555555555555
+  ],
+  "sd_seed_avg": 0.0020174624787413008,
+  "sd_single_run": 0.004513491722813021,
+  "phase_means": [
+   0.05525555555555555,
+   0.060066666666666664,
+   0.05571111111111111,
+   0.05817777777777779
+  ],
+  "two_seed_estimates_P2_5_P97_5": [
+   0.05460625,
+   0.059625
+  ],
+  "published_inside_30seed_ci": false
+ },
+ "Gate + outer guide (0.4) + outlet 5 km|onshore 3 cm/s": {
+  "published": 0.12233333333333334,
+  "reproduced_seeds12": 0.12233333333333334,
+  "exact_reproduction": true,
+  "mean30": 0.1217277777777778,
+  "ci95": [
+   0.12063055555555556,
+   0.12277777777777778
+  ],
+  "sd_seed_avg": 0.0030747343072248627,
+  "sd_single_run": 0.006205022412810417,
+  "phase_means": [
+   0.12018888888888889,
+   0.12349999999999998,
+   0.11931111111111112,
+   0.1239111111111111
+  ],
+  "two_seed_estimates_P2_5_P97_5": [
+   0.11733125000000001,
+   0.12551874999999998
+  ],
+  "published_inside_30seed_ci": true
+ },
+ "Gate + outer guide (0.4) + outlet 5 km|10-day bloom": {
+  "published": 0.13279166666666667,
+  "reproduced_seeds12": 0.13279166666666667,
+  "exact_reproduction": true,
+  "mean30": 0.1379027777777778,
+  "ci95": [
+   0.13665833333333335,
+   0.13905833333333334
+  ],
+  "sd_seed_avg": 0.003423848866411243,
+  "sd_single_run": 0.006215608771942715,
+  "phase_means": [
+   0.1371888888888889,
+   0.13853333333333334,
+   0.13883333333333334,
+   0.13705555555555554
+  ],
+  "two_seed_estimates_P2_5_P97_5": [
+   0.13289791666666667,
+   0.14179791666666663
+  ],
+  "published_inside_30seed_ci": false
+ },
+ "Gate + outer guide (0.4) + outlet 5 km|guard 0.5": {
+  "published": 0.280625,
+  "reproduced_seeds12": 0.280625,
+  "exact_reproduction": true,
+  "mean30": 0.28153333333333325,
+  "ci95": [
+   0.2798221527777778,
+   0.2832223611111111
+  ],
+  "sd_seed_avg": 0.004846968480223062,
+  "sd_single_run": 0.011574981875385356,
+  "phase_means": [
+   0.27407777777777775,
+   0.2907111111111111,
+   0.2733111111111111,
+   0.2880333333333333
+  ],
+  "two_seed_estimates_P2_5_P97_5": [
+   0.27532500000000004,
+   0.28825625
+  ],
+  "published_inside_30seed_ci": true
+ },
+ "Gate + outer guide (0.6) + outlet 5 km|median": {
+  "published": 0.036041666666666666,
+  "reproduced_seeds12": 0.036041666666666666,
+  "exact_reproduction": true,
+  "mean30": 0.03790833333333333,
+  "ci95": [
+   0.03741666666666667,
+   0.03840840277777779
+  ],
+  "sd_seed_avg": 0.0013999777639175574,
+  "sd_single_run": 0.0034541041772940743,
+  "phase_means": [
+   0.03604444444444444,
+   0.04003333333333333,
+   0.037122222222222216,
+   0.03843333333333334
+  ],
+  "two_seed_estimates_P2_5_P97_5": [
+   0.03599375,
+   0.03966666666666667
+  ],
+  "published_inside_30seed_ci": false
+ },
+ "Gate + outer guide (0.6) + outlet 5 km|onshore 3 cm/s": {
+  "published": 0.08141666666666666,
+  "reproduced_seeds12": 0.08141666666666666,
+  "exact_reproduction": true,
+  "mean30": 0.08217777777777777,
+  "ci95": [
+   0.08131111111111111,
+   0.08298055555555557
+  ],
+  "sd_seed_avg": 0.002376522836378036,
+  "sd_single_run": 0.0054321952947689964,
+  "phase_means": [
+   0.08107777777777778,
+   0.08397777777777779,
+   0.07982222222222222,
+   0.08383333333333333
+  ],
+  "two_seed_estimates_P2_5_P97_5": [
+   0.07889166666666667,
+   0.08475
+  ],
+  "published_inside_30seed_ci": true
+ },
+ "Gate + outer guide (0.6) + outlet 5 km|10-day bloom": {
+  "published": 0.08995833333333333,
+  "reproduced_seeds12": 0.08995833333333333,
+  "exact_reproduction": true,
+  "mean30": 0.09232222222222222,
+  "ci95": [
+   0.09158333333333334,
+   0.09303888888888888
+  ],
+  "sd_seed_avg": 0.002067553264280893,
+  "sd_single_run": 0.004813017931838655,
+  "phase_means": [
+   0.09122222222222222,
+   0.09264444444444446,
+   0.0931888888888889,
+   0.09223333333333335
+  ],
+  "two_seed_estimates_P2_5_P97_5": [
+   0.08949375,
+   0.09506666666666666
+  ],
+  "published_inside_30seed_ci": false
+ },
+ "Gate + outer guide (0.6) + outlet 5 km|guard 0.5": {
+  "published": 0.18441666666666667,
+  "reproduced_seeds12": 0.18441666666666667,
+  "exact_reproduction": true,
+  "mean30": 0.18622777777777777,
+  "ci95": [
+   0.18475000000000005,
+   0.18775006944444445
+  ],
+  "sd_seed_avg": 0.004218637568862752,
+  "sd_single_run": 0.009562022544016257,
+  "phase_means": [
+   0.18086666666666668,
+   0.19353333333333336,
+   0.18104444444444445,
+   0.18946666666666667
+  ],
+  "two_seed_estimates_P2_5_P97_5": [
+   0.1810145833333333,
+   0.19249583333333334
+  ],
+  "published_inside_30seed_ci": false
+ },
+ "today|median": {
+  "published": 0.9546666666666667,
+  "reproduced_seeds12": 0.9546666666666667,
+  "exact_reproduction": true,
+  "mean30": 0.9559361111111111,
+  "ci95": [
+   0.9552138888888889,
+   0.956697222222222
+  ],
+  "sd_seed_avg": 0.002176335998423318,
+  "sd_single_run": 0.02910184620495012,
+  "phase_means": [
+   0.9277333333333335,
+   0.9845111111111112,
+   0.9266000000000001,
+   0.9848999999999999
+  ],
+  "two_seed_estimates_P2_5_P97_5": [
+   0.9534520833333333,
+   0.9592916666666667
+  ],
+  "published_inside_30seed_ci": false
+ },
+ "today|10-day bloom": {
+  "published": 1.0,
+  "reproduced_seeds12": 1.0,
+  "exact_reproduction": true,
+  "mean30": 1.0,
+  "ci95": [
+   1.0,
+   1.0
+  ],
+  "sd_seed_avg": 0.0,
+  "sd_single_run": 0.0,
+  "phase_means": [
+   1.0,
+   1.0,
+   1.0,
+   1.0
+  ],
+  "two_seed_estimates_P2_5_P97_5": [
+   1.0,
+   1.0
+  ],
+  "published_inside_30seed_ci": true
+ },
+ "today|onshore 3 cm/s": {
+  "published": 0.9684583333333333,
+  "reproduced_seeds12": 0.9684583333333333,
+  "exact_reproduction": true,
+  "mean30": 0.9685166666666666,
+  "ci95": [
+   0.9679582638888888,
+   0.9691361111111109
+  ],
+  "sd_seed_avg": 0.0016554796968914901,
+  "sd_single_run": 0.02466669884167786,
+  "phase_means": [
+   0.9445,
+   0.9929111111111111,
+   0.9437111111111108,
+   0.9929444444444445
+  ],
+  "two_seed_estimates_P2_5_P97_5": [
+   0.9665770833333334,
+   0.971125
+  ],
+  "published_inside_30seed_ci": true
+ },
+ "_ranking": {
+  "median": {
+   "P(v3 < today)": 1.0,
+   "P(v3 < Gate (guard 0.9, outlet 3 km))": 1.0,
+   "P(v3 < Gate, outlet 5 km)": 1.0,
+   "P(v3 < Gate + outer guide line (0.4))": 1.0,
+   "P(v3 < Gate + outer guide (0.6) + outlet 5 km)": 0.0
+  },
+  "onshore 3 cm/s": {
+   "P(v3 < today)": 1.0,
+   "P(v3 < Gate (guard 0.9, outlet 3 km))": 1.0,
+   "P(v3 < Gate, outlet 5 km)": 1.0,
+   "P(v3 < Gate + outer guide line (0.4))": 1.0,
+   "P(v3 < Gate + outer guide (0.6) + outlet 5 km)": 0.0
+  },
+  "10-day bloom": {
+   "P(v3 < today)": 1.0,
+   "P(v3 < Gate (guard 0.9, outlet 3 km))": 1.0,
+   "P(v3 < Gate, outlet 5 km)": 1.0,
+   "P(v3 < Gate + outer guide line (0.4))": 1.0,
+   "P(v3 < Gate + outer guide (0.6) + outlet 5 km)": 0.0
+  },
+  "guard 0.5": {
+   "P(v3 < Gate (guard 0.9, outlet 3 km))": 1.0,
+   "P(v3 < Gate, outlet 5 km)": 1.0,
+   "P(v3 < Gate + outer guide line (0.4))": 1.0,
+   "P(v3 < Gate + outer guide (0.6) + outlet 5 km)": 0.0
+  }
+ }
+}

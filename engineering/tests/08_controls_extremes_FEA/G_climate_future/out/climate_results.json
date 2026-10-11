@@ -1,0 +1,117 @@
+{
+  "source_counts_verified": true,
+  "growth_per_year": 0.04668165478220727,
+  "growth_se": 0.010376799469461323,
+  "doubling_years": 14.84838495537092,
+  "rate_2026_per_yr": 3.369734076428961,
+  "projected_rate_per_yr_if_trend_continues": {
+    "2030": 4.061532848729362,
+    "2050": 10.33145935834255,
+    "2085": 52.93429695027381
+  },
+  "sst_valid_days": 1123,
+  "season_days_per_year": {
+    ">=30C": {
+      "2022-25": 156.76803205699022,
+      "2050 +0.3C/dec": 168.4768477292965,
+      "2050 +0.5C/dec": 180.18566340160285,
+      "2085 +0.3C/dec": 187.0158058771149,
+      "2085 +0.5C/dec": 204.90427426536064
+    },
+    ">=32C": {
+      "2022-25": 120.0153606411398,
+      "2050 +0.3C/dec": 139.53005342831702,
+      "2050 +0.5C/dec": 149.2873998219056,
+      "2085 +0.3C/dec": 153.84082813891362,
+      "2085 +0.5C/dec": 174.33125556544968
+    },
+    ">=34C": {
+      "2022-25": 71.87911843276936,
+      "2050 +0.3C/dec": 89.76758682101514,
+      "2050 +0.5C/dec": 103.42787177203918,
+      "2085 +0.3C/dec": 117.4134016028495,
+      "2085 +0.5C/dec": 144.7339715048976
+    }
+  },
+  "line_capacity_t_per_h": 367.2,
+  "lines_needed": [
+    {
+      "density": 0.1,
+      "Q": 100.0,
+      "biomass_t_per_h": 97.0,
+      "lines": 1
+    },
+    {
+      "density": 0.1,
+      "Q": 172.5,
+      "biomass_t_per_h": 168.0,
+      "lines": 1
+    },
+    {
+      "density": 0.3,
+      "Q": 100.0,
+      "biomass_t_per_h": 292.0,
+      "lines": 1
+    },
+    {
+      "density": 0.3,
+      "Q": 172.5,
+      "biomass_t_per_h": 503.0,
+      "lines": 2
+    },
+    {
+      "density": 1.0,
+      "Q": 100.0,
+      "biomass_t_per_h": 972.0,
+      "lines": 3
+    },
+    {
+      "density": 1.0,
+      "Q": 172.5,
+      "biomass_t_per_h": 1677.0,
+      "lines": 5
+    },
+    {
+      "density": 2.0,
+      "Q": 100.0,
+      "biomass_t_per_h": 1944.0,
+      "lines": 6
+    },
+    {
+      "density": 2.0,
+      "Q": 172.5,
+      "biomass_t_per_h": 3353.0,
+      "lines": 10
+    }
+  ],
+  "verdicts": [
+    {
+      "test": "G1 reported intake-incident trend (global catalogue)",
+      "value": "x1.59 per decade, doubling 15 y",
+      "criterion": "INFO - reporting-biased; plan capacity on design density, not on trend",
+      "verdict": "INFO",
+      "detail": "2026 fitted ~3.4/yr; if trend continued: 2050 ~10/yr, 2085 ~53/yr (not a forecast)"
+    },
+    {
+      "test": "G2 warmer water -> longer hot season (SST>=32 C proxy)",
+      "value": "120 d/yr now -> 174 d/yr (2085, +0.5 C/dec)",
+      "criterion": "deployed-days margin: fatigue/energy/wear designed for 60 d/yr [V3 ~2 months]",
+      "verdict": "MARGINAL",
+      "detail": "if blooms track hot season, duty rises; fatigue (A6) has large margin, corrosion (C7) and drum-wrap cycles (A8c) get worse"
+    },
+    {
+      "test": "G3 SST 2085 vs material limits",
+      "value": "max data 35.9 C + 3.0 C = 38.9 C",
+      "criterion": "mesh/rail materials rated for >= 40 C seawater",
+      "verdict": "FAIL",
+      "detail": "reinforces C7: specify titanium or polymer wetted parts"
+    },
+    {
+      "test": "G4 modular lift headroom",
+      "value": "367 t/h per line; 0.3/m3 needs 2 lines @172.5 m3/s, 1/m3 needs 5",
+      "criterion": "v3 pilot = 1 line per unit; design density 0.3/m3 at max flow",
+      "verdict": "MARGINAL",
+      "detail": "gantry/screen scale with flow not density; lines (screw+pump+pipe) are the modular unit; reserve space for 2-3 lines per lane"
+    }
+  ]
+}

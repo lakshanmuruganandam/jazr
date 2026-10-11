@@ -1,0 +1,13 @@
+215 runs
+0 + apex share 50% (= BEST) 1.0 3
+20 + apex share 50% (= BEST) 1.0 10
+40 best + two screens in series 1.0 14
+60 best + two screens in series 1.0 17
+80 no-belt best + apex share 50% 1.0 21
+100 best | rheotactic 10 cm/s 1.0 24
+120 best | small bells 2-3 cm 1.0 28
+140 best | belt stopped (fault) 1.0 31
+160 best | cue -2 cm/s 1.0 35
+180 best | cue +0 cm/s 1.0 38
+200 best | cue +2 cm/s 1.0 42
+wall 43

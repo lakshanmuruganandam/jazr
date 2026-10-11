@@ -1,0 +1,22 @@
+phase 3000 {'best_phase_rad': 0.0, 'worst_phase_rad': 3.141592653589793, 'best': 0.895, 'worst': 0.9943333333333333, 'spread_pctpts': 9.933333333333326}
+phase 5000 {'best_phase_rad': 0.0, 'worst_phase_rad': 2.6179938779914944, 'best': 0.007833333333333333, 'worst': 0.03916666666666667, 'spread_pctpts': 3.1333333333333337}
+offshore|vr=0.0|h=72 [100.0, 100.0, 100.0, 96.2, 2.2, 0.0, 0.0, 0.0] True
+offshore|vr=0.0|h=240 [100.0, 100.0, 100.0, 100.0, 100.0, 55.7, 0.5, 0.0] True
+offshore|vr=-0.01|h=72 [100.0, 100.0, 100.0, 100.0, 90.0, 0.2, 0.0, 0.0] True
+offshore|vr=-0.01|h=240 [100.0, 100.0, 100.0, 100.0, 100.0, 100.0, 100.0, 19.4] True
+offshore|vr=-0.03|h=72 [100.0, 100.0, 100.0, 100.0, 100.0, 99.3, 47.6, 0.0] True
+offshore|vr=-0.03|h=240 [100.0, 100.0, 100.0, 100.0, 100.0, 100.0, 100.0, 100.0] True
+alongshore|vr=0.0|h=72 [100.0, 100.0, 100.0, 95.1, 21.6, 0.0, 0.0, 0.0] True
+alongshore|vr=0.0|h=240 [100.0, 100.0, 100.0, 100.0, 99.9, 65.1, 2.4, 0.0] True
+alongshore|vr=-0.01|h=72 [100.0, 100.0, 100.0, 97.4, 28.0, 0.0, 0.0, 0.0] True
+alongshore|vr=-0.01|h=240 [100.0, 100.0, 100.0, 100.0, 100.0, 70.7, 3.4, 0.0] True
+alongshore|vr=-0.03|h=72 [100.0, 100.0, 100.0, 97.6, 28.7, 0.0, 0.0, 0.0] True
+alongshore|vr=-0.03|h=240 [100.0, 100.0, 100.0, 100.0, 100.0, 70.9, 3.5, 0.0] True
+export regression pipe 1 km offshore {'published': 0.23195833333333332, 'rerun': 0.23195833333333332, 'exact': True}
+export regression pipe 2 km offshore {'published': 0.11770833333333333, 'rerun': 0.11770833333333333, 'exact': True}
+export regression pipe 3 km offshore {'published': 0.08395833333333334, 'rerun': 0.08395833333333334, 'exact': True}
+export regression passive lane end 2 km {'published': 0.29974999999999996, 'rerun': 0.29974999999999996, 'exact': True}
+runtime s 847
+real 849.35
+user 1998.45
+sys 49.69

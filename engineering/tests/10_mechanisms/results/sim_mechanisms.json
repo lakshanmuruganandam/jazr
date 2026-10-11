@@ -1,0 +1,135 @@
+{
+ "label": "SIMULATED virtual tank - not physical evidence",
+ "T_run_s": 150.0,
+ "n_bells": 30,
+ "seeds": 4,
+ "sweep_tank_m_s": 0.108,
+ "summary": {
+  "A0 baseline 10% bypass, 2 entr, 4-6 cm bells": {
+   "eta_mean": 0.425,
+   "eta_se": 0.016,
+   "stuck_mean": 0.508,
+   "intake_mean": 0.0,
+   "n_seeds": 4
+  },
+  "A1 belt 0.5x sweep": {
+   "eta_mean": 1.0,
+   "eta_se": 0.0,
+   "stuck_mean": 0.0,
+   "intake_mean": 0.0,
+   "n_seeds": 4
+  },
+  "A2 belt 1.0x sweep": {
+   "eta_mean": 1.0,
+   "eta_se": 0.0,
+   "stuck_mean": 0.0,
+   "intake_mean": 0.0,
+   "n_seeds": 4
+  },
+  "A3 belt 1.2x sweep": {
+   "eta_mean": 1.0,
+   "eta_se": 0.0,
+   "stuck_mean": 0.0,
+   "intake_mean": 0.0,
+   "n_seeds": 4
+  },
+  "A4 belt 0.25x sweep": {
+   "eta_mean": 1.0,
+   "eta_se": 0.0,
+   "stuck_mean": 0.0,
+   "intake_mean": 0.0,
+   "n_seeds": 4
+  },
+  "A5 belt 1.0x, sticky: mu 1.0 + adhesion 3 Pa": {
+   "eta_mean": 1.0,
+   "eta_se": 0.0,
+   "stuck_mean": 0.0,
+   "intake_mean": 0.0,
+   "n_seeds": 4
+  },
+  "A6 belt 1.0x, bypass only 3%": {
+   "eta_mean": 1.0,
+   "eta_se": 0.0,
+   "stuck_mean": 0.0,
+   "intake_mean": 0.0,
+   "n_seeds": 4
+  },
+  "A7 belt 1.0x, 15 deg": {
+   "eta_mean": 1.0,
+   "eta_se": 0.0,
+   "stuck_mean": 0.0,
+   "intake_mean": 0.0,
+   "n_seeds": 4
+  },
+  "B0 coating mu 0.1": {
+   "eta_mean": 0.65,
+   "eta_se": 0.017,
+   "stuck_mean": 0.317,
+   "intake_mean": 0.0,
+   "n_seeds": 4
+  },
+  "B1 coating mu 0.05": {
+   "eta_mean": 0.667,
+   "eta_se": 0.024,
+   "stuck_mean": 0.258,
+   "intake_mean": 0.0,
+   "n_seeds": 4
+  },
+  "C1 agitation turb 25% (jet proxy)": {
+   "eta_mean": 0.533,
+   "eta_se": 0.036,
+   "stuck_mean": 0.2,
+   "intake_mean": 0.0,
+   "n_seeds": 4
+  },
+  "D0 v4: 4 entr, 20% bypass": {
+   "eta_mean": 0.767,
+   "eta_se": 0.0,
+   "stuck_mean": 0.233,
+   "intake_mean": 0.0,
+   "n_seeds": 4
+  },
+  "D1 v4 + belt 1.0x": {
+   "eta_mean": 1.0,
+   "eta_se": 0.0,
+   "stuck_mean": 0.0,
+   "intake_mean": 0.0,
+   "n_seeds": 4
+  },
+  "D2 v4 + belt 1.0x + 10 cm apex mouth": {
+   "eta_mean": 1.0,
+   "eta_se": 0.0,
+   "stuck_mean": 0.0,
+   "intake_mean": 0.0,
+   "n_seeds": 4
+  },
+  "D3 v4 + coating mu 0.05": {
+   "eta_mean": 0.85,
+   "eta_se": 0.022,
+   "stuck_mean": 0.15,
+   "intake_mean": 0.0,
+   "n_seeds": 4
+  },
+  "E0 scaled bells 1.5-2.5 cm, v4": {
+   "eta_mean": 0.717,
+   "eta_se": 0.029,
+   "stuck_mean": 0.283,
+   "intake_mean": 0.0,
+   "n_seeds": 4
+  },
+  "E1 scaled bells, v4 + belt 1.0x": {
+   "eta_mean": 1.0,
+   "eta_se": 0.0,
+   "stuck_mean": 0.0,
+   "intake_mean": 0.0,
+   "n_seeds": 4
+  },
+  "E2 scaled bells, 10% + belt 1.0x": {
+   "eta_mean": 1.0,
+   "eta_se": 0.0,
+   "stuck_mean": 0.0,
+   "intake_mean": 0.0,
+   "n_seeds": 4
+  }
+ }
+}

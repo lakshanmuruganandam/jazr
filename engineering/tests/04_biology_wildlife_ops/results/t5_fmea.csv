@@ -1,0 +1,33 @@
+component,failure_mode,effect,cause,S,O,D,RPN,control,action
+Camera diverter,Camera misses turtle (turbidity/night/occlusion),Turtle enters screw/pipe -> death,"Visibility, model recall ~0.85",10,4,9,360,Single camera,2 independent sensors (optical + imaging sonar) + physical deformable-pass grid + push door
+Pump,Impeller damage to bells/fish,Mortality,Passage < bell size,6,6,7,252,None,Delete pump: gravity head tank (2 screws in series)
+Archimedes screw,Leading-edge damage to bells/fish,"Mortality, fragments",Blade strike,5,7,7,245,None,Rubber/rounded leading edge; low rpm; tank test
+Bloom Incident OS,Late/absent alert,Not deployed before arrival,Forecast miss (Gravelines),8,4,7,224,Alert lead 4-6 h,Auto Ready on camera/sonar counts; deploy in 10 min
+5 km pipe,Low DO in line,Animals and fish die in transit -> dead release,High biomass,7,5,6,210,None,DO sensor at outlet; O2 injection; split lines
+Outlets,Wrong outlet chosen (forecast error),"Drift-back, stranding, hits MPA/intake",Wind not forecast,6,5,6,180,72 h forecast,Ensemble forecast with wind; drifters; beach survey
+Outlets,Dead biomass released,"Benthic hypoxia, odour",Transit mortality,7,4,6,168,None,Damage scoring camera at head tank -> auto recover mode
+Bottom bar / floor rail,"Bar does not seat (sediment, fouling)",Under-gap leakage of bells (retention loss),"Sand in rail, barnacles",5,5,6,150,None,Rail jetting before deploy; seat sensor; T8 test
+Load cell,Drift / failed low,Blinding not detected -> FATAL3-type over-load,"Seawater ingress, drift",8,3,6,144,Single cell,2 cells per drum + lane dP cross-check; weekly zero check
+Bypass entrance,Blocked by bell pile,Bypass loses flow; bells accumulate on face,Density > design,7,5,4,140,Camera counts,Entrance >= 1.0 m; flow sensor per entrance; add lines
+Mesh,Tear / hole,Leakage; mesh fragments to plant screens,"Abrasion, debris, overload",6,4,5,120,Visual on roll-up,Camera inspection on each roll cycle; mesh strength > blinding load
+Brush/drum,Bell wound into drum,Bell crushed; tissue smear fouls mesh,Roll-up while bells on face,4,6,5,120,None,Interlock: pre-sweep pause before roll-up
+5 km pipe,Air at breakwater high point,Bubbles under bells (embolism),HGL below crest,5,4,6,120,None,Route through breakwater or head tank >= crest + 2 m
+Mesh,"Animal entanglement (turtle flipper, fish)",Wildlife injury/death,Mesh opening ~ limb size,9,2,6,108,None,"Specify knotless rigid mesh, opening <= 25 mm or >= limb-free; underwater camera per 3 bays"
+Camera diverter,Diverter gate fails to move,Turtle not diverted,"Actuator jam, fouling",10,2,5,100,Position switch,Fail-to-divert position default; proof test per shift
+5 km pipe,Plug (bell slurry / bend),Lift line out for hours-days,"Solids > 4% vol, low velocity",6,4,4,96,dP along line,Keep solids <2%; pig launcher; backflush
+Bloom Incident OS,Software fault / wrong state,Not deployed or wrong roll-up across all units,"Bug, update",8,3,4,96,Human approval,Per-unit independent PLC; manual local panel; diverse software
+Drum + motor,Fails to roll UP on high dP,Bay blinds; local velocity rises; turtle pinning; loads on gantry,"Motor/brake fault, jam by fouling",8,3,3,72,Load cell alarm,Gravity/shear-pin release of bottom bar independent of motor (fail-open)
+Recover mode,Dewatering/compost capacity exceeded,Biomass backlog; must stop lift,Design density,6,4,3,72,Storage level,Size for pilot worst day; contract haulage
+Operators,"Approval delayed (night, workload)",Late deployment,Human factors,6,4,3,72,Drills,Pre-authorised deploy on red alert
+Brush/spray cleaner,Brush fails,Faster blinding; more roll-ups,Wear,4,4,4,64,Cycle count,Spare brush cassette
+Load cell,Failed high (spurious),"Nuisance roll-up, pulse","Electrical fault, wave transient",5,4,3,60,Filter,Time filter + voting
+Camera diverter,False positives (bells as turtles),Screw stops repeatedly -> bypass backs up,Low precision,5,6,2,60,Operator review,Precision target >= 0.9 at recall 0.999; auto-restart
+Training wall,Scour / settlement,Lane geometry and sweep change,Currents,5,2,5,50,Survey,Bathymetric survey each season
+5 km pipe,"Anchor/ship damage, leak",Release near shore,"Shipping, anchoring",6,2,4,48,Charted zone,Burial/armour; pressure monitoring
+Archimedes screw,Stops / bearing failure,Lift lost -> bells accumulate -> roll-ups -> leakage,"Bearing, gearbox, motor",7,3,2,42,Motor current,N+1 screws per unit
+Drum + motor,Uncommanded roll-up,Pulse of impinged bells to plant screens,"Spurious trip, PLC fault",6,3,2,36,<1 t staged pulse,2oo3 voting (2 load cells + lane dP)
+Drum + motor,Fails to roll DOWN on deploy,Gap in screen -> leakage of that bay,"Motor/brake/VFD fault, cold-start",4,4,2,32,Load-cell/encoder status,Pre-season test run; spare drive; accept 1-bay gap
+Power supply,Loss of site AC to JAZR,Bays freeze in position; screws stop,Grid/house load shedding,8,2,2,32,None,Fail-open by gravity on loss of power; UPS for PLC/cameras
+Gantry/piles,Structural failure / collapse,Debris into intake lane; possible UHS blockage,"Seismic, storm, ship impact",10,1,3,30,Seismic II/I design,Seismic II/I + debris-load case; inspection each season
+Pump,Trip,Line stops; head tank floods,Electrical,5,3,2,30,Status,Duty/standby
+Head tank,Overflow,Animals spilled on deck; DO loss,Pump trip,4,3,2,24,Level switch,Overflow weir back to channel

@@ -1,0 +1,565 @@
+{
+ "checks": [
+  {
+   "test": "T08",
+   "check": "total head, 2 m3/s, 3 km, new pipe, water",
+   "value": 5.1677,
+   "unit": "m",
+   "criterion": "<= head tank 5-11 m (v3)",
+   "source": "Colebrook",
+   "verdict": "PASS",
+   "note": "f=0.0106, v=1.77 m/s, P=139 kW (eta .75)"
+  },
+  {
+   "test": "T08",
+   "check": "total head, 2 m3/s, 3 km, aged+biofilm, 13.5% bells",
+   "value": 6.7646,
+   "unit": "m",
+   "criterion": "<= 11 m head tank PASS; <= 13 MARGINAL",
+   "source": "Colebrook + Thomas",
+   "verdict": "PASS",
+   "note": "f=0.0146, P=181 kW"
+  },
+  {
+   "test": "T08",
+   "check": "total head, 3 m3/s, 3 km, aged, 5% bells",
+   "value": 14.9092,
+   "unit": "m",
+   "criterion": "<= 11 m PASS; <= 13 MARGINAL",
+   "source": "Colebrook",
+   "verdict": "FAIL",
+   "note": "v=2.65 m/s, P=600 kW"
+  },
+  {
+   "test": "T08",
+   "check": "transit time 3 km at 2 m3/s",
+   "value": 28.2743,
+   "unit": "min",
+   "criterion": "informative (Huon salmon precedent: 0.95 km, ~8 min)",
+   "source": "15_ s.4",
+   "verdict": "PASS",
+   "note": ""
+  },
+  {
+   "test": "T08",
+   "check": "total head, 2 m3/s, 5 km, new pipe, water",
+   "value": 7.9753,
+   "unit": "m",
+   "criterion": "<= head tank 5-11 m (v3)",
+   "source": "Colebrook",
+   "verdict": "PASS",
+   "note": "f=0.0106, v=1.77 m/s, P=214 kW (eta .75)"
+  },
+  {
+   "test": "T08",
+   "check": "total head, 2 m3/s, 5 km, aged+biofilm, 13.5% bells",
+   "value": 10.6367,
+   "unit": "m",
+   "criterion": "<= 11 m head tank PASS; <= 13 MARGINAL",
+   "source": "Colebrook + Thomas",
+   "verdict": "PASS",
+   "note": "f=0.0146, P=285 kW"
+  },
+  {
+   "test": "T08",
+   "check": "total head, 3 m3/s, 5 km, aged, 5% bells",
+   "value": 23.4142,
+   "unit": "m",
+   "criterion": "<= 11 m PASS; <= 13 MARGINAL",
+   "source": "Colebrook",
+   "verdict": "FAIL",
+   "note": "v=2.65 m/s, P=942 kW"
+  },
+  {
+   "test": "T08",
+   "check": "transit time 5 km at 2 m3/s",
+   "value": 47.1239,
+   "unit": "min",
+   "criterion": "informative (Huon salmon precedent: 0.95 km, ~8 min)",
+   "source": "15_ s.4",
+   "verdict": "PASS",
+   "note": ""
+  },
+  {
+   "test": "T08",
+   "check": "v3 claim check: 195 kW @3 km / 286 kW @5 km (2 m3/s, 1.2 m ID)",
+   "value": 138.5664,
+   "unit": "kW at 3 km (eta .75)",
+   "criterion": "within +-20% of v3 195 kW",
+   "source": "Colebrook",
+   "verdict": "MARGINAL",
+   "note": "5 km: 214 kW"
+  },
+  {
+   "test": "T08",
+   "check": "head-tank elevation for GRAVITY flow (5 km, aged, 13.5% bells) + 1 m margin",
+   "value": 11.6367,
+   "unit": "m above MSL",
+   "criterion": "<= 11 m (v3 upper) -> pump redundant",
+   "source": "calc",
+   "verdict": "MARGINAL",
+   "note": "v3 has screw->head tank AND pump: choose one (gravity from head tank removes the pump and its shear)"
+  },
+  {
+   "test": "T08",
+   "check": "pipe ID needed for 3 m3/s at 5 km within 10 m head (aged, + 1 m margin to 11 m)",
+   "value": 1.45,
+   "unit": "m",
+   "criterion": "<= 1.2 m (v3) PASS; <= 1.4 m MARGINAL",
+   "source": "Colebrook",
+   "verdict": "FAIL",
+   "note": ""
+  },
+  {
+   "test": "T08",
+   "check": "pressure head at breakwater crest +5 m, 3 km, gravity line",
+   "value": 0.7441,
+   "unit": "m",
+   "criterion": ">= +2 m (no sub-atmospheric pressure, no air release; bubbles harm jellyfish - Raskoff 2003)",
+   "source": "HGL",
+   "verdict": "MARGINAL",
+   "note": "tank 7.8 m"
+  },
+  {
+   "test": "T08",
+   "check": "pressure head at breakwater crest +5 m, 5 km, gravity line",
+   "value": 4.6162,
+   "unit": "m",
+   "criterion": ">= +2 m (no sub-atmospheric pressure, no air release; bubbles harm jellyfish - Raskoff 2003)",
+   "source": "HGL",
+   "verdict": "PASS",
+   "note": "tank 11.6 m"
+  },
+  {
+   "test": "T08",
+   "check": "pressure head at breakwater crest +7 m, 3 km, gravity line",
+   "value": -1.2559,
+   "unit": "m",
+   "criterion": ">= +2 m (no sub-atmospheric pressure, no air release; bubbles harm jellyfish - Raskoff 2003)",
+   "source": "HGL",
+   "verdict": "FAIL",
+   "note": "tank 7.8 m"
+  },
+  {
+   "test": "T08",
+   "check": "pressure head at breakwater crest +7 m, 5 km, gravity line",
+   "value": 2.6162,
+   "unit": "m",
+   "criterion": ">= +2 m (no sub-atmospheric pressure, no air release; bubbles harm jellyfish - Raskoff 2003)",
+   "source": "HGL",
+   "verdict": "PASS",
+   "note": "tank 11.6 m"
+  },
+  {
+   "test": "T08",
+   "check": "pump-trip down-surge minus pressure head at +5 m crest (pump-driven option, 3 km)",
+   "value": 36.6811,
+   "unit": "m",
+   "criterion": "<= 0 PASS; <= 10 m MARGINAL (sub-atmospheric, air release); > 10 m FAIL (vapour -> column separation)",
+   "source": "Joukowsky",
+   "verdict": "FAIL",
+   "note": "pump option needs surge vessel/air valves or slow-closing check valve; gravity option avoids it"
+  },
+  {
+   "test": "T08",
+   "check": "velocity vs deposit limit (s-1=0.005), Q=1.0",
+   "value": 1.9823,
+   "unit": "x V_L",
+   "criterion": ">= 1.5 PASS; >= 1.0 MARGINAL",
+   "source": "Durand; Lebrato 2013 sinking",
+   "verdict": "PASS",
+   "note": "v=0.88, V_L=0.45 m/s"
+  },
+  {
+   "test": "T08",
+   "check": "velocity vs deposit limit (s-1=0.005), Q=2.0",
+   "value": 3.9647,
+   "unit": "x V_L",
+   "criterion": ">= 1.5 PASS; >= 1.0 MARGINAL",
+   "source": "Durand; Lebrato 2013 sinking",
+   "verdict": "PASS",
+   "note": "v=1.77, V_L=0.45 m/s"
+  },
+  {
+   "test": "T08",
+   "check": "velocity vs deposit limit (s-1=0.02), Q=1.0",
+   "value": 0.9912,
+   "unit": "x V_L",
+   "criterion": ">= 1.5 PASS; >= 1.0 MARGINAL",
+   "source": "Durand; Lebrato 2013 sinking",
+   "verdict": "FAIL",
+   "note": "v=0.88, V_L=0.89 m/s"
+  },
+  {
+   "test": "T08",
+   "check": "velocity vs deposit limit (s-1=0.02), Q=2.0",
+   "value": 1.9823,
+   "unit": "x V_L",
+   "criterion": ">= 1.5 PASS; >= 1.0 MARGINAL",
+   "source": "Durand; Lebrato 2013 sinking",
+   "verdict": "PASS",
+   "note": "v=1.77, V_L=0.89 m/s"
+  },
+  {
+   "test": "T08",
+   "check": "bell-to-pipe diameter ratio d/D",
+   "value": 0.375,
+   "unit": "-",
+   "criterion": "<= 0.33 (large-particle plug/bridging guide, ASSUMPTION)",
+   "source": "geometry",
+   "verdict": "MARGINAL",
+   "note": "45 cm bell in 1.2 m ID"
+  },
+  {
+   "test": "T08",
+   "check": "bulk turbulent strain rate sqrt(eps/nu), 2 m3/s",
+   "value": 152.2928,
+   "unit": "1/s",
+   "criterion": "< 500 1/s (juvenile salmon injury threshold; fish proxy) PASS",
+   "source": "Neitzel et al. (PNNL), fish proxy",
+   "verdict": "PASS",
+   "note": "wall shear 4.2 Pa; NO jellyfish threshold exists"
+  },
+  {
+   "test": "T08",
+   "check": "Joukowsky surge, instant stop [PE100 E=1.0 GPa (20 C), SDR17]",
+   "value": 45.3316,
+   "unit": "m",
+   "criterion": "steady+surge <= 2.0 x derated PN (PE occasional-surge allowance, PPI/industry; ASSUMED)",
+   "source": "Joukowsky",
+   "verdict": "PASS",
+   "note": "a=251 m/s, peak 5.4 bar vs 2xPN 16.0; down-surge 45 m -> vacuum/column separation at high points"
+  },
+  {
+   "test": "T08",
+   "check": "Joukowsky surge, instant stop [PE100 E=1.0 GPa (20 C), SDR26]",
+   "value": 36.0254,
+   "unit": "m",
+   "criterion": "steady+surge <= 2.0 x derated PN (PE occasional-surge allowance, PPI/industry; ASSUMED)",
+   "source": "Joukowsky",
+   "verdict": "PASS",
+   "note": "a=200 m/s, peak 4.5 bar vs 2xPN 10.1; down-surge 36 m -> vacuum/column separation at high points"
+  },
+  {
+   "test": "T08",
+   "check": "Joukowsky surge, instant stop [PE100 E~0.7 GPa (35 C, ASSUMED), SDR17]",
+   "value": 38.0857,
+   "unit": "m",
+   "criterion": "steady+surge <= 2.0 x derated PN (PE occasional-surge allowance, PPI/industry; ASSUMED)",
+   "source": "Joukowsky",
+   "verdict": "PASS",
+   "note": "a=211 m/s, peak 4.7 bar vs 2xPN 16.0; down-surge 38 m -> vacuum/column separation at high points"
+  },
+  {
+   "test": "T08",
+   "check": "Joukowsky surge, instant stop [PE100 E~0.7 GPa (35 C, ASSUMED), SDR26]",
+   "value": 30.2204,
+   "unit": "m",
+   "criterion": "steady+surge <= 2.0 x derated PN (PE occasional-surge allowance, PPI/industry; ASSUMED)",
+   "source": "Joukowsky",
+   "verdict": "PASS",
+   "note": "a=168 m/s, peak 4.0 bar vs 2xPN 10.1; down-surge 30 m -> vacuum/column separation at high points"
+  },
+  {
+   "test": "T08",
+   "check": "HDPE ring-buckling pressure SDR17, E=0.7 GPa",
+   "value": 4.2859,
+   "unit": "bar",
+   "criterion": ">= 2 x 1.0 bar (full vacuum, SF 2) PASS; >= 1 MARGINAL",
+   "source": "P_cr formula",
+   "verdict": "PASS",
+   "note": "E=0.2 GPa ~ long-term creep modulus at 35 C (ASSUMED)"
+  },
+  {
+   "test": "T08",
+   "check": "HDPE ring-buckling pressure SDR17, E=0.2 GPa",
+   "value": 1.2245,
+   "unit": "bar",
+   "criterion": ">= 2 x 1.0 bar (full vacuum, SF 2) PASS; >= 1 MARGINAL",
+   "source": "P_cr formula",
+   "verdict": "MARGINAL",
+   "note": "E=0.2 GPa ~ long-term creep modulus at 35 C (ASSUMED)"
+  },
+  {
+   "test": "T08",
+   "check": "HDPE ring-buckling pressure SDR26, E=0.7 GPa",
+   "value": 1.1235,
+   "unit": "bar",
+   "criterion": ">= 2 x 1.0 bar (full vacuum, SF 2) PASS; >= 1 MARGINAL",
+   "source": "P_cr formula",
+   "verdict": "MARGINAL",
+   "note": "E=0.2 GPa ~ long-term creep modulus at 35 C (ASSUMED)"
+  },
+  {
+   "test": "T08",
+   "check": "HDPE ring-buckling pressure SDR26, E=0.2 GPa",
+   "value": 0.321,
+   "unit": "bar",
+   "criterion": ">= 2 x 1.0 bar (full vacuum, SF 2) PASS; >= 1 MARGINAL",
+   "source": "P_cr formula",
+   "verdict": "FAIL",
+   "note": "E=0.2 GPa ~ long-term creep modulus at 35 C (ASSUMED)"
+  },
+  {
+   "test": "T08",
+   "check": "HDPE ring-buckling pressure SDR33, E=0.7 GPa",
+   "value": 0.5357,
+   "unit": "bar",
+   "criterion": ">= 2 x 1.0 bar (full vacuum, SF 2) PASS; >= 1 MARGINAL",
+   "source": "P_cr formula",
+   "verdict": "FAIL",
+   "note": "E=0.2 GPa ~ long-term creep modulus at 35 C (ASSUMED)"
+  },
+  {
+   "test": "T08",
+   "check": "HDPE ring-buckling pressure SDR33, E=0.2 GPa",
+   "value": 0.1531,
+   "unit": "bar",
+   "criterion": ">= 2 x 1.0 bar (full vacuum, SF 2) PASS; >= 1 MARGINAL",
+   "source": "P_cr formula",
+   "verdict": "FAIL",
+   "note": "E=0.2 GPa ~ long-term creep modulus at 35 C (ASSUMED)"
+  },
+  {
+   "test": "T08",
+   "check": "gravity-line run-down time vs 2L/a (3 km)",
+   "value": 5.2372,
+   "unit": "x",
+   "criterion": ">1 => slow (rigid-column) transient, not Joukowsky",
+   "source": "rigid column",
+   "verdict": "PASS",
+   "note": "run-down ~105 s; 2L/a 20 s"
+  },
+  {
+   "test": "T08",
+   "check": "gravity-line run-down time vs 2L/a (5 km)",
+   "value": 3.3935,
+   "unit": "x",
+   "criterion": ">1 => slow (rigid-column) transient, not Joukowsky",
+   "source": "rigid column",
+   "verdict": "PASS",
+   "note": "run-down ~113 s; 2L/a 33 s"
+  },
+  {
+   "test": "T08",
+   "check": "submerged weight, water-filled, no ballast",
+   "value": -0.2114,
+   "unit": "kN/m",
+   "criterion": "> 0 (sinks)",
+   "source": "Archimedes",
+   "verdict": "FAIL",
+   "note": "OD 1.36 m SDR17, pipe 308 kg/m"
+  },
+  {
+   "test": "T08",
+   "check": "submerged weight, air-filled, no ballast",
+   "value": -11.5837,
+   "unit": "kN/m",
+   "criterion": "> 0",
+   "source": "Archimedes",
+   "verdict": "FAIL",
+   "note": "air ingress at the head tank would float the line"
+  },
+  {
+   "test": "T08",
+   "check": "on-bottom stability: required submerged weight [nearshore 3-4 m; p99 Hs + p99 current]",
+   "value": 13.0512,
+   "unit": "kN/m",
+   "criterion": "ballast <= 1.0 m3 concrete per m (practical collar) PASS; <= 2 MARGINAL",
+   "source": "DNV-RP-F109-style simplified (E305 coeffs)",
+   "verdict": "PASS",
+   "note": "H=1.56 m, u_b=0.92 m/s, concrete 0.98 m3/m (~2.4 t/m)"
+  },
+  {
+   "test": "T08",
+   "check": "on-bottom stability: required submerged weight [nearshore 3-4 m; max Hs + max current]",
+   "value": 20.6168,
+   "unit": "kN/m",
+   "criterion": "ballast <= 1.0 m3 concrete per m (practical collar) PASS; <= 2 MARGINAL",
+   "source": "DNV-RP-F109-style simplified (E305 coeffs)",
+   "verdict": "MARGINAL",
+   "note": "H=2.53 m, u_b=1.62 m/s, concrete 1.54 m3/m (~3.7 t/m)"
+  },
+  {
+   "test": "T08",
+   "check": "on-bottom stability: required submerged weight [nearshore 3-4 m; storm, depth-limited]",
+   "value": 17.5978,
+   "unit": "kN/m",
+   "criterion": "ballast <= 1.0 m3 concrete per m (practical collar) PASS; <= 2 MARGINAL",
+   "source": "DNV-RP-F109-style simplified (E305 coeffs)",
+   "verdict": "MARGINAL",
+   "note": "H=2.73 m, u_b=2.06 m/s, concrete 1.32 m3/m (~3.2 t/m)"
+  },
+  {
+   "test": "T08",
+   "check": "on-bottom stability: required submerged weight [5 km out ~7-9 m; p99 Hs + p99 current]",
+   "value": 5.6567,
+   "unit": "kN/m",
+   "criterion": "ballast <= 1.0 m3 concrete per m (practical collar) PASS; <= 2 MARGINAL",
+   "source": "DNV-RP-F109-style simplified (E305 coeffs)",
+   "verdict": "PASS",
+   "note": "H=1.56 m, u_b=0.40 m/s, concrete 0.44 m3/m (~1.0 t/m)"
+  },
+  {
+   "test": "T08",
+   "check": "on-bottom stability: required submerged weight [5 km out ~7-9 m; max Hs + max current]",
+   "value": 10.2941,
+   "unit": "kN/m",
+   "criterion": "ballast <= 1.0 m3 concrete per m (practical collar) PASS; <= 2 MARGINAL",
+   "source": "DNV-RP-F109-style simplified (E305 coeffs)",
+   "verdict": "PASS",
+   "note": "H=2.53 m, u_b=0.80 m/s, concrete 0.78 m3/m (~1.9 t/m)"
+  },
+  {
+   "test": "T08",
+   "check": "on-bottom stability: required submerged weight [5 km out ~7-9 m; storm, depth-limited]",
+   "value": 23.0615,
+   "unit": "kN/m",
+   "criterion": "ballast <= 1.0 m3 concrete per m (practical collar) PASS; <= 2 MARGINAL",
+   "source": "DNV-RP-F109-style simplified (E305 coeffs)",
+   "verdict": "MARGINAL",
+   "note": "H=5.46 m, u_b=2.60 m/s, concrete 1.73 m3/m (~4.1 t/m)"
+  },
+  {
+   "test": "T08",
+   "check": "ballast to keep the line down if half air-filled",
+   "value": 5.8976,
+   "unit": "kN/m",
+   "criterion": "covered by stability ballast? (compare row above)",
+   "source": "Archimedes",
+   "verdict": "PASS",
+   "note": "= 0.44 m3 concrete/m"
+  },
+  {
+   "test": "T08",
+   "check": "free thermal length change [seasonal water 20->35.8 C], 3.0 km",
+   "value": 9.48,
+   "unit": "m",
+   "criterion": "must be restrained/anchored",
+   "source": "alpha=2e-4 /K (PE)",
+   "verdict": "PASS",
+   "note": ""
+  },
+  {
+   "test": "T08",
+   "check": "free thermal length change [seasonal water 20->35.8 C], 5.0 km",
+   "value": 15.8,
+   "unit": "m",
+   "criterion": "must be restrained/anchored",
+   "source": "alpha=2e-4 /K (PE)",
+   "verdict": "PASS",
+   "note": ""
+  },
+  {
+   "test": "T08",
+   "check": "fully-restrained thermal stress [seasonal water 20->35.8 C], E=0.8 GPa",
+   "value": 2.528,
+   "unit": "MPa",
+   "criterion": "<= 8 MPa PE100 design stress (MRS10/1.25) PASS; <= 10 MARGINAL",
+   "source": "E alpha dT",
+   "verdict": "PASS",
+   "note": "short-term E overestimates (creep relaxes)"
+  },
+  {
+   "test": "T08",
+   "check": "fully-restrained thermal stress [seasonal water 20->35.8 C], E=0.3 GPa",
+   "value": 0.948,
+   "unit": "MPa",
+   "criterion": "<= 8 MPa PE100 design stress (MRS10/1.25) PASS; <= 10 MARGINAL",
+   "source": "E alpha dT",
+   "verdict": "PASS",
+   "note": "short-term E overestimates (creep relaxes)"
+  },
+  {
+   "test": "T08",
+   "check": "free thermal length change [exposed on breakwater, sun 25->65 C (ASSUMED)], 0.2 km",
+   "value": 1.6,
+   "unit": "m",
+   "criterion": "must be restrained/anchored",
+   "source": "alpha=2e-4 /K (PE)",
+   "verdict": "MARGINAL",
+   "note": ""
+  },
+  {
+   "test": "T08",
+   "check": "fully-restrained thermal stress [exposed on breakwater, sun 25->65 C (ASSUMED)], E=0.8 GPa",
+   "value": 6.4,
+   "unit": "MPa",
+   "criterion": "<= 8 MPa PE100 design stress (MRS10/1.25) PASS; <= 10 MARGINAL",
+   "source": "E alpha dT",
+   "verdict": "PASS",
+   "note": "short-term E overestimates (creep relaxes)"
+  },
+  {
+   "test": "T08",
+   "check": "fully-restrained thermal stress [exposed on breakwater, sun 25->65 C (ASSUMED)], E=0.3 GPa",
+   "value": 2.4,
+   "unit": "MPa",
+   "criterion": "<= 8 MPa PE100 design stress (MRS10/1.25) PASS; <= 10 MARGINAL",
+   "source": "E alpha dT",
+   "verdict": "PASS",
+   "note": "short-term E overestimates (creep relaxes)"
+  }
+ ],
+ "extra": {
+  "OD": 1.3599999999999999,
+  "e": 0.07999999999999996,
+  "m_pipe": 308.18772604303564,
+  "stab": [
+   {
+    "h": 3.5,
+    "case": "p99 Hs + p99 current",
+    "H": 1.5624,
+    "u_bottom": 0.9189582555898294,
+    "Ws_req": 13051.166246456976,
+    "ballast": 13262.609405847692,
+    "concrete_m3_per_m": 0.9832348739392228
+   },
+   {
+    "h": 3.5,
+    "case": "max Hs + max current",
+    "H": 2.5296000000000003,
+    "u_bottom": 1.6197219445268234,
+    "Ws_req": 20616.832454346048,
+    "ballast": 20828.275613736765,
+    "concrete_m3_per_m": 1.5441219989796509
+   },
+   {
+    "h": 3.5,
+    "case": "storm, depth-limited",
+    "H": 2.73,
+    "u_bottom": 2.064476801888425,
+    "Ws_req": 17597.810153825754,
+    "ballast": 17809.25331321647,
+    "concrete_m3_per_m": 1.3203042026293372
+   },
+   {
+    "h": 7.0,
+    "case": "p99 Hs + p99 current",
+    "H": 1.5624,
+    "u_bottom": 0.39571177195126833,
+    "Ws_req": 5656.651736690393,
+    "ballast": 5868.094896081108,
+    "concrete_m3_per_m": 0.43503622619450344
+   },
+   {
+    "h": 7.0,
+    "case": "max Hs + max current",
+    "H": 2.5296000000000003,
+    "u_bottom": 0.8038041791295132,
+    "Ws_req": 10294.108560427807,
+    "ballast": 10505.551719818523,
+    "concrete_m3_per_m": 0.7788380479895114
+   },
+   {
+    "h": 7.0,
+    "case": "storm, depth-limited",
+    "H": 5.46,
+    "u_bottom": 2.6043720863080058,
+    "Ws_req": 23061.458484752,
+    "ballast": 23272.901644142716,
+    "concrete_m3_per_m": 1.7253564373379828
+   }
+  ]
+ }
+}

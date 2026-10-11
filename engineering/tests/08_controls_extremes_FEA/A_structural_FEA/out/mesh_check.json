@@ -1,0 +1,141 @@
+{
+  "mesh": {
+    "wire_d_mm": 2.5,
+    "aperture_mm": 10.0,
+    "porosity": 0.64,
+    "areal_mass_kg_m2": 6.43,
+    "strength_basis": "annealed 2205 fy 450 MPa (cold-drawn wire would be ~2x)"
+  },
+  "rows": [
+    {
+      "case": "op 1.5 x trip",
+      "dp_Pa": 750.0,
+      "sag_model": "elastic-taut",
+      "T_kN_per_m": 45.1,
+      "sag_m": 0.208,
+      "wire_stress_MPa": 115.0,
+      "allow_MPa": 270.0,
+      "util": 0.43
+    },
+    {
+      "case": "op 1.5 x trip",
+      "dp_Pa": 750.0,
+      "sag_model": "set sag 3%",
+      "T_kN_per_m": 31.2,
+      "sag_m": 0.3,
+      "wire_stress_MPa": 80.0,
+      "allow_MPa": 270.0,
+      "util": 0.29
+    },
+    {
+      "case": "hard limit",
+      "dp_Pa": 1500.0,
+      "sag_model": "elastic-taut",
+      "T_kN_per_m": 71.7,
+      "sag_m": 0.262,
+      "wire_stress_MPa": 183.0,
+      "allow_MPa": 360.0,
+      "util": 0.51
+    },
+    {
+      "case": "hard limit",
+      "dp_Pa": 1500.0,
+      "sag_model": "set sag 3%",
+      "T_kN_per_m": 62.5,
+      "sag_m": 0.3,
+      "wire_stress_MPa": 159.0,
+      "allow_MPa": 360.0,
+      "util": 0.44
+    },
+    {
+      "case": "stuck-drum accident",
+      "dp_Pa": 3000.0,
+      "sag_model": "elastic-taut",
+      "T_kN_per_m": 113.8,
+      "sag_m": 0.33,
+      "wire_stress_MPa": 290.0,
+      "allow_MPa": 410.0,
+      "util": 0.71
+    },
+    {
+      "case": "stuck-drum accident",
+      "dp_Pa": 3000.0,
+      "sag_model": "set sag 3%",
+      "T_kN_per_m": 125.0,
+      "sag_m": 0.3,
+      "wire_stress_MPa": 318.0,
+      "allow_MPa": 410.0,
+      "util": 0.78
+    }
+  ],
+  "verdicts": [
+    {
+      "test": "A8 mesh wire tension, op 1.5 x trip (elastic-taut)",
+      "value": 0.43,
+      "criterion": "wire stress <= 270.0 MPa",
+      "verdict": "PASS",
+      "detail": "T=45.1 kN/m, sag 0.208 m"
+    },
+    {
+      "test": "A8 mesh wire tension, op 1.5 x trip (set sag 3%)",
+      "value": 0.29,
+      "criterion": "wire stress <= 270.0 MPa",
+      "verdict": "PASS",
+      "detail": "T=31.2 kN/m, sag 0.3 m"
+    },
+    {
+      "test": "A8 mesh wire tension, hard limit (elastic-taut)",
+      "value": 0.51,
+      "criterion": "wire stress <= 360.0 MPa",
+      "verdict": "PASS",
+      "detail": "T=71.7 kN/m, sag 0.262 m"
+    },
+    {
+      "test": "A8 mesh wire tension, hard limit (set sag 3%)",
+      "value": 0.44,
+      "criterion": "wire stress <= 360.0 MPa",
+      "verdict": "PASS",
+      "detail": "T=62.5 kN/m, sag 0.3 m"
+    },
+    {
+      "test": "A8 mesh wire tension, stuck-drum accident (elastic-taut)",
+      "value": 0.71,
+      "criterion": "wire stress <= 410.0 MPa",
+      "verdict": "PASS",
+      "detail": "T=113.8 kN/m, sag 0.33 m"
+    },
+    {
+      "test": "A8 mesh wire tension, stuck-drum accident (set sag 3%)",
+      "value": 0.78,
+      "criterion": "wire stress <= 410.0 MPa",
+      "verdict": "PASS",
+      "detail": "T=125.0 kN/m, sag 0.3 m"
+    },
+    {
+      "test": "A8b mesh bulge vs 0.6 m downstream clearance (accident, elastic)",
+      "value": 0.33,
+      "criterion": "sag <= 0.6 m [ASM]",
+      "verdict": "PASS"
+    },
+    {
+      "test": "A8c wire bending on drum wrap (roll-up fatigue)",
+      "value": 820,
+      "criterion": "E*d/D <= 0.4 fy = 180 MPa (~56160 wraps in 60 y)",
+      "verdict": "FAIL",
+      "detail": "D_core=0.61 m, d=2.5 mm -> need D >= 2.78 m or d <= 0.55 mm, or hinged link/balanced-weave belt (no wire bending)"
+    },
+    {
+      "test": "A8d edge retention clip load @0.25 m (accident, 3% sag)",
+      "value": 31.2,
+      "criterion": "INFO: size clips; or make them shear-release above hard limit (passive fail-open)",
+      "verdict": "INFO"
+    },
+    {
+      "test": "A8e rigid wedge-wire alternative (bars span 1 m), accident",
+      "value": 271,
+      "criterion": "<= 0.91 fy = 410 MPa",
+      "verdict": "PASS",
+      "detail": "rigid panels cannot roll; listed only to show the membrane choice is forced by roll-up"
+    }
+  ]
+}

@@ -1,0 +1,19 @@
+test,run,screen_angle_deg,approach_speed_cm_s,n_released,n_bypass,n_intake,n_stuck_on_screen,n_lost,time_s,video_file,counter_initials,data_type
+T02,1,none,11.0,30,0,30,0,0,23.0,SIM_log seed=10000,SIM,SIMULATED virtual tank - not physical evidence
+T02,2,none,11.0,30,0,28,0,2,180.0,SIM_log seed=10097,SIM,SIMULATED virtual tank - not physical evidence
+T02,3,none,11.0,30,0,29,0,1,180.0,SIM_log seed=10194,SIM,SIMULATED virtual tank - not physical evidence
+T02,1,none,11.0,30,9,21,0,0,21.0,SIM_log seed=10000,SIM,SIMULATED virtual tank - not physical evidence
+T02,2,none,11.0,30,5,25,0,0,22.0,SIM_log seed=10097,SIM,SIMULATED virtual tank - not physical evidence
+T02,3,none,11.0,30,5,23,0,2,180.0,SIM_log seed=10194,SIM,SIMULATED virtual tank - not physical evidence
+T03,1,8,11.0,30,14,0,12,4,180.0,SIM_log seed=10000,SIM,SIMULATED virtual tank - not physical evidence
+T03,2,8,11.0,30,13,0,16,1,180.0,SIM_log seed=10097,SIM,SIMULATED virtual tank - not physical evidence
+T03,3,8,11.0,30,15,0,11,4,180.0,SIM_log seed=10194,SIM,SIMULATED virtual tank - not physical evidence
+T03,1,11,11.0,30,14,0,16,0,180.0,SIM_log seed=10000,SIM,SIMULATED virtual tank - not physical evidence
+T03,2,11,11.0,30,16,0,9,5,180.0,SIM_log seed=10097,SIM,SIMULATED virtual tank - not physical evidence
+T03,3,11,11.0,30,15,0,15,0,180.0,SIM_log seed=10194,SIM,SIMULATED virtual tank - not physical evidence
+T03,1,15,11.0,30,16,0,12,2,180.0,SIM_log seed=10000,SIM,SIMULATED virtual tank - not physical evidence
+T03,2,15,11.0,30,18,0,10,2,180.0,SIM_log seed=10097,SIM,SIMULATED virtual tank - not physical evidence
+T03,3,15,11.0,30,16,0,10,4,180.0,SIM_log seed=10194,SIM,SIMULATED virtual tank - not physical evidence
+T03,1,20,11.0,30,23,0,7,0,84.0,SIM_log seed=10000,SIM,SIMULATED virtual tank - not physical evidence
+T03,2,20,11.0,30,19,0,11,0,163.0,SIM_log seed=10097,SIM,SIMULATED virtual tank - not physical evidence
+T03,3,20,11.0,30,20,0,10,0,122.0,SIM_log seed=10194,SIM,SIMULATED virtual tank - not physical evidence

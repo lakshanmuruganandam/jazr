@@ -1,0 +1,20 @@
+Today  onshore 2.5 cm/s (typical)                       72 h:  96.97% [94.2-99.7] handled 0.00
+v3     onshore 2.5 cm/s (typical)                       72 h:  11.26% [10.4-12.4] handled 1.73
+Today  onshore 5 cm/s (stress)                          72 h:  96.97% [94.2-99.8] handled 0.00
+v3     onshore 5 cm/s (stress)                          72 h:  16.38% [15.1-17.3] handled 2.55
+Today  onshore 6 cm/s (stress)                          72 h:  96.97% [94.2-99.8] handled 0.00
+v3     onshore 6 cm/s (stress)                          72 h:  17.38% [16.2-19.3] handled 2.79
+Today  onshore 2.5 cm/s + wind 2% x 2 m/s (=4 cm/s)     72 h:  96.97% [94.2-99.8] handled 0.00
+v3     onshore 2.5 cm/s + wind 2% x 2 m/s (=4 cm/s)     72 h:  18.13% [17.0-19.9] handled 2.81
+Today  onshore 2.5 cm/s (typical)                      240 h: 100.00% [100.0-100.0] handled 0.00
+v3     onshore 2.5 cm/s (typical)                      240 h:  33.92% [32.3-36.2] handled 5.24
+Today  onshore 5 cm/s (stress)                         240 h: 100.00% [100.0-100.0] handled 0.00
+v3     onshore 5 cm/s (stress)                         240 h:  47.00% [44.7-48.4] handled 7.47
+Today  onshore 6 cm/s (stress)                         240 h: 100.00% [100.0-100.0] handled 0.00
+v3     onshore 6 cm/s (stress)                         240 h:  52.86% [50.6-54.5] handled 8.23
+Today  onshore 2.5 cm/s + wind 2% x 2 m/s (=4 cm/s)    240 h: 100.00% [100.0-100.0] handled 0.00
+v3     onshore 2.5 cm/s + wind 2% x 2 m/s (=4 cm/s)    240 h:  53.09% [50.6-55.1] handled 8.24
+runtime s 987
+real 987.10
+user 174.23
+sys 4.35

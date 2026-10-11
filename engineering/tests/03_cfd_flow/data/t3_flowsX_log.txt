@@ -1,0 +1,11 @@
+{'theta': 11.0, 'split': 'terminal50'} converged 0s
+{'theta': 20.0, 'terminal': False} converged 696s
+{'theta': 20.0, 'b': 1.0} converged 0s
+{'theta': 20.0, 'terminal': False, 'fb': 0.04} converged 696s
+{'theta': 20.0, 'b': 4.0} time-averaged 1682s
+{'theta': 20.0, 'split': 'terminal50'} time-averaged 1682s
+{'theta': 11.0, 'b': 1.0} time-averaged 1682s
+{'theta': 11.0, 'b': 4.0} time-averaged 1682s
+{'theta': 11.0, 'terminal': False, 'fb': 0.04} time-averaged 1682s
+{'theta': 11.0, 'terminal': False} time-averaged 1682s
+wall 1684.2483818531036

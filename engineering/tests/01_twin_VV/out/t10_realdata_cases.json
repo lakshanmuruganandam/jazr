@@ -1,0 +1,98 @@
+{
+ "Today|onshore 2.5 cm/s (typical)|72h": {
+  "captured": 0.9696666666666667,
+  "lo": 0.942,
+  "hi": 0.9973333333333333,
+  "handlings": 0.0
+ },
+ "v3|onshore 2.5 cm/s (typical)|72h": {
+  "captured": 0.11258333333333334,
+  "lo": 0.104,
+  "hi": 0.124,
+  "handlings": 1.72675
+ },
+ "Today|onshore 5 cm/s (stress)|72h": {
+  "captured": 0.96975,
+  "lo": 0.942,
+  "hi": 0.998,
+  "handlings": 0.0
+ },
+ "v3|onshore 5 cm/s (stress)|72h": {
+  "captured": 0.16375,
+  "lo": 0.15133333333333332,
+  "hi": 0.17333333333333334,
+  "handlings": 2.548333333333334
+ },
+ "Today|onshore 6 cm/s (stress)|72h": {
+  "captured": 0.96975,
+  "lo": 0.942,
+  "hi": 0.998,
+  "handlings": 0.0
+ },
+ "v3|onshore 6 cm/s (stress)|72h": {
+  "captured": 0.17383333333333334,
+  "lo": 0.162,
+  "hi": 0.19266666666666668,
+  "handlings": 2.790166666666667
+ },
+ "Today|onshore 2.5 cm/s + wind 2% x 2 m/s (=4 cm/s)|72h": {
+  "captured": 0.96975,
+  "lo": 0.942,
+  "hi": 0.998,
+  "handlings": 0.0
+ },
+ "v3|onshore 2.5 cm/s + wind 2% x 2 m/s (=4 cm/s)|72h": {
+  "captured": 0.18133333333333335,
+  "lo": 0.17,
+  "hi": 0.19866666666666666,
+  "handlings": 2.81
+ },
+ "Today|onshore 2.5 cm/s (typical)|240h": {
+  "captured": 1.0,
+  "lo": 1.0,
+  "hi": 1.0,
+  "handlings": 0.0
+ },
+ "v3|onshore 2.5 cm/s (typical)|240h": {
+  "captured": 0.33925,
+  "lo": 0.3233333333333333,
+  "hi": 0.362,
+  "handlings": 5.235916666666666
+ },
+ "Today|onshore 5 cm/s (stress)|240h": {
+  "captured": 1.0,
+  "lo": 1.0,
+  "hi": 1.0,
+  "handlings": 0.0
+ },
+ "v3|onshore 5 cm/s (stress)|240h": {
+  "captured": 0.47,
+  "lo": 0.44666666666666666,
+  "hi": 0.484,
+  "handlings": 7.474166666666667
+ },
+ "Today|onshore 6 cm/s (stress)|240h": {
+  "captured": 1.0,
+  "lo": 1.0,
+  "hi": 1.0,
+  "handlings": 0.0
+ },
+ "v3|onshore 6 cm/s (stress)|240h": {
+  "captured": 0.5285833333333334,
+  "lo": 0.506,
+  "hi": 0.5446666666666666,
+  "handlings": 8.2255
+ },
+ "Today|onshore 2.5 cm/s + wind 2% x 2 m/s (=4 cm/s)|240h": {
+  "captured": 1.0,
+  "lo": 1.0,
+  "hi": 1.0,
+  "handlings": 0.0
+ },
+ "v3|onshore 2.5 cm/s + wind 2% x 2 m/s (=4 cm/s)|240h": {
+  "captured": 0.5309166666666667,
+  "lo": 0.506,
+  "hi": 0.5513333333333333,
+  "handlings": 8.244916666666667
+ }
+}

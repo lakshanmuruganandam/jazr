@@ -1,0 +1,169 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>JAZR Simulation</title>
+<link rel="icon" href="data:,">
+<meta name="description" content="JAZR v5 live toy twin: jellyfish swarm vs the plant intake, Today vs JAZR, release-alive policies. Model-based simulation, validated against our Python model, not field data.">
+<style>
+:root{
+  --bg:#1c2024; --panel:#24292e; --panel2:#2b3137; --line:#3a4249; --line2:#4a535b;
+  --text:#d0d6dc; --muted:#8c959e; --dim:#6b747c;
+  --teal:#2fb3a5; --teal2:#7fd3c8; --tealbg:rgba(47,179,165,.14);
+  --leak:#e5484d; --warn:#d6a243; --grey:#9aa3ab;
+  --sea:#1f262c; --land:#33383d;
+}
+*{box-sizing:border-box}
+html,body{margin:0;background:var(--bg);color:var(--text);font:13px/1.4 -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,sans-serif}
+body{padding:12px 16px 20px}
+h1{font-size:16px;margin:0;font-weight:600;letter-spacing:.2px}
+h2{font-size:12px;margin:0 0 6px;font-weight:600;color:var(--muted);text-transform:uppercase;letter-spacing:.6px}
+.top{display:flex;flex-wrap:wrap;align-items:center;gap:8px 16px;margin-bottom:8px}
+.tag{font-size:11px;color:var(--muted);border:1px solid var(--line2);border-radius:3px;padding:2px 7px}
+.tag b{color:var(--teal2);font-weight:600}
+.btns{margin-left:auto;display:flex;flex-wrap:wrap;gap:6px}
+button{background:var(--panel2);color:var(--text);border:1px solid var(--line2);border-radius:3px;padding:5px 10px;font:inherit;cursor:pointer}
+button:hover{border-color:var(--teal)}
+button.primary{background:var(--tealbg);border-color:var(--teal);color:var(--teal2)}
+button:disabled{opacity:.5;cursor:default}
+.kpis{display:grid;grid-template-columns:repeat(auto-fit,minmax(118px,1fr));gap:6px;margin-bottom:10px}
+.kpi{background:var(--panel);border:1px solid var(--line);border-radius:4px;padding:6px 9px;min-width:0}
+.kpi .l{font-size:10.5px;color:var(--muted);text-transform:uppercase;letter-spacing:.4px;white-space:nowrap;overflow:hidden;text-overflow:ellipsis}
+.kpi .v{font-size:19px;font-weight:600;font-variant-numeric:tabular-nums;white-space:nowrap}
+.kpi .s{font-size:10.5px;color:var(--dim);white-space:nowrap;overflow:hidden;text-overflow:ellipsis}
+.kpi.jz .v{color:var(--teal2)} .kpi.leak .v{color:var(--leak)}
+.kpi .l{white-space:normal;line-height:1.35} .kpi.before .v{color:var(--leak)} .kpi.before{border-color:rgba(229,72,77,.45)} .kpi.jz{border-color:rgba(47,179,165,.45)}
+.tg{display:inline-block;font:800 8.5px/1.4 system-ui,sans-serif;letter-spacing:.06em;padding:0 4px;border-radius:2px;margin-right:4px;vertical-align:1px}
+.tg.b{color:#ff9b9e;border:1px solid var(--leak);background:rgba(229,72,77,.14)} .tg.w{color:var(--teal2);border:1px solid var(--teal);background:var(--tealbg)}
+.main{display:grid;grid-template-columns:270px minmax(0,1fr);gap:10px}
+.card{background:var(--panel);border:1px solid var(--line);border-radius:4px;padding:9px 10px;min-width:0}
+.ctrl{display:flex;flex-direction:column;gap:9px}
+.row label{display:flex;justify-content:space-between;font-size:11.5px;color:var(--muted);margin-bottom:2px}
+.row label output{color:var(--text);font-variant-numeric:tabular-nums}
+select,input[type=number]{width:100%;background:var(--panel2);color:var(--text);border:1px solid var(--line2);border-radius:3px;padding:4px 6px;font:inherit}
+input[type=range]{width:100%;accent-color:var(--teal);margin:0}
+.seg{display:flex;border:1px solid var(--line2);border-radius:3px;overflow:hidden}
+.seg button{flex:1;border:0;border-radius:0;padding:4px 4px;background:var(--panel2);font-size:12px}
+.seg button+button{border-left:1px solid var(--line2)}
+.seg button.on{background:var(--tealbg);color:var(--teal2)}
+.chk{display:flex;align-items:center;gap:6px;font-size:12px;color:var(--text)}
+.chk input{accent-color:var(--teal)}
+.two{display:grid;grid-template-columns:1fr 1fr;gap:6px}
+.mapwrap{position:relative}
+.maps{display:grid;grid-template-columns:1fr;gap:8px}
+.maps.sbs{grid-template-columns:1fr 1fr}
+.mapbox{position:relative;min-width:0}
+.mapbox canvas{width:100%;height:auto;display:block;border:1px solid var(--line);border-radius:3px;background:var(--sea)}
+.maphead{display:flex;flex-wrap:wrap;align-items:center;gap:8px;margin-bottom:6px}
+.legend{display:flex;flex-wrap:wrap;gap:10px;font-size:11px;color:var(--muted)}
+.legend i{display:inline-block;width:9px;height:9px;border-radius:50%;margin-right:4px;vertical-align:-1px}
+.progress{height:3px;background:var(--line);border-radius:2px;margin-top:6px;overflow:hidden}
+.progress div{height:100%;width:0;background:var(--teal)}
+.grid{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:10px;margin-top:10px}
+.chart{height:230px;width:100%}
+.note{font-size:11px;color:var(--dim);margin-top:4px}
+table{width:100%;border-collapse:collapse;font-variant-numeric:tabular-nums;font-size:12px}
+td,th{padding:3px 4px;border-bottom:1px solid var(--line);text-align:right}
+td:first-child,th:first-child{text-align:left;color:var(--muted)}
+th{font-weight:600;color:var(--muted);font-size:11px}
+.bar{height:5px;background:var(--line);border-radius:2px;margin-top:2px}
+.bar div{height:100%;border-radius:2px;background:var(--teal)}
+.status{font-size:11px;color:var(--muted);min-height:15px}
+.foot{margin-top:10px;font-size:11px;color:var(--dim)}
+body.embedded{padding:8px 10px}
+@media (max-width:1100px){.grid{grid-template-columns:repeat(2,minmax(0,1fr))}}
+@media (max-width:820px){.main{grid-template-columns:1fr}.grid{grid-template-columns:1fr}.maps.sbs{grid-template-columns:1fr}.btns{margin-left:0}}
+</style>
+</head>
+<body>
+<div class="top">
+  <h1>JAZR v5 · Live Simulation</h1>
+  <span class="tag"><b>Model-based simulation</b> (toy twin, validated against our Python model, not field data)</span>
+  <div class="btns">
+    <button id="bRun" class="primary">Restart</button>
+    <button id="bPause">Pause</button>
+    <button id="bMC">Monte Carlo</button>
+    <button id="bSweep">η<sub>r</sub> sweep</button>
+    <button id="bCSV">CSV</button>
+    <button id="bPNG">PNG</button>
+  </div>
+</div>
+
+<div class="kpis" id="kpis"></div>
+
+<div class="main">
+  <div class="card ctrl" id="controls">
+    <div class="row"><label>Inner screen guidance η<sub>r</sub> <output id="oEta"></output></label>
+      <select id="etaPreset">
+        <option value="0.773">v4.1 layout · 0.773</option>
+        <option value="0.953">Two screens · 0.953</option>
+        <option value="0.99" selected>Design claim · 0.99</option>
+        <option value="0.996">v5 best combination · 0.996</option>
+        <option value="manual">Manual…</option>
+      </select>
+      <input type="range" id="eta" min="0.3" max="0.999" step="0.001" value="0.99" style="margin-top:5px">
+    </div>
+    <div class="row"><label>Release policy (all alive)</label>
+      <select id="policy">
+        <option value="far" selected>Far: 10 km alongshore, 3 km out (alive)</option>
+        <option value="auto">Auto: far if onshore drift</option>
+        <option value="near">Near: 5 km offshore</option>
+        <option value="immediate">Immediate at pocket gate</option>
+      </select></div>
+    <div class="row"><label>Bloom duration</label><div class="seg" id="dur"><button data-v="72" class="on">3 days</button><button data-v="240">10 days</button></div></div>
+    <div class="row"><label>Onshore drift <output id="oVr"></output></label><input type="range" id="vr" min="0" max="6" step="0.1" value="2.5"></div>
+    <div class="row"><label>Alongshore residual <output id="oUr"></output></label><input type="range" id="ur" min="-2" max="2" step="0.1" value="0"></div>
+    <div class="row"><label>Wind <output id="oWind"></output></label>
+      <div class="two"><input type="range" id="wind" min="0" max="15" step="0.5" value="0">
+        <select id="windDir"><option value="270">→ onshore</option><option value="90">→ offshore</option><option value="0">→ east (+x)</option><option value="180">→ west (−x)</option></select></div></div>
+    <div class="row"><label>Swim speed</label><div class="seg" id="swim"><button data-v="0.036" class="on">3.6 cm/s</button><button data-v="0.10">10 cm/s</button></div></div>
+    <div class="row"><label>Density <output id="oDens"></output></label><input type="range" id="dens" min="0.02" max="0.5" step="0.01" value="0.1"></div>
+    <div class="row"><label>Particles N <output id="oN"></output></label><input type="range" id="N" min="1500" max="5000" step="100" value="2000"></div>
+    <div class="two">
+      <div class="row"><label>Seed</label><input type="number" id="seed" value="1" min="1" max="99999"></div>
+      <div class="row"><label>MC replicates</label><input type="number" id="reps" value="16" min="4" max="60"></div>
+    </div>
+    <div class="row"><label class="chk"><input type="checkbox" id="ring"> Outer guide line (optional) <output id="oEg" style="margin-left:auto"></output></label>
+      <input type="range" id="etag" min="0" max="0.6" step="0.05" value="0.4"></div>
+    <div class="row"><label>Speed</label><div class="seg" id="speed"><button data-v="1">1×</button><button data-v="4">4×</button><button data-v="12" class="on">12×</button><button data-v="40">40×</button><button data-v="1000">max</button></div>
+      <div class="note">1× = 1 simulated hour per second</div></div>
+    <label class="chk"><input type="checkbox" id="today" checked> Today baseline (no system)</label>
+    <label class="chk"><input type="checkbox" id="sbs"> Side-by-side maps (Today | JAZR)</label>
+    <div class="status" id="status"></div>
+    <div class="progress"><div id="prog"></div></div>
+  </div>
+
+  <div class="card mapwrap">
+    <div class="maphead">
+      <h2 style="margin:0">Plan view · coast at bottom</h2>
+      <div class="seg" id="zoom" style="width:210px"><button data-v="1500">1.5 km</button><button data-v="5000" class="on">5 km</button><button data-v="12000">12 km</button></div>
+      <div class="legend">
+        <span><i style="background:var(--grey)"></i>drifting</span>
+        <span><i style="background:var(--teal)"></i>in system</span>
+        <span><i style="background:var(--teal2)"></i>released alive</span>
+        <span><i style="background:var(--leak)"></i>reached plant</span>
+      </div>
+    </div>
+    <div class="maps" id="maps">
+      <div class="mapbox" id="boxToday" style="display:none"><canvas id="cvToday"></canvas></div>
+      <div class="mapbox"><canvas id="cvJazr"></canvas></div>
+    </div>
+  </div>
+</div>
+
+<div class="grid">
+  <div class="card"><h2>% of swarm reaching the plant</h2><div class="chart" id="chCap"></div><div class="note" id="mcNote">Monte Carlo fan: press “Monte Carlo” (P10–P90 over tide phase and seed).</div></div>
+  <div class="card"><h2>Flows, t/h (0.33 kg per animal)</h2><div class="chart" id="chFlow"></div></div>
+  <div class="card"><h2>Cumulative ledger</h2><div id="ledger"></div></div>
+  <div class="card"><h2>Re-handling histogram</h2><div class="chart" id="chHist"></div><div class="note">Times each animal was screened and released (JAZR run).</div></div>
+  <div class="card"><h2>Return fraction vs outlet distance</h2><div class="chart" id="chRet"></div><div class="note" id="retNote">Quick sweep (N = 800) at the current settings; re-runs when settings change.</div></div>
+  <div class="card"><h2><span style="text-transform:none">η<sub>r</sub></span> sensitivity</h2><div class="chart" id="chEta"></div><div class="note">Press “η<sub>r</sub> sweep”: 0.5–0.99, 4 tide phases each. Dashed = 1 − η<sub>r</sub>.</div></div>
+</div>
+<div class="foot">Physics: coast y = 0 reflecting · half-plane sink u = −Q/(πrh), Q = 400 m³/s, h = 3.5 m · M2 tide U₀ = 0.117 m/s · random-heading swim · capture r &lt; 60 m · inner screen at r = 120 m · survival chain 0.978 (estimate, TESTS/10_mechanisms/survival_budget.csv). Port of twin/jazr_twin.py; see README.md for the validation table.</div>
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/echarts/5.5.0/echarts.min.js"></script>
+<script src="twin.worker.js"></script>
+<script src="app.js"></script>
+</body>
+</html>

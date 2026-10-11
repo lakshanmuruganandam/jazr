@@ -1,0 +1,130 @@
+{
+  "embodied_by_item_t": {
+    "piles (S355)": [
+      528.5087910834363,
+      620.647745851126,
+      730.2448192375838
+    ],
+    "girders (S355)": [
+      118.85905852259448,
+      139.55286372941413,
+      164.4579926693922
+    ],
+    "drum frames, drums, drives (duplex/mixed)": [
+      153.51174733820523,
+      201.89985549939996,
+      264.6501323071496
+    ],
+    "mesh (duplex 6.4 kg/m2)": [
+      72.16620715246727,
+      109.44924798391489,
+      170.7668116483945
+    ],
+    "training wall (steel sheet piles)": [
+      721.7184946883542,
+      941.908284055989,
+      1199.6069241467912
+    ],
+    "collector, screw, head tank steel": [
+      99.2685346326251,
+      156.2578444978054,
+      240.98286832249647
+    ],
+    "civil concrete (head tank, sills, pipe ballast)": [
+      711.4120698604306,
+      899.0085766157582,
+      1135.9746315816662
+    ],
+    "HDPE pipe 5 km, 1.2 m ID SDR26": [
+      1994.7009779946973,
+      2328.7066576674256,
+      2676.41419067535
+    ],
+    "marine installation (fuel)": [
+      1391.5108805619602,
+      2165.3036597384303,
+      3178.753703751045
+    ]
+  },
+  "embodied_total_t": [
+    6726.042887060563,
+    7640.7473379688,
+    8727.853030844331
+  ],
+  "operations_60y_t": [
+    8419.728027927147,
+    12566.468635508618,
+    17546.612422051276
+  ],
+  "eol_recycling_credit_t": [
+    -784.3821306121587,
+    -655.3560133895733,
+    -540.8962304583862
+  ],
+  "jazr_total_60y_t": [
+    16018.418226419171,
+    20260.632994916952,
+    25338.396299886856
+  ],
+  "status_quo_boats_60y_t": [
+    26091.53083741902,
+    37084.40331312794,
+    48007.085110026994
+  ],
+  "jazr_ops_per_bloom_day_t": [
+    3.9557082985433896,
+    5.052087434019098,
+    6.43072717314343
+  ],
+  "status_quo_per_bloom_day_t": [
+    12.83159715915043,
+    14.838754220270037,
+    16.8119553234981
+  ],
+  "unit_day_replacement_t": [
+    11843.01781841711,
+    12654.82446347738,
+    13603.60359098238
+  ],
+  "breakeven_unit_days": [
+    1.2511530876135202,
+    1.597994818287925,
+    2.0173456266167613
+  ],
+  "breakeven_unit_days_net_of_boats": [
+    -2.0193124072896773,
+    -1.27519212533294,
+    -0.6398788685998967
+  ],
+  "verdicts": [
+    {
+      "test": "F1 LCA: JAZR 60-y CO2 vs avoided unit-days",
+      "value": "P50 1.6 unit-days (P10-P90 1.3-2.0)",
+      "criterion": "carbon break-even <= 5 avoided unit-days over 60 y [ASM]",
+      "verdict": "PASS"
+    },
+    {
+      "test": "F2 per bloom-day operations vs boats/crews",
+      "value": "JAZR 5.1 t/d vs boats 14.8 t/d",
+      "criterion": "JAZR operating CO2 per bloom day < status quo",
+      "verdict": "PASS"
+    },
+    {
+      "test": "F3 embodied CO2 hot-spots",
+      "value": "HDPE pipe 5 km, 1.2 m ID SDR26, marine installation (fuel), training wall (steel sheet piles)",
+      "criterion": "INFO",
+      "verdict": "INFO",
+      "detail": "steel (piles + training wall) and HDPE pipe dominate; polymer mesh would cut mesh CO2 ~4x"
+    }
+  ],
+  "quantities_note": {
+    "piles (S355)": "17 piles x 28.5 m CHS1016x25",
+    "girders (S355)": "box 800x600x20",
+    "drum frames, drums, drives (duplex/mixed)": "posts+drum+0.8 t drive per bay",
+    "mesh (duplex 6.4 kg/m2)": "x up to 3 replacements in 60 y",
+    "training wall (steel sheet piles)": "200 m x 16 m x ~150 kg/m2 [ASM]",
+    "collector, screw, head tank steel": "[ASM]",
+    "civil concrete (head tank, sills, pipe ballast)": "~2,300 m3 incl. 2,000 m3 collars [ASM]",
+    "HDPE pipe 5 km, 1.2 m ID SDR26": "187 kg/m"
+  }
+}

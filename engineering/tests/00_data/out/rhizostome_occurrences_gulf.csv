@@ -1,0 +1,168 @@
+source,species,lat,lon,date,dataset,id,month,dist_site_km,genus
+GBIF,"Cassiopea Péron & Lesueur, 1810",24.127164,52.504163,2023-06-21,85b1cfb6-f762-11e1-a439-00145eb45e9a,0aa84e06-a668-4838-b1f2-10e6a7826b8b,6,30.987913137492445,Cassiopea
+GBIF,"Cassiopea Péron & Lesueur, 1810",24.127164,52.504163,2023-06-21,85b1cfb6-f762-11e1-a439-00145eb45e9a,f4d7f8df-f067-4c80-b284-12f5296847d2,6,30.987913137492445,Cassiopea
+GBIF,"Cassiopea andromeda (Forskål, 1775)",24.151055,52.501875,2019-10-01,iNaturalist research-grade observations,https://www.inaturalist.org/observations/258984040,10,32.47287137256493,Cassiopea
+OBIS,Cassiopea andromeda,24.1510547148,52.5018754166,2019-10-01,iNaturalist research-grade observations,https://www.inaturalist.org/observations/258984040,10,32.47288263836367,Cassiopea
+GBIF,"Cassiopea Péron & Lesueur, 1810",24.294837,52.632868,2023-06-17,85b1cfb6-f762-11e1-a439-00145eb45e9a,11477a67-8ecd-4e24-ab97-458cfaf3670e,6,53.08495877555693,Cassiopea
+OBIS,Marivagia stellata,24.8734219466,53.5155587921,2022-03-25,iNaturalist research-grade observations,https://www.inaturalist.org/observations/110950534,3,162.71515108076042,Marivagia
+GBIF,"Marivagia stellata Galil & Gershwin, 2010",24.873422,53.515559,2022-03-25,iNaturalist research-grade observations,https://www.inaturalist.org/observations/110950534,3,162.7151712109282,Marivagia
+GBIF,"Catostylus perezi Ranson, 1945",24.854931,50.856553,2022-04-09,iNaturalist research-grade observations,https://www.inaturalist.org/observations/110849177,4,173.48442495662388,Catostylus
+OBIS,Catostylus perezi,24.8549312214,50.8565529784,2022-04-09,iNaturalist research-grade observations,https://www.inaturalist.org/observations/110849177,4,173.48444076649196,Catostylus
+GBIF,"Catostylus perezi Ranson, 1945",25.407653,50.757203,2025-03-20,iNaturalist research-grade observations,https://www.inaturalist.org/observations/362463652,3,221.276666454389,Catostylus
+OBIS,Catostylus perezi,25.4076533333,50.7572033333,2025-03-20,iNaturalist research-grade observations,https://www.inaturalist.org/observations/362463652,3,221.27667016953788,Catostylus
+GBIF,"Cassiopea andromeda (Forskål, 1775)",24.454437,54.405565,2022-10-07,iNaturalist research-grade observations,https://www.inaturalist.org/observations/174535548,10,224.43259187722666,Cassiopea
+OBIS,Cassiopea andromeda,24.4544373364,54.4055652246,2022-10-07,iNaturalist research-grade observations,https://www.inaturalist.org/observations/174535548,10,224.43262284417057,Cassiopea
+OBIS,Cassiopea andromeda,24.4479238436,54.4118786118,2025-11-29,iNaturalist research-grade observations,https://www.inaturalist.org/observations/329588835,11,224.88303780888825,Cassiopea
+GBIF,"Cassiopea andromeda (Forskål, 1775)",24.447924,54.411879,2025-11-29,iNaturalist research-grade observations,https://www.inaturalist.org/observations/329588835,11,224.88308008089354,Cassiopea
+OBIS,Catostylus perezi,24.4476374,54.4145525,2023-09-09,iNaturalist research-grade observations,https://www.inaturalist.org/observations/182449110,9,225.13877974297554,Catostylus
+GBIF,"Catostylus perezi Ranson, 1945",24.447637,54.414553,2023-09-09,iNaturalist research-grade observations,https://www.inaturalist.org/observations/182449110,9,225.13881858098594,Catostylus
+OBIS,Cassiopea andromeda,24.4462226237,54.4325895367,2019-12-14,iNaturalist research-grade observations,https://www.inaturalist.org/observations/36703614,12,226.87826989258505,Cassiopea
+GBIF,"Cassiopea andromeda (Forskål, 1775)",24.446223,54.43259,2019-12-14,iNaturalist research-grade observations,https://www.inaturalist.org/observations/36703614,12,226.87832517918218,Cassiopea
+GBIF,"Catostylus perezi Ranson, 1945",24.453148,54.433562,2024-01-19,iNaturalist research-grade observations,https://www.inaturalist.org/observations/200893916,1,227.1528744919515,Catostylus
+OBIS,Catostylus perezi,24.4531482394,54.4335622804,2024-01-19,iNaturalist research-grade observations,https://www.inaturalist.org/observations/200893916,1,227.15290831173238,Catostylus
+GBIF,"Cassiopea andromeda (Forskål, 1775)",24.446539,54.437043,2022-12-31,iNaturalist research-grade observations,https://www.inaturalist.org/observations/145595436,12,227.325043165604,Cassiopea
+OBIS,Cassiopea andromeda,24.446538545,54.4370432943,2022-12-31,iNaturalist research-grade observations,https://www.inaturalist.org/observations/145595436,12,227.32506049907957,Cassiopea
+GBIF,"Cassiopea andromeda (Forskål, 1775)",24.518253,54.427569,2023-02-26,iNaturalist research-grade observations,https://www.inaturalist.org/observations/149715566,2,228.36892818317017,Cassiopea
+OBIS,Cassiopea andromeda,24.5182527778,54.4275694444,2023-02-26,iNaturalist research-grade observations,https://www.inaturalist.org/observations/149715566,2,228.36896501344248,Cassiopea
+OBIS,Cassiopea andromeda,24.4423218893,54.4574716687,2022-12-31,iNaturalist research-grade observations,https://www.inaturalist.org/observations/145595521,12,229.2312961643516,Cassiopea
+OBIS,Cassiopea andromeda,24.4423218893,54.4574716687,2022-12-31,iNaturalist research-grade observations,https://www.inaturalist.org/observations/145592282,12,229.2312961643516,Cassiopea
+OBIS,Cassiopea andromeda,24.4423218893,54.4574716687,2022-12-31,iNaturalist research-grade observations,https://www.inaturalist.org/observations/145594645,12,229.2312961643516,Cassiopea
+GBIF,"Cassiopea andromeda (Forskål, 1775)",24.442322,54.457472,2022-12-31,iNaturalist research-grade observations,https://www.inaturalist.org/observations/145595521,12,229.23133161713503,Cassiopea
+GBIF,"Cassiopea andromeda (Forskål, 1775)",24.442322,54.457472,2022-12-31,iNaturalist research-grade observations,https://www.inaturalist.org/observations/145594645,12,229.23133161713503,Cassiopea
+GBIF,"Cassiopea andromeda (Forskål, 1775)",24.442322,54.457472,2022-12-31,iNaturalist research-grade observations,https://www.inaturalist.org/observations/145592282,12,229.23133161713503,Cassiopea
+GBIF,"Marivagia stellata Galil & Gershwin, 2010",25.5,53.8,2022-03-15,iNaturalist research-grade observations,https://www.inaturalist.org/observations/108664205,3,231.32637824721118,Marivagia
+OBIS,Marivagia stellata,25.5,53.8,2022-03-15,iNaturalist research-grade observations,https://www.inaturalist.org/observations/108664205,3,231.32637824721118,Marivagia
+OBIS,Catostylus perezi,24.5622194444,54.4519166667,2019-04-09,iNaturalist research-grade observations,https://www.inaturalist.org/observations/253512490,4,232.07148182006813,Catostylus
+GBIF,"Catostylus perezi Ranson, 1945",24.562219,54.451917,2019-04-09,iNaturalist research-grade observations,https://www.inaturalist.org/observations/253512490,4,232.07150028541153,Catostylus
+GBIF,"Catostylus perezi Ranson, 1945",24.402451,54.496548,2025-10-16,iNaturalist research-grade observations,https://www.inaturalist.org/observations/321274715,10,232.14102953994933,Catostylus
+OBIS,Catostylus perezi,24.4024510227,54.4965481103,2025-10-16,iNaturalist research-grade observations,https://www.inaturalist.org/observations/321274715,10,232.14104098914663,Catostylus
+OBIS,Cotylorhiza erythraea,24.3963849385,54.5181965455,2024-12-29,iNaturalist research-grade observations,https://www.inaturalist.org/observations/285354246,12,234.15215460733288,Cotylorhiza
+GBIF,"Cotylorhiza erythraea Stiasny, 1920",24.396385,54.518197,2024-12-29,iNaturalist research-grade observations,https://www.inaturalist.org/observations/285354246,12,234.15220107243974,Cotylorhiza
+GBIF,"Cassiopea andromeda (Forskål, 1775)",24.545183,54.485406,2026-05-28,iNaturalist research-grade observations,https://www.inaturalist.org/observations/366735263,5,234.80653056608378,Cassiopea
+OBIS,Cassiopea andromeda,24.5451826162,54.4854062051,2026-05-28,iNaturalist research-grade observations,https://www.inaturalist.org/observations/366735263,5,234.8065390468735,Cassiopea
+OBIS,Cassiopea andromeda,24.5452256422,54.4885137729,2023-04-19,iNaturalist research-grade observations,https://www.inaturalist.org/observations/155887221,4,235.11054109005235,Cassiopea
+GBIF,"Cassiopea andromeda (Forskål, 1775)",24.545226,54.488514,2023-04-19,iNaturalist research-grade observations,https://www.inaturalist.org/observations/155887221,4,235.1105739179942,Cassiopea
+GBIF,"Cassiopea andromeda (Forskål, 1775)",24.545291,54.488531,2023-01-01,iNaturalist research-grade observations,https://www.inaturalist.org/observations/145565489,1,235.11417474996688,Cassiopea
+OBIS,Cassiopea andromeda,24.5452912,54.4885312,2023-01-01,iNaturalist research-grade observations,https://www.inaturalist.org/observations/145565489,1,235.11420021731462,Cassiopea
+OBIS,Cassiopea andromeda,24.5452866667,54.4885366667,2023-01-01,iNaturalist research-grade observations,https://www.inaturalist.org/observations/145565407,1,235.11459712231925,Cassiopea
+GBIF,"Cassiopea andromeda (Forskål, 1775)",24.545287,54.488537,2023-01-01,iNaturalist research-grade observations,https://www.inaturalist.org/observations/145565407,1,235.11463956358554,Cassiopea
+OBIS,Cassiopea andromeda,24.5448969722,54.488779,2023-04-19,iNaturalist research-grade observations,https://www.inaturalist.org/observations/155783465,4,235.12654947733532,Cassiopea
+GBIF,"Cassiopea andromeda (Forskål, 1775)",24.544897,54.488779,2023-04-19,iNaturalist research-grade observations,https://www.inaturalist.org/observations/155783465,4,235.1265503085075,Cassiopea
+OBIS,Catostylus perezi,24.5436955997,54.4912746997,2024-12-29,iNaturalist research-grade observations,https://www.inaturalist.org/observations/256599744,12,235.3338515286847,Catostylus
+GBIF,"Catostylus perezi Ranson, 1945",24.543696,54.491275,2024-12-29,iNaturalist research-grade observations,https://www.inaturalist.org/observations/256599744,12,235.33389272346082,Catostylus
+OBIS,Cotylorhiza erythraea,24.538834632,54.5245460048,2025-06-23,iNaturalist research-grade observations,https://www.inaturalist.org/observations/292111555,6,238.43559527102553,Cotylorhiza
+GBIF,"Cotylorhiza erythraea Stiasny, 1920",24.538835,54.524546,2025-06-23,iNaturalist research-grade observations,https://www.inaturalist.org/observations/292111555,6,238.43560552661938,Cotylorhiza
+GBIF,"Cassiopea andromeda (Forskål, 1775)",24.449406,54.596356,2025-11-23,iNaturalist research-grade observations,https://www.inaturalist.org/observations/327818636,11,243.1167926257324,Cassiopea
+GBIF,"Catostylus perezi Ranson, 1945",24.450439,54.603867,2022-10-02,iNaturalist research-grade observations,https://www.inaturalist.org/observations/137996739,10,243.88396943060735,Catostylus
+OBIS,Catostylus perezi,24.4504389531,54.6038671112,2022-10-02,iNaturalist research-grade observations,https://www.inaturalist.org/observations/137996739,10,243.88397929912162,Catostylus
+GBIF,"Catostylus perezi Ranson, 1945",24.450623,54.604471,2025-12-14,iNaturalist research-grade observations,https://www.inaturalist.org/observations/330688475,12,243.94807993271763,Catostylus
+OBIS,Catostylus perezi,24.4506231,54.6044714,2025-12-14,iNaturalist research-grade observations,https://www.inaturalist.org/observations/330688475,12,243.9481218665535,Catostylus
+OBIS,Catostylus perezi,24.4506312482,54.6051267525,2024-09-28,iNaturalist research-grade observations,https://www.inaturalist.org/observations/244486749,9,244.0130966406963,Catostylus
+GBIF,"Catostylus perezi Ranson, 1945",24.450631,54.605127,2024-09-28,iNaturalist research-grade observations,https://www.inaturalist.org/observations/244486749,9,244.01311516197617,Catostylus
+OBIS,Catostylus perezi,24.4660230641,54.6057616174,2023-12-14,iNaturalist research-grade observations,https://www.inaturalist.org/observations/193964503,12,244.4500402693861,Catostylus
+GBIF,"Catostylus perezi Ranson, 1945",24.466023,54.605762,2023-12-14,iNaturalist research-grade observations,https://www.inaturalist.org/observations/193964503,12,244.45007644445556,Catostylus
+OBIS,Cotylorhiza erythraea,24.4661866355,54.6057488769,2023-12-14,iNaturalist research-grade observations,https://www.inaturalist.org/observations/193964755,12,244.45282079020095,Cotylorhiza
+GBIF,"Cotylorhiza erythraea Stiasny, 1920",24.466187,54.605749,2023-12-14,iNaturalist research-grade observations,https://www.inaturalist.org/observations/193964755,12,244.45284193745306,Cotylorhiza
+OBIS,Catostylus perezi,24.4690666667,54.60585,2022-11-20,iNaturalist research-grade observations,https://www.inaturalist.org/observations/142758408,11,244.5341022028038,Catostylus
+GBIF,"Catostylus perezi Ranson, 1945",24.469067,54.60585,2022-11-20,iNaturalist research-grade observations,https://www.inaturalist.org/observations/142758408,11,244.53411047751246,Catostylus
+GBIF,"Catostylus perezi Ranson, 1945",24.465722,54.609138,2024-09-21,iNaturalist research-grade observations,https://www.inaturalist.org/observations/243575511,9,244.77583598214395,Catostylus
+OBIS,Catostylus perezi,24.4657216667,54.6091383333,2024-09-21,iNaturalist research-grade observations,https://www.inaturalist.org/observations/243575511,9,244.77586066826402,Catostylus
+GBIF,"Catostylus perezi Ranson, 1945",24.465701,54.609192,2024-09-28,iNaturalist research-grade observations,https://www.inaturalist.org/observations/244439204,9,244.78064837044266,Catostylus
+OBIS,Catostylus perezi,24.4657009235,54.6091922466,2024-09-28,iNaturalist research-grade observations,https://www.inaturalist.org/observations/244439204,9,244.78067082493905,Catostylus
+GBIF,"Catostylus perezi Ranson, 1945",24.465962,54.609208,2022-10-12,iNaturalist research-grade observations,https://www.inaturalist.org/observations/138492948,10,244.78865729581764,Catostylus
+OBIS,Catostylus perezi,24.4659616667,54.6092083333,2022-10-12,iNaturalist research-grade observations,https://www.inaturalist.org/observations/138492948,10,244.7886819775422,Catostylus
+GBIF,"Catostylus perezi Ranson, 1945",24.466213,54.609208,2022-10-12,iNaturalist research-grade observations,https://www.inaturalist.org/observations/138492967,10,244.79484380592422,Catostylus
+OBIS,Catostylus perezi,24.4662133333,54.6092083333,2022-10-12,iNaturalist research-grade observations,https://www.inaturalist.org/observations/138492967,10,244.79488491674053,Catostylus
+GBIF,"Cotylorhiza erythraea Stiasny, 1920",24.466774,54.609077,2024-12-30,iNaturalist research-grade observations,https://www.inaturalist.org/observations/256746209,12,244.7957542050883,Cotylorhiza
+OBIS,Cotylorhiza erythraea,24.4667739868,54.6090774536,2024-12-30,iNaturalist research-grade observations,https://www.inaturalist.org/observations/256746209,12,244.79579864280322,Cotylorhiza
+GBIF,"Catostylus perezi Ranson, 1945",24.466447,54.609183,2022-10-12,iNaturalist research-grade observations,https://www.inaturalist.org/observations/138493001,10,244.7981468140963,Catostylus
+OBIS,Catostylus perezi,24.4664466667,54.6091833333,2022-10-12,iNaturalist research-grade observations,https://www.inaturalist.org/observations/138493001,10,244.79817148622098,Catostylus
+OBIS,Catostylus perezi,25.8394466667,50.5938716667,2022-06-05,iNaturalist research-grade observations,https://www.inaturalist.org/observations/120388813,6,268.15841203187233,Catostylus
+GBIF,"Catostylus perezi Ranson, 1945",25.839447,50.593872,2022-06-05,iNaturalist research-grade observations,https://www.inaturalist.org/observations/120388813,6,268.15841970770674,Catostylus
+GBIF,"Cassiopea andromeda (Forskål, 1775)",26.151833,50.6505,1994-10-21,44bcde48-ac71-46f2-bf73-24fc3c008b6c,urn:catalog:CAS:IZ:306740,10,292.70999363535594,Cassiopea
+OBIS,Cassiopea andromeda,26.1518333333,50.6505,1994-10-21,,urn:catalog:CAS:IZ:306740,10,292.7100243689855,Cassiopea
+GBIF,"Catostylus perezi Ranson, 1945",26.176071,50.667043,2001-06-16,iNaturalist research-grade observations,https://www.inaturalist.org/observations/197143690,6,294.03653534528735,Catostylus
+OBIS,Catostylus perezi,26.1760712038,50.6670430615,2001-06-16,iNaturalist research-grade observations,https://www.inaturalist.org/observations/197143690,6,294.03655088292123,Catostylus
+GBIF,"Catostylus perezi Ranson, 1945",26.175314,50.661773,2022-04-03,iNaturalist research-grade observations,https://www.inaturalist.org/observations/110286015,4,294.2562506404926,Catostylus
+OBIS,Catostylus perezi,26.1753141153,50.6617729951,2022-04-03,iNaturalist research-grade observations,https://www.inaturalist.org/observations/110286015,4,294.25626160071545,Catostylus
+OBIS,Catostylus perezi,26.1968816975,50.6210823104,2022-04-03,iNaturalist research-grade observations,https://www.inaturalist.org/observations/110374704,4,298.50473268268775,Catostylus
+GBIF,"Catostylus perezi Ranson, 1945",26.196882,50.621082,2022-04-03,iNaturalist research-grade observations,https://www.inaturalist.org/observations/110374704,4,298.5047778768797,Catostylus
+GBIF,"Catostylus perezi Ranson, 1945",26.197328,50.620854,2022-04-03,iNaturalist research-grade observations,https://www.inaturalist.org/observations/110285970,4,298.55862548467195,Catostylus
+OBIS,Catostylus perezi,26.1973281268,50.6208536452,2022-04-03,iNaturalist research-grade observations,https://www.inaturalist.org/observations/110285970,4,298.5586569380198,Catostylus
+OBIS,Catostylus perezi,26.2498255918,50.5949065207,2022-04-05,iNaturalist research-grade observations,https://www.inaturalist.org/observations/110501649,4,304.84895132866546,Catostylus
+GBIF,"Catostylus perezi Ranson, 1945",26.249826,50.594907,2022-04-05,iNaturalist research-grade observations,https://www.inaturalist.org/observations/110501649,4,304.848962545882,Catostylus
+GBIF,"Cassiopea andromeda (Forskål, 1775)",26.176031,50.449768,2025-05-06,iNaturalist research-grade observations,https://www.inaturalist.org/observations/279041158,5,306.52053353715695,Cassiopea
+OBIS,Cassiopea andromeda,26.1760313437,50.4497684804,2025-05-06,iNaturalist research-grade observations,https://www.inaturalist.org/observations/279041158,5,306.5205353296702,Cassiopea
+OBIS,Catostylus perezi,26.3801367672,50.6965149955,2020-06-27,iNaturalist research-grade observations,https://www.inaturalist.org/observations/61304899,6,311.72000935854567,Catostylus
+GBIF,"Catostylus perezi Ranson, 1945",26.380137,50.696515,2020-06-27,iNaturalist research-grade observations,https://www.inaturalist.org/observations/61304899,6,311.7200313997411,Catostylus
+GBIF,"Catostylus perezi Ranson, 1945",25.113125,55.144571,2024-12-27,iNaturalist research-grade observations,https://www.inaturalist.org/observations/256613884,12,318.702691533059,Catostylus
+OBIS,Catostylus perezi,25.1131254,55.1445711,2024-12-27,iNaturalist research-grade observations,https://www.inaturalist.org/observations/256613884,12,318.7027182565794,Catostylus
+OBIS,Catostylus mosaicus,25.1225161138,55.1419878379,2019-04-11,iNaturalist research-grade observations,https://www.inaturalist.org/observations/26167721,4,318.8752918746612,Catostylus
+GBIF,"Catostylus mosaicus (Quoy & Gaimard, 1824)",25.122516,55.141988,2019-04-11,iNaturalist research-grade observations,https://www.inaturalist.org/observations/26167721,4,318.87530185479284,Catostylus
+GBIF,"Cotylorhiza erythraea Stiasny, 1920",25.101464,55.152447,2025-12-18,iNaturalist research-grade observations,https://www.inaturalist.org/observations/331189367,12,318.926506913937,Cotylorhiza
+OBIS,Cotylorhiza erythraea,25.1014638333,55.1524471667,2025-12-18,iNaturalist research-grade observations,https://www.inaturalist.org/observations/331189367,12,318.92651518621034,Cotylorhiza
+OBIS,Cassiopea andromeda,25.1316028333,55.185475,2023-06-07,iNaturalist research-grade observations,https://www.inaturalist.org/observations/166799473,6,323.296847677539,Cassiopea
+GBIF,"Cassiopea andromeda (Forskål, 1775)",25.131603,55.185475,2023-06-07,iNaturalist research-grade observations,https://www.inaturalist.org/observations/166799473,6,323.2968549647698,Cassiopea
+OBIS,Cassiopea andromeda,25.1336333333,55.1845966667,2025-10-11,iNaturalist research-grade observations,https://www.inaturalist.org/observations/320333783,10,323.30440144699486,Cassiopea
+GBIF,"Cassiopea andromeda (Forskål, 1775)",25.133633,55.184597,2025-10-11,iNaturalist research-grade observations,https://www.inaturalist.org/observations/320333783,10,323.3044176918787,Cassiopea
+OBIS,Cotylorhiza erythraea,25.1416073199,55.1875196754,2023-12-10,iNaturalist research-grade observations,https://www.inaturalist.org/observations/194001806,12,323.9248047330802,Cotylorhiza
+GBIF,"Cotylorhiza erythraea Stiasny, 1920",25.141607,55.18752,2023-12-10,iNaturalist research-grade observations,https://www.inaturalist.org/observations/194001806,12,323.92482066048325,Cotylorhiza
+GBIF,"Catostylus perezi Ranson, 1945",25.161608,55.20457,2020-09-10,iNaturalist research-grade observations,https://www.inaturalist.org/observations/59108501,9,326.3838040266641,Catostylus
+OBIS,Catostylus perezi,25.16160833,55.20457,2020-09-10,iNaturalist research-grade observations,https://www.inaturalist.org/observations/59108501,9,326.3838186862061,Catostylus
+OBIS,Cassiopea andromeda,25.1728398426,55.2148149432,2025-09-02,iNaturalist research-grade observations,https://www.inaturalist.org/observations/311209154,9,327.82873526549525,Cassiopea
+GBIF,"Cassiopea andromeda (Forskål, 1775)",25.17284,55.214815,2025-09-02,iNaturalist research-grade observations,https://www.inaturalist.org/observations/311209154,9,327.828747527401,Cassiopea
+GBIF,"Cotylorhiza erythraea Stiasny, 1920",25.193508,55.230036,2024-05-25,iNaturalist research-grade observations,https://www.inaturalist.org/observations/218126994,5,330.15746783696767,Cotylorhiza
+OBIS,Cotylorhiza erythraea,25.1935080921,55.2300360426,2024-05-25,iNaturalist research-grade observations,https://www.inaturalist.org/observations/218126994,5,330.1574759078416,Cotylorhiza
+GBIF,"Catostylus perezi Ranson, 1945",25.194165,55.231034,2024-05-26,iNaturalist research-grade observations,https://www.inaturalist.org/observations/218320564,5,330.27888251659056,Catostylus
+OBIS,Catostylus perezi,25.1941649147,55.2310341597,2024-05-26,iNaturalist research-grade observations,https://www.inaturalist.org/observations/218320564,5,330.278893357467,Catostylus
+GBIF,"Catostylus perezi Ranson, 1945",25.201612,55.233514,2024-08-16,iNaturalist research-grade observations,https://www.inaturalist.org/observations/236235629,8,330.84344464360674,Catostylus
+OBIS,Catostylus perezi,25.2016123981,55.2335138619,2024-08-16,iNaturalist research-grade observations,https://www.inaturalist.org/observations/236235629,8,330.8434499869178,Catostylus
+GBIF,"Catostylus perezi Ranson, 1945",25.186318,55.252601,2025-03-12,iNaturalist research-grade observations,https://www.inaturalist.org/observations/265082195,3,331.91296371977444,Catostylus
+OBIS,Catostylus perezi,25.1863182631,55.2526011583,2025-03-12,iNaturalist research-grade observations,https://www.inaturalist.org/observations/265082195,3,331.9129900386978,Catostylus
+GBIF,"Catostylus perezi Ranson, 1945",26.146744,50.006191,2022-03-21,iNaturalist research-grade observations,https://www.inaturalist.org/observations/109115896,3,332.6510046984694,Catostylus
+OBIS,Catostylus perezi,26.1467439645,50.0061905757,2022-03-21,iNaturalist research-grade observations,https://www.inaturalist.org/observations/109115896,3,332.65103099937136,Catostylus
+GBIF,"Cassiopea andromeda (Forskål, 1775)",25.274123,55.294905,2025-11-08,iNaturalist research-grade observations,https://www.inaturalist.org/observations/325474019,11,339.80062587764314,Cassiopea
+OBIS,Cassiopea andromeda,25.274123257,55.2949053271,2025-11-08,iNaturalist research-grade observations,https://www.inaturalist.org/observations/325474019,11,339.800667727716,Cassiopea
+GBIF,"Cotylorhiza erythraea Stiasny, 1920",25.225234,55.344484,2023-12-31,iNaturalist research-grade observations,https://www.inaturalist.org/observations/195374029,12,342.11647756386185,Cotylorhiza
+OBIS,Cotylorhiza erythraea,25.2252341874,55.3444842249,2023-12-31,iNaturalist research-grade observations,https://www.inaturalist.org/observations/195374029,12,342.1165066429759,Cotylorhiza
+OBIS,Cassiopea andromeda,25.294145701,55.3177755525,2026-01-10,iNaturalist research-grade observations,https://www.inaturalist.org/observations/334227024,1,342.8239929350628,Cassiopea
+GBIF,"Cassiopea andromeda (Forskål, 1775)",25.294146,55.317776,2026-01-10,iNaturalist research-grade observations,https://www.inaturalist.org/observations/334227024,1,342.82404775925653,Cassiopea
+GBIF,"Cotylorhiza erythraea Stiasny, 1920",25.240448,55.381344,2025-12-27,iNaturalist research-grade observations,https://www.inaturalist.org/observations/332279597,12,346.1912639600321,Cotylorhiza
+OBIS,Cotylorhiza erythraea,25.2404479315,55.381344179,2025-12-27,iNaturalist research-grade observations,https://www.inaturalist.org/observations/332279597,12,346.19127740150475,Cotylorhiza
+GBIF,"Cassiopea andromeda (Forskål, 1775)",25.308691,55.347615,2017-11-08,iNaturalist research-grade observations,https://www.inaturalist.org/observations/101183908,11,346.2262005603289,Cassiopea
+OBIS,Cassiopea andromeda,25.3086912884,55.3476148778,2017-11-08,iNaturalist research-grade observations,https://www.inaturalist.org/observations/101183908,11,346.2262029901652,Cassiopea
+OBIS,Catostylus perezi,25.3391316807,55.3614030003,2019-04-29,iNaturalist research-grade observations,https://www.inaturalist.org/observations/284897857,4,348.92209332771165,Catostylus
+GBIF,"Catostylus perezi Ranson, 1945",25.339132,55.361403,2019-04-29,iNaturalist research-grade observations,https://www.inaturalist.org/observations/284897857,4,348.92210853961024,Catostylus
+OBIS,Cotylorhiza erythraea,25.3393527778,55.3613305556,2024-02-17,iNaturalist research-grade observations,https://www.inaturalist.org/observations/200262904,2,348.92607075675807,Cotylorhiza
+GBIF,"Cotylorhiza erythraea Stiasny, 1920",25.339353,55.361331,2024-02-17,iNaturalist research-grade observations,https://www.inaturalist.org/observations/200262904,2,348.9261216995193,Cotylorhiza
+OBIS,Cassiopea andromeda,25.3200307499,55.3729878571,2023-05-23,iNaturalist research-grade observations,https://www.inaturalist.org/observations/163278300,5,349.07056965581205,Cassiopea
+GBIF,"Cassiopea andromeda (Forskål, 1775)",25.320031,55.372988,2023-05-23,iNaturalist research-grade observations,https://www.inaturalist.org/observations/163278300,5,349.07059443177894,Cassiopea
+OBIS,Catostylus perezi,25.3495361111,55.3675277778,2018-10-03,iNaturalist research-grade observations,https://www.inaturalist.org/observations/195063873,10,349.9754303501487,Catostylus
+GBIF,"Catostylus perezi Ranson, 1945",25.349536,55.367528,2018-10-03,iNaturalist research-grade observations,https://www.inaturalist.org/observations/195063873,10,349.9754451695363,Catostylus
+GBIF,"Cassiopea andromeda (Forskål, 1775)",25.345967,55.421093,2022-12-31,iNaturalist research-grade observations,https://www.inaturalist.org/observations/147823317,12,354.67160312748496,Cassiopea
+GBIF,"Cassiopea andromeda (Forskål, 1775)",25.345967,55.421093,2022-12-31,iNaturalist research-grade observations,https://www.inaturalist.org/observations/147823450,12,354.67160312748496,Cassiopea
+OBIS,Cassiopea andromeda,25.3459667741,55.4210931435,2022-12-31,iNaturalist research-grade observations,https://www.inaturalist.org/observations/147823317,12,354.6716055369566,Cassiopea
+OBIS,Cassiopea andromeda,25.3459667741,55.4210931435,2022-12-31,iNaturalist research-grade observations,https://www.inaturalist.org/observations/147823450,12,354.6716055369566,Cassiopea
+OBIS,Cotylorhiza erythraea,25.3842633333,55.4037166667,2023-12-07,iNaturalist research-grade observations,https://www.inaturalist.org/observations/193308366,12,354.92602680688435,Cotylorhiza
+GBIF,"Cotylorhiza erythraea Stiasny, 1920",25.384263,55.403717,2023-12-07,iNaturalist research-grade observations,https://www.inaturalist.org/observations/193308366,12,354.9260407915694,Cotylorhiza
+GBIF,"Catostylus mosaicus (Quoy & Gaimard, 1824)",25.493458,55.504807,2025-09-28,iNaturalist research-grade observations,https://www.inaturalist.org/observations/317189612,9,369.4085720666428,Catostylus
+OBIS,Catostylus perezi,25.594376331,55.5982775241,2025-03-27,iNaturalist research-grade observations,https://www.inaturalist.org/observations/361232615,3,382.88031580509715,Catostylus
+GBIF,"Catostylus perezi Ranson, 1945",25.594376,55.598278,2025-03-27,iNaturalist research-grade observations,https://www.inaturalist.org/observations/361232615,3,382.8803410213036,Catostylus
+GBIF,"Cassiopea andromeda (Forskål, 1775)",25.616179,55.678397,2025-11-08,iNaturalist research-grade observations,https://www.inaturalist.org/observations/325458561,11,391.1261240080851,Cassiopea
+OBIS,Cassiopea andromeda,25.6161793631,55.678397119,2025-11-08,iNaturalist research-grade observations,https://www.inaturalist.org/observations/325458561,11,391.12615316166324,Cassiopea
+OBIS,Catostylus perezi,25.6687446263,55.7577937096,2019-03-13,iNaturalist research-grade observations,https://www.inaturalist.org/observations/101021137,3,400.88360756309453,Catostylus
+GBIF,"Catostylus perezi Ranson, 1945",25.668745,55.757794,2019-03-13,iNaturalist research-grade observations,https://www.inaturalist.org/observations/101021137,3,400.883652585486,Catostylus
+GBIF,"Catostylus perezi Ranson, 1945",25.737185,55.884966,2019-04-08,iNaturalist research-grade observations,https://www.inaturalist.org/observations/139643327,4,415.70085998063877,Catostylus
+OBIS,Catostylus perezi,25.7371852135,55.8849661514,2019-04-08,iNaturalist research-grade observations,https://www.inaturalist.org/observations/139643327,4,415.70088442104503,Catostylus
+OBIS,Cassiopea andromeda,25.7397113698,55.8882625775,2022-03-10,iNaturalist research-grade observations,https://www.inaturalist.org/observations/108883326,3,416.1236559983471,Cassiopea
+GBIF,"Cassiopea andromeda (Forskål, 1775)",25.739711,55.888263,2022-03-10,iNaturalist research-grade observations,https://www.inaturalist.org/observations/108883326,3,416.123674428458,Cassiopea
+GBIF,"Marivagia stellata Galil & Gershwin, 2010",25.092368,56.399993,2025-03-23,iNaturalist research-grade observations,https://www.inaturalist.org/observations/266710669,3,437.30260252349564,Marivagia
+OBIS,Marivagia stellata,25.0923682364,56.3999931751,2025-03-23,iNaturalist research-grade observations,https://www.inaturalist.org/observations/266710669,3,437.30262667106734,Marivagia
+GBIF,"Marivagia stellata Galil & Gershwin, 2010",25.092172,56.400143,2025-03-23,iNaturalist research-grade observations,https://www.inaturalist.org/observations/266710664,3,437.3111744802749,Marivagia
+OBIS,Marivagia stellata,25.0921720687,56.4001432112,2025-03-23,iNaturalist research-grade observations,https://www.inaturalist.org/observations/266710664,3,437.3111970264745,Marivagia
+OBIS,Marivagia stellata,25.0923293711,56.4002506672,2025-03-23,iNaturalist research-grade observations,https://www.inaturalist.org/observations/266710668,3,437.3263871312215,Marivagia
+GBIF,"Marivagia stellata Galil & Gershwin, 2010",25.092329,56.400251,2025-03-23,iNaturalist research-grade observations,https://www.inaturalist.org/observations/266710668,3,437.32640808752143,Marivagia
+OBIS,Cassiopea andromeda,25.8922316809,56.0381846761,2019-04-13,iNaturalist research-grade observations,https://www.inaturalist.org/observations/139643319,4,437.35310755332904,Cassiopea
+GBIF,"Cassiopea andromeda (Forskål, 1775)",25.892232,56.038185,2019-04-13,iNaturalist research-grade observations,https://www.inaturalist.org/observations/139643319,4,437.3531529895063,Cassiopea
+GBIF,"Catostylus perezi Ranson, 1945",29.371844,48.00987,2022-08-27,iNaturalist research-grade observations,https://www.inaturalist.org/observations/132499759,8,735.0084135049505,Catostylus
+OBIS,Catostylus perezi,29.37184444,48.0098703,2022-08-27,iNaturalist research-grade observations,https://www.inaturalist.org/observations/132499759,8,735.0084359639748,Catostylus

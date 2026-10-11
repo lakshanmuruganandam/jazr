@@ -1,0 +1,633 @@
+{
+ "checks": [
+  {
+   "test": "T04",
+   "check": "bay hydrodynamic load [clean] (10 m x 8.15 m wetted)",
+   "value": 1.8251,
+   "unit": "kN",
+   "criterion": "sizing result",
+   "source": "dp x A",
+   "verdict": "PASS",
+   "note": "dp=22 Pa"
+  },
+  {
+   "test": "T04",
+   "check": "bay hydrodynamic load [50% blinded] (10 m x 8.15 m wetted)",
+   "value": 7.3004,
+   "unit": "kN",
+   "criterion": "sizing result",
+   "source": "dp x A",
+   "verdict": "PASS",
+   "note": "dp=90 Pa"
+  },
+  {
+   "test": "T04",
+   "check": "bay hydrodynamic load [90% blinded] (10 m x 8.15 m wetted)",
+   "value": 182.51,
+   "unit": "kN",
+   "criterion": "sizing result",
+   "source": "dp x A",
+   "verdict": "PASS",
+   "note": "dp=2239 Pa"
+  },
+  {
+   "test": "T04",
+   "check": "bay hydrodynamic load [trip 200 Pa] (10 m x 8.15 m wetted)",
+   "value": 16.3,
+   "unit": "kN",
+   "criterion": "sizing result",
+   "source": "dp x A",
+   "verdict": "PASS",
+   "note": "dp=200 Pa"
+  },
+  {
+   "test": "T04",
+   "check": "bay hydrodynamic load [trip 1 kPa] (10 m x 8.15 m wetted)",
+   "value": 81.5,
+   "unit": "kN",
+   "criterion": "sizing result",
+   "source": "dp x A",
+   "verdict": "PASS",
+   "note": "dp=1000 Pa"
+  },
+  {
+   "test": "T04",
+   "check": "bay hydrodynamic load [relief fails, 0.5 m drawdown] (10 m x 8.15 m wetted)",
+   "value": 409.7514,
+   "unit": "kN",
+   "criterion": "sizing result",
+   "source": "dp x A",
+   "verdict": "PASS",
+   "note": "dp=5028 Pa"
+  },
+  {
+   "test": "T04",
+   "check": "mesh safety factor [trip 200 Pa; 2205 duplex woven 2 mm/20 mm (UTS 620 MPa)]",
+   "value": 23.8992,
+   "unit": "-",
+   "criterion": "SF >= 3 PASS; >= 1.5 MARGINAL (ASSUMPTION, fatigue/corrosion)",
+   "source": "membrane T = p l^2/(8d), d=0.05 l",
+   "verdict": "PASS",
+   "note": "tension 4.1 kN/m"
+  },
+  {
+   "test": "T04",
+   "check": "mesh safety factor [trip 200 Pa; 90/10 CuNi woven 2 mm/20 mm (UTS ~300 MPa)]",
+   "value": 11.5641,
+   "unit": "-",
+   "criterion": "SF >= 3 PASS; >= 1.5 MARGINAL (ASSUMPTION, fatigue/corrosion)",
+   "source": "membrane T = p l^2/(8d), d=0.05 l",
+   "verdict": "PASS",
+   "note": "tension 4.1 kN/m"
+  },
+  {
+   "test": "T04",
+   "check": "mesh safety factor [trip 200 Pa; UHMWPE knotless net (~40 kN/m, typical aquaculture)]",
+   "value": 9.816,
+   "unit": "-",
+   "criterion": "SF >= 3 PASS; >= 1.5 MARGINAL (ASSUMPTION, fatigue/corrosion)",
+   "source": "membrane T = p l^2/(8d), d=0.05 l",
+   "verdict": "PASS",
+   "note": "tension 4.1 kN/m"
+  },
+  {
+   "test": "T04",
+   "check": "mesh safety factor [trip 1 kPa; 2205 duplex woven 2 mm/20 mm (UTS 620 MPa)]",
+   "value": 4.7798,
+   "unit": "-",
+   "criterion": "SF >= 3 PASS; >= 1.5 MARGINAL (ASSUMPTION, fatigue/corrosion)",
+   "source": "membrane T = p l^2/(8d), d=0.05 l",
+   "verdict": "PASS",
+   "note": "tension 20.4 kN/m"
+  },
+  {
+   "test": "T04",
+   "check": "mesh safety factor [trip 1 kPa; 90/10 CuNi woven 2 mm/20 mm (UTS ~300 MPa)]",
+   "value": 2.3128,
+   "unit": "-",
+   "criterion": "SF >= 3 PASS; >= 1.5 MARGINAL (ASSUMPTION, fatigue/corrosion)",
+   "source": "membrane T = p l^2/(8d), d=0.05 l",
+   "verdict": "MARGINAL",
+   "note": "tension 20.4 kN/m"
+  },
+  {
+   "test": "T04",
+   "check": "mesh safety factor [trip 1 kPa; UHMWPE knotless net (~40 kN/m, typical aquaculture)]",
+   "value": 1.9632,
+   "unit": "-",
+   "criterion": "SF >= 3 PASS; >= 1.5 MARGINAL (ASSUMPTION, fatigue/corrosion)",
+   "source": "membrane T = p l^2/(8d), d=0.05 l",
+   "verdict": "MARGINAL",
+   "note": "tension 20.4 kN/m"
+  },
+  {
+   "test": "T04",
+   "check": "mesh safety factor [90% blinded; 2205 duplex woven 2 mm/20 mm (UTS 620 MPa)]",
+   "value": 2.1344,
+   "unit": "-",
+   "criterion": "SF >= 3 PASS; >= 1.5 MARGINAL (ASSUMPTION, fatigue/corrosion)",
+   "source": "membrane T = p l^2/(8d), d=0.05 l",
+   "verdict": "MARGINAL",
+   "note": "tension 45.6 kN/m"
+  },
+  {
+   "test": "T04",
+   "check": "mesh safety factor [90% blinded; 90/10 CuNi woven 2 mm/20 mm (UTS ~300 MPa)]",
+   "value": 1.0328,
+   "unit": "-",
+   "criterion": "SF >= 3 PASS; >= 1.5 MARGINAL (ASSUMPTION, fatigue/corrosion)",
+   "source": "membrane T = p l^2/(8d), d=0.05 l",
+   "verdict": "FAIL",
+   "note": "tension 45.6 kN/m"
+  },
+  {
+   "test": "T04",
+   "check": "mesh safety factor [90% blinded; UHMWPE knotless net (~40 kN/m, typical aquaculture)]",
+   "value": 0.8767,
+   "unit": "-",
+   "criterion": "SF >= 3 PASS; >= 1.5 MARGINAL (ASSUMPTION, fatigue/corrosion)",
+   "source": "membrane T = p l^2/(8d), d=0.05 l",
+   "verdict": "FAIL",
+   "note": "tension 45.6 kN/m"
+  },
+  {
+   "test": "T04",
+   "check": "mesh safety factor [relief fails, 0.5 m drawdown; 2205 duplex woven 2 mm/20 mm (UTS 620 MPa)]",
+   "value": 0.9507,
+   "unit": "-",
+   "criterion": "SF >= 3 PASS; >= 1.5 MARGINAL (ASSUMPTION, fatigue/corrosion)",
+   "source": "membrane T = p l^2/(8d), d=0.05 l",
+   "verdict": "FAIL",
+   "note": "tension 102.4 kN/m"
+  },
+  {
+   "test": "T04",
+   "check": "mesh safety factor [relief fails, 0.5 m drawdown; 90/10 CuNi woven 2 mm/20 mm (UTS ~300 MPa)]",
+   "value": 0.46,
+   "unit": "-",
+   "criterion": "SF >= 3 PASS; >= 1.5 MARGINAL (ASSUMPTION, fatigue/corrosion)",
+   "source": "membrane T = p l^2/(8d), d=0.05 l",
+   "verdict": "FAIL",
+   "note": "tension 102.4 kN/m"
+  },
+  {
+   "test": "T04",
+   "check": "mesh safety factor [relief fails, 0.5 m drawdown; UHMWPE knotless net (~40 kN/m, typical aquaculture)]",
+   "value": 0.3905,
+   "unit": "-",
+   "criterion": "SF >= 3 PASS; >= 1.5 MARGINAL (ASSUMPTION, fatigue/corrosion)",
+   "source": "membrane T = p l^2/(8d), d=0.05 l",
+   "verdict": "FAIL",
+   "note": "tension 102.4 kN/m"
+  },
+  {
+   "test": "T04",
+   "check": "dp at which a 150 kg/m weighted bottom bar lifts off",
+   "value": 62.7907,
+   "unit": "Pa",
+   "criterion": "must exceed trip setpoint (200 Pa) or bells pass under the bar",
+   "source": "membrane vertical pull ~ T",
+   "verdict": "FAIL",
+   "note": "=> a weighted bar alone does not seal; latch it into the floor rail and use the bar as a calibrated passive relief"
+  },
+  {
+   "test": "T04",
+   "check": "bar mass needed to stay seated at [trip 200 Pa]",
+   "value": 4.7778,
+   "unit": "t per 10 m bay",
+   "criterion": "<= 3 t practical (ASSUMPTION)",
+   "source": "calc",
+   "verdict": "MARGINAL",
+   "note": ""
+  },
+  {
+   "test": "T04",
+   "check": "bar mass needed to stay seated at [trip 1 kPa]",
+   "value": 23.8889,
+   "unit": "t per 10 m bay",
+   "criterion": "<= 3 t practical (ASSUMPTION)",
+   "source": "calc",
+   "verdict": "FAIL",
+   "note": ""
+  },
+  {
+   "test": "T04",
+   "check": "drum torque to roll up under load [clean]",
+   "value": 8.5932,
+   "unit": "kN m",
+   "criterion": "sizing result (motor/gearbox/brake rating)",
+   "source": "statics",
+   "verdict": "PASS",
+   "note": "line pull 21 kN, motor 3.8 kW at 0.15 m/s"
+  },
+  {
+   "test": "T04",
+   "check": "drum torque to roll up under load [trip 200 Pa]",
+   "value": 23.5023,
+   "unit": "kN m",
+   "criterion": "sizing result (motor/gearbox/brake rating)",
+   "source": "statics",
+   "verdict": "PASS",
+   "note": "line pull 59 kN, motor 10.4 kW at 0.15 m/s"
+  },
+  {
+   "test": "T04",
+   "check": "drum torque to roll up under load [trip 1 kPa]",
+   "value": 90.6583,
+   "unit": "kN m",
+   "criterion": "sizing result (motor/gearbox/brake rating)",
+   "source": "statics",
+   "verdict": "PASS",
+   "note": "line pull 227 kN, motor 40.0 kW at 0.15 m/s"
+  },
+  {
+   "test": "T04",
+   "check": "drum torque to roll up under load [90% blinded]",
+   "value": 194.6986,
+   "unit": "kN m",
+   "criterion": "sizing result (motor/gearbox/brake rating)",
+   "source": "statics",
+   "verdict": "PASS",
+   "note": "line pull 487 kN, motor 85.9 kW at 0.15 m/s"
+  },
+  {
+   "test": "T04",
+   "check": "time to lower one bay (9.7 m at 0.15 m/s), all bays in parallel",
+   "value": 1.0778,
+   "unit": "min",
+   "criterion": "<= 10 min (v3 claim)",
+   "source": "kinematics",
+   "verdict": "PASS",
+   "note": ""
+  },
+  {
+   "test": "T04",
+   "check": "wave load on one curtain bay [p90 Hs 0.58, T 3.5; waves along channel (sin 11 deg); clean]",
+   "value": 3.5204,
+   "unit": "kN",
+   "criterion": "<= curtain design load at 1 kPa trip (82 kN) PASS; <= 2x MARGINAL",
+   "source": "linear wave theory",
+   "verdict": "PASS",
+   "note": ""
+  },
+  {
+   "test": "T04",
+   "check": "wave load on one curtain bay [p90 Hs 0.58, T 3.5; waves along channel (sin 11 deg); blinded]",
+   "value": 6.3481,
+   "unit": "kN",
+   "criterion": "<= curtain design load at 1 kPa trip (82 kN) PASS; <= 2x MARGINAL",
+   "source": "linear wave theory",
+   "verdict": "PASS",
+   "note": ""
+  },
+  {
+   "test": "T04",
+   "check": "wave load on one curtain bay [p90 Hs 0.58, T 3.5; waves normal to screen; clean]",
+   "value": 18.5539,
+   "unit": "kN",
+   "criterion": "<= curtain design load at 1 kPa trip (82 kN) PASS; <= 2x MARGINAL",
+   "source": "linear wave theory",
+   "verdict": "PASS",
+   "note": ""
+  },
+  {
+   "test": "T04",
+   "check": "wave load on one curtain bay [p90 Hs 0.58, T 3.5; waves normal to screen; blinded]",
+   "value": 174.3594,
+   "unit": "kN",
+   "criterion": "<= curtain design load at 1 kPa trip (82 kN) PASS; <= 2x MARGINAL",
+   "source": "linear wave theory",
+   "verdict": "FAIL",
+   "note": ""
+  },
+  {
+   "test": "T04",
+   "check": "wave load on one curtain bay [Hs max 1.36, T 4.5; waves along channel (sin 11 deg); clean]",
+   "value": 7.9121,
+   "unit": "kN",
+   "criterion": "<= curtain design load at 1 kPa trip (82 kN) PASS; <= 2x MARGINAL",
+   "source": "linear wave theory",
+   "verdict": "PASS",
+   "note": ""
+  },
+  {
+   "test": "T04",
+   "check": "wave load on one curtain bay [Hs max 1.36, T 4.5; waves along channel (sin 11 deg); blinded]",
+   "value": 22.0686,
+   "unit": "kN",
+   "criterion": "<= curtain design load at 1 kPa trip (82 kN) PASS; <= 2x MARGINAL",
+   "source": "linear wave theory",
+   "verdict": "PASS",
+   "note": ""
+  },
+  {
+   "test": "T04",
+   "check": "wave load on one curtain bay [Hs max 1.36, T 4.5; waves normal to screen; clean]",
+   "value": 83.8402,
+   "unit": "kN",
+   "criterion": "<= curtain design load at 1 kPa trip (82 kN) PASS; <= 2x MARGINAL",
+   "source": "linear wave theory",
+   "verdict": "MARGINAL",
+   "note": ""
+  },
+  {
+   "test": "T04",
+   "check": "wave load on one curtain bay [Hs max 1.36, T 4.5; waves normal to screen; blinded]",
+   "value": 606.1469,
+   "unit": "kN",
+   "criterion": "<= curtain design load at 1 kPa trip (82 kN) PASS; <= 2x MARGINAL",
+   "source": "linear wave theory",
+   "verdict": "FAIL",
+   "note": ""
+  },
+  {
+   "test": "T04",
+   "check": "wave load on one curtain bay [Hmax=1.8xHs 2.45, T 4.5; waves along channel (sin 11 deg); clean]",
+   "value": 16.0462,
+   "unit": "kN",
+   "criterion": "<= curtain design load at 1 kPa trip (82 kN) PASS; <= 2x MARGINAL",
+   "source": "linear wave theory",
+   "verdict": "PASS",
+   "note": ""
+  },
+  {
+   "test": "T04",
+   "check": "wave load on one curtain bay [Hmax=1.8xHs 2.45, T 4.5; waves along channel (sin 11 deg); blinded]",
+   "value": 39.756,
+   "unit": "kN",
+   "criterion": "<= curtain design load at 1 kPa trip (82 kN) PASS; <= 2x MARGINAL",
+   "source": "linear wave theory",
+   "verdict": "PASS",
+   "note": ""
+  },
+  {
+   "test": "T04",
+   "check": "wave load on one curtain bay [Hmax=1.8xHs 2.45, T 4.5; waves normal to screen; clean]",
+   "value": 238.9903,
+   "unit": "kN",
+   "criterion": "<= curtain design load at 1 kPa trip (82 kN) PASS; <= 2x MARGINAL",
+   "source": "linear wave theory",
+   "verdict": "FAIL",
+   "note": ""
+  },
+  {
+   "test": "T04",
+   "check": "wave load on one curtain bay [Hmax=1.8xHs 2.45, T 4.5; waves normal to screen; blinded]",
+   "value": 1091.9558,
+   "unit": "kN",
+   "criterion": "<= curtain design load at 1 kPa trip (82 kN) PASS; <= 2x MARGINAL",
+   "source": "linear wave theory",
+   "verdict": "FAIL",
+   "note": ""
+  },
+  {
+   "test": "T04",
+   "check": "Hs at which wave load on a BLINDED curtain = 1 kPa design load, waves along channel",
+   "value": 3.0,
+   "unit": "m",
+   "criterion": ">= Hs max 1.36 m PASS; >= p99 0.84 MARGINAL",
+   "source": "linear clapotis x sin^2(11 deg)",
+   "verdict": "PASS",
+   "note": ""
+  },
+  {
+   "test": "T04",
+   "check": "Hs at which wave load on a BLINDED curtain = 1 kPa design load, waves NORMAL to screen",
+   "value": 0.28,
+   "unit": "m",
+   "criterion": ">= Hs p99 0.84 m PASS; >= p90 0.58 MARGINAL",
+   "source": "linear clapotis",
+   "verdict": "FAIL",
+   "note": "=> rule: stow when channel Hs from the screen-normal sector exceeds this; screen faces must not face open fetch"
+  },
+  {
+   "test": "T04",
+   "check": "Morison base shear, pile D=1.0 m [operating Hs p90 0.58 (H=1.04), T 3.5]",
+   "value": 6.9316,
+   "unit": "kN",
+   "criterion": "input to pile sizing",
+   "source": "API RP 2A rough Cd1.05 Cm1.2",
+   "verdict": "PASS",
+   "note": "mudline moment 36 kN m"
+  },
+  {
+   "test": "T04",
+   "check": "Morison base shear, pile D=1.0 m [Hmax 2.45, T 4.5]",
+   "value": 15.4119,
+   "unit": "kN",
+   "criterion": "input to pile sizing",
+   "source": "API RP 2A rough Cd1.05 Cm1.2",
+   "verdict": "PASS",
+   "note": "mudline moment 76 kN m"
+  },
+  {
+   "test": "T04",
+   "check": "Morison base shear, pile D=1.0 m [depth-limited storm H=0.78 h_HAT, T 7]",
+   "value": 62.8634,
+   "unit": "kN",
+   "criterion": "input to pile sizing",
+   "source": "API RP 2A rough Cd1.05 Cm1.2",
+   "verdict": "PASS",
+   "note": "mudline moment 284 kN m"
+  },
+  {
+   "test": "T04",
+   "check": "Morison base shear, pile D=1.5 m [operating Hs p90 0.58 (H=1.04), T 3.5]",
+   "value": 13.8155,
+   "unit": "kN",
+   "criterion": "input to pile sizing",
+   "source": "API RP 2A rough Cd1.05 Cm1.2",
+   "verdict": "PASS",
+   "note": "mudline moment 73 kN m"
+  },
+  {
+   "test": "T04",
+   "check": "Morison base shear, pile D=1.5 m [Hmax 2.45, T 4.5]",
+   "value": 29.3406,
+   "unit": "kN",
+   "criterion": "input to pile sizing",
+   "source": "API RP 2A rough Cd1.05 Cm1.2",
+   "verdict": "PASS",
+   "note": "mudline moment 142 kN m"
+  },
+  {
+   "test": "T04",
+   "check": "Morison base shear, pile D=1.5 m [depth-limited storm H=0.78 h_HAT, T 7]",
+   "value": 98.6837,
+   "unit": "kN",
+   "criterion": "input to pile sizing",
+   "source": "API RP 2A rough Cd1.05 Cm1.2",
+   "verdict": "PASS",
+   "note": "mudline moment 444 kN m"
+  },
+  {
+   "test": "T04",
+   "check": "current-only drag on D=1 m pile (0.6 lane + 0.31 ambient)",
+   "value": 3.6,
+   "unit": "kN",
+   "criterion": "minor vs waves",
+   "source": "drag",
+   "verdict": "PASS",
+   "note": ""
+  },
+  {
+   "test": "T04",
+   "check": "wind on gantry per bay [site max gust ERA5 19.6 m/s, Cf 2.0]",
+   "value": 14.1179,
+   "unit": "kN",
+   "criterion": "input to pile sizing",
+   "source": "q=0.5 rho V^2",
+   "verdict": "PASS",
+   "note": ""
+  },
+  {
+   "test": "T04",
+   "check": "wind on gantry per bay [Dubai basic 3-s gust (current) 38.0 m/s, Cf 2.0]",
+   "value": 53.067,
+   "unit": "kN",
+   "criterion": "input to pile sizing",
+   "source": "q=0.5 rho V^2",
+   "verdict": "PASS",
+   "note": ""
+  },
+  {
+   "test": "T04",
+   "check": "wind on gantry per bay [Dubai basic (pre-revision) 45.0 m/s, Cf 2.0]",
+   "value": 74.4188,
+   "unit": "kN",
+   "criterion": "input to pile sizing",
+   "source": "q=0.5 rho V^2",
+   "verdict": "PASS",
+   "note": ""
+  },
+  {
+   "test": "T04",
+   "check": "steel pile OD needed (S355, D/t=40, fixity 5D) [OPERATING: curtain at 1 kPa trip + Hs p90 pile waves + 20 m/s wind]",
+   "value": 0.6,
+   "unit": "m",
+   "criterion": "<= 1.5 m PASS (normal marine piling); <= 2.5 m MARGINAL",
+   "source": "WSD 0.66 Fy cantilever",
+   "verdict": "PASS",
+   "note": "t=15 mm, M=824 kN m, deck deflection 351 mm"
+  },
+  {
+   "test": "T04",
+   "check": "steel pile OD needed (S355, D/t=40, fixity 5D) [RELIEF FAILS: curtain 0.5 m drawdown + operating waves]",
+   "value": 1.0,
+   "unit": "m",
+   "criterion": "<= 1.5 m PASS (normal marine piling); <= 2.5 m MARGINAL",
+   "source": "WSD 0.66 Fy cantilever",
+   "verdict": "PASS",
+   "note": "t=25 mm, M=4008 kN m, deck deflection 288 mm"
+  },
+  {
+   "test": "T04",
+   "check": "steel pile OD needed (S355, D/t=40, fixity 5D) [BLINDED + Hs 1.36 along channel + 1 kPa + 20 m/s wind]",
+   "value": 0.65,
+   "unit": "m",
+   "criterion": "<= 1.5 m PASS (normal marine piling); <= 2.5 m MARGINAL",
+   "source": "WSD 0.66 Fy cantilever",
+   "verdict": "PASS",
+   "note": "t=16 mm, M=1080 kN m, deck deflection 349 mm"
+  },
+  {
+   "test": "T04",
+   "check": "steel pile OD needed (S355, D/t=40, fixity 5D) [STOWED STORM: depth-limited waves + 45 m/s wind]",
+   "value": 0.8,
+   "unit": "m",
+   "criterion": "<= 1.5 m PASS (normal marine piling); <= 2.5 m MARGINAL",
+   "source": "WSD 0.66 Fy cantilever",
+   "verdict": "PASS",
+   "note": "t=20 mm, M=2048 kN m, deck deflection 232 mm"
+  },
+  {
+   "test": "T04",
+   "check": "training wall differential-head load, dh=0.1 m between lanes",
+   "value": 8.195,
+   "unit": "kN/m",
+   "criterion": "sizing result; S_req listed",
+   "source": "hydrostatic",
+   "verdict": "PASS",
+   "note": "cantilever M=33 kNm/m, S_req~143 cm3/m (sheet pile)"
+  },
+  {
+   "test": "T04",
+   "check": "training wall differential-head load, dh=0.3 m between lanes",
+   "value": 24.5851,
+   "unit": "kN/m",
+   "criterion": "sizing result; S_req listed",
+   "source": "hydrostatic",
+   "verdict": "PASS",
+   "note": "cantilever M=100 kNm/m, S_req~428 cm3/m (sheet pile)"
+  },
+  {
+   "test": "T04",
+   "check": "training wall differential-head load, dh=1.0 m between lanes",
+   "value": 81.9503,
+   "unit": "kN/m",
+   "criterion": "sizing result; S_req listed",
+   "source": "hydrostatic",
+   "verdict": "PASS",
+   "note": "cantilever M=334 kNm/m, S_req~1425 cm3/m (sheet pile)"
+  },
+  {
+   "test": "T04",
+   "check": "Westergaard hydrodynamic force on a wall per m, PGA 0.1 g (ILLUSTRATIVE)",
+   "value": 38.9605,
+   "unit": "kN/m",
+   "criterion": "qualitative: structures near safety intakes are Seismic Cat II/I (must not collapse onto SSCs)",
+   "source": "Westergaard 1933; site SSE NOT public (APR1400 standard design uses 0.3 g)",
+   "verdict": "PASS",
+   "note": "compare with curtain 1 kPa design load 8 kN/m: seismic + hydrodynamic mass governs the gantry"
+  },
+  {
+   "test": "T04",
+   "check": "Westergaard hydrodynamic force on a wall per m, PGA 0.3 g (ILLUSTRATIVE)",
+   "value": 116.8816,
+   "unit": "kN/m",
+   "criterion": "qualitative: structures near safety intakes are Seismic Cat II/I (must not collapse onto SSCs)",
+   "source": "Westergaard 1933; site SSE NOT public (APR1400 standard design uses 0.3 g)",
+   "verdict": "PASS",
+   "note": "compare with curtain 1 kPa design load 8 kN/m: seismic + hydrodynamic mass governs the gantry"
+  }
+ ],
+ "extra": {
+  "bay_load_kN": {
+   "clean": 1.8250997667002882,
+   "50% blinded": 7.300399066801153,
+   "90% blinded": 182.50997667002883,
+   "trip 200 Pa": 16.3,
+   "trip 1 kPa": 81.5,
+   "relief fails, 0.5 m drawdown": 409.7514375
+  },
+  "bar_lift_Pa": 62.79074674690321,
+  "deploy_time_s": 64.66666666666667,
+  "Hs_stow": 0.28,
+  "pile_sizes": {
+   "OPERATING: curtain at 1 kPa trip + Hs p90 pile waves + 20 m/s wind": [
+    0.6,
+    0.015,
+    824.0116398048106,
+    0.3508217847801385
+   ],
+   "RELIEF FAILS: curtain 0.5 m drawdown + operating waves": [
+    1.0000000000000004,
+    0.025000000000000012,
+    4007.9923327104198,
+    0.2878590477890365
+   ],
+   "BLINDED + Hs 1.36 along channel + 1 kPa + 20 m/s wind": [
+    0.65,
+    0.01625,
+    1080.3318470037061,
+    0.3490793908476937
+   ],
+   "STOWED STORM: depth-limited waves + 45 m/s wind": [
+    0.8000000000000002,
+    0.020000000000000004,
+    2047.9602338274894,
+    0.23164155569331868
+   ]
+  }
+ }
+}

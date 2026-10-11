@@ -1,0 +1,16 @@
+stage,low,high,basis,source
+screen_hazard_per_contact,0.002,0.02,ASSUME,AZA Jellyfish Care Manual: mesh abrades tissue (qualitative); no rate data
+screen_hazard_per_s_on_face,0.0001,0.001,ASSUME,pinned at 0.07-0.14 m/s through-velocity; no rate data
+entrance,0.95,0.995,ANALOGUE,fish bypass entrances (EPRI 2006 / USBR); smooth accelerating mouth (09 R10/R11)
+dewatering,0.85,0.99,ANALOGUE,wedge-wire dewatering for fish; sliding contact only (09 R07); jelly UNKNOWN
+excluder_grid,0.97,1.0,ASSUME,"15 cm bars, bells 6.5-12 cm pass without squeezing (00 data)"
+lift_screw,0.9,0.995,ANALOGUE,Red Bluff Archimedes screw trout 98-100% (USBR vol 25); gel surrogate 100% intact (07 T09)
+lift_fish_lock,0.95,1.0,ASSUME,"water-to-water, no moving contact; fill/drain time only"
+lift_vacuum_pump,0.5,0.95,ANALOGUE+ASSUME,vacuum fish pumps 95-99% for fish; pressure swing -> degassing bubbles under bells (09 R01/R02) lowers it
+pipe_3h_O2,0.85,0.99,ASSUME,"aquarium shipping 1->24 h survives if no air, DO 75-99% sat (09 R03/R06); wall contact at 1 m/s"
+pipe_3h_noO2_0.3m3,0.4,0.95,DERIVED+ASSUME,pipe biomass ~7.6 kg/m3 at 0.3 /m3 > 6.6 kg/m3 O2 limit (09 R04/R05); scyphozoans oxyregulate <10% sat but rhizostome Pc UNKNOWN
+outlet,0.95,1.0,ASSUME,"submerged gentle outlet, ambient T/S (09 R17)"
+v4.1 screen: contacts per bell (sim),0.86,1.7533,SIMULATED,vt_levers.csv / proto_levers.csv
+"v4.1 screen: time on face s, prototype (sim)",12.4,53.2077,SIMULATED,vt_levers.csv (x sqrt 20) / proto_levers.csv
+best-combo screen: contacts per bell (sim),0.7222,0.82,SIMULATED,vt_levers.csv / proto_levers.csv
+"best-combo screen: time on face s, prototype (sim)",1.6124,10.7,SIMULATED,vt_levers.csv (x sqrt 20) / proto_levers.csv

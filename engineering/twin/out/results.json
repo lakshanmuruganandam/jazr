@@ -1,0 +1,273 @@
+{
+ "baseline|swim=0.036|no residual": {
+  "captured_frac": 0.9545,
+  "captured_range": [
+   0.9253333333333333,
+   0.9826666666666667
+  ],
+  "mean_handlings": 0.0,
+  "peak_held_tonnes": 0.0,
+  "swarm_tonnes": 12180.0
+ },
+ "jazr_immediate|swim=0.036|no residual": {
+  "captured_frac": 0.40449999999999997,
+  "captured_range": [
+   0.39,
+   0.41533333333333333
+  ],
+  "mean_handlings": 6.3445,
+  "peak_held_tonnes": 0.0,
+  "swarm_tonnes": 12180.0
+ },
+ "jazr_hold|swim=0.036|no residual": {
+  "captured_frac": 0.37433333333333335,
+  "captured_range": [
+   0.3566666666666667,
+   0.396
+  ],
+  "mean_handlings": 6.0355,
+  "peak_held_tonnes": 7444.009999999999,
+  "swarm_tonnes": 12180.0
+ },
+ "jazr_ebb|swim=0.036|no residual": {
+  "captured_frac": 0.31783333333333336,
+  "captured_range": [
+   0.3006666666666667,
+   0.33666666666666667
+  ],
+  "mean_handlings": 5.403333333333332,
+  "peak_held_tonnes": 2509.08,
+  "swarm_tonnes": 12180.0
+ },
+ "baseline|swim=0.036|1 cm/s alongshore": {
+  "captured_frac": 0.8415,
+  "captured_range": [
+   0.7386666666666667,
+   0.954
+  ],
+  "mean_handlings": 0.0,
+  "peak_held_tonnes": 0.0,
+  "swarm_tonnes": 12180.0
+ },
+ "jazr_immediate|swim=0.036|1 cm/s alongshore": {
+  "captured_frac": 0.38233333333333336,
+  "captured_range": [
+   0.334,
+   0.43
+  ],
+  "mean_handlings": 6.271833333333333,
+  "peak_held_tonnes": 0.0,
+  "swarm_tonnes": 12180.0
+ },
+ "jazr_hold|swim=0.036|1 cm/s alongshore": {
+  "captured_frac": 0.3431666666666666,
+  "captured_range": [
+   0.30333333333333334,
+   0.36
+  ],
+  "mean_handlings": 5.620500000000001,
+  "peak_held_tonnes": 6924.33,
+  "swarm_tonnes": 12180.0
+ },
+ "jazr_ebb|swim=0.036|1 cm/s alongshore": {
+  "captured_frac": 0.2851666666666667,
+  "captured_range": [
+   0.266,
+   0.30533333333333335
+  ],
+  "mean_handlings": 4.847333333333333,
+  "peak_held_tonnes": 3649.94,
+  "swarm_tonnes": 12180.0
+ },
+ "baseline|swim=0.036|1 cm/s onshore": {
+  "captured_frac": 0.9648333333333333,
+  "captured_range": [
+   0.9406666666666667,
+   0.988
+  ],
+  "mean_handlings": 0.0,
+  "peak_held_tonnes": 0.0,
+  "swarm_tonnes": 12180.0
+ },
+ "jazr_immediate|swim=0.036|1 cm/s onshore": {
+  "captured_frac": 0.41183333333333333,
+  "captured_range": [
+   0.40066666666666667,
+   0.42333333333333334
+  ],
+  "mean_handlings": 6.721166666666667,
+  "peak_held_tonnes": 0.0,
+  "swarm_tonnes": 12180.0
+ },
+ "jazr_hold|swim=0.036|1 cm/s onshore": {
+  "captured_frac": 0.38716666666666666,
+  "captured_range": [
+   0.36666666666666664,
+   0.402
+  ],
+  "mean_handlings": 6.244666666666667,
+  "peak_held_tonnes": 7541.449999999999,
+  "swarm_tonnes": 12180.0
+ },
+ "jazr_ebb|swim=0.036|1 cm/s onshore": {
+  "captured_frac": 0.3338333333333333,
+  "captured_range": [
+   0.322,
+   0.3473333333333333
+  ],
+  "mean_handlings": 5.7165,
+  "peak_held_tonnes": 2941.47,
+  "swarm_tonnes": 12180.0
+ },
+ "baseline|swim=0.1|no residual": {
+  "captured_frac": 0.8620000000000001,
+  "captured_range": [
+   0.846,
+   0.8766666666666667
+  ],
+  "mean_handlings": 0.0,
+  "peak_held_tonnes": 0.0,
+  "swarm_tonnes": 12180.0
+ },
+ "jazr_immediate|swim=0.1|no residual": {
+  "captured_frac": 0.36350000000000005,
+  "captured_range": [
+   0.3526666666666667,
+   0.384
+  ],
+  "mean_handlings": 6.494166666666667,
+  "peak_held_tonnes": 0.0,
+  "swarm_tonnes": 12180.0
+ },
+ "jazr_hold|swim=0.1|no residual": {
+  "captured_frac": 0.3343333333333333,
+  "captured_range": [
+   0.31466666666666665,
+   0.3506666666666667
+  ],
+  "mean_handlings": 5.2675,
+  "peak_held_tonnes": 6374.199999999999,
+  "swarm_tonnes": 12180.0
+ },
+ "jazr_ebb|swim=0.1|no residual": {
+  "captured_frac": 0.246,
+  "captured_range": [
+   0.23666666666666666,
+   0.264
+  ],
+  "mean_handlings": 4.620166666666667,
+  "peak_held_tonnes": 3560.62,
+  "swarm_tonnes": 12180.0
+ },
+ "baseline|swim=0.1|1 cm/s alongshore": {
+  "captured_frac": 0.8003333333333333,
+  "captured_range": [
+   0.724,
+   0.8713333333333333
+  ],
+  "mean_handlings": 0.0,
+  "peak_held_tonnes": 0.0,
+  "swarm_tonnes": 12180.0
+ },
+ "jazr_immediate|swim=0.1|1 cm/s alongshore": {
+  "captured_frac": 0.3343333333333333,
+  "captured_range": [
+   0.29733333333333334,
+   0.36933333333333335
+  ],
+  "mean_handlings": 5.812833333333334,
+  "peak_held_tonnes": 0.0,
+  "swarm_tonnes": 12180.0
+ },
+ "jazr_hold|swim=0.1|1 cm/s alongshore": {
+  "captured_frac": 0.3138333333333333,
+  "captured_range": [
+   0.29133333333333333,
+   0.33466666666666667
+  ],
+  "mean_handlings": 5.1325,
+  "peak_held_tonnes": 6266.610000000001,
+  "swarm_tonnes": 12180.0
+ },
+ "jazr_ebb|swim=0.1|1 cm/s alongshore": {
+  "captured_frac": 0.22683333333333333,
+  "captured_range": [
+   0.21,
+   0.238
+  ],
+  "mean_handlings": 4.358833333333333,
+  "peak_held_tonnes": 3308.9,
+  "swarm_tonnes": 12180.0
+ },
+ "baseline|swim=0.1|1 cm/s onshore": {
+  "captured_frac": 0.9041666666666667,
+  "captured_range": [
+   0.8866666666666667,
+   0.92
+  ],
+  "mean_handlings": 0.0,
+  "peak_held_tonnes": 0.0,
+  "swarm_tonnes": 12180.0
+ },
+ "jazr_immediate|swim=0.1|1 cm/s onshore": {
+  "captured_frac": 0.42133333333333334,
+  "captured_range": [
+   0.40066666666666667,
+   0.43466666666666665
+  ],
+  "mean_handlings": 7.232166666666666,
+  "peak_held_tonnes": 0.0,
+  "swarm_tonnes": 12180.0
+ },
+ "jazr_hold|swim=0.1|1 cm/s onshore": {
+  "captured_frac": 0.3536666666666667,
+  "captured_range": [
+   0.3373333333333333,
+   0.37133333333333335
+  ],
+  "mean_handlings": 5.795166666666667,
+  "peak_held_tonnes": 7005.53,
+  "swarm_tonnes": 12180.0
+ },
+ "jazr_ebb|swim=0.1|1 cm/s onshore": {
+  "captured_frac": 0.27449999999999997,
+  "captured_range": [
+   0.2673333333333333,
+   0.2786666666666667
+  ],
+  "mean_handlings": 5.274666666666667,
+  "peak_held_tonnes": 4055.94,
+  "swarm_tonnes": 12180.0
+ },
+ "eta_g=0.4": 0.5185,
+ "eta_g=0.5": 0.4645,
+ "eta_g=0.6": 0.39683333333333337,
+ "eta_g=0.7": 0.31783333333333336,
+ "eta_g=0.8": 0.221,
+ "eta_g=0.9": 0.11966666666666667,
+ "window=0.1": {
+  "captured_frac": 0.18200000000000002,
+  "mean_handlings": 3.8004999999999995,
+  "peak_held_tonnes": 7208.53
+ },
+ "window=0.25": {
+  "captured_frac": 0.20966666666666667,
+  "mean_handlings": 4.094333333333333,
+  "peak_held_tonnes": 6258.49
+ },
+ "window=0.5": {
+  "captured_frac": 0.31783333333333336,
+  "mean_handlings": 5.403333333333332,
+  "peak_held_tonnes": 2509.08
+ },
+ "window=0.75": {
+  "captured_frac": 0.37866666666666665,
+  "mean_handlings": 6.062666666666667,
+  "peak_held_tonnes": 1222.06
+ },
+ "window=1.0": {
+  "captured_frac": 0.40449999999999997,
+  "mean_handlings": 6.3445,
+  "peak_held_tonnes": 0.0
+ }
+}

@@ -1,0 +1,20 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 240 240" width="240" height="240">
+  <defs>
+    <linearGradient id="bell" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#5FF0DC"/><stop offset="1" stop-color="#14BEAA"/>
+    </linearGradient>
+    <linearGradient id="wave" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#14BEAA"/><stop offset="1" stop-color="#0A8FA0" stop-opacity="0.9"/>
+    </linearGradient>
+  </defs>
+  <!-- bell -->
+  <path d="M48 112 A72 72 0 0 1 192 112 Q176 104 160 112 Q144 120 128 112 Q112 104 96 112 Q80 120 64 112 Q56 108 48 112 Z" fill="url(#bell)"/>
+  <!-- inner highlight -->
+  <path d="M74 92 A50 50 0 0 1 120 60" fill="none" stroke="#FFFFFF" stroke-opacity="0.55" stroke-width="7" stroke-linecap="round"/>
+  <!-- oral arms becoming an outgoing ebb wave (to the right = back out to sea) -->
+  <path d="M84 124 C84 150 104 160 128 160 C156 160 170 148 196 148" fill="none" stroke="url(#wave)" stroke-width="12" stroke-linecap="round"/>
+  <path d="M104 126 C104 166 132 184 160 184 C182 184 196 176 214 174" fill="none" stroke="url(#wave)" stroke-width="10" stroke-linecap="round" stroke-opacity="0.85"/>
+  <path d="M124 126 C126 178 150 204 178 206 C194 207 206 202 218 198" fill="none" stroke="url(#wave)" stroke-width="8" stroke-linecap="round" stroke-opacity="0.7"/>
+  <!-- arrow tip: released, heading out -->
+  <path d="M206 136 L222 148 L206 160" fill="none" stroke="#FFCD78" stroke-width="9" stroke-linecap="round" stroke-linejoin="round"/>
+</svg>

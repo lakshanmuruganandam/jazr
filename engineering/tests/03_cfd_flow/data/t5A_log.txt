@@ -1,0 +1,9 @@
+slice d_c/H=0.5 mesh  dz=0.2 through-mesh 0.42 k_eff 0.71 w/Un at mid-curtain 0.09 conv True imb -5.8e-16
+slice d_c/H=0.5 mesh  dz=0.1 through-mesh 0.41 k_eff 0.68 w/Un at mid-curtain 0.09 conv True imb -1.4e-15
+slice d_c/H=0.5 solid dz=0.2 through-mesh 0.00 k_eff 8.24 w/Un at mid-curtain 0.49 conv True imb -2.3e-15
+slice d_c/H=0.5 solid dz=0.1 through-mesh 0.00 k_eff 7.94 w/Un at mid-curtain 0.46 conv True imb -6.7e-15
+slice d_c/H=0.75 mesh  dz=0.2 through-mesh 0.72 k_eff 1.18 w/Un at mid-curtain 0.05 conv True imb -7.7e-16
+slice d_c/H=0.75 mesh  dz=0.1 through-mesh 0.68 k_eff 1.11 w/Un at mid-curtain 0.06 conv True imb -2.0e-15
+slice d_c/H=0.75 solid dz=0.2 through-mesh 0.00 k_eff 41.33 w/Un at mid-curtain 0.61 conv True imb -2.2e-14
+slice d_c/H=0.75 solid dz=0.1 through-mesh 0.00 k_eff 33.45 w/Un at mid-curtain 0.57 conv True imb -5.8e-14
+wall 478.2484929561615

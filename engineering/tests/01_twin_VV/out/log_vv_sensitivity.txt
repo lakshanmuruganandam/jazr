@@ -1,0 +1,10 @@
+v3 Morris mu* (pct-pts over full range): {'eta_r': np.float64(37.78), 'eta_g': np.float64(31.1), 'ur': np.float64(24.12), 'vr': np.float64(15.93), 'gate_y': np.float64(15.52), 'hours': np.float64(9.82), 'swim': np.float64(9.18), 'U0': np.float64(1.04)}
+today Morris mu* (pct-pts over full range): {'ur': np.float64(30.42), 'swim': np.float64(5.08), 'vr': np.float64(4.65), 'hours': np.float64(4.21), 'U0': np.float64(1.85), 'eta_g': np.float64(0.0), 'eta_r': np.float64(0.0), 'gate_y': np.float64(0.0)}
+Traceback (most recent call last):
+  File "./TESTS/01_twin_VV/vv_sensitivity.py", line 79, in <module>
+    print("Sobol ST:", {FACT[i][0]: round(ST[i], 3) for i in np.argsort(-ST)}, "sum S1", round(S1.sum), flush=True)
+                                                                                         ~~~~~^^^^^^^^
+TypeError: type builtin_function_or_method doesn't define __round__ method
+real 1210.14
+user 4576.60
+sys 42.62

@@ -1,0 +1,6 @@
+Sobol ST: {'eta_r': np.float64(0.369), 'eta_g': np.float64(0.188), 'ur': np.float64(0.138), 'vr': np.float64(0.1), 'gate_y': np.float64(0.082), 'hours': np.float64(0.074), 'swim': np.float64(0.016), 'U0': np.float64(0.003)} sum S1 0.519
+Sobol S1: {'eta_r': np.float64(0.274), 'eta_g': np.float64(-0.012), 'ur': np.float64(0.004), 'vr': np.float64(0.008), 'gate_y': np.float64(0.166), 'hours': np.float64(0.089), 'swim': np.float64(-0.004), 'U0': np.float64(-0.004)}
+runtime s 7171
+real 7172.09
+user 1502.65
+sys 17.16

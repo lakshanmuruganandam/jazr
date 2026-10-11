@@ -1,0 +1,570 @@
+{
+ "T1_cost_table_mode_musd_per_unit": {
+  "training_wall_150-200m": 4.0,
+  "piled_gantry_150-200m": 6.0,
+  "mesh_bays_drums_rails_motors": 4.0,
+  "bypass_camera_screw_headtank_pump": 4.0,
+  "seabed_HDPE_pipe_5km_1.2mID": 10.0,
+  "outlets_x2_diffusers": 1.0,
+  "controls_OS_sensors_share": 0.07,
+  "SUBTOTAL direct": 29.07,
+  "engineering/nuclear QA/licensing/seismic": 8.72,
+  "contingency": 13.23,
+  "TOTAL per unit": 51.02
+ },
+ "T1_cost_bounds_musd_per_unit": {
+  "low": {
+   "direct": 16.5,
+   "total": 23.8,
+   "total_AED_M": 87
+  },
+  "mode": {
+   "direct": 29.1,
+   "total": 51.0,
+   "total_AED_M": 187
+  },
+  "high": {
+   "direct": 59.3,
+   "total": 124.5,
+   "total_AED_M": 457
+  }
+ },
+ "T1_cost_MC": {
+  "A": {
+   "capex_per_unit_musd_p10_p50_p90": [
+    10.9,
+    14.3,
+    18.4
+   ],
+   "capex_per_unit_AEDm_p10_p50_p90": [
+    40.0,
+    52.0,
+    68.0
+   ],
+   "opex_per_unit_musd_yr_p10_p50_p90": [
+    0.51,
+    0.63,
+    0.76
+   ],
+   "line_power_kw_p10_p50_p90": [
+    439.0,
+    490.0,
+    540.0
+   ],
+   "levelised_cost_per_unit_musd_yr_r0.03": [
+    1.11,
+    1.36,
+    1.66
+   ],
+   "levelised_cost_per_unit_musd_yr_r0.06": [
+    1.35,
+    1.67,
+    2.06
+   ],
+   "levelised_cost_per_unit_musd_yr_r0.08": [
+    1.53,
+    1.9,
+    2.36
+   ],
+   "levelised_cost_per_unit_musd_yr_r0.1": [
+    1.72,
+    2.15,
+    2.67
+   ]
+  },
+  "B": {
+   "capex_per_unit_musd_p10_p50_p90": [
+    51.6,
+    61.0,
+    71.6
+   ],
+   "capex_per_unit_AEDm_p10_p50_p90": [
+    190.0,
+    224.0,
+    263.0
+   ],
+   "opex_per_unit_musd_yr_p10_p50_p90": [
+    1.16,
+    1.4,
+    1.67
+   ],
+   "line_power_kw_p10_p50_p90": [
+    439.0,
+    490.0,
+    541.0
+   ],
+   "levelised_cost_per_unit_musd_yr_r0.03": [
+    3.87,
+    4.51,
+    5.24
+   ],
+   "levelised_cost_per_unit_musd_yr_r0.06": [
+    4.99,
+    5.83,
+    6.78
+   ],
+   "levelised_cost_per_unit_musd_yr_r0.08": [
+    5.83,
+    6.82,
+    7.93
+   ],
+   "levelised_cost_per_unit_musd_yr_r0.1": [
+    6.72,
+    7.87,
+    9.16
+   ]
+  }
+ },
+ "T1_crosscheck_GCID": {
+  "GCID_1998_2001_musd": 75,
+  "approx_2025_musd": 145,
+  "flow_m3s": 85,
+  "note": "Includes river gradient facility; CPI ratio ~1.93 approximate"
+ },
+ "T2_frequency": {
+  "sites": 51,
+  "events": 41,
+  "site_years": 2222,
+  "pooled_rate_all": 0.0184,
+  "gamma_prior_alpha_beta": [
+   0.268,
+   12.68
+  ],
+  "prior_mean": 0.0211,
+  "site_posterior_mean": 0.0147,
+  "site_posterior_p10_p50_p90": [
+   0.0,
+   0.003,
+   0.044
+  ],
+  "P(lambda>0.1/yr)": 0.024,
+  "scenario_lambda": {
+   "S0 base (global Gamma-Poisson + the plant 0 events/5.5 yr)": 0.0147,
+   "S1 jellyfish-prone site (pooled rate of sites with >=1 event)": 0.0565,
+   "S2 Hanul-like (9 shutdowns 1996-2006)": 0.8182,
+   "S3 Gravelines-like (3 events 2025-26)": 1.5
+  },
+  "severity_unit_days_mean": 7.67,
+  "severity_unit_days_median_of_midpoints": 3.75,
+  "severity_max": 52.0,
+  "unit_day_GWh": 32.1
+ },
+ "T2_expected_annual_loss_site_musd_no_jazr": {
+  "S0 base (global Gamma-Poisson + the plant 0 events/5.5 yr)": 0.22,
+  "S1 jellyfish-prone site (pooled rate of sites with >=1 event)": 0.86,
+  "S2 Hanul-like (9 shutdowns 1996-2006)": 12.49,
+  "S3 Gravelines-like (3 events 2025-26)": 22.9
+ },
+ "T3_npv_6pct_full": {
+  "A-S0": {
+   "p_payback": 0.001,
+   "npv_p50": -80.3
+  },
+  "A-S1": {
+   "p_payback": 0.003,
+   "npv_p50": -73.9
+  },
+  "A-S2": {
+   "p_payback": 0.872,
+   "npv_p50": 53.9
+  },
+  "A-S3": {
+   "p_payback": 0.999,
+   "npv_p50": 171.5
+  },
+  "B-S0": {
+   "p_payback": 0.0,
+   "npv_p50": -300.1
+  },
+  "B-S1": {
+   "p_payback": 0.0,
+   "npv_p50": -292.9
+  },
+  "B-S2": {
+   "p_payback": 0.019,
+   "npv_p50": -164.2
+  },
+  "B-S3": {
+   "p_payback": 0.299,
+   "npv_p50": -48.2
+  }
+ },
+ "T3_breakeven": {
+  "A_r0.03": {
+   "capex_unit_musd": 13.6,
+   "opex_unit_musd": 0.58,
+   "unit_days_per_unit_yr": 0.75,
+   "unit_days_over_life_per_unit": 22.4,
+   "site_events_per_yr_needed": 0.38,
+   "years_between_events_needed": 2.7
+  },
+  "A_r0.06": {
+   "capex_unit_musd": 13.6,
+   "opex_unit_musd": 0.58,
+   "unit_days_per_unit_yr": 0.93,
+   "unit_days_over_life_per_unit": 27.9,
+   "site_events_per_yr_needed": 0.47,
+   "years_between_events_needed": 2.1
+  },
+  "A_r0.08": {
+   "capex_unit_musd": 13.6,
+   "opex_unit_musd": 0.58,
+   "unit_days_per_unit_yr": 1.07,
+   "unit_days_over_life_per_unit": 32.0,
+   "site_events_per_yr_needed": 0.54,
+   "years_between_events_needed": 1.9
+  },
+  "A_r0.1": {
+   "capex_unit_musd": 13.6,
+   "opex_unit_musd": 0.58,
+   "unit_days_per_unit_yr": 1.21,
+   "unit_days_over_life_per_unit": 36.4,
+   "site_events_per_yr_needed": 0.61,
+   "years_between_events_needed": 1.6
+  },
+  "B_r0.03": {
+   "capex_unit_musd": 51.0,
+   "opex_unit_musd": 1.2,
+   "unit_days_per_unit_yr": 2.33,
+   "unit_days_over_life_per_unit": 69.8,
+   "site_events_per_yr_needed": 1.17,
+   "years_between_events_needed": 0.9
+  },
+  "B_r0.06": {
+   "capex_unit_musd": 51.0,
+   "opex_unit_musd": 1.2,
+   "unit_days_per_unit_yr": 3.02,
+   "unit_days_over_life_per_unit": 90.5,
+   "site_events_per_yr_needed": 1.52,
+   "years_between_events_needed": 0.7
+  },
+  "B_r0.08": {
+   "capex_unit_musd": 51.0,
+   "opex_unit_musd": 1.2,
+   "unit_days_per_unit_yr": 3.53,
+   "unit_days_over_life_per_unit": 106.0,
+   "site_events_per_yr_needed": 1.78,
+   "years_between_events_needed": 0.6
+  },
+  "B_r0.1": {
+   "capex_unit_musd": 51.0,
+   "opex_unit_musd": 1.2,
+   "unit_days_per_unit_yr": 4.08,
+   "unit_days_over_life_per_unit": 122.5,
+   "site_events_per_yr_needed": 2.06,
+   "years_between_events_needed": 0.5
+  }
+ },
+ "T3_note": "Break-even uses mode inputs and the twin's mode reach (12%) and 95% availability; unit-days are outage days on the protected unit WITHOUT JAZR.",
+ "T3_tornado_caseA_S1_r6": {
+  "base_npv_musd": -69.0,
+  "swings": {
+   "Fixed cost per event (0.1..2 M)": [
+    -69.3,
+    -68.1
+   ],
+   "Availability (85%..99%)": [
+    -70.0,
+    -68.7
+   ],
+   "Reach intake with JAZR (28%..5.5%, model)": [
+    -70.8,
+    -68.3
+   ],
+   "Horizon (20..50 yr)": [
+    -65.9,
+    -71.7
+   ],
+   "Severity unit-days/event (mean of lows..highs)": [
+    -72.7,
+    -65.4
+   ],
+   "Value of lost MWh (USD 46..100)": [
+    -71.1,
+    -63.2
+   ],
+   "Discount rate (10%..3%)": [
+    -62.8,
+    -76.9
+   ],
+   "Response-crew saving (0..1.35 M/yr site)": [
+    -73.2,
+    -56.1
+   ],
+   "OPEX per unit (x0.5..x1.5)": [
+    -54.4,
+    -83.7
+   ],
+   "CAPEX per unit (AED 30..80 M)": [
+    -47.9,
+    -100.8
+   ],
+   "Site event rate (S0 mean .. Hanul 0.82/yr)": [
+    -75.7,
+    53.0
+   ]
+  }
+ },
+ "T3_payback_curve": {
+  "lambda": [
+   0.005,
+   0.0062,
+   0.0078,
+   0.0097,
+   0.0121,
+   0.0151,
+   0.0188,
+   0.0234,
+   0.0292,
+   0.0364,
+   0.0454,
+   0.0566,
+   0.0706,
+   0.088,
+   0.1097,
+   0.1368,
+   0.1705,
+   0.2126,
+   0.2651,
+   0.3305,
+   0.412,
+   0.5137,
+   0.6405,
+   0.7986,
+   0.9957,
+   1.2414,
+   1.5478,
+   1.9299,
+   2.4062,
+   3.0
+  ],
+  "P_caseA": [
+   0.0,
+   0.0,
+   0.0003333333333333333,
+   0.0006666666666666666,
+   0.0003333333333333333,
+   0.0003333333333333333,
+   0.0003333333333333333,
+   0.001,
+   0.0013333333333333333,
+   0.0003333333333333333,
+   0.0013333333333333333,
+   0.0023333333333333335,
+   0.004666666666666667,
+   0.010333333333333333,
+   0.015,
+   0.024333333333333332,
+   0.043,
+   0.07766666666666666,
+   0.134,
+   0.21166666666666667,
+   0.3476666666666667,
+   0.5196666666666667,
+   0.6946666666666667,
+   0.856,
+   0.9536666666666667,
+   0.99,
+   0.9993333333333333,
+   1.0,
+   1.0,
+   1.0
+  ],
+  "P_caseB": [
+   0.0,
+   0.0,
+   0.0,
+   0.0,
+   0.0,
+   0.0,
+   0.0,
+   0.0,
+   0.0,
+   0.0,
+   0.0,
+   0.0,
+   0.0,
+   0.0,
+   0.0,
+   0.0,
+   0.0,
+   0.0,
+   0.0,
+   0.0,
+   0.0,
+   0.0013333333333333333,
+   0.004333333333333333,
+   0.013,
+   0.049,
+   0.14533333333333334,
+   0.3233333333333333,
+   0.5986666666666667,
+   0.8436666666666667,
+   0.97
+  ]
+ },
+ "T4_alternatives_rows": 6,
+ "T5_phasing_real_option_r6": {
+  "A-S0-bayes": {
+   "E[NPV] full now": -80.2,
+   "E[NPV] pilot only": -20.1,
+   "E[NPV] pilot + option to expand": -20.1,
+   "P(expand)": 0.0,
+   "option value vs full now": 60.2,
+   "option value vs pilot only": 0.0
+  },
+  "A-S0-observed": {
+   "E[NPV] full now": -80.2,
+   "E[NPV] pilot only": -20.1,
+   "E[NPV] pilot + option to expand": -20.4,
+   "P(expand)": 0.012,
+   "option value vs full now": 59.8,
+   "option value vs pilot only": -0.4
+  },
+  "A-S1-bayes": {
+   "E[NPV] full now": -73.0,
+   "E[NPV] pilot only": -18.2,
+   "E[NPV] pilot + option to expand": -18.2,
+   "P(expand)": 0.0,
+   "option value vs full now": 54.7,
+   "option value vs pilot only": 0.0
+  },
+  "A-S1-observed": {
+   "E[NPV] full now": -73.0,
+   "E[NPV] pilot only": -18.2,
+   "E[NPV] pilot + option to expand": -19.9,
+   "P(expand)": 0.045,
+   "option value vs full now": 53.1,
+   "option value vs pilot only": -1.6
+  },
+  "A-S2-bayes": {
+   "E[NPV] full now": 60.6,
+   "E[NPV] pilot only": 15.1,
+   "E[NPV] pilot + option to expand": 15.5,
+   "P(expand)": 0.006,
+   "option value vs full now": -45.1,
+   "option value vs pilot only": 0.3
+  },
+  "A-S2-observed": {
+   "E[NPV] full now": 60.6,
+   "E[NPV] pilot only": 15.1,
+   "E[NPV] pilot + option to expand": 42.1,
+   "P(expand)": 0.817,
+   "option value vs full now": -18.4,
+   "option value vs pilot only": 27.0
+  },
+  "A-S3-bayes": {
+   "E[NPV] full now": 180.1,
+   "E[NPV] pilot only": 45.0,
+   "E[NPV] pilot + option to expand": 55.4,
+   "P(expand)": 0.083,
+   "option value vs full now": -124.7,
+   "option value vs pilot only": 10.4
+  },
+  "A-S3-observed": {
+   "E[NPV] full now": 180.1,
+   "E[NPV] pilot only": 45.0,
+   "E[NPV] pilot + option to expand": 141.1,
+   "P(expand)": 0.977,
+   "option value vs full now": -39.0,
+   "option value vs pilot only": 96.1
+  },
+  "B-S0-bayes": {
+   "E[NPV] full now": -302.1,
+   "E[NPV] pilot only": -75.5,
+   "E[NPV] pilot + option to expand": -75.5,
+   "P(expand)": 0.0,
+   "option value vs full now": 226.5,
+   "option value vs pilot only": 0.0
+  },
+  "B-S0-observed": {
+   "E[NPV] full now": -302.1,
+   "E[NPV] pilot only": -75.5,
+   "E[NPV] pilot + option to expand": -75.5,
+   "P(expand)": 0.0,
+   "option value vs full now": 226.5,
+   "option value vs pilot only": 0.0
+  },
+  "B-S1-bayes": {
+   "E[NPV] full now": -294.4,
+   "E[NPV] pilot only": -73.6,
+   "E[NPV] pilot + option to expand": -73.6,
+   "P(expand)": 0.0,
+   "option value vs full now": 220.8,
+   "option value vs pilot only": 0.0
+  },
+  "B-S1-observed": {
+   "E[NPV] full now": -294.4,
+   "E[NPV] pilot only": -73.6,
+   "E[NPV] pilot + option to expand": -73.6,
+   "P(expand)": 0.0,
+   "option value vs full now": 220.8,
+   "option value vs pilot only": 0.0
+  },
+  "B-S2-bayes": {
+   "E[NPV] full now": -160.9,
+   "E[NPV] pilot only": -40.2,
+   "E[NPV] pilot + option to expand": -40.2,
+   "P(expand)": 0.0,
+   "option value vs full now": 120.7,
+   "option value vs pilot only": 0.0
+  },
+  "B-S2-observed": {
+   "E[NPV] full now": -160.9,
+   "E[NPV] pilot only": -40.2,
+   "E[NPV] pilot + option to expand": -44.8,
+   "P(expand)": 0.06,
+   "option value vs full now": 116.2,
+   "option value vs pilot only": -4.5
+  },
+  "B-S3-bayes": {
+   "E[NPV] full now": -41.4,
+   "E[NPV] pilot only": -10.4,
+   "E[NPV] pilot + option to expand": -10.4,
+   "P(expand)": 0.0,
+   "option value vs full now": 31.1,
+   "option value vs pilot only": 0.0
+  },
+  "B-S3-observed": {
+   "E[NPV] full now": -41.4,
+   "E[NPV] pilot only": -10.4,
+   "E[NPV] pilot + option to expand": -15.4,
+   "P(expand)": 0.347,
+   "option value vs full now": 26.1,
+   "option value vs pilot only": -5.0
+  }
+ },
+ "T6_emissions": {
+  "per_unit_rows_tco2_yr": {
+   "JAZR operation (electricity, displaced gas), per unit": 158.2,
+   "JAZR embodied (steel+HDPE+concrete+install)/30 yr, per unit": 208.8,
+   "JAZR TOTAL per unit-yr": 367.0
+  },
+  "line_power_kw_mode": 490,
+  "embodied_tco2_per_unit": 6265,
+  "site_compare_tco2_yr": {
+   "JAZR (4 lines, op+embodied)": 1468.2,
+   "Status quo boats (diesel)": 205.8,
+   "Bubble curtain 440 kW (their 12.6 t/event)": 25.2,
+   "Bubble curtain 135 kW (older figure)": 7.7
+  },
+  "avoided_tco2_per_unit_day_outage": 12964,
+  "avoided_tco2_yr_S0_mean": 1156,
+  "avoided_tco2_yr_S1_mean": 4395,
+  "avoided_tco2_yr_S2_mean": 63695,
+  "carbon_payback_years_S0": 47.9,
+  "carbon_payback_years_S1": 6.7,
+  "carbon_payback_years_S2": 0.4
+ },
+ "T7_rubric": {
+  "v3_self_score": 85.0,
+  "redteam_score_with_tank": 67.0,
+  "redteam_score_no_tank": 59.5,
+  "benchmark_estimate": 70.5
+ },
+ "T6b_regulatory_counts": {
+  "PASS": 2,
+  "RISK": 11,
+  "N/A": 1
+ }
+}

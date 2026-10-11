@@ -1,0 +1,110 @@
+{
+ "catostylus_records_unique": 35,
+ "catostylus_species": {
+  "Catostylus perezi": 33,
+  "Catostylus mosaicus": 1,
+  "Catostylus mosaicus (Quoy & Gaimard, 1824)": 1
+ },
+ "catostylus_by_month": {
+  "Jan": 1,
+  "Mar": 5,
+  "Apr": 8,
+  "May": 1,
+  "Jun": 3,
+  "Aug": 2,
+  "Sep": 6,
+  "Oct": 4,
+  "Nov": 1,
+  "Dec": 4
+ },
+ "catostylus_within_100km": 0,
+ "catostylus_nearest_km": 173.48444076649196,
+ "turtle_records": 5217,
+ "turtle_species": {
+  "Chelonia mydas": 5217
+ },
+ "turtle_datasets": {
+  "Gulf Green Turtle Project 2016-2019": 5217
+ },
+ "turtle_records_within_20km_site": 5,
+ "turtle_records_within_50km_site": 87,
+ "turtle_min_dist_site_km": 6.47984742981432,
+ "turtle_speed_n_pairs": 4695,
+ "turtle_n_individuals": 39,
+ "turtle_speed_median_ms": 0.07539195700151842,
+ "turtle_speed_p90_ms": 0.3290335601919921,
+ "turtle_speed_p99_ms": 0.8663755921491665,
+ "dugong_obis_records_gulf": 10,
+ "mass_at_UAE_Oct_Nov_mean_bell_kg": {
+  "Oct": [
+   0.042,
+   0.015
+  ],
+  "Nov": [
+   0.131,
+   0.09
+  ]
+ },
+ "implied_density_if_at_400m3s": {
+  "Shin Hanul 17 Jul 2024 (202 t/day)": {
+   "3.0 kg": 0.0019483024691358025,
+   "0.326 kg": 0.01792916382640309
+  },
+  "Shin Hanul 4-day mean (428 t/4 d)": {
+   "3.0 kg": 0.0010320216049382715,
+   "0.326 kg": 0.009497131333787776
+  },
+  "Hanbit 2009 upper (40 t/day)": {
+   "3.0 kg": 0.00038580246913580245,
+   "0.326 kg": 0.0035503294705748695
+  },
+  "Hanbit 2009 lower (10 t/day)": {
+   "3.0 kg": 9.645061728395061e-05,
+   "0.326 kg": 0.0008875823676437174
+  }
+ },
+ "hycom_scale_applied": 0.001,
+ "hycom_OctNov": {
+  "years": [
+   "2019",
+   "2020",
+   "2021",
+   "2022",
+   "2023"
+  ],
+  "n": 2437,
+  "spd_median": 0.031400636936215164,
+  "spd_p90": 0.059033888572581766,
+  "mean_u": 0.012805908904390645,
+  "mean_v": -0.020063602790315962,
+  "onshore_mean": 0.023233498287334616,
+  "onshore_daily_p90": 0.03563940015901416,
+  "by_year_onshore": {
+   "2019": 0.027320717641357448,
+   "2020": 0.02201557970309458,
+   "2021": 0.018252865209867613,
+   "2022": 0.02526336118266247,
+   "2023": 0.023307480495279666
+  }
+ },
+ "onshore_running_mean_OctNov_ms": {
+  "1d": {
+   "p50": 0.01791534436392421,
+   "p90": 0.07552114137417153,
+   "p99": 0.10391028906266485,
+   "max": 0.11021607421509728
+  },
+  "3d": {
+   "p50": 0.021377097228692944,
+   "p90": 0.06244770621488219,
+   "p99": 0.09541971055171976,
+   "max": 0.10452027217518224
+  },
+  "10d": {
+   "p50": 0.026111440368836936,
+   "p90": 0.046743435440772904,
+   "p99": 0.06884943561142465,
+   "max": 0.07357174393456924
+  }
+ }
+}

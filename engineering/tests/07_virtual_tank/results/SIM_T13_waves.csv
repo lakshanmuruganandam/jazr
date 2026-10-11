@@ -1,0 +1,19 @@
+run,wave_height_cm,period_s,n_released,n_bypass,n_leaked_over_or_under,video_file,data_type
+1,0,,30,14,0,SIM_log seed=10000,SIMULATED virtual tank - not physical evidence
+2,0,,30,15,0,SIM_log seed=10097,SIMULATED virtual tank - not physical evidence
+3,0,,30,14,0,SIM_log seed=10194,SIMULATED virtual tank - not physical evidence
+1,1.0,1.0,30,14,0,SIM_log seed=10000,SIMULATED virtual tank - not physical evidence
+2,1.0,1.0,30,14,0,SIM_log seed=10097,SIMULATED virtual tank - not physical evidence
+3,1.0,1.0,30,17,0,SIM_log seed=10194,SIMULATED virtual tank - not physical evidence
+1,2.0,1.0,30,16,0,SIM_log seed=10000,SIMULATED virtual tank - not physical evidence
+2,2.0,1.0,30,14,0,SIM_log seed=10097,SIMULATED virtual tank - not physical evidence
+3,2.0,1.0,30,18,0,SIM_log seed=10194,SIMULATED virtual tank - not physical evidence
+1,4.0,1.0,30,21,0,SIM_log seed=10000,SIMULATED virtual tank - not physical evidence
+2,4.0,1.0,30,25,0,SIM_log seed=10097,SIMULATED virtual tank - not physical evidence
+3,4.0,1.0,30,25,0,SIM_log seed=10194,SIMULATED virtual tank - not physical evidence
+1,2.0,1.5,30,17,0,SIM_log seed=10000,SIMULATED virtual tank - not physical evidence
+2,2.0,1.5,30,16,0,SIM_log seed=10097,SIMULATED virtual tank - not physical evidence
+3,2.0,1.5,30,17,0,SIM_log seed=10194,SIMULATED virtual tank - not physical evidence
+1,4.0,1.5,30,26,0,SIM_log seed=10000,SIMULATED virtual tank - not physical evidence
+2,4.0,1.5,30,24,0,SIM_log seed=10097,SIMULATED virtual tank - not physical evidence
+3,4.0,1.5,30,27,0,SIM_log seed=10194,SIMULATED virtual tank - not physical evidence

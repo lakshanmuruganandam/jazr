@@ -1,0 +1,20 @@
+theta08            A=  1408 Vn mean 0.074 p95 0.108 max 0.114 cv 0.43 >0.12:0.00 Vt 0.62 Vt/Vn 8.4 min 5.9 conv False wall 518s
+theta11            A=  1027 Vn mean 0.100 p95 0.137 max 0.142 cv 0.31 >0.12:0.35 Vt 0.59 Vt/Vn 6.0 min 4.6 conv True wall 53s
+theta15            A=   757 Vn mean 0.135 p95 0.177 max 0.181 cv 0.26 >0.12:0.77 Vt 0.58 Vt/Vn 4.3 min 3.2 conv True wall 150s
+theta20            A=   573 Vn mean 0.179 p95 0.225 max 0.230 cv 0.21 >0.12:0.97 Vt 0.55 Vt/Vn 3.1 min 2.3 conv True wall 137s
+beta0.3            A=  1027 Vn mean 0.097 p95 0.141 max 0.148 cv 0.33 >0.12:0.28 Vt 0.63 Vt/Vn 6.6 min 4.9 conv True wall 218s
+beta0.7            A=  1027 Vn mean 0.102 p95 0.131 max 0.138 cv 0.31 >0.12:0.36 Vt 0.56 Vt/Vn 5.5 min 4.3 conv True wall 315s
+fb0                A=  1027 Vn mean 0.101 p95 0.139 max 0.144 cv 0.31 >0.12:0.36 Vt 0.60 Vt/Vn 6.0 min 4.5 conv True wall 258s
+fb1                A=  1027 Vn mean 0.101 p95 0.138 max 0.143 cv 0.31 >0.12:0.35 Vt 0.60 Vt/Vn 6.0 min 4.6 conv True wall 231s
+fb4                A=  1027 Vn mean 0.099 p95 0.134 max 0.140 cv 0.31 >0.12:0.29 Vt 0.59 Vt/Vn 6.0 min 4.6 conv True wall 168s
+fb2_term50         A=  1027 Vn mean 0.100 p95 0.137 max 0.142 cv 0.31 >0.12:0.35 Vt 0.60 Vt/Vn 6.0 min 4.7 conv True wall 209s
+sp15               A=  1027 Vn mean 0.105 p95 0.162 max 0.166 cv 0.46 >0.12:0.46 Vt 0.64 Vt/Vn 6.1 min 4.3 conv False wall 415s
+sp60               A=  1027 Vn mean 0.097 p95 0.124 max 0.129 cv 0.21 >0.12:0.13 Vt 0.57 Vt/Vn 5.9 min 4.7 conv True wall 173s
+noentr             A=  1027 Vn mean 0.096 p95 0.120 max 0.124 cv 0.16 >0.12:0.05 Vt 0.57 Vt/Vn 6.0 min 5.2 conv True wall 129s
+baffle10           A=  1027 Vn mean 0.095 p95 0.140 max 0.147 cv 0.33 >0.12:0.26 Vt 0.64 Vt/Vn 6.7 min 5.0 conv True wall 248s
+baffle30           A=  1027 Vn mean 0.092 p95 0.129 max 0.146 cv 0.29 >0.12:0.18 Vt 0.62 Vt/Vn 6.7 min 4.4 conv True wall 339s
+baffle100          A=  1027 Vn mean 0.087 p95 0.106 max 0.212 cv 0.19 >0.12:0.01 Vt 0.58 Vt/Vn 6.5 min 3.3 conv False wall 561s
+nu0.006            A=  1027 Vn mean 0.100 p95 0.137 max 0.143 cv 0.32 >0.12:0.35 Vt 0.60 Vt/Vn 6.0 min 4.6 conv False wall 340s
+nu0.05             A=  1027 Vn mean 0.100 p95 0.137 max 0.144 cv 0.31 >0.12:0.34 Vt 0.57 Vt/Vn 5.7 min 4.4 conv True wall 121s
+theta20_baffle30   A=   573 Vn mean 0.163 p95 0.191 max 0.208 cv 0.15 >0.12:0.92 Vt 0.55 Vt/Vn 3.3 min 2.4 conv True wall 182s
+total 886.5492160320282

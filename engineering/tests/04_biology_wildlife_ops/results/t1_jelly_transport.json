@@ -1,0 +1,234 @@
+{
+  "pipe": {
+    "L3000_clean": {
+      "v": 1.768388256576615,
+      "Re": 2906939.5998519696,
+      "f": 0.009771277790501078,
+      "tau_wall_Pa": 3.915078577227807,
+      "viscous_sublayer_um": 59.058791469850185,
+      "strain_wall_1ps": 5232.313501139735,
+      "strain_kolmogorov_1ps": 175.62044063019147,
+      "kolmogorov_um": 64.47240914556374,
+      "strain_bell_scale_1ps": 0.5685634863138811,
+      "residence_min": 28.274333882308138
+    },
+    "L3000_fouled_x2.5": {
+      "v": 1.768388256576615,
+      "Re": 2906939.5998519696,
+      "f": 0.024428194476252694,
+      "tau_wall_Pa": 9.787696443069517,
+      "viscous_sublayer_um": 37.35205938033002,
+      "strain_wall_1ps": 13080.783752849338,
+      "strain_kolmogorov_1ps": 277.6802980368908,
+      "kolmogorov_um": 51.27301980655994,
+      "strain_bell_scale_1ps": 0.7716593717015078,
+      "residence_min": 28.274333882308138
+    },
+    "L5000_clean": {
+      "v": 1.768388256576615,
+      "Re": 2906939.5998519696,
+      "f": 0.009771277790501078,
+      "tau_wall_Pa": 3.915078577227807,
+      "viscous_sublayer_um": 59.058791469850185,
+      "strain_wall_1ps": 5232.313501139735,
+      "strain_kolmogorov_1ps": 175.62044063019147,
+      "kolmogorov_um": 64.47240914556374,
+      "strain_bell_scale_1ps": 0.5685634863138811,
+      "residence_min": 47.12388980384689
+    },
+    "L5000_fouled_x2.5": {
+      "v": 1.768388256576615,
+      "Re": 2906939.5998519696,
+      "f": 0.024428194476252694,
+      "tau_wall_Pa": 9.787696443069517,
+      "viscous_sublayer_um": 37.35205938033002,
+      "strain_wall_1ps": 13080.783752849338,
+      "strain_kolmogorov_1ps": 277.6802980368908,
+      "kolmogorov_um": 51.27301980655994,
+      "strain_bell_scale_1ps": 0.7716593717015078,
+      "residence_min": 47.12388980384689
+    }
+  },
+  "bend_accel_g": 0.08854901534709705,
+  "screw": {
+    "tip_speed_mps": 4.231987103773251,
+    "axial_inlet_mps": 0.656979286721718,
+    "leading_edge_contact_prob": {
+      "0.10m": 0.20168063541419395,
+      "0.20m": 0.4033612708283879,
+      "0.30m": 0.6050419062425818,
+      "0.45m": 0.9075628593638727
+    },
+    "trout_analogue_survival": "98.3-100% (200-300 mm trout, Red Bluff/Tracy vol 25) [SRC 7]",
+    "note": "Rotating tube removes the housing pinch gap that killed ~1/3 of fish in Archimedes TURBINES (Albert Canal). Remaining hazard for a 30-45 cm bell is the leading edge at entry and air exposure/splash in the buckets [SRC 22]."
+  },
+  "screen": {
+    "max_contact_time_s": 60.0,
+    "mean_contact_time_s": 30.0,
+    "normal_pressure_clean_Pa": 5.125000000000001,
+    "normal_pressure_blinding_Pa": [
+      10,
+      200
+    ],
+    "note": "Contact pressure 5 Pa clean rises to 10-200 Pa under partial blinding (16_FLAW_AUDIT #2). No abrasion/extrusion threshold for scyphozoan mesoglea found -> tank test. Roll-up passes mesh over the drum: any bell still on the face is wound into the drum (crush hazard)."
+  },
+  "bypass": {
+    "velocity_gradient_1ps": 0.06666666666666665,
+    "nmfs_limit_1ps": 0.2,
+    "ok": true
+  },
+  "thermal": {
+    "dT_from_pump_C": {
+      "3000.0": 0.0238400880249404,
+      "5000.0": 0.034965462436579255
+    },
+    "T_transport_C": 35.83496546243658,
+    "Cmosaicus_UAE_range_C": "20-35 [SRC 12]",
+    "Cassiopea_medusa_stress_C": 39,
+    "Cassiopea_lethal_C": 40,
+    "Cassiopea_polyp_larva_100pct_mortality_C": 36,
+    "note": "System adds <0.04 C (pump heat; seabed pipe isothermal). Ambient 35.8 C already exceeds the observed UAE range; blooms are Oct-Nov when SST is lower."
+  },
+  "oxygen": {
+    "DO_sat_35_8C_S40_mgL": 5.558831847537173,
+    "sublethal_mgL": 2.61,
+    "lethal_mgL": 2.05,
+    "cases": {
+      "pilot_peak_35t/h": {
+        "biomass_kg_per_m3": 4.861111111111111,
+        "solids_vol_frac": 0.0047425474254742545,
+        "t_res_h": 0.8687314967307816,
+        "DO_drop_rest_mgL": 0.15086668683677096,
+        "DO_drop_active_mgL": 0.3017333736735419,
+        "DO_end_active_mgL": 5.257098473863632,
+        "DO_end_rest_mgL": 5.407965160700402
+      },
+      "0.1/m3, 1 line": {
+        "biomass_kg_per_m3": 13.5,
+        "solids_vol_frac": 0.013170731707317073,
+        "t_res_h": 0.8687314967307816,
+        "DO_drop_rest_mgL": 0.41897834172954684,
+        "DO_drop_active_mgL": 0.8379566834590937,
+        "DO_end_active_mgL": 4.7208751640780795,
+        "DO_end_rest_mgL": 5.1398535058076265
+      },
+      "0.3/m3 design, 1 line": {
+        "biomass_kg_per_m3": 40.5,
+        "solids_vol_frac": 0.03951219512195122,
+        "t_res_h": 0.8687314967307816,
+        "DO_drop_rest_mgL": 1.2569350251886404,
+        "DO_drop_active_mgL": 2.513870050377281,
+        "DO_end_active_mgL": 3.0449617971598926,
+        "DO_end_rest_mgL": 4.301896822348533
+      },
+      "0.3/m3 design, 3 lines": {
+        "biomass_kg_per_m3": 13.5,
+        "solids_vol_frac": 0.013170731707317073,
+        "t_res_h": 0.8687314967307816,
+        "DO_drop_rest_mgL": 0.41897834172954684,
+        "DO_drop_active_mgL": 0.8379566834590937,
+        "DO_end_active_mgL": 4.7208751640780795,
+        "DO_end_rest_mgL": 5.1398535058076265
+      },
+      "1/m3 extreme, 3 lines": {
+        "biomass_kg_per_m3": 45.0,
+        "solids_vol_frac": 0.04390243902439024,
+        "t_res_h": 0.8687314967307816,
+        "DO_drop_rest_mgL": 1.3965944724318229,
+        "DO_drop_active_mgL": 2.7931889448636458,
+        "DO_end_active_mgL": 2.7656429026735276,
+        "DO_end_rest_mgL": 4.1622373751053505
+      },
+      "1/m3 extreme, 1 line": {
+        "biomass_kg_per_m3": 135.0,
+        "solids_vol_frac": 0.13170731707317074,
+        "t_res_h": 0.8687314967307816,
+        "DO_drop_rest_mgL": 4.189783417295469,
+        "DO_drop_active_mgL": 8.379566834590937,
+        "DO_end_active_mgL": -2.820734987053764,
+        "DO_end_rest_mgL": 1.3690484302417048
+      }
+    },
+    "uncertainty": "respiration +/-72% (Purcell 2010); stressed animals may exceed 'active' rate"
+  },
+  "hgl_breakwater": {
+    "L3000_clean_crest3m": {
+      "total_head_m": 4.13264896308039,
+      "pressure_head_at_crest_m": 0.7193840667723514
+    },
+    "L3000_clean_crest6m": {
+      "total_head_m": 4.13264896308039,
+      "pressure_head_at_crest_m": -2.2806159332276486
+    },
+    "L3000_fouled_x2.5_crest3m": {
+      "total_head_m": 9.972998895545233,
+      "pressure_head_at_crest_m": 5.975699005990711
+    },
+    "L3000_fouled_x2.5_crest6m": {
+      "total_head_m": 9.972998895545233,
+      "pressure_head_at_crest_m": 2.9756990059907107
+    },
+    "L5000_clean_crest3m": {
+      "total_head_m": 6.728360044175876,
+      "pressure_head_at_crest_m": 3.3246584415253224
+    },
+    "L5000_clean_crest6m": {
+      "total_head_m": 6.728360044175876,
+      "pressure_head_at_crest_m": 0.3246584415253224
+    },
+    "L5000_fouled_x2.5_crest3m": {
+      "total_head_m": 16.462276598283946,
+      "pressure_head_at_crest_m": 12.474540002386908
+    },
+    "L5000_fouled_x2.5_crest6m": {
+      "total_head_m": 16.462276598283946,
+      "pressure_head_at_crest_m": 9.474540002386908
+    }
+  },
+  "verdicts": {
+    "T1h_breakwater_siphon": [
+      "MARGINAL",
+      "pressure head at an assumed +3..+6 m crest goes below +0.5 m in: L3000_clean_crest6m, L5000_clean_crest6m -> air release/bubbles under bells [SRC 22]. Route THROUGH the breakwater (culvert/HDD) or set head tank >= crest + 2 m"
+    ],
+    "T1a_pipe_shear_fish": [
+      "PASS",
+      "bulk strain (Kolmogorov) 176-278 1/s < 500 1/s (Neitzel 2004) and < 400 1/s larval guideline; wall strain only in a 59 um sublayer"
+    ],
+    "T1b_pipe_shear_jellyfish": [
+      "UNKNOWN",
+      "stressor is small (bell-scale strain ~0.6 1/s, 47 min) but there is no scyphozoan threshold; wall rubbing over 5 km unknown"
+    ],
+    "T1c_pressure": [
+      "PASS",
+      "medusae have no gas spaces; fish see pressure only rise above surface-acclimation (no decompression below ambient) provided the hydraulic grade line stays above the breakwater crest (see T1h)"
+    ],
+    "T1d_screw": [
+      "UNKNOWN",
+      "leading-edge contact probability for a 30-45 cm bell 0.61-0.91 per pass; tip speed 4.2 m/s; no jellyfish data; air exposure contrary to husbandry advice"
+    ],
+    "T1e_pump": [
+      "MARGINAL",
+      "screw-centrifugal pumps give 87-99% fish survival but a 45 cm bell must pass the impeller eye; delete the pump by gravity-feeding the pipe from a high head tank (two screws in series)"
+    ],
+    "T1f_screen_contact_and_drum": [
+      "UNKNOWN",
+      "up to 60 s sliding contact; roll-up through brush/drum crushes any bell left on the face -> interlock: roll up only after the bay face is swept/clear"
+    ],
+    "T1g_thermal": [
+      "PASS",
+      "transport adds <0.05 C; but release water must avoid the +5 C discharge plume"
+    ],
+    "T1i_oxygen": [
+      "MARGINAL",
+      "pilot load ok; 0.3/m3 on ONE line ends at 3.0 mg/L (sublethal 2.61); 1/m3 on one line -> -2.8 mg/L (anoxic). Requires >=3 lines at design density or O2 injection (Huon precedent)"
+    ],
+    "T1j_spawning": [
+      "UNKNOWN",
+      "stressed medusae can release gametes/brooded planulae [SRC 23]; no Catostylus test. Pick outlet away from hard substrate; count planulae in transport water in tank test"
+    ],
+    "T1k_bypass_accel": [
+      "PASS",
+      "velocity gradient 0.067 1/s vs NMFS 0.2 1/s (if accelerated over >=3 m)"
+    ]
+  }
+}

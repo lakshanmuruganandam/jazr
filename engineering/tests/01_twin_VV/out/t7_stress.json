@@ -1,0 +1,595 @@
+{
+ "Today median": {
+  "captured_frac": 0.9546666666666667,
+  "captured_tonnes": 11627.84,
+  "swarm_tonnes": 12180.0,
+  "mean_handlings": 0.0,
+  "peak_held_tonnes": 0.0,
+  "still_held_frac": 0.0,
+  "far_frac": 0.017583333333333333,
+  "captured_runs": [
+   0.9256666666666666,
+   0.9233333333333333,
+   0.9856666666666667,
+   0.9816666666666667,
+   0.931,
+   0.924,
+   0.985,
+   0.981
+  ]
+ },
+ "v3 median": {
+  "captured_frac": 0.05483333333333333,
+  "captured_tonnes": 667.8700000000001,
+  "swarm_tonnes": 12180.0,
+  "mean_handlings": 0.9066666666666667,
+  "peak_held_tonnes": 0.0,
+  "still_held_frac": 0.0,
+  "far_frac": 0.8794166666666666,
+  "captured_runs": [
+   0.049666666666666665,
+   0.05466666666666667,
+   0.06,
+   0.056,
+   0.054,
+   0.052,
+   0.049666666666666665,
+   0.06266666666666666
+  ]
+ },
+ "Today, density x0.1": {
+  "captured_frac": 0.9546666666666667,
+  "captured_tonnes": 1162.784,
+  "swarm_tonnes": 1218.0,
+  "mean_handlings": 0.0,
+  "peak_held_tonnes": 0.0,
+  "still_held_frac": 0.0,
+  "far_frac": 0.017583333333333333,
+  "captured_runs": [
+   0.9256666666666666,
+   0.9233333333333333,
+   0.9856666666666667,
+   0.9816666666666667,
+   0.931,
+   0.924,
+   0.985,
+   0.981
+  ]
+ },
+ "Today, density x10": {
+  "captured_frac": 0.9546666666666667,
+  "captured_tonnes": 116278.4,
+  "swarm_tonnes": 121800.0,
+  "mean_handlings": 0.0,
+  "peak_held_tonnes": 0.0,
+  "still_held_frac": 0.0,
+  "far_frac": 0.017583333333333333,
+  "captured_runs": [
+   0.9256666666666666,
+   0.9233333333333333,
+   0.9856666666666667,
+   0.9816666666666667,
+   0.931,
+   0.924,
+   0.985,
+   0.981
+  ]
+ },
+ "v3, density x0.1": {
+  "captured_frac": 0.05483333333333333,
+  "captured_tonnes": 66.787,
+  "swarm_tonnes": 1218.0,
+  "mean_handlings": 0.9066666666666667,
+  "peak_held_tonnes": 0.0,
+  "still_held_frac": 0.0,
+  "far_frac": 0.8794166666666666,
+  "captured_runs": [
+   0.049666666666666665,
+   0.05466666666666667,
+   0.06,
+   0.056,
+   0.054,
+   0.052,
+   0.049666666666666665,
+   0.06266666666666666
+  ]
+ },
+ "v3, density x10": {
+  "captured_frac": 0.05483333333333333,
+  "captured_tonnes": 6678.7,
+  "swarm_tonnes": 121800.0,
+  "mean_handlings": 0.9066666666666667,
+  "peak_held_tonnes": 0.0,
+  "still_held_frac": 0.0,
+  "far_frac": 0.8794166666666666,
+  "captured_runs": [
+   0.049666666666666665,
+   0.05466666666666667,
+   0.06,
+   0.056,
+   0.054,
+   0.052,
+   0.049666666666666665,
+   0.06266666666666666
+  ]
+ },
+ "v3 + 100 t pocket cap, density x1": {
+  "captured_frac": 0.05483333333333333,
+  "captured_tonnes": 667.8700000000001,
+  "swarm_tonnes": 12180.0,
+  "mean_handlings": 0.9066666666666667,
+  "peak_held_tonnes": 0.0,
+  "still_held_frac": 0.0,
+  "far_frac": 0.8794166666666666,
+  "captured_runs": [
+   0.049666666666666665,
+   0.05466666666666667,
+   0.06,
+   0.056,
+   0.054,
+   0.052,
+   0.049666666666666665,
+   0.06266666666666666
+  ]
+ },
+ "v3 + 100 t pocket cap, density x10": {
+  "captured_frac": 0.05483333333333333,
+  "captured_tonnes": 6678.7,
+  "swarm_tonnes": 121800.0,
+  "mean_handlings": 0.9066666666666667,
+  "peak_held_tonnes": 0.0,
+  "still_held_frac": 0.0,
+  "far_frac": 0.8794166666666666,
+  "captured_runs": [
+   0.049666666666666665,
+   0.05466666666666667,
+   0.06,
+   0.056,
+   0.054,
+   0.052,
+   0.049666666666666665,
+   0.06266666666666666
+  ]
+ },
+ "Today, zero flow (U0=0, swim=0)": {
+  "captured_frac": 1.0,
+  "captured_tonnes": 12180.0,
+  "swarm_tonnes": 12180.0,
+  "mean_handlings": 0.0,
+  "peak_held_tonnes": 0.0,
+  "still_held_frac": 0.0,
+  "far_frac": 0.0,
+  "captured_runs": [
+   1.0,
+   1.0,
+   1.0,
+   1.0,
+   1.0,
+   1.0,
+   1.0,
+   1.0
+  ]
+ },
+ "v3, zero flow (U0=0, swim=0)": {
+  "captured_frac": 0.058333333333333334,
+  "captured_tonnes": 710.5,
+  "swarm_tonnes": 12180.0,
+  "mean_handlings": 0.9416666666666667,
+  "peak_held_tonnes": 0.0,
+  "still_held_frac": 0.0,
+  "far_frac": 0.9416666666666667,
+  "captured_runs": [
+   0.06066666666666667,
+   0.056,
+   0.06066666666666667,
+   0.056,
+   0.06066666666666667,
+   0.056,
+   0.06066666666666667,
+   0.056
+  ]
+ },
+ "Today, zero flow, swim 3.6 cm/s": {
+  "captured_frac": 0.972,
+  "captured_tonnes": 11838.96,
+  "swarm_tonnes": 12180.0,
+  "mean_handlings": 0.0,
+  "peak_held_tonnes": 0.0,
+  "still_held_frac": 0.0,
+  "far_frac": 0.005166666666666667,
+  "captured_runs": [
+   0.9736666666666667,
+   0.9703333333333334,
+   0.9736666666666667,
+   0.9703333333333334,
+   0.9736666666666667,
+   0.9703333333333334,
+   0.9736666666666667,
+   0.9703333333333334
+  ]
+ },
+ "v3, zero flow, swim 3.6 cm/s": {
+  "captured_frac": 0.06166666666666667,
+  "captured_tonnes": 751.1,
+  "swarm_tonnes": 12180.0,
+  "mean_handlings": 0.9208333333333334,
+  "peak_held_tonnes": 0.0,
+  "still_held_frac": 0.0,
+  "far_frac": 0.8723333333333334,
+  "captured_runs": [
+   0.06433333333333334,
+   0.059,
+   0.06433333333333334,
+   0.059,
+   0.06433333333333334,
+   0.059,
+   0.06433333333333334,
+   0.059
+  ]
+ },
+ "Today, onshore 10 cm/s": {
+  "captured_frac": 0.9686666666666667,
+  "captured_tonnes": 11798.36,
+  "swarm_tonnes": 12180.0,
+  "mean_handlings": 0.0,
+  "peak_held_tonnes": 0.0,
+  "still_held_frac": 0.0,
+  "far_frac": 0.011291666666666665,
+  "captured_runs": [
+   0.9406666666666667,
+   0.942,
+   0.9956666666666667,
+   0.994,
+   0.947,
+   0.9426666666666667,
+   0.994,
+   0.9933333333333333
+  ]
+ },
+ "v3, onshore 10 cm/s": {
+  "captured_frac": 0.198375,
+  "captured_tonnes": 2416.2075,
+  "swarm_tonnes": 12180.0,
+  "mean_handlings": 3.179666666666667,
+  "peak_held_tonnes": 0.0,
+  "still_held_frac": 0.0,
+  "far_frac": 0.41304166666666664,
+  "captured_runs": [
+   0.205,
+   0.20666666666666667,
+   0.20533333333333334,
+   0.20066666666666666,
+   0.19533333333333333,
+   0.184,
+   0.199,
+   0.191
+  ]
+ },
+ "Today, onshore 20 cm/s": {
+  "captured_frac": 0.9687916666666667,
+  "captured_tonnes": 11799.8825,
+  "swarm_tonnes": 12180.0,
+  "mean_handlings": 0.0,
+  "peak_held_tonnes": 0.0,
+  "still_held_frac": 0.0,
+  "far_frac": 0.011291666666666665,
+  "captured_runs": [
+   0.9406666666666667,
+   0.942,
+   0.9956666666666667,
+   0.994,
+   0.9476666666666667,
+   0.9426666666666667,
+   0.9943333333333333,
+   0.9933333333333333
+  ]
+ },
+ "v3, onshore 20 cm/s": {
+  "captured_frac": 0.37666666666666665,
+  "captured_tonnes": 4587.799999999999,
+  "swarm_tonnes": 12180.0,
+  "mean_handlings": 5.982541666666666,
+  "peak_held_tonnes": 0.0,
+  "still_held_frac": 0.0,
+  "far_frac": 0.3322916666666667,
+  "captured_runs": [
+   0.3516666666666667,
+   0.35833333333333334,
+   0.39866666666666667,
+   0.4076666666666667,
+   0.357,
+   0.348,
+   0.4103333333333333,
+   0.38166666666666665
+  ]
+ },
+ "Today, offshore 5 cm/s": {
+  "captured_frac": 0.038125,
+  "captured_tonnes": 464.3625,
+  "swarm_tonnes": 12180.0,
+  "mean_handlings": 0.0,
+  "peak_held_tonnes": 0.0,
+  "still_held_frac": 0.0,
+  "far_frac": 0.961875,
+  "captured_runs": [
+   0.033,
+   0.037333333333333336,
+   0.03966666666666667,
+   0.046,
+   0.034333333333333334,
+   0.034,
+   0.03966666666666667,
+   0.041
+  ]
+ },
+ "v3, offshore 5 cm/s": {
+  "captured_frac": 0.0019583333333333336,
+  "captured_tonnes": 23.8525,
+  "swarm_tonnes": 12180.0,
+  "mean_handlings": 0.039875,
+  "peak_held_tonnes": 0.0,
+  "still_held_frac": 0.0,
+  "far_frac": 0.9980416666666667,
+  "captured_runs": [
+   0.0026666666666666666,
+   0.001,
+   0.001,
+   0.0036666666666666666,
+   0.0016666666666666668,
+   0.002,
+   0.002,
+   0.0016666666666666668
+  ]
+ },
+ "v3, strong swimmer 15 cm/s": {
+  "captured_frac": 0.04770833333333333,
+  "captured_tonnes": 581.0875,
+  "swarm_tonnes": 12180.0,
+  "mean_handlings": 0.8430416666666667,
+  "peak_held_tonnes": 0.0,
+  "still_held_frac": 0.0,
+  "far_frac": 0.8667083333333333,
+  "captured_runs": [
+   0.050333333333333334,
+   0.054,
+   0.042666666666666665,
+   0.042666666666666665,
+   0.04566666666666667,
+   0.051,
+   0.04533333333333334,
+   0.05
+  ]
+ },
+ "v3, 30-day bloom": {
+  "captured_frac": 0.329625,
+  "captured_tonnes": 4014.8324999999995,
+  "swarm_tonnes": 12180.0,
+  "mean_handlings": 5.324208333333333,
+  "peak_held_tonnes": 0.0,
+  "still_held_frac": 0.0,
+  "far_frac": 0.5680833333333334,
+  "captured_runs": [
+   0.33766666666666667,
+   0.336,
+   0.334,
+   0.328,
+   0.322,
+   0.32866666666666666,
+   0.323,
+   0.32766666666666666
+  ]
+ },
+ "Today, 30-day bloom": {
+  "captured_frac": 1.0,
+  "captured_tonnes": 12180.0,
+  "swarm_tonnes": 12180.0,
+  "mean_handlings": 0.0,
+  "peak_held_tonnes": 0.0,
+  "still_held_frac": 0.0,
+  "far_frac": 0.0,
+  "captured_runs": [
+   1.0,
+   1.0,
+   1.0,
+   1.0,
+   1.0,
+   1.0,
+   1.0,
+   1.0
+  ]
+ },
+ "v3, perfect screens (eta_g=eta_r=1)": {
+  "captured_frac": 0.0,
+  "captured_tonnes": 0.0,
+  "swarm_tonnes": 12180.0,
+  "mean_handlings": 0.9645833333333333,
+  "peak_held_tonnes": 0.0,
+  "still_held_frac": 0.0,
+  "far_frac": 0.932625,
+  "captured_runs": [
+   0.0,
+   0.0,
+   0.0,
+   0.0,
+   0.0,
+   0.0,
+   0.0,
+   0.0
+  ]
+ },
+ "v3, screens rolled up (eta_g=eta_r=0)": {
+  "captured_frac": 0.958,
+  "captured_tonnes": 11668.44,
+  "swarm_tonnes": 12180.0,
+  "mean_handlings": 0.0,
+  "peak_held_tonnes": 0.0,
+  "still_held_frac": 0.0,
+  "far_frac": 0.01608333333333333,
+  "captured_runs": [
+   0.9323333333333333,
+   0.9266666666666666,
+   0.9866666666666667,
+   0.989,
+   0.9256666666666666,
+   0.9283333333333333,
+   0.987,
+   0.9883333333333333
+  ]
+ },
+ "FAIL gate stuck closed, unbounded pocket": {
+  "captured_frac": 0.05479166666666666,
+  "captured_tonnes": 667.3625000000001,
+  "swarm_tonnes": 12180.0,
+  "mean_handlings": 0.9046666666666667,
+  "peak_held_tonnes": 11018.84,
+  "still_held_frac": 0.9046666666666667,
+  "far_frac": 0.01608333333333333,
+  "captured_runs": [
+   0.049666666666666665,
+   0.05433333333333333,
+   0.06,
+   0.056,
+   0.054,
+   0.052,
+   0.049666666666666665,
+   0.06266666666666666
+  ]
+ },
+ "FAIL gate stuck closed, 100 t pocket spills at collector": {
+  "captured_frac": 0.3826666666666666,
+  "captured_tonnes": 4660.88,
+  "swarm_tonnes": 12180.0,
+  "mean_handlings": 6.191208333333334,
+  "peak_held_tonnes": 194.88,
+  "still_held_frac": 0.016,
+  "far_frac": 0.01616666666666667,
+  "captured_runs": [
+   0.38266666666666665,
+   0.3863333333333333,
+   0.379,
+   0.382,
+   0.37533333333333335,
+   0.375,
+   0.38966666666666666,
+   0.3913333333333333
+  ]
+ },
+ "FAIL pipe broken: release at collector mouth": {
+  "captured_frac": 0.3938333333333333,
+  "captured_tonnes": 4796.89,
+  "swarm_tonnes": 12180.0,
+  "mean_handlings": 6.310708333333333,
+  "peak_held_tonnes": 0.0,
+  "still_held_frac": 0.0,
+  "far_frac": 0.01620833333333333,
+  "captured_runs": [
+   0.36833333333333335,
+   0.4023333333333333,
+   0.4036666666666667,
+   0.403,
+   0.3903333333333333,
+   0.395,
+   0.394,
+   0.394
+  ]
+ },
+ "FAIL pipe broken + onshore 3 cm/s": {
+  "captured_frac": 0.4155,
+  "captured_tonnes": 5060.790000000001,
+  "swarm_tonnes": 12180.0,
+  "mean_handlings": 6.67525,
+  "peak_held_tonnes": 0.0,
+  "still_held_frac": 0.0,
+  "far_frac": 0.010249999999999999,
+  "captured_runs": [
+   0.4186666666666667,
+   0.4166666666666667,
+   0.409,
+   0.4103333333333333,
+   0.41733333333333333,
+   0.41533333333333333,
+   0.4093333333333333,
+   0.42733333333333334
+  ]
+ },
+ "Today, dt=300 s": {
+  "captured_frac": 0.8999166666666667,
+  "captured_tonnes": 10960.985,
+  "swarm_tonnes": 12180.0,
+  "mean_handlings": 0.0,
+  "peak_held_tonnes": 0.0,
+  "still_held_frac": 0.0,
+  "far_frac": 0.06395833333333334,
+  "captured_runs": [
+   0.8923333333333333,
+   0.8736666666666667,
+   0.922,
+   0.9093333333333333,
+   0.89,
+   0.8786666666666667,
+   0.923,
+   0.9103333333333333
+  ]
+ },
+ "v3, dt=300 s": {
+  "captured_frac": 0.05604166666666667,
+  "captured_tonnes": 682.5875,
+  "swarm_tonnes": 12180.0,
+  "mean_handlings": 0.8972083333333333,
+  "peak_held_tonnes": 0.0,
+  "still_held_frac": 0.0,
+  "far_frac": 0.8367083333333333,
+  "captured_runs": [
+   0.049,
+   0.050666666666666665,
+   0.059666666666666666,
+   0.060333333333333336,
+   0.05733333333333333,
+   0.053,
+   0.06266666666666666,
+   0.05566666666666667
+  ]
+ },
+ "Today, dt=600 s": {
+  "captured_frac": 0.84675,
+  "captured_tonnes": 10313.414999999999,
+  "swarm_tonnes": 12180.0,
+  "mean_handlings": 0.0,
+  "peak_held_tonnes": 0.0,
+  "still_held_frac": 0.0,
+  "far_frac": 0.11370833333333333,
+  "captured_runs": [
+   0.8443333333333334,
+   0.829,
+   0.8633333333333333,
+   0.8476666666666667,
+   0.8346666666666667,
+   0.834,
+   0.8673333333333333,
+   0.8536666666666667
+  ]
+ },
+ "v3, dt=600 s": {
+  "captured_frac": 0.028624999999999998,
+  "captured_tonnes": 348.65250000000003,
+  "swarm_tonnes": 12180.0,
+  "mean_handlings": 0.909125,
+  "peak_held_tonnes": 0.0,
+  "still_held_frac": 0.0,
+  "far_frac": 0.8623333333333334,
+  "captured_runs": [
+   0.029666666666666668,
+   0.028333333333333332,
+   0.029666666666666668,
+   0.030333333333333334,
+   0.03,
+   0.029,
+   0.024333333333333332,
+   0.027666666666666666
+  ]
+ },
+ "_zero_flow_analytic_today": {
+  "r_capture_72h": 4343.051527574028,
+  "expected_frac": 1.0
+ }
+}

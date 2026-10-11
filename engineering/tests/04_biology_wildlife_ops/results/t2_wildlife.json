@@ -1,0 +1,213 @@
+{
+  "species": {
+    "juvenile hawksbill (net, tracked)": {
+      "cruise": [
+        0.125,
+        0.16
+      ],
+      "burst": null,
+      "src": "SRC 5 (net displacement, underestimates instantaneous speed)"
+    },
+    "juvenile green (net, tracked)": {
+      "cruise": [
+        0.168,
+        0.168
+      ],
+      "burst": null,
+      "src": "Current Biology, Gulf of Mexico (via search; net)"
+    },
+    "loggerhead+green cruising (logger)": {
+      "cruise": [
+        0.27,
+        0.5
+      ],
+      "burst": null,
+      "src": "SRC 4 Kinoshita et al. (measured)"
+    },
+    "dugong": {
+      "cruise": [
+        0.6,
+        1.1
+      ],
+      "burst": 8.3,
+      "src": "SRC 6 sirenian review"
+    },
+    "humpback dolphin": {
+      "cruise": null,
+      "burst": null,
+      "src": "no verified speed found; dives mean 20 s [SRC 19]"
+    }
+  },
+  "device_velocities": {
+    "screen approach": 0.1,
+    "EPA 316(b) 0.5 ft/s": 0.152,
+    "lane / sweep": 0.5,
+    "bypass mouth low": 0.4,
+    "bypass mouth high": 0.7,
+    "pipe": 1.77
+  },
+  "escape_table": {
+    "juvenile hawksbill (net, tracked)": {
+      "screen approach": "escapes",
+      "EPA 316(b) 0.5 ft/s": "marginal",
+      "lane / sweep": "carried",
+      "bypass mouth low": "carried",
+      "bypass mouth high": "carried",
+      "pipe": "carried"
+    },
+    "juvenile green (net, tracked)": {
+      "screen approach": "escapes",
+      "EPA 316(b) 0.5 ft/s": "escapes",
+      "lane / sweep": "carried",
+      "bypass mouth low": "carried",
+      "bypass mouth high": "carried",
+      "pipe": "carried"
+    },
+    "loggerhead+green cruising (logger)": {
+      "screen approach": "escapes",
+      "EPA 316(b) 0.5 ft/s": "escapes",
+      "lane / sweep": "carried",
+      "bypass mouth low": "marginal",
+      "bypass mouth high": "carried",
+      "pipe": "carried"
+    },
+    "dugong": {
+      "screen approach": "escapes",
+      "EPA 316(b) 0.5 ft/s": "escapes",
+      "lane / sweep": "escapes",
+      "bypass mouth low": "escapes",
+      "bypass mouth high": "marginal",
+      "pipe": "carried"
+    }
+  },
+  "breath_hold": {
+    "enclosed_pipe_minutes": 47.1342383107089,
+    "turtle_reference": "NMFS trawl tow-time limit 55/75 min; green turtles failed 2 h forced submergence; delayed death from aspiration [SRC 18]",
+    "dolphin_reference": "Sousa mean dive 20 s [SRC 19]",
+    "verdict": "pipe is an absolute no-entry zone for air-breathers: 47 min full-bore + screw/pump strike"
+  },
+  "detection_requirement": {
+    "1": {
+      "required_P_detect_system": 0.9975
+    },
+    "5": {
+      "required_P_detect_system": 0.9995
+    },
+    "10": {
+      "required_P_detect_system": 0.99975
+    },
+    "20": {
+      "required_P_detect_system": 0.999875
+    },
+    "50": {
+      "required_P_detect_system": 0.99995
+    }
+  },
+  "layers": {
+    "1_camera(s)": {
+      "P_miss_cameras": 0.15000000000000002,
+      "P_harm_per_passage": 0.04508500000000001,
+      "P_protect": 0.954915,
+      "max_turtles_per_unit_season_for_target": 0.055450815126982356
+    },
+    "2_camera(s)": {
+      "P_miss_cameras": 0.022500000000000006,
+      "P_harm_per_passage": 0.006847750000000001,
+      "P_protect": 0.99315225,
+      "max_turtles_per_unit_season_for_target": 0.3650834215618268
+    },
+    "3_camera(s)": {
+      "P_miss_cameras": 0.0033750000000000017,
+      "P_harm_per_passage": 0.0011121625000000005,
+      "P_protect": 0.9988878375,
+      "max_turtles_per_unit_season_for_target": 2.2478729502208528
+    },
+    "2_cameras+grid": {
+      "P_harm_per_passage": 0.0003423875000000001,
+      "P_protect": 0.9996576125,
+      "max_turtles_per_unit_season_for_target": 7.301668431236536
+    }
+  },
+  "stop_distance": {
+    "latency_s": {
+      "frames": 0.12,
+      "inference": 0.2,
+      "plc_network": 0.1,
+      "operator": 0.0
+    },
+    "t_detect": 0.42000000000000004,
+    "t_diverter": [
+      2.0,
+      5.0
+    ],
+    "t_screw_stop": [
+      5.0,
+      20.0
+    ],
+    "table": {
+      "0.40": {
+        "v_total": 0.9,
+        "d_diverter_m": [
+          3.267,
+          7.317
+        ],
+        "d_screw_stop_m": [
+          7.317,
+          27.567000000000007
+        ]
+      },
+      "0.55": {
+        "v_total": 1.05,
+        "d_diverter_m": [
+          3.8114999999999997,
+          8.5365
+        ],
+        "d_screw_stop_m": [
+          8.5365,
+          32.161500000000004
+        ]
+      },
+      "0.70": {
+        "v_total": 1.2,
+        "d_diverter_m": [
+          4.356,
+          9.756
+        ],
+        "d_screw_stop_m": [
+          9.756,
+          36.756
+        ]
+      }
+    }
+  },
+  "verdicts": {
+    "T2a_approach_0.10": [
+      "PASS",
+      "0.10 m/s < EPA 316(b) 0.15 m/s impingement BTA and below every measured turtle cruising speed; BUT local velocity rises under partial blinding (St Lucie pinning) -> needs per-bay DP limit"
+    ],
+    "T2b_lane_sweep_0.5": [
+      "MARGINAL",
+      "0.5 m/s equals the top of measured turtle cruising (0.27-0.50); juveniles (net 0.13-0.17) will be conveyed to the bypass -> the bypass protection is safety-critical, not a backup"
+    ],
+    "T2c_bypass_mouth_0.4-0.7": [
+      "FAIL",
+      "exceeds juvenile turtle sustained speed: once at the mouth a juvenile cannot swim out; protection relies entirely on diverter/stop"
+    ],
+    "T2d_dugong_dolphin_lane": [
+      "MARGINAL",
+      "dugong cruising 0.6-1.1 m/s can leave the lane; no verified humpback-dolphin speed; both are larger than bells -> add a large-animal bar rack at lane entrance (clear spacing ~0.5 m, sized to pass 45 cm bells) and stop-work on sighting"
+    ],
+    "T2e_breath_hold": [
+      "FAIL (if entry possible)",
+      "pipe residence 47 min full-bore approaches the 55 min tow-time limit and adds pump strike; no air-breather may enter: design must make entry physically impossible, not just unlikely"
+    ],
+    "T2f_camera_requirement": [
+      "FAIL",
+      "required system protection >= 0.99975 (10 turtles/unit-season, target 0.01/site-yr); 1 camera at recall 0.85 gives 0.955; 3 independent cameras 0.9989; 2 cameras+physical grid 0.99966 -> tolerates only ~7 turtle passages/unit-season (grid untested)"
+    ],
+    "T2g_stop_distance": [
+      "REQUIREMENT",
+      "camera must sit >= 10 m (diverter) and >= 37 m (screw stop) upstream of the screw entry at 0.7 m/s; collector entrances closer than that need their own final gate"
+    ]
+  }
+}

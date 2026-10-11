@@ -1,0 +1,25 @@
+run,blinding_pct,approach_speed_cm_s,force_N(spring/luggage scale),notes,data_type
+1,0.0,11.0,0.1559,calc(uniform)=0.0987 N; prototype-equiv x8000 = 1.25 kN per strip; uniform blinding,SIMULATED virtual tank - not physical evidence
+2,0.0,11.0,0.1559,calc(uniform)=0.0987 N; prototype-equiv x8000 = 1.25 kN per strip; patchy blinding,SIMULATED virtual tank - not physical evidence
+3,0.0,11.0,0.1559,calc(uniform)=0.0987 N; prototype-equiv x8000 = 1.25 kN per strip; patchy blinding,SIMULATED virtual tank - not physical evidence
+4,25.0,11.0,0.3272,calc(uniform)=0.2149 N; prototype-equiv x8000 = 2.62 kN per strip; uniform blinding,SIMULATED virtual tank - not physical evidence
+5,25.0,11.0,0.4057,calc(uniform)=0.2149 N; prototype-equiv x8000 = 3.25 kN per strip; patchy blinding,SIMULATED virtual tank - not physical evidence
+6,25.0,11.0,0.388,calc(uniform)=0.2149 N; prototype-equiv x8000 = 3.10 kN per strip; patchy blinding,SIMULATED virtual tank - not physical evidence
+7,50.0,11.0,0.8666,calc(uniform)=0.5969 N; prototype-equiv x8000 = 6.93 kN per strip; uniform blinding,SIMULATED virtual tank - not physical evidence
+8,50.0,11.0,1.9354,calc(uniform)=0.5969 N; prototype-equiv x8000 = 15.48 kN per strip; patchy blinding,SIMULATED virtual tank - not physical evidence
+9,50.0,11.0,1.6454,calc(uniform)=0.5969 N; prototype-equiv x8000 = 13.16 kN per strip; patchy blinding,SIMULATED virtual tank - not physical evidence
+10,75.0,11.0,4.0513,calc(uniform)=3.0004 N; prototype-equiv x8000 = 32.41 kN per strip; uniform blinding,SIMULATED virtual tank - not physical evidence
+11,75.0,11.0,9.1367,calc(uniform)=3.0004 N; prototype-equiv x8000 = 73.09 kN per strip; patchy blinding,SIMULATED virtual tank - not physical evidence
+12,75.0,11.0,7.4568,calc(uniform)=3.0004 N; prototype-equiv x8000 = 59.65 kN per strip; patchy blinding,SIMULATED virtual tank - not physical evidence
+13,0.0,5.5,0.039,calc(uniform)=0.0247 N; prototype-equiv x8000 = 0.31 kN per strip; uniform blinding,SIMULATED virtual tank - not physical evidence
+14,0.0,5.5,0.039,calc(uniform)=0.0247 N; prototype-equiv x8000 = 0.31 kN per strip; patchy blinding,SIMULATED virtual tank - not physical evidence
+15,0.0,5.5,0.039,calc(uniform)=0.0247 N; prototype-equiv x8000 = 0.31 kN per strip; patchy blinding,SIMULATED virtual tank - not physical evidence
+16,25.0,5.5,0.0818,calc(uniform)=0.0537 N; prototype-equiv x8000 = 0.65 kN per strip; uniform blinding,SIMULATED virtual tank - not physical evidence
+17,25.0,5.5,0.1014,calc(uniform)=0.0537 N; prototype-equiv x8000 = 0.81 kN per strip; patchy blinding,SIMULATED virtual tank - not physical evidence
+18,25.0,5.5,0.097,calc(uniform)=0.0537 N; prototype-equiv x8000 = 0.78 kN per strip; patchy blinding,SIMULATED virtual tank - not physical evidence
+19,50.0,5.5,0.2167,calc(uniform)=0.1492 N; prototype-equiv x8000 = 1.73 kN per strip; uniform blinding,SIMULATED virtual tank - not physical evidence
+20,50.0,5.5,0.4838,calc(uniform)=0.1492 N; prototype-equiv x8000 = 3.87 kN per strip; patchy blinding,SIMULATED virtual tank - not physical evidence
+21,50.0,5.5,0.4114,calc(uniform)=0.1492 N; prototype-equiv x8000 = 3.29 kN per strip; patchy blinding,SIMULATED virtual tank - not physical evidence
+22,75.0,5.5,1.0128,calc(uniform)=0.7501 N; prototype-equiv x8000 = 8.10 kN per strip; uniform blinding,SIMULATED virtual tank - not physical evidence
+23,75.0,5.5,2.2842,calc(uniform)=0.7501 N; prototype-equiv x8000 = 18.27 kN per strip; patchy blinding,SIMULATED virtual tank - not physical evidence
+24,75.0,5.5,1.8642,calc(uniform)=0.7501 N; prototype-equiv x8000 = 14.91 kN per strip; patchy blinding,SIMULATED virtual tank - not physical evidence

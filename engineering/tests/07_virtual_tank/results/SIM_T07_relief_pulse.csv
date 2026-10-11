@@ -1,0 +1,12 @@
+run,bells_on_face_before,bells_released_on_rollup,n_into_intake,notes,data_type
+1,27,0,0,lifted bay 1 (bay 1 = upstream) for 5 s; bypass closed to load face; seed=700,SIMULATED virtual tank - not physical evidence
+2,26,0,0,lifted bay 2 (bay 1 = upstream) for 5 s; bypass closed to load face; seed=701,SIMULATED virtual tank - not physical evidence
+3,26,13,13,lifted bay 3 (bay 1 = upstream) for 5 s; bypass closed to load face; seed=702,SIMULATED virtual tank - not physical evidence
+4,23,21,20,lifted bay 4 (bay 1 = upstream) for 5 s; bypass closed to load face; seed=703,SIMULATED virtual tank - not physical evidence
+5,22,0,0,lifted bay 1 (bay 1 = upstream) for 5 s; bypass closed to load face; seed=704,SIMULATED virtual tank - not physical evidence
+6,26,1,1,lifted bay 2 (bay 1 = upstream) for 5 s; bypass closed to load face; seed=705,SIMULATED virtual tank - not physical evidence
+7,24,14,14,lifted bay 3 (bay 1 = upstream) for 5 s; bypass closed to load face; seed=706,SIMULATED virtual tank - not physical evidence
+8,25,17,16,lifted bay 4 (bay 1 = upstream) for 5 s; bypass closed to load face; seed=707,SIMULATED virtual tank - not physical evidence
+9,30,36,34,lifted bay all (bay 1 = upstream) for 5 s; bypass closed to load face; seed=780,SIMULATED virtual tank - not physical evidence
+10,30,38,34,lifted bay all (bay 1 = upstream) for 5 s; bypass closed to load face; seed=781,SIMULATED virtual tank - not physical evidence
+11,23,34,32,lifted bay all (bay 1 = upstream) for 5 s; bypass closed to load face; seed=782,SIMULATED virtual tank - not physical evidence

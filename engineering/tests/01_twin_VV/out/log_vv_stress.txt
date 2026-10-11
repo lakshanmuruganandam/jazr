@@ -1,0 +1,36 @@
+Today median                                               capt  95.47%     11628/12180 t  handled 0.00  peak held        0 t  still held   0.0%
+v3 median                                                  capt   5.48%       668/12180 t  handled 0.91  peak held        0 t  still held   0.0%
+Today, density x0.1                                        capt  95.47%      1163/1218 t  handled 0.00  peak held        0 t  still held   0.0%
+Today, density x10                                         capt  95.47%    116278/121800 t  handled 0.00  peak held        0 t  still held   0.0%
+v3, density x0.1                                           capt   5.48%        67/1218 t  handled 0.91  peak held        0 t  still held   0.0%
+v3, density x10                                            capt   5.48%      6679/121800 t  handled 0.91  peak held        0 t  still held   0.0%
+v3 + 100 t pocket cap, density x1                          capt   5.48%       668/12180 t  handled 0.91  peak held        0 t  still held   0.0%
+v3 + 100 t pocket cap, density x10                         capt   5.48%      6679/121800 t  handled 0.91  peak held        0 t  still held   0.0%
+Today, zero flow (U0=0, swim=0)                            capt 100.00%     12180/12180 t  handled 0.00  peak held        0 t  still held   0.0%
+v3, zero flow (U0=0, swim=0)                               capt   5.83%       710/12180 t  handled 0.94  peak held        0 t  still held   0.0%
+Today, zero flow, swim 3.6 cm/s                            capt  97.20%     11839/12180 t  handled 0.00  peak held        0 t  still held   0.0%
+v3, zero flow, swim 3.6 cm/s                               capt   6.17%       751/12180 t  handled 0.92  peak held        0 t  still held   0.0%
+Today, onshore 10 cm/s                                     capt  96.87%     11798/12180 t  handled 0.00  peak held        0 t  still held   0.0%
+v3, onshore 10 cm/s                                        capt  19.84%      2416/12180 t  handled 3.18  peak held        0 t  still held   0.0%
+Today, onshore 20 cm/s                                     capt  96.88%     11800/12180 t  handled 0.00  peak held        0 t  still held   0.0%
+v3, onshore 20 cm/s                                        capt  37.67%      4588/12180 t  handled 5.98  peak held        0 t  still held   0.0%
+Today, offshore 5 cm/s                                     capt   3.81%       464/12180 t  handled 0.00  peak held        0 t  still held   0.0%
+v3, offshore 5 cm/s                                        capt   0.20%        24/12180 t  handled 0.04  peak held        0 t  still held   0.0%
+v3, strong swimmer 15 cm/s                                 capt   4.77%       581/12180 t  handled 0.84  peak held        0 t  still held   0.0%
+v3, 30-day bloom                                           capt  32.96%      4015/12180 t  handled 5.32  peak held        0 t  still held   0.0%
+Today, 30-day bloom                                        capt 100.00%     12180/12180 t  handled 0.00  peak held        0 t  still held   0.0%
+v3, perfect screens (eta_g=eta_r=1)                        capt   0.00%         0/12180 t  handled 0.96  peak held        0 t  still held   0.0%
+v3, screens rolled up (eta_g=eta_r=0)                      capt  95.80%     11668/12180 t  handled 0.00  peak held        0 t  still held   0.0%
+FAIL gate stuck closed, unbounded pocket                   capt   5.48%       667/12180 t  handled 0.90  peak held    11019 t  still held  90.5%
+FAIL gate stuck closed, 100 t pocket spills at collector   capt  38.27%      4661/12180 t  handled 6.19  peak held      195 t  still held   1.6%
+FAIL pipe broken: release at collector mouth               capt  39.38%      4797/12180 t  handled 6.31  peak held        0 t  still held   0.0%
+FAIL pipe broken + onshore 3 cm/s                          capt  41.55%      5061/12180 t  handled 6.68  peak held        0 t  still held   0.0%
+Today, dt=300 s                                            capt  89.99%     10961/12180 t  handled 0.00  peak held        0 t  still held   0.0%
+v3, dt=300 s                                               capt   5.60%       683/12180 t  handled 0.90  peak held        0 t  still held   0.0%
+Today, dt=600 s                                            capt  84.67%     10313/12180 t  handled 0.00  peak held        0 t  still held   0.0%
+v3, dt=600 s                                               capt   2.86%       349/12180 t  handled 0.91  peak held        0 t  still held   0.0%
+zero-flow analytic Today fraction 1.0
+runtime s 272
+real 271.95
+user 382.39
+sys 7.64

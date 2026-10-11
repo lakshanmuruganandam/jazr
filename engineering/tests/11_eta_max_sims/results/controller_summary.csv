@@ -1,0 +1,26 @@
+controller,phase,eta_mean,ci95_lo,ci95_hi,data_type
+AI controller (factored discounted Thompson),nominal,0.9932,0.96,1.0,SIMULATED
+AI controller (factored discounted Thompson),density 0.3->1,0.9999,0.9986,1.0,SIMULATED
+AI controller (factored discounted Thompson),fouled bay,0.999,0.99,1.0,SIMULATED
+AI controller (factored discounted Thompson),fouled + belt fault,0.8076,0.7732,0.8467,SIMULATED
+AI controller (factored discounted Thompson),all,0.9499,0.9386,0.9611,SIMULATED
+per-arm discounted Thompson,nominal,0.9886,0.9689,1.0,SIMULATED
+per-arm discounted Thompson,density 0.3->1,0.9997,0.998,1.0,SIMULATED
+per-arm discounted Thompson,fouled bay,0.998,0.9889,1.0,SIMULATED
+per-arm discounted Thompson,fouled + belt fault,0.7864,0.7578,0.8178,SIMULATED
+per-arm discounted Thompson,all,0.9432,0.9344,0.9511,SIMULATED
+best fixed (commissioning),nominal,1.0,1.0,1.0,SIMULATED
+best fixed (commissioning),density 0.3->1,1.0,1.0,1.0,SIMULATED
+best fixed (commissioning),fouled bay,1.0,1.0,1.0,SIMULATED
+best fixed (commissioning),fouled + belt fault,0.7555,0.7478,0.7633,SIMULATED
+best fixed (commissioning),all,0.9389,0.9369,0.9408,SIMULATED
+"v4.1 fixed (equal split, no belt/jet)",nominal,0.7833,0.7778,0.7889,SIMULATED
+"v4.1 fixed (equal split, no belt/jet)",density 0.3->1,0.949,0.9469,0.9509,SIMULATED
+"v4.1 fixed (equal split, no belt/jet)",fouled bay,0.7556,0.7478,0.7644,SIMULATED
+"v4.1 fixed (equal split, no belt/jet)",fouled + belt fault,0.7555,0.7478,0.7633,SIMULATED
+"v4.1 fixed (equal split, no belt/jet)",all,0.8109,0.8081,0.8142,SIMULATED
+oracle,nominal,1.0,1.0,1.0,SIMULATED
+oracle,density 0.3->1,1.0,1.0,1.0,SIMULATED
+oracle,fouled bay,1.0,1.0,1.0,SIMULATED
+oracle,fouled + belt fault,0.8655,0.8411,0.8889,SIMULATED
+oracle,all,0.9664,0.9603,0.9722,SIMULATED

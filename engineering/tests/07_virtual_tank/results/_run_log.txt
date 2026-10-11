@@ -1,0 +1,12 @@
+T02 FAIL 567.0 s
+T16 FAIL / SENSITIVE (one miss in ~15 counts = 6.7%) 29.7 s
+T04 PASS 134.3 s
+T06 PASS 28.2 s
+T07 PASS on average / FAIL for the downstream bay 60.0 s
+T08 PASS at 15 deg,20 deg,25 deg 9.6 s
+T11 REPORTED 7.0 s
+T12 PASS 38.8 s
+T14 REPORTED / SENSITIVE (tank cannot reproduce prototype Cauchy number) 26.4 s
+T10 KILL (some configurations) / SENSITIVE to detection probability 23.2 s
+T13 PASS 141.4 s
+T05 FAIL 454.4 s

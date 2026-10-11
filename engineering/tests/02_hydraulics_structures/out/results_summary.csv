@@ -1,0 +1,301 @@
+test,check,value,unit,criterion,source,verdict,note
+T01,sweep/through ratio cot(11 deg),5.1446,-,Vs >= Va (NMFS); bypass ratio >=1.5 (FERC/Hanks & Haefner),NMFS 2022 s.8.5.1 / 8.5.3.3 (repository.library.noaa.gov/view/noaa/43053),PASS,
+T01,"approach Va [v3 L=143 m, h0=7.0 m, Q=100.0, MSL]",0.0999,m/s,"<=0.10 PASS; <=0.12 MARGINAL (active screen, <60 s rule)",NMFS 2022 s.8.5.1 / 8.5.3.3 (repository.library.noaa.gov/view/noaa/43053),PASS,
+T01,"sweep Vs [v3 L=143 m, h0=7.0 m, Q=100.0, MSL]",0.5139,m/s,0.24-0.91 m/s optimal; must not exceed ~1 m/s for bells (assumption),NMFS 2022 s.8.5.1 / 8.5.3.3 (repository.library.noaa.gov/view/noaa/43053),PASS,
+T01,"travel time between bypass entrances [v3 L=143 m, h0=7.0 m, Q=100.0, MSL]",58.3724,s,<=60 s,NMFS 2022 s.8.5.1 / 8.5.3.3 (repository.library.noaa.gov/view/noaa/43053),PASS,
+T01,"approach Va [v3 L=143 m, h0=7.0 m, Q=100.0, LAT-ish]",0.1195,m/s,"<=0.10 PASS; <=0.12 MARGINAL (active screen, <60 s rule)",NMFS 2022 s.8.5.1 / 8.5.3.3 (repository.library.noaa.gov/view/noaa/43053),MARGINAL,
+T01,"sweep Vs [v3 L=143 m, h0=7.0 m, Q=100.0, LAT-ish]",0.615,m/s,0.24-0.91 m/s optimal; must not exceed ~1 m/s for bells (assumption),NMFS 2022 s.8.5.1 / 8.5.3.3 (repository.library.noaa.gov/view/noaa/43053),PASS,
+T01,"travel time between bypass entrances [v3 L=143 m, h0=7.0 m, Q=100.0, LAT-ish]",48.7827,s,<=60 s,NMFS 2022 s.8.5.1 / 8.5.3.3 (repository.library.noaa.gov/view/noaa/43053),PASS,
+T01,"approach Va [v3 L=143 m, h0=7.0 m, Q=172.5, MSL]",0.1723,m/s,"<=0.10 PASS; <=0.12 MARGINAL (active screen, <60 s rule)",NMFS 2022 s.8.5.1 / 8.5.3.3 (repository.library.noaa.gov/view/noaa/43053),FAIL,
+T01,"sweep Vs [v3 L=143 m, h0=7.0 m, Q=172.5, MSL]",0.8865,m/s,0.24-0.91 m/s optimal; must not exceed ~1 m/s for bells (assumption),NMFS 2022 s.8.5.1 / 8.5.3.3 (repository.library.noaa.gov/view/noaa/43053),PASS,
+T01,"travel time between bypass entrances [v3 L=143 m, h0=7.0 m, Q=172.5, MSL]",33.8391,s,<=60 s,NMFS 2022 s.8.5.1 / 8.5.3.3 (repository.library.noaa.gov/view/noaa/43053),PASS,
+T01,"approach Va [v3 L=143 m, h0=7.0 m, Q=172.5, LAT-ish]",0.2062,m/s,"<=0.10 PASS; <=0.12 MARGINAL (active screen, <60 s rule)",NMFS 2022 s.8.5.1 / 8.5.3.3 (repository.library.noaa.gov/view/noaa/43053),FAIL,
+T01,"sweep Vs [v3 L=143 m, h0=7.0 m, Q=172.5, LAT-ish]",1.0608,m/s,0.24-0.91 m/s optimal; must not exceed ~1 m/s for bells (assumption),NMFS 2022 s.8.5.1 / 8.5.3.3 (repository.library.noaa.gov/view/noaa/43053),MARGINAL,
+T01,"travel time between bypass entrances [v3 L=143 m, h0=7.0 m, Q=172.5, LAT-ish]",28.2798,s,<=60 s,NMFS 2022 s.8.5.1 / 8.5.3.3 (repository.library.noaa.gov/view/noaa/43053),PASS,
+T01,"approach Va [v3 L=200 m, h0=5.0 m, Q=100.0, MSL]",0.1,m/s,"<=0.10 PASS; <=0.12 MARGINAL (active screen, <60 s rule)",NMFS 2022 s.8.5.1 / 8.5.3.3 (repository.library.noaa.gov/view/noaa/43053),PASS,
+T01,"sweep Vs [v3 L=200 m, h0=5.0 m, Q=100.0, MSL]",0.5145,m/s,0.24-0.91 m/s optimal; must not exceed ~1 m/s for bells (assumption),NMFS 2022 s.8.5.1 / 8.5.3.3 (repository.library.noaa.gov/view/noaa/43053),PASS,
+T01,"travel time between bypass entrances [v3 L=200 m, h0=5.0 m, Q=100.0, MSL]",58.3141,s,<=60 s,NMFS 2022 s.8.5.1 / 8.5.3.3 (repository.library.noaa.gov/view/noaa/43053),PASS,
+T01,"approach Va [v3 L=200 m, h0=5.0 m, Q=100.0, LAT-ish]",0.1299,m/s,"<=0.10 PASS; <=0.12 MARGINAL (active screen, <60 s rule)",NMFS 2022 s.8.5.1 / 8.5.3.3 (repository.library.noaa.gov/view/noaa/43053),FAIL,
+T01,"sweep Vs [v3 L=200 m, h0=5.0 m, Q=100.0, LAT-ish]",0.6681,m/s,0.24-0.91 m/s optimal; must not exceed ~1 m/s for bells (assumption),NMFS 2022 s.8.5.1 / 8.5.3.3 (repository.library.noaa.gov/view/noaa/43053),PASS,
+T01,"travel time between bypass entrances [v3 L=200 m, h0=5.0 m, Q=100.0, LAT-ish]",44.9019,s,<=60 s,NMFS 2022 s.8.5.1 / 8.5.3.3 (repository.library.noaa.gov/view/noaa/43053),PASS,
+T01,"approach Va [v3 L=200 m, h0=5.0 m, Q=172.5, MSL]",0.1725,m/s,"<=0.10 PASS; <=0.12 MARGINAL (active screen, <60 s rule)",NMFS 2022 s.8.5.1 / 8.5.3.3 (repository.library.noaa.gov/view/noaa/43053),FAIL,
+T01,"sweep Vs [v3 L=200 m, h0=5.0 m, Q=172.5, MSL]",0.8874,m/s,0.24-0.91 m/s optimal; must not exceed ~1 m/s for bells (assumption),NMFS 2022 s.8.5.1 / 8.5.3.3 (repository.library.noaa.gov/view/noaa/43053),PASS,
+T01,"travel time between bypass entrances [v3 L=200 m, h0=5.0 m, Q=172.5, MSL]",33.8053,s,<=60 s,NMFS 2022 s.8.5.1 / 8.5.3.3 (repository.library.noaa.gov/view/noaa/43053),PASS,
+T01,"approach Va [v3 L=200 m, h0=5.0 m, Q=172.5, LAT-ish]",0.224,m/s,"<=0.10 PASS; <=0.12 MARGINAL (active screen, <60 s rule)",NMFS 2022 s.8.5.1 / 8.5.3.3 (repository.library.noaa.gov/view/noaa/43053),FAIL,
+T01,"sweep Vs [v3 L=200 m, h0=5.0 m, Q=172.5, LAT-ish]",1.1525,m/s,0.24-0.91 m/s optimal; must not exceed ~1 m/s for bells (assumption),NMFS 2022 s.8.5.1 / 8.5.3.3 (repository.library.noaa.gov/view/noaa/43053),MARGINAL,
+T01,"travel time between bypass entrances [v3 L=200 m, h0=5.0 m, Q=172.5, LAT-ish]",26.0301,s,<=60 s,NMFS 2022 s.8.5.1 / 8.5.3.3 (repository.library.noaa.gov/view/noaa/43053),PASS,
+T01,"exposure time along full face (L/Vs), 7 m, Q=100, MSL",278.2418,s,>60 s => the 0.10 m/s (not 0.12) criterion applies,NMFS 2022 s.8.5.1 / 8.5.3.3 (repository.library.noaa.gov/view/noaa/43053),PASS,confirms v3 choice of 0.10 m/s
+T01,"bay drop needed for bed seal + HAT + wave crest, h0=5.0 m",7.674,m,v3 states 5-7 m bays; need >= this (audit #23: crest >= HAT+0.5 m),16_FLAW_AUDIT #23; linear wave crest,MARGINAL,v3 '5-7 m' drop is short of HAT+crest -> bells overtop at high water
+T01,"bay drop needed for bed seal + HAT + wave crest, h0=7.0 m",9.674,m,v3 states 5-7 m bays; need >= this (audit #23: crest >= HAT+0.5 m),16_FLAW_AUDIT #23; linear wave crest,FAIL,v3 '5-7 m' drop is short of HAT+crest -> bells overtop at high water
+T01,"recommended L for Va<=0.10 at LAT (Q=100), h0=7.0",170.9402,m,design length (sizing result),NMFS 2022 s.8.5.1 / 8.5.3.3 (repository.library.noaa.gov/view/noaa/43053),PASS,lane W=32.6 m
+T01,"Va at Q=172.5 & LAT with that L, h0=7.0",0.1725,m/s,<=0.10 PASS; <=0.12 MARGINAL,NMFS 2022 s.8.5.1 / 8.5.3.3 (repository.library.noaa.gov/view/noaa/43053),FAIL,full 0.10 at 172.5 & LAT needs L=295 m
+T01,"recommended L for Va<=0.10 at LAT (Q=100), h0=5.0",259.7403,m,design length (sizing result),NMFS 2022 s.8.5.1 / 8.5.3.3 (repository.library.noaa.gov/view/noaa/43053),PASS,lane W=49.6 m
+T01,"Va at Q=172.5 & LAT with that L, h0=5.0",0.1725,m/s,<=0.10 PASS; <=0.12 MARGINAL,NMFS 2022 s.8.5.1 / 8.5.3.3 (repository.library.noaa.gov/view/noaa/43053),FAIL,full 0.10 at 172.5 & LAT needs L=448 m
+T01,"mean slide distance to next entrance (s/2) / Vs, 7 m design",29.1862,s,informative (input to T03),geometry,PASS,
+T02,clean head loss [perforated plate f=0.40],4.4638,mm,<= 15 mm clean (assumption: <1% of typical CW-pump head budget; NMFS 0.09 m = heavily blocked),Idelchik / Kirschmer; NMFS 2022 s.8.5 (repository.library.noaa.gov/view/noaa/43053),PASS,
+T02,blinding at which 200 Pa setpoint is reached [perforated plate f=0.40],52.6269,%,informative: v3 '200 Pa' corresponds to this blockage,calc,PASS,
+T02,clean head loss [perforated plate f=0.50],2.2271,mm,<= 15 mm clean (assumption: <1% of typical CW-pump head budget; NMFS 0.09 m = heavily blocked),Idelchik / Kirschmer; NMFS 2022 s.8.5 (repository.library.noaa.gov/view/noaa/43053),PASS,
+T02,blinding at which 200 Pa setpoint is reached [perforated plate f=0.50],66.5382,%,informative: v3 '200 Pa' corresponds to this blockage,calc,PASS,
+T02,clean head loss [woven wire f=0.60],0.4916,mm,<= 15 mm clean (assumption: <1% of typical CW-pump head budget; NMFS 0.09 m = heavily blocked),Idelchik / Kirschmer; NMFS 2022 s.8.5 (repository.library.noaa.gov/view/noaa/43053),PASS,
+T02,blinding at which 200 Pa setpoint is reached [woven wire f=0.60],84.2793,%,informative: v3 '200 Pa' corresponds to this blockage,calc,PASS,
+T02,clean head loss [woven wire 2mm/20mm f=0.81],0.1539,mm,<= 15 mm clean (assumption: <1% of typical CW-pump head budget; NMFS 0.09 m = heavily blocked),Idelchik / Kirschmer; NMFS 2022 s.8.5 (repository.library.noaa.gov/view/noaa/43053),PASS,
+T02,blinding at which 200 Pa setpoint is reached [woven wire 2mm/20mm f=0.81],91.2027,%,informative: v3 '200 Pa' corresponds to this blockage,calc,PASS,
+T02,clean head loss [wedge-wire 4mm bar/12mm gap (Kirschmer beta=2.42)],0.2851,mm,<= 15 mm clean (assumption: <1% of typical CW-pump head budget; NMFS 0.09 m = heavily blocked),Idelchik / Kirschmer; NMFS 2022 s.8.5 (repository.library.noaa.gov/view/noaa/43053),PASS,
+T02,blinding at which 200 Pa setpoint is reached [wedge-wire 4mm bar/12mm gap (Kirschmer beta=2.42)],88.0282,%,informative: v3 '200 Pa' corresponds to this blockage,calc,PASS,
+T02,v3 200 Pa trip in head,1.989,cm,must exceed filtered transient noise (see below),NMFS 2022 s.8.5 (repository.library.noaa.gov/view/noaa/43053),PASS,
+T02,raw dp 99.9-pct on clean screen [calm Hs 0.22; waves along channel (normal comp. sin11=0.19)],23.8837,Pa,< 200 Pa setpoint (else nuisance trips without filtering),NMFS 2022 s.8.5 (repository.library.noaa.gov/view/noaa/43053),PASS,
+T02,60-s filtered dp max on clean screen [calm Hs 0.22; waves along channel (normal comp. sin11=0.19)],15.8193,Pa,< 50% of 200 Pa setpoint,NMFS 2022 s.8.5 (repository.library.noaa.gov/view/noaa/43053),PASS,
+T02,"tide+flow-compensated blockage index max, clean [calm Hs 0.22; waves along channel (normal comp. sin11=0.19)]",4.221,%,< 15% false reading (trip proposed at 30-40% est. blockage),calc,PASS,
+T02,raw dp 99.9-pct on clean screen [calm Hs 0.22; waves normal to screen (worst)],43.7425,Pa,< 200 Pa setpoint (else nuisance trips without filtering),NMFS 2022 s.8.5 (repository.library.noaa.gov/view/noaa/43053),PASS,
+T02,60-s filtered dp max on clean screen [calm Hs 0.22; waves normal to screen (worst)],17.4539,Pa,< 50% of 200 Pa setpoint,NMFS 2022 s.8.5 (repository.library.noaa.gov/view/noaa/43053),PASS,
+T02,"tide+flow-compensated blockage index max, clean [calm Hs 0.22; waves normal to screen (worst)]",13.2292,%,< 15% false reading (trip proposed at 30-40% est. blockage),calc,PASS,
+T02,raw dp 99.9-pct on clean screen [p90 Hs 0.58; waves along channel (normal comp. sin11=0.19)],33.4686,Pa,< 200 Pa setpoint (else nuisance trips without filtering),NMFS 2022 s.8.5 (repository.library.noaa.gov/view/noaa/43053),PASS,
+T02,60-s filtered dp max on clean screen [p90 Hs 0.58; waves along channel (normal comp. sin11=0.19)],16.6925,Pa,< 50% of 200 Pa setpoint,NMFS 2022 s.8.5 (repository.library.noaa.gov/view/noaa/43053),PASS,
+T02,"tide+flow-compensated blockage index max, clean [p90 Hs 0.58; waves along channel (normal comp. sin11=0.19)]",8.5763,%,< 15% false reading (trip proposed at 30-40% est. blockage),calc,PASS,
+T02,raw dp 99.9-pct on clean screen [p90 Hs 0.58; waves normal to screen (worst)],182.9048,Pa,< 200 Pa setpoint (else nuisance trips without filtering),NMFS 2022 s.8.5 (repository.library.noaa.gov/view/noaa/43053),MARGINAL,
+T02,60-s filtered dp max on clean screen [p90 Hs 0.58; waves normal to screen (worst)],32.8535,Pa,< 50% of 200 Pa setpoint,NMFS 2022 s.8.5 (repository.library.noaa.gov/view/noaa/43053),PASS,
+T02,"tide+flow-compensated blockage index max, clean [p90 Hs 0.58; waves normal to screen (worst)]",44.0233,%,< 15% false reading (trip proposed at 30-40% est. blockage),calc,FAIL,
+T02,raw dp 99.9-pct on clean screen [max Hs 1.36; waves along channel (normal comp. sin11=0.19)],102.1989,Pa,< 200 Pa setpoint (else nuisance trips without filtering),NMFS 2022 s.8.5 (repository.library.noaa.gov/view/noaa/43053),MARGINAL,
+T02,60-s filtered dp max on clean screen [max Hs 1.36; waves along channel (normal comp. sin11=0.19)],23.7573,Pa,< 50% of 200 Pa setpoint,NMFS 2022 s.8.5 (repository.library.noaa.gov/view/noaa/43053),PASS,
+T02,"tide+flow-compensated blockage index max, clean [max Hs 1.36; waves along channel (normal comp. sin11=0.19)]",31.688,%,< 15% false reading (trip proposed at 30-40% est. blockage),calc,FAIL,
+T02,raw dp 99.9-pct on clean screen [max Hs 1.36; waves normal to screen (worst)],1701.26,Pa,< 200 Pa setpoint (else nuisance trips without filtering),NMFS 2022 s.8.5 (repository.library.noaa.gov/view/noaa/43053),FAIL,
+T02,60-s filtered dp max on clean screen [max Hs 1.36; waves normal to screen (worst)],124.6578,Pa,< 50% of 200 Pa setpoint,NMFS 2022 s.8.5 (repository.library.noaa.gov/view/noaa/43053),MARGINAL,
+T02,"tide+flow-compensated blockage index max, clean [max Hs 1.36; waves normal to screen (worst)]",73.0102,%,< 15% false reading (trip proposed at 30-40% est. blockage),calc,FAIL,
+T02,"blockage at which a FIXED 200 Pa setpoint trips, over tide LAT..HAT x flow 75..172.5 m3/s",39.6938,pct-points spread,spread < 15 pct-points (else setpoint must be tide/flow compensated),calc,FAIL,trips between 42% and 82% blockage
+T03,"A static, mu=0.3 @ 0.1 ind/m3",4.7424,% face covered (mean of hour 3),"PASS phi<=25%, capture>=90%, no trips; MARGINAL phi<=50%, capture>=75%, pulses<1 t",model (assumptions in common.BELL),PASS,"dp mean/max=25/25 Pa, capture=100%, leak=0.0 t/h, trips=0, max pulse=0.00 t"
+T03,"A static, mu=0.3 @ 0.3 ind/m3",14.4857,% face covered (mean of hour 3),"PASS phi<=25%, capture>=90%, no trips; MARGINAL phi<=50%, capture>=75%, pulses<1 t",model (assumptions in common.BELL),PASS,"dp mean/max=31/31 Pa, capture=100%, leak=0.0 t/h, trips=0, max pulse=0.00 t"
+T03,"A static, mu=0.3 @ 1.0 ind/m3",40.3788,% face covered (mean of hour 3),"PASS phi<=25%, capture>=90%, no trips; MARGINAL phi<=50%, capture>=75%, pulses<1 t",model (assumptions in common.BELL),FAIL,"dp mean/max=52/201 Pa, capture=77%, leak=243.8 t/h, trips=22, max pulse=2.13 t"
+T03,"A static, mu=0.3 @ 2.0 ind/m3",57.1634,% face covered (mean of hour 3),"PASS phi<=25%, capture>=90%, no trips; MARGINAL phi<=50%, capture>=75%, pulses<1 t",model (assumptions in common.BELL),FAIL,"dp mean/max=62/209 Pa, capture=60%, leak=850.5 t/h, trips=31, max pulse=2.32 t"
+T03,"B static, mu=0.1 @ 0.1 ind/m3",3.7781,% face covered (mean of hour 3),"PASS phi<=25%, capture>=90%, no trips; MARGINAL phi<=50%, capture>=75%, pulses<1 t",model (assumptions in common.BELL),PASS,"dp mean/max=24/24 Pa, capture=100%, leak=0.0 t/h, trips=0, max pulse=0.00 t"
+T03,"B static, mu=0.1 @ 0.3 ind/m3",11.1556,% face covered (mean of hour 3),"PASS phi<=25%, capture>=90%, no trips; MARGINAL phi<=50%, capture>=75%, pulses<1 t",model (assumptions in common.BELL),PASS,"dp mean/max=28/28 Pa, capture=100%, leak=0.0 t/h, trips=0, max pulse=0.00 t"
+T03,"B static, mu=0.1 @ 1.0 ind/m3",36.1155,% face covered (mean of hour 3),"PASS phi<=25%, capture>=90%, no trips; MARGINAL phi<=50%, capture>=75%, pulses<1 t",model (assumptions in common.BELL),MARGINAL,"dp mean/max=55/55 Pa, capture=100%, leak=0.0 t/h, trips=0, max pulse=0.00 t"
+T03,"B static, mu=0.1 @ 2.0 ind/m3",46.7944,% face covered (mean of hour 3),"PASS phi<=25%, capture>=90%, no trips; MARGINAL phi<=50%, capture>=75%, pulses<1 t",model (assumptions in common.BELL),FAIL,"dp mean/max=58/204 Pa, capture=72%, leak=602.6 t/h, trips=26, max pulse=2.17 t"
+T03,"C cycling, roll-up releases (cf=0) @ 0.1 ind/m3",4.7424,% face covered (mean of hour 3),"PASS phi<=25%, capture>=90%, no trips; MARGINAL phi<=50%, capture>=75%, pulses<1 t",model (assumptions in common.BELL),PASS,"dp mean/max=25/25 Pa, capture=100%, leak=0.0 t/h, trips=0, max pulse=0.00 t"
+T03,"C cycling, roll-up releases (cf=0) @ 0.3 ind/m3",11.6154,% face covered (mean of hour 3),"PASS phi<=25%, capture>=90%, no trips; MARGINAL phi<=50%, capture>=75%, pulses<1 t",model (assumptions in common.BELL),MARGINAL,"dp mean/max=23/29 Pa, capture=87%, leak=41.8 t/h, trips=0, max pulse=0.00 t"
+T03,"C cycling, roll-up releases (cf=0) @ 1.0 ind/m3",38.9267,% face covered (mean of hour 3),"PASS phi<=25%, capture>=90%, no trips; MARGINAL phi<=50%, capture>=75%, pulses<1 t",model (assumptions in common.BELL),MARGINAL,"dp mean/max=43/61 Pa, capture=83%, leak=183.5 t/h, trips=0, max pulse=0.00 t"
+T03,"C cycling, roll-up releases (cf=0) @ 2.0 ind/m3",57.0801,% face covered (mean of hour 3),"PASS phi<=25%, capture>=90%, no trips; MARGINAL phi<=50%, capture>=75%, pulses<1 t",model (assumptions in common.BELL),FAIL,"dp mean/max=62/209 Pa, capture=60%, leak=849.4 t/h, trips=30, max pulse=2.32 t"
+T03,"D cycling, bucket lip/trough (cf=0.8) @ 0.1 ind/m3",4.7424,% face covered (mean of hour 3),"PASS phi<=25%, capture>=90%, no trips; MARGINAL phi<=50%, capture>=75%, pulses<1 t",model (assumptions in common.BELL),PASS,"dp mean/max=25/25 Pa, capture=100%, leak=0.0 t/h, trips=0, max pulse=0.00 t"
+T03,"D cycling, bucket lip/trough (cf=0.8) @ 0.3 ind/m3",11.6154,% face covered (mean of hour 3),"PASS phi<=25%, capture>=90%, no trips; MARGINAL phi<=50%, capture>=75%, pulses<1 t",model (assumptions in common.BELL),MARGINAL,"dp mean/max=23/29 Pa, capture=88%, leak=36.2 t/h, trips=0, max pulse=0.00 t"
+T03,"D cycling, bucket lip/trough (cf=0.8) @ 1.0 ind/m3",38.9267,% face covered (mean of hour 3),"PASS phi<=25%, capture>=90%, no trips; MARGINAL phi<=50%, capture>=75%, pulses<1 t",model (assumptions in common.BELL),MARGINAL,"dp mean/max=43/61 Pa, capture=85%, leak=157.3 t/h, trips=0, max pulse=0.00 t"
+T03,"D cycling, bucket lip/trough (cf=0.8) @ 2.0 ind/m3",57.0801,% face covered (mean of hour 3),"PASS phi<=25%, capture>=90%, no trips; MARGINAL phi<=50%, capture>=75%, pulses<1 t",model (assumptions in common.BELL),FAIL,"dp mean/max=62/209 Pa, capture=60%, leak=849.3 t/h, trips=30, max pulse=2.32 t"
+T03,E duplex curtain + trough (cf=0.8) @ 0.1 ind/m3,4.7424,% face covered (mean of hour 3),"PASS phi<=25%, capture>=90%, no trips; MARGINAL phi<=50%, capture>=75%, pulses<1 t",model (assumptions in common.BELL),PASS,"dp mean/max=25/25 Pa, capture=100%, leak=0.0 t/h, trips=0, max pulse=0.00 t"
+T03,E duplex curtain + trough (cf=0.8) @ 0.3 ind/m3,14.0646,% face covered (mean of hour 3),"PASS phi<=25%, capture>=90%, no trips; MARGINAL phi<=50%, capture>=75%, pulses<1 t",model (assumptions in common.BELL),PASS,"dp mean/max=30/31 Pa, capture=99%, leak=1.6 t/h, trips=0, max pulse=0.00 t"
+T03,E duplex curtain + trough (cf=0.8) @ 1.0 ind/m3,41.3914,% face covered (mean of hour 3),"PASS phi<=25%, capture>=90%, no trips; MARGINAL phi<=50%, capture>=75%, pulses<1 t",model (assumptions in common.BELL),FAIL,"dp mean/max=57/207 Pa, capture=77%, leak=235.8 t/h, trips=23, max pulse=2.17 t"
+T03,E duplex curtain + trough (cf=0.8) @ 2.0 ind/m3,56.2089,% face covered (mean of hour 3),"PASS phi<=25%, capture>=90%, no trips; MARGINAL phi<=50%, capture>=75%, pulses<1 t",model (assumptions in common.BELL),FAIL,"dp mean/max=61/212 Pa, capture=60%, leak=861.0 t/h, trips=34, max pulse=2.29 t"
+T03,"F v3 as written: 30% bays cycling (4 of 14), cf=0 @ 0.1 ind/m3",2.5908,% face covered (mean of hour 3),"PASS phi<=25%, capture>=90%, no trips; MARGINAL phi<=50%, capture>=75%, pulses<1 t",model (assumptions in common.BELL),FAIL,"dp mean/max=12/22 Pa, capture=65%, leak=37.8 t/h, trips=0, max pulse=0.00 t"
+T03,"F v3 as written: 30% bays cycling (4 of 14), cf=0 @ 0.3 ind/m3",7.5628,% face covered (mean of hour 3),"PASS phi<=25%, capture>=90%, no trips; MARGINAL phi<=50%, capture>=75%, pulses<1 t",model (assumptions in common.BELL),FAIL,"dp mean/max=13/25 Pa, capture=64%, leak=116.2 t/h, trips=0, max pulse=0.00 t"
+T03,"F v3 as written: 30% bays cycling (4 of 14), cf=0 @ 1.0 ind/m3",23.0762,% face covered (mean of hour 3),"PASS phi<=25%, capture>=90%, no trips; MARGINAL phi<=50%, capture>=75%, pulses<1 t",model (assumptions in common.BELL),FAIL,"dp mean/max=17/35 Pa, capture=61%, leak=417.0 t/h, trips=0, max pulse=0.00 t"
+T03,"F v3 as written: 30% bays cycling (4 of 14), cf=0 @ 2.0 ind/m3",41.265,% face covered (mean of hour 3),"PASS phi<=25%, capture>=90%, no trips; MARGINAL phi<=50%, capture>=75%, pulses<1 t",model (assumptions in common.BELL),FAIL,"dp mean/max=24/60 Pa, capture=58%, leak=912.8 t/h, trips=0, max pulse=0.00 t"
+T03,"G duplex + trough, 4 bays cycling on demand @ 0.1 ind/m3",4.7424,% face covered (mean of hour 3),"PASS phi<=25%, capture>=90%, no trips; MARGINAL phi<=50%, capture>=75%, pulses<1 t",model (assumptions in common.BELL),PASS,"dp mean/max=25/25 Pa, capture=100%, leak=0.0 t/h, trips=0, max pulse=0.00 t"
+T03,"G duplex + trough, 4 bays cycling on demand @ 0.3 ind/m3",12.8467,% face covered (mean of hour 3),"PASS phi<=25%, capture>=90%, no trips; MARGINAL phi<=50%, capture>=75%, pulses<1 t",model (assumptions in common.BELL),PASS,"dp mean/max=29/30 Pa, capture=98%, leak=6.5 t/h, trips=0, max pulse=0.00 t"
+T03,"G duplex + trough, 4 bays cycling on demand @ 1.0 ind/m3",40.5622,% face covered (mean of hour 3),"PASS phi<=25%, capture>=90%, no trips; MARGINAL phi<=50%, capture>=75%, pulses<1 t",model (assumptions in common.BELL),FAIL,"dp mean/max=60/207 Pa, capture=80%, leak=207.8 t/h, trips=18, max pulse=2.43 t"
+T03,"G duplex + trough, 4 bays cycling on demand @ 2.0 ind/m3",51.8501,% face covered (mean of hour 3),"PASS phi<=25%, capture>=90%, no trips; MARGINAL phi<=50%, capture>=75%, pulses<1 t",model (assumptions in common.BELL),FAIL,"dp mean/max=56/218 Pa, capture=62%, leak=815.7 t/h, trips=33, max pulse=2.54 t"
+T03,"density where it stops PASSING [A static, mu=0.3]",0.575,ind/m3,>= 0.3 ind/m3 v3 design density => PASS; >=0.1 MARGINAL,model,PASS,
+T03,"density where it FAILS [A static, mu=0.3]",0.794,ind/m3,>= 1 ind/m3 (v3 'high-flux' claim) => PASS; >=0.3 MARGINAL,model,MARGINAL,
+T03,"density where it stops PASSING [B static, mu=0.1]",0.794,ind/m3,>= 0.3 ind/m3 v3 design density => PASS; >=0.1 MARGINAL,model,PASS,
+T03,"density where it FAILS [B static, mu=0.1]",1.514,ind/m3,>= 1 ind/m3 (v3 'high-flux' claim) => PASS; >=0.3 MARGINAL,model,PASS,
+T03,"density where it stops PASSING [C cycling, roll-up releases (cf=0)]",0.302,ind/m3,>= 0.3 ind/m3 v3 design density => PASS; >=0.1 MARGINAL,model,MARGINAL,
+T03,"density where it FAILS [C cycling, roll-up releases (cf=0)]",1.514,ind/m3,>= 1 ind/m3 (v3 'high-flux' claim) => PASS; >=0.3 MARGINAL,model,PASS,
+T03,"density where it stops PASSING [D cycling, bucket lip/trough (cf=0.8)]",0.302,ind/m3,>= 0.3 ind/m3 v3 design density => PASS; >=0.1 MARGINAL,model,MARGINAL,
+T03,"density where it FAILS [D cycling, bucket lip/trough (cf=0.8)]",1.514,ind/m3,>= 1 ind/m3 (v3 'high-flux' claim) => PASS; >=0.3 MARGINAL,model,PASS,
+T03,density where it stops PASSING [E duplex curtain + trough (cf=0.8)],0.575,ind/m3,>= 0.3 ind/m3 v3 design density => PASS; >=0.1 MARGINAL,model,PASS,
+T03,density where it FAILS [E duplex curtain + trough (cf=0.8)],0.794,ind/m3,>= 1 ind/m3 (v3 'high-flux' claim) => PASS; >=0.3 MARGINAL,model,MARGINAL,
+T03,"density where it stops PASSING [F v3 as written: 30% bays cycling (4 of 14), cf=0]",0.032,ind/m3,>= 0.3 ind/m3 v3 design density => PASS; >=0.1 MARGINAL,model,FAIL,
+T03,"density where it FAILS [F v3 as written: 30% bays cycling (4 of 14), cf=0]",0.032,ind/m3,>= 1 ind/m3 (v3 'high-flux' claim) => PASS; >=0.3 MARGINAL,model,FAIL,
+T03,"density where it stops PASSING [G duplex + trough, 4 bays cycling on demand]",0.575,ind/m3,>= 0.3 ind/m3 v3 design density => PASS; >=0.1 MARGINAL,model,PASS,
+T03,"density where it FAILS [G duplex + trough, 4 bays cycling on demand]",1.096,ind/m3,>= 1 ind/m3 (v3 'high-flux' claim) => PASS; >=0.3 MARGINAL,model,PASS,
+T03,dp at which impinged bells stop sliding (mu=0.1),552.6491,Pa,must exceed relief setpoint (200 Pa) for bells to clear before a trip,force balance,PASS,
+T03,dp at which impinged bells stop sliding (mu=0.3),184.2164,Pa,must exceed relief setpoint (200 Pa) for bells to clear before a trip,force balance,FAIL,
+T04,bay hydrodynamic load [clean] (10 m x 8.15 m wetted),1.8251,kN,sizing result,dp x A,PASS,dp=22 Pa
+T04,bay hydrodynamic load [50% blinded] (10 m x 8.15 m wetted),7.3004,kN,sizing result,dp x A,PASS,dp=90 Pa
+T04,bay hydrodynamic load [90% blinded] (10 m x 8.15 m wetted),182.51,kN,sizing result,dp x A,PASS,dp=2239 Pa
+T04,bay hydrodynamic load [trip 200 Pa] (10 m x 8.15 m wetted),16.3,kN,sizing result,dp x A,PASS,dp=200 Pa
+T04,bay hydrodynamic load [trip 1 kPa] (10 m x 8.15 m wetted),81.5,kN,sizing result,dp x A,PASS,dp=1000 Pa
+T04,"bay hydrodynamic load [relief fails, 0.5 m drawdown] (10 m x 8.15 m wetted)",409.7514,kN,sizing result,dp x A,PASS,dp=5028 Pa
+T04,mesh safety factor [trip 200 Pa; 2205 duplex woven 2 mm/20 mm (UTS 620 MPa)],23.8992,-,"SF >= 3 PASS; >= 1.5 MARGINAL (ASSUMPTION, fatigue/corrosion)","membrane T = p l^2/(8d), d=0.05 l",PASS,tension 4.1 kN/m
+T04,mesh safety factor [trip 200 Pa; 90/10 CuNi woven 2 mm/20 mm (UTS ~300 MPa)],11.5641,-,"SF >= 3 PASS; >= 1.5 MARGINAL (ASSUMPTION, fatigue/corrosion)","membrane T = p l^2/(8d), d=0.05 l",PASS,tension 4.1 kN/m
+T04,"mesh safety factor [trip 200 Pa; UHMWPE knotless net (~40 kN/m, typical aquaculture)]",9.816,-,"SF >= 3 PASS; >= 1.5 MARGINAL (ASSUMPTION, fatigue/corrosion)","membrane T = p l^2/(8d), d=0.05 l",PASS,tension 4.1 kN/m
+T04,mesh safety factor [trip 1 kPa; 2205 duplex woven 2 mm/20 mm (UTS 620 MPa)],4.7798,-,"SF >= 3 PASS; >= 1.5 MARGINAL (ASSUMPTION, fatigue/corrosion)","membrane T = p l^2/(8d), d=0.05 l",PASS,tension 20.4 kN/m
+T04,mesh safety factor [trip 1 kPa; 90/10 CuNi woven 2 mm/20 mm (UTS ~300 MPa)],2.3128,-,"SF >= 3 PASS; >= 1.5 MARGINAL (ASSUMPTION, fatigue/corrosion)","membrane T = p l^2/(8d), d=0.05 l",MARGINAL,tension 20.4 kN/m
+T04,"mesh safety factor [trip 1 kPa; UHMWPE knotless net (~40 kN/m, typical aquaculture)]",1.9632,-,"SF >= 3 PASS; >= 1.5 MARGINAL (ASSUMPTION, fatigue/corrosion)","membrane T = p l^2/(8d), d=0.05 l",MARGINAL,tension 20.4 kN/m
+T04,mesh safety factor [90% blinded; 2205 duplex woven 2 mm/20 mm (UTS 620 MPa)],2.1344,-,"SF >= 3 PASS; >= 1.5 MARGINAL (ASSUMPTION, fatigue/corrosion)","membrane T = p l^2/(8d), d=0.05 l",MARGINAL,tension 45.6 kN/m
+T04,mesh safety factor [90% blinded; 90/10 CuNi woven 2 mm/20 mm (UTS ~300 MPa)],1.0328,-,"SF >= 3 PASS; >= 1.5 MARGINAL (ASSUMPTION, fatigue/corrosion)","membrane T = p l^2/(8d), d=0.05 l",FAIL,tension 45.6 kN/m
+T04,"mesh safety factor [90% blinded; UHMWPE knotless net (~40 kN/m, typical aquaculture)]",0.8767,-,"SF >= 3 PASS; >= 1.5 MARGINAL (ASSUMPTION, fatigue/corrosion)","membrane T = p l^2/(8d), d=0.05 l",FAIL,tension 45.6 kN/m
+T04,"mesh safety factor [relief fails, 0.5 m drawdown; 2205 duplex woven 2 mm/20 mm (UTS 620 MPa)]",0.9507,-,"SF >= 3 PASS; >= 1.5 MARGINAL (ASSUMPTION, fatigue/corrosion)","membrane T = p l^2/(8d), d=0.05 l",FAIL,tension 102.4 kN/m
+T04,"mesh safety factor [relief fails, 0.5 m drawdown; 90/10 CuNi woven 2 mm/20 mm (UTS ~300 MPa)]",0.46,-,"SF >= 3 PASS; >= 1.5 MARGINAL (ASSUMPTION, fatigue/corrosion)","membrane T = p l^2/(8d), d=0.05 l",FAIL,tension 102.4 kN/m
+T04,"mesh safety factor [relief fails, 0.5 m drawdown; UHMWPE knotless net (~40 kN/m, typical aquaculture)]",0.3905,-,"SF >= 3 PASS; >= 1.5 MARGINAL (ASSUMPTION, fatigue/corrosion)","membrane T = p l^2/(8d), d=0.05 l",FAIL,tension 102.4 kN/m
+T04,dp at which a 150 kg/m weighted bottom bar lifts off,62.7907,Pa,must exceed trip setpoint (200 Pa) or bells pass under the bar,membrane vertical pull ~ T,FAIL,=> a weighted bar alone does not seal; latch it into the floor rail and use the bar as a calibrated passive relief
+T04,bar mass needed to stay seated at [trip 200 Pa],4.7778,t per 10 m bay,<= 3 t practical (ASSUMPTION),calc,MARGINAL,
+T04,bar mass needed to stay seated at [trip 1 kPa],23.8889,t per 10 m bay,<= 3 t practical (ASSUMPTION),calc,FAIL,
+T04,drum torque to roll up under load [clean],8.5932,kN m,sizing result (motor/gearbox/brake rating),statics,PASS,"line pull 21 kN, motor 3.8 kW at 0.15 m/s"
+T04,drum torque to roll up under load [trip 200 Pa],23.5023,kN m,sizing result (motor/gearbox/brake rating),statics,PASS,"line pull 59 kN, motor 10.4 kW at 0.15 m/s"
+T04,drum torque to roll up under load [trip 1 kPa],90.6583,kN m,sizing result (motor/gearbox/brake rating),statics,PASS,"line pull 227 kN, motor 40.0 kW at 0.15 m/s"
+T04,drum torque to roll up under load [90% blinded],194.6986,kN m,sizing result (motor/gearbox/brake rating),statics,PASS,"line pull 487 kN, motor 85.9 kW at 0.15 m/s"
+T04,"time to lower one bay (9.7 m at 0.15 m/s), all bays in parallel",1.0778,min,<= 10 min (v3 claim),kinematics,PASS,
+T04,"wave load on one curtain bay [p90 Hs 0.58, T 3.5; waves along channel (sin 11 deg); clean]",3.5204,kN,<= curtain design load at 1 kPa trip (82 kN) PASS; <= 2x MARGINAL,linear wave theory,PASS,
+T04,"wave load on one curtain bay [p90 Hs 0.58, T 3.5; waves along channel (sin 11 deg); blinded]",6.3481,kN,<= curtain design load at 1 kPa trip (82 kN) PASS; <= 2x MARGINAL,linear wave theory,PASS,
+T04,"wave load on one curtain bay [p90 Hs 0.58, T 3.5; waves normal to screen; clean]",18.5539,kN,<= curtain design load at 1 kPa trip (82 kN) PASS; <= 2x MARGINAL,linear wave theory,PASS,
+T04,"wave load on one curtain bay [p90 Hs 0.58, T 3.5; waves normal to screen; blinded]",174.3594,kN,<= curtain design load at 1 kPa trip (82 kN) PASS; <= 2x MARGINAL,linear wave theory,FAIL,
+T04,"wave load on one curtain bay [Hs max 1.36, T 4.5; waves along channel (sin 11 deg); clean]",7.9121,kN,<= curtain design load at 1 kPa trip (82 kN) PASS; <= 2x MARGINAL,linear wave theory,PASS,
+T04,"wave load on one curtain bay [Hs max 1.36, T 4.5; waves along channel (sin 11 deg); blinded]",22.0686,kN,<= curtain design load at 1 kPa trip (82 kN) PASS; <= 2x MARGINAL,linear wave theory,PASS,
+T04,"wave load on one curtain bay [Hs max 1.36, T 4.5; waves normal to screen; clean]",83.8402,kN,<= curtain design load at 1 kPa trip (82 kN) PASS; <= 2x MARGINAL,linear wave theory,MARGINAL,
+T04,"wave load on one curtain bay [Hs max 1.36, T 4.5; waves normal to screen; blinded]",606.1469,kN,<= curtain design load at 1 kPa trip (82 kN) PASS; <= 2x MARGINAL,linear wave theory,FAIL,
+T04,"wave load on one curtain bay [Hmax=1.8xHs 2.45, T 4.5; waves along channel (sin 11 deg); clean]",16.0462,kN,<= curtain design load at 1 kPa trip (82 kN) PASS; <= 2x MARGINAL,linear wave theory,PASS,
+T04,"wave load on one curtain bay [Hmax=1.8xHs 2.45, T 4.5; waves along channel (sin 11 deg); blinded]",39.756,kN,<= curtain design load at 1 kPa trip (82 kN) PASS; <= 2x MARGINAL,linear wave theory,PASS,
+T04,"wave load on one curtain bay [Hmax=1.8xHs 2.45, T 4.5; waves normal to screen; clean]",238.9903,kN,<= curtain design load at 1 kPa trip (82 kN) PASS; <= 2x MARGINAL,linear wave theory,FAIL,
+T04,"wave load on one curtain bay [Hmax=1.8xHs 2.45, T 4.5; waves normal to screen; blinded]",1091.9558,kN,<= curtain design load at 1 kPa trip (82 kN) PASS; <= 2x MARGINAL,linear wave theory,FAIL,
+T04,"Hs at which wave load on a BLINDED curtain = 1 kPa design load, waves along channel",3.0,m,>= Hs max 1.36 m PASS; >= p99 0.84 MARGINAL,linear clapotis x sin^2(11 deg),PASS,
+T04,"Hs at which wave load on a BLINDED curtain = 1 kPa design load, waves NORMAL to screen",0.28,m,>= Hs p99 0.84 m PASS; >= p90 0.58 MARGINAL,linear clapotis,FAIL,=> rule: stow when channel Hs from the screen-normal sector exceeds this; screen faces must not face open fetch
+T04,"Morison base shear, pile D=1.0 m [operating Hs p90 0.58 (H=1.04), T 3.5]",6.9316,kN,input to pile sizing,API RP 2A rough Cd1.05 Cm1.2,PASS,mudline moment 36 kN m
+T04,"Morison base shear, pile D=1.0 m [Hmax 2.45, T 4.5]",15.4119,kN,input to pile sizing,API RP 2A rough Cd1.05 Cm1.2,PASS,mudline moment 76 kN m
+T04,"Morison base shear, pile D=1.0 m [depth-limited storm H=0.78 h_HAT, T 7]",62.8634,kN,input to pile sizing,API RP 2A rough Cd1.05 Cm1.2,PASS,mudline moment 284 kN m
+T04,"Morison base shear, pile D=1.5 m [operating Hs p90 0.58 (H=1.04), T 3.5]",13.8155,kN,input to pile sizing,API RP 2A rough Cd1.05 Cm1.2,PASS,mudline moment 73 kN m
+T04,"Morison base shear, pile D=1.5 m [Hmax 2.45, T 4.5]",29.3406,kN,input to pile sizing,API RP 2A rough Cd1.05 Cm1.2,PASS,mudline moment 142 kN m
+T04,"Morison base shear, pile D=1.5 m [depth-limited storm H=0.78 h_HAT, T 7]",98.6837,kN,input to pile sizing,API RP 2A rough Cd1.05 Cm1.2,PASS,mudline moment 444 kN m
+T04,current-only drag on D=1 m pile (0.6 lane + 0.31 ambient),3.6,kN,minor vs waves,drag,PASS,
+T04,"wind on gantry per bay [site max gust ERA5 19.6 m/s, Cf 2.0]",14.1179,kN,input to pile sizing,q=0.5 rho V^2,PASS,
+T04,"wind on gantry per bay [Dubai basic 3-s gust (current) 38.0 m/s, Cf 2.0]",53.067,kN,input to pile sizing,q=0.5 rho V^2,PASS,
+T04,"wind on gantry per bay [Dubai basic (pre-revision) 45.0 m/s, Cf 2.0]",74.4188,kN,input to pile sizing,q=0.5 rho V^2,PASS,
+T04,"steel pile OD needed (S355, D/t=40, fixity 5D) [OPERATING: curtain at 1 kPa trip + Hs p90 pile waves + 20 m/s wind]",0.6,m,<= 1.5 m PASS (normal marine piling); <= 2.5 m MARGINAL,WSD 0.66 Fy cantilever,PASS,"t=15 mm, M=824 kN m, deck deflection 351 mm"
+T04,"steel pile OD needed (S355, D/t=40, fixity 5D) [RELIEF FAILS: curtain 0.5 m drawdown + operating waves]",1.0,m,<= 1.5 m PASS (normal marine piling); <= 2.5 m MARGINAL,WSD 0.66 Fy cantilever,PASS,"t=25 mm, M=4008 kN m, deck deflection 288 mm"
+T04,"steel pile OD needed (S355, D/t=40, fixity 5D) [BLINDED + Hs 1.36 along channel + 1 kPa + 20 m/s wind]",0.65,m,<= 1.5 m PASS (normal marine piling); <= 2.5 m MARGINAL,WSD 0.66 Fy cantilever,PASS,"t=16 mm, M=1080 kN m, deck deflection 349 mm"
+T04,"steel pile OD needed (S355, D/t=40, fixity 5D) [STOWED STORM: depth-limited waves + 45 m/s wind]",0.8,m,<= 1.5 m PASS (normal marine piling); <= 2.5 m MARGINAL,WSD 0.66 Fy cantilever,PASS,"t=20 mm, M=2048 kN m, deck deflection 232 mm"
+T04,"training wall differential-head load, dh=0.1 m between lanes",8.195,kN/m,sizing result; S_req listed,hydrostatic,PASS,"cantilever M=33 kNm/m, S_req~143 cm3/m (sheet pile)"
+T04,"training wall differential-head load, dh=0.3 m between lanes",24.5851,kN/m,sizing result; S_req listed,hydrostatic,PASS,"cantilever M=100 kNm/m, S_req~428 cm3/m (sheet pile)"
+T04,"training wall differential-head load, dh=1.0 m between lanes",81.9503,kN/m,sizing result; S_req listed,hydrostatic,PASS,"cantilever M=334 kNm/m, S_req~1425 cm3/m (sheet pile)"
+T04,"Westergaard hydrodynamic force on a wall per m, PGA 0.1 g (ILLUSTRATIVE)",38.9605,kN/m,qualitative: structures near safety intakes are Seismic Cat II/I (must not collapse onto SSCs),Westergaard 1933; site SSE NOT public (APR1400 standard design uses 0.3 g),PASS,compare with curtain 1 kPa design load 8 kN/m: seismic + hydrodynamic mass governs the gantry
+T04,"Westergaard hydrodynamic force on a wall per m, PGA 0.3 g (ILLUSTRATIVE)",116.8816,kN/m,qualitative: structures near safety intakes are Seismic Cat II/I (must not collapse onto SSCs),Westergaard 1933; site SSE NOT public (APR1400 standard design uses 0.3 g),PASS,compare with curtain 1 kPa design load 8 kN/m: seismic + hydrodynamic mass governs the gantry
+T05,"routine roll-up pulse, 10 m bay, c=0.1 ind/m3 (phi=5%)",0.0924,t,< 1 t (v3),coverage->mass,PASS,
+T05,"routine roll-up pulse, 5 m bay, c=0.1 ind/m3 (phi=5%)",0.0462,t,< 1 t (v3),coverage->mass,PASS,
+T05,"routine roll-up pulse, 10 m bay, c=0.3 ind/m3 (phi=14%)",0.2975,t,< 1 t (v3),coverage->mass,PASS,
+T05,"routine roll-up pulse, 5 m bay, c=0.3 ind/m3 (phi=14%)",0.1488,t,< 1 t (v3),coverage->mass,PASS,
+T05,"routine roll-up pulse, 10 m bay, c=1.0 ind/m3 (phi=40%)",0.9833,t,< 1 t (v3),coverage->mass,PASS,
+T05,"routine roll-up pulse, 5 m bay, c=1.0 ind/m3 (phi=40%)",0.4917,t,< 1 t (v3),coverage->mass,PASS,
+T05,"routine roll-up pulse, 10 m bay, c=2.0 ind/m3 (phi=57%)",1.6119,t,< 1 t (v3),coverage->mass,FAIL,
+T05,"routine roll-up pulse, 5 m bay, c=2.0 ind/m3 (phi=57%)",0.806,t,< 1 t (v3),coverage->mass,PASS,
+T05,"pulse when a bay trips at 100 Pa (phi_bay>=53%), 10 m bay",1.4226,t,< 1 t (v3),coverage->mass,MARGINAL,
+T05,"pulse when a bay trips at 100 Pa (phi_bay>=53%), 5 m bay",0.7113,t,< 1 t (v3),coverage->mass,PASS,
+T05,"pulse when a bay trips at 100 Pa (phi_bay>=53%), 3 m bay",0.4268,t,< 1 t (v3),coverage->mass,PASS,
+T05,"pulse when a bay trips at 200 Pa (phi_bay>=67%), 10 m bay",2.0816,t,< 1 t (v3),coverage->mass,FAIL,
+T05,"pulse when a bay trips at 200 Pa (phi_bay>=67%), 5 m bay",1.0408,t,< 1 t (v3),coverage->mass,MARGINAL,
+T05,"pulse when a bay trips at 200 Pa (phi_bay>=67%), 3 m bay",0.6245,t,< 1 t (v3),coverage->mass,PASS,
+T05,"pulse when a bay trips at 500 Pa (phi_bay>=79%), 10 m bay",2.9527,t,< 1 t (v3),coverage->mass,FAIL,
+T05,"pulse when a bay trips at 500 Pa (phi_bay>=79%), 5 m bay",1.4763,t,< 1 t (v3),coverage->mass,MARGINAL,
+T05,"pulse when a bay trips at 500 Pa (phi_bay>=79%), 3 m bay",0.8858,t,< 1 t (v3),coverage->mass,PASS,
+T05,max bay width for a <1 t pulse at a 200 Pa trip,4.8041,m,>= 10 m (v3 bay) PASS; >= 5 m MARGINAL,calc,FAIL,
+T05,"T03 dynamic max relief pulse [A static, mu=0.3 @ 1.0]",2.1329,t,< 1 t (v3),T03 model,FAIL,
+T05,"T03 dynamic max relief pulse [A static, mu=0.3 @ 2.0]",2.3159,t,< 1 t (v3),T03 model,FAIL,
+T05,"T03 dynamic max relief pulse [B static, mu=0.1 @ 2.0]",2.166,t,< 1 t (v3),T03 model,FAIL,
+T05,"T03 dynamic max relief pulse [C cycling, roll-up releases (cf=0) @ 2.0]",2.3159,t,< 1 t (v3),T03 model,FAIL,
+T05,"T03 dynamic max relief pulse [D cycling, bucket lip/trough (cf=0.8) @ 2.0]",2.3159,t,< 1 t (v3),T03 model,FAIL,
+T05,T03 dynamic max relief pulse [E duplex curtain + trough (cf=0.8) @ 1.0],2.1651,t,< 1 t (v3),T03 model,FAIL,
+T05,T03 dynamic max relief pulse [E duplex curtain + trough (cf=0.8) @ 2.0],2.2894,t,< 1 t (v3),T03 model,FAIL,
+T05,"T03 dynamic max relief pulse [G duplex + trough, 4 bays cycling on demand @ 1.0]",2.434,t,< 1 t (v3),T03 model,FAIL,
+T05,"T03 dynamic max relief pulse [G duplex + trough, 4 bays cycling on demand @ 2.0]",2.5362,t,< 1 t (v3),T03 model,FAIL,
+T05,single-layer full cover of one 10 m x 7 m bay,1.9014,t,< 1 t (v3),geometry,FAIL,stacking makes it larger
+T06,"required entrance velocity (1.1 x channel U), v3 7 m design",0.5759,m/s,>110% of channel velocity,NMFS 2022 s.8.6 (repository.library.noaa.gov/view/noaa/43053),PASS,
+T06,entrance width that v3's 2 m3/s allows (5 full-depth entrances),0.0992,m,>= 0.46 m NMFS and >= 0.9 m for 45 cm bells,NMFS 2022 s.8.6 (repository.library.noaa.gov/view/noaa/43053); bell-size assumption,FAIL,2 m3/s cannot feed full-depth entrances at the NMFS velocity
+T06,bypass flow required per unit [NMFS 0.46 m],9.2723,m3/s,<= 2 m3/s (v3 lift sizing) PASS; <= 5 m3/s MARGINAL,NMFS 2022 s.8.6 (repository.library.noaa.gov/view/noaa/43053),FAIL,9.3% of plant flow
+T06,bypass flow required per unit [2 x bell 0.9 m],18.1414,m3/s,<= 2 m3/s (v3 lift sizing) PASS; <= 5 m3/s MARGINAL,NMFS 2022 s.8.6 (repository.library.noaa.gov/view/noaa/43053),FAIL,18.1% of plant flow
+T06,"worst-case bypass flow (0.9 m entrances, 172.5 m3/s, LAT)",31.4037,m3/s,<= 2 m3/s PASS; <= 5 MARGINAL,NMFS 2022 s.8.6 (repository.library.noaa.gov/view/noaa/43053),FAIL,"L=171.0, h0=7.0"
+T06,secondary dewatering ratio needed to bring bypass to 2 m3/s for the lift,9.0707,x,<= 10x is normal for fish facilities (ASSUMPTION; Tracy uses primary+secondary louvres),15_ precedents s.1c,PASS,
+T06,"collector channel at outlet end [v3 2 m3/s], v=1.0 m/s, 3 m deep",0.9,m wide,>= 0.9 m (2 x bell),continuity,PASS,area 2.0 m2
+T06,"collector channel at outlet end [NMFS-compliant 18 m3/s], v=1.0 m/s, 3 m deep",6.0471,m wide,>= 0.9 m (2 x bell),continuity,PASS,area 18.1 m2
+T06,"bell volume fraction in 2 m3/s lift flow, c=0.1/m3 (90% capture)",1.35,%,"<= 5 % (slurry/plugging guide, 16_FLAW_AUDIT #9) PASS; <= 10 % MARGINAL",mass balance,PASS,97 t/h
+T06,"bell volume fraction in 2 m3/s lift flow, c=0.3/m3 (90% capture)",4.05,%,"<= 5 % (slurry/plugging guide, 16_FLAW_AUDIT #9) PASS; <= 10 % MARGINAL",mass balance,PASS,292 t/h
+T06,"bell volume fraction in 2 m3/s lift flow, c=1.0/m3 (90% capture)",13.5,%,"<= 5 % (slurry/plugging guide, 16_FLAW_AUDIT #9) PASS; <= 10 % MARGINAL",mass balance,FAIL,972 t/h
+T06,"bell volume fraction in 2 m3/s lift flow, c=2.0/m3 (90% capture)",27.0,%,"<= 5 % (slurry/plugging guide, 16_FLAW_AUDIT #9) PASS; <= 10 % MARGINAL",mass balance,FAIL,1944 t/h
+T07,"screw D=2.0 m: Q per screw at min(Nagel, 4.2 m/s tip)",0.8211,m3/s,>= 2 m3/s with one duty screw PASS; 2 screws MARGINAL,Nagel/Rorres; Red Bluff calibration,FAIL,"n=31.5 rpm, screws needed 3"
+T07,screw D=2.0 m: flight depth vs 45 cm bell,0.5,m,">= 0.68 m (1.5 x bell, ASSUMPTION)",geometry,MARGINAL,
+T07,"screw D=2.5 m: Q per screw at min(Nagel, 4.2 m/s tip)",1.382,m3/s,>= 2 m3/s with one duty screw PASS; 2 screws MARGINAL,Nagel/Rorres; Red Bluff calibration,MARGINAL,"n=27.1 rpm, screws needed 2"
+T07,screw D=2.5 m: flight depth vs 45 cm bell,0.625,m,">= 0.68 m (1.5 x bell, ASSUMPTION)",geometry,MARGINAL,
+T07,"screw D=3.0 m: Q per screw at min(Nagel, 4.2 m/s tip)",2.1148,m3/s,>= 2 m3/s with one duty screw PASS; 2 screws MARGINAL,Nagel/Rorres; Red Bluff calibration,PASS,"n=24.0 rpm, screws needed 1"
+T07,screw D=3.0 m: flight depth vs 45 cm bell,0.75,m,">= 0.68 m (1.5 x bell, ASSUMPTION)",geometry,PASS,
+T07,"screw D=3.5 m: Q per screw at min(Nagel, 4.2 m/s tip)",3.0303,m3/s,>= 2 m3/s with one duty screw PASS; 2 screws MARGINAL,Nagel/Rorres; Red Bluff calibration,PASS,"n=21.7 rpm, screws needed 1"
+T07,screw D=3.5 m: flight depth vs 45 cm bell,0.875,m,">= 0.68 m (1.5 x bell, ASSUMPTION)",geometry,PASS,
+T07,"screw D=4.0 m: Q per screw at min(Nagel, 4.2 m/s tip)",4.1381,m3/s,>= 2 m3/s with one duty screw PASS; 2 screws MARGINAL,Nagel/Rorres; Red Bluff calibration,PASS,"n=19.8 rpm, screws needed 1"
+T07,screw D=4.0 m: flight depth vs 45 cm bell,1.0,m,">= 0.68 m (1.5 x bell, ASSUMPTION)",geometry,PASS,
+T07,selected D=3.0 m tip speed,3.7758,m/s,"<= 4.2 m/s (Red Bluff, trout ~100% survival) PASS; <= 5 m/s MARGINAL",USBR Tracy vol.25; strike literature,PASS,NO scyphozoan data - tank test #4
+T07,"screw power, 2 m3/s, lift 5.0 m [open trough]",143.6464,kW,sizing result,rho g Q H/eta,PASS,screw length 12 m at 30 deg
+T07,"screw power, 2 m3/s, lift 5.0 m [rotating tube]",134.07,kW,sizing result,rho g Q H/eta,PASS,screw length 12 m at 30 deg
+T07,single-stage lift 5.0 m vs Red Bluff proven max 5.9 m,5.0,m,"<= 5.9 m PASS (proven); <= 9 m MARGINAL (vendor range, unproven for fish/jelly); else FAIL -> 2 stages",15_ precedents s.3,PASS,length 12 m
+T07,"screw power, 2 m3/s, lift 7.0 m [open trough]",201.105,kW,sizing result,rho g Q H/eta,PASS,screw length 16 m at 30 deg
+T07,"screw power, 2 m3/s, lift 7.0 m [rotating tube]",187.698,kW,sizing result,rho g Q H/eta,PASS,screw length 16 m at 30 deg
+T07,single-stage lift 7.0 m vs Red Bluff proven max 5.9 m,7.0,m,"<= 5.9 m PASS (proven); <= 9 m MARGINAL (vendor range, unproven for fish/jelly); else FAIL -> 2 stages",15_ precedents s.3,MARGINAL,length 16 m
+T07,"screw power, 2 m3/s, lift 11.0 m [open trough]",316.0221,kW,sizing result,rho g Q H/eta,PASS,screw length 24 m at 30 deg
+T07,"screw power, 2 m3/s, lift 11.0 m [rotating tube]",294.954,kW,sizing result,rho g Q H/eta,PASS,screw length 24 m at 30 deg
+T07,single-stage lift 11.0 m vs Red Bluff proven max 5.9 m,11.0,m,"<= 5.9 m PASS (proven); <= 9 m MARGINAL (vendor range, unproven for fish/jelly); else FAIL -> 2 stages",15_ precedents s.3,FAIL,length 24 m
+T07,"rotating-tube screw (D3 m, 11 m lift) rotating mass incl. water",86.7909,t,<= 80 t per bearing pair (ASSUMPTION: large screw pumps are tens of t),geometry,MARGINAL,"tube 21 t, flights 13 t, water 52 t; long span -> deflection, consider 2 stages"
+T07,screws needed if the full NMFS-style bypass (18 m3/s) is lifted without dewatering,9,screws/unit,<= 2 PASS; <= 4 MARGINAL,T06 + this test,FAIL,=> dewater the bypass before the lift
+T08,"total head, 2 m3/s, 3 km, new pipe, water",5.1677,m,<= head tank 5-11 m (v3),Colebrook,PASS,"f=0.0106, v=1.77 m/s, P=139 kW (eta .75)"
+T08,"total head, 2 m3/s, 3 km, aged+biofilm, 13.5% bells",6.7646,m,<= 11 m head tank PASS; <= 13 MARGINAL,Colebrook + Thomas,PASS,"f=0.0146, P=181 kW"
+T08,"total head, 3 m3/s, 3 km, aged, 5% bells",14.9092,m,<= 11 m PASS; <= 13 MARGINAL,Colebrook,FAIL,"v=2.65 m/s, P=600 kW"
+T08,transit time 3 km at 2 m3/s,28.2743,min,"informative (Huon salmon precedent: 0.95 km, ~8 min)",15_ s.4,PASS,
+T08,"total head, 2 m3/s, 5 km, new pipe, water",7.9753,m,<= head tank 5-11 m (v3),Colebrook,PASS,"f=0.0106, v=1.77 m/s, P=214 kW (eta .75)"
+T08,"total head, 2 m3/s, 5 km, aged+biofilm, 13.5% bells",10.6367,m,<= 11 m head tank PASS; <= 13 MARGINAL,Colebrook + Thomas,PASS,"f=0.0146, P=285 kW"
+T08,"total head, 3 m3/s, 5 km, aged, 5% bells",23.4142,m,<= 11 m PASS; <= 13 MARGINAL,Colebrook,FAIL,"v=2.65 m/s, P=942 kW"
+T08,transit time 5 km at 2 m3/s,47.1239,min,"informative (Huon salmon precedent: 0.95 km, ~8 min)",15_ s.4,PASS,
+T08,"v3 claim check: 195 kW @3 km / 286 kW @5 km (2 m3/s, 1.2 m ID)",138.5664,kW at 3 km (eta .75),within +-20% of v3 195 kW,Colebrook,MARGINAL,5 km: 214 kW
+T08,"head-tank elevation for GRAVITY flow (5 km, aged, 13.5% bells) + 1 m margin",11.6367,m above MSL,<= 11 m (v3 upper) -> pump redundant,calc,MARGINAL,v3 has screw->head tank AND pump: choose one (gravity from head tank removes the pump and its shear)
+T08,"pipe ID needed for 3 m3/s at 5 km within 10 m head (aged, + 1 m margin to 11 m)",1.45,m,<= 1.2 m (v3) PASS; <= 1.4 m MARGINAL,Colebrook,FAIL,
+T08,"pressure head at breakwater crest +5 m, 3 km, gravity line",0.7441,m,">= +2 m (no sub-atmospheric pressure, no air release; bubbles harm jellyfish - Raskoff 2003)",HGL,MARGINAL,tank 7.8 m
+T08,"pressure head at breakwater crest +5 m, 5 km, gravity line",4.6162,m,">= +2 m (no sub-atmospheric pressure, no air release; bubbles harm jellyfish - Raskoff 2003)",HGL,PASS,tank 11.6 m
+T08,"pressure head at breakwater crest +7 m, 3 km, gravity line",-1.2559,m,">= +2 m (no sub-atmospheric pressure, no air release; bubbles harm jellyfish - Raskoff 2003)",HGL,FAIL,tank 7.8 m
+T08,"pressure head at breakwater crest +7 m, 5 km, gravity line",2.6162,m,">= +2 m (no sub-atmospheric pressure, no air release; bubbles harm jellyfish - Raskoff 2003)",HGL,PASS,tank 11.6 m
+T08,"pump-trip down-surge minus pressure head at +5 m crest (pump-driven option, 3 km)",36.6811,m,"<= 0 PASS; <= 10 m MARGINAL (sub-atmospheric, air release); > 10 m FAIL (vapour -> column separation)",Joukowsky,FAIL,pump option needs surge vessel/air valves or slow-closing check valve; gravity option avoids it
+T08,"velocity vs deposit limit (s-1=0.005), Q=1.0",1.9823,x V_L,>= 1.5 PASS; >= 1.0 MARGINAL,Durand; Lebrato 2013 sinking,PASS,"v=0.88, V_L=0.45 m/s"
+T08,"velocity vs deposit limit (s-1=0.005), Q=2.0",3.9647,x V_L,>= 1.5 PASS; >= 1.0 MARGINAL,Durand; Lebrato 2013 sinking,PASS,"v=1.77, V_L=0.45 m/s"
+T08,"velocity vs deposit limit (s-1=0.02), Q=1.0",0.9912,x V_L,>= 1.5 PASS; >= 1.0 MARGINAL,Durand; Lebrato 2013 sinking,FAIL,"v=0.88, V_L=0.89 m/s"
+T08,"velocity vs deposit limit (s-1=0.02), Q=2.0",1.9823,x V_L,>= 1.5 PASS; >= 1.0 MARGINAL,Durand; Lebrato 2013 sinking,PASS,"v=1.77, V_L=0.89 m/s"
+T08,bell-to-pipe diameter ratio d/D,0.375,-,"<= 0.33 (large-particle plug/bridging guide, ASSUMPTION)",geometry,MARGINAL,45 cm bell in 1.2 m ID
+T08,"bulk turbulent strain rate sqrt(eps/nu), 2 m3/s",152.2928,1/s,< 500 1/s (juvenile salmon injury threshold; fish proxy) PASS,"Neitzel et al. (PNNL), fish proxy",PASS,wall shear 4.2 Pa; NO jellyfish threshold exists
+T08,"Joukowsky surge, instant stop [PE100 E=1.0 GPa (20 C), SDR17]",45.3316,m,"steady+surge <= 2.0 x derated PN (PE occasional-surge allowance, PPI/industry; ASSUMED)",Joukowsky,PASS,"a=251 m/s, peak 5.4 bar vs 2xPN 16.0; down-surge 45 m -> vacuum/column separation at high points"
+T08,"Joukowsky surge, instant stop [PE100 E=1.0 GPa (20 C), SDR26]",36.0254,m,"steady+surge <= 2.0 x derated PN (PE occasional-surge allowance, PPI/industry; ASSUMED)",Joukowsky,PASS,"a=200 m/s, peak 4.5 bar vs 2xPN 10.1; down-surge 36 m -> vacuum/column separation at high points"
+T08,"Joukowsky surge, instant stop [PE100 E~0.7 GPa (35 C, ASSUMED), SDR17]",38.0857,m,"steady+surge <= 2.0 x derated PN (PE occasional-surge allowance, PPI/industry; ASSUMED)",Joukowsky,PASS,"a=211 m/s, peak 4.7 bar vs 2xPN 16.0; down-surge 38 m -> vacuum/column separation at high points"
+T08,"Joukowsky surge, instant stop [PE100 E~0.7 GPa (35 C, ASSUMED), SDR26]",30.2204,m,"steady+surge <= 2.0 x derated PN (PE occasional-surge allowance, PPI/industry; ASSUMED)",Joukowsky,PASS,"a=168 m/s, peak 4.0 bar vs 2xPN 10.1; down-surge 30 m -> vacuum/column separation at high points"
+T08,"HDPE ring-buckling pressure SDR17, E=0.7 GPa",4.2859,bar,">= 2 x 1.0 bar (full vacuum, SF 2) PASS; >= 1 MARGINAL",P_cr formula,PASS,E=0.2 GPa ~ long-term creep modulus at 35 C (ASSUMED)
+T08,"HDPE ring-buckling pressure SDR17, E=0.2 GPa",1.2245,bar,">= 2 x 1.0 bar (full vacuum, SF 2) PASS; >= 1 MARGINAL",P_cr formula,MARGINAL,E=0.2 GPa ~ long-term creep modulus at 35 C (ASSUMED)
+T08,"HDPE ring-buckling pressure SDR26, E=0.7 GPa",1.1235,bar,">= 2 x 1.0 bar (full vacuum, SF 2) PASS; >= 1 MARGINAL",P_cr formula,MARGINAL,E=0.2 GPa ~ long-term creep modulus at 35 C (ASSUMED)
+T08,"HDPE ring-buckling pressure SDR26, E=0.2 GPa",0.321,bar,">= 2 x 1.0 bar (full vacuum, SF 2) PASS; >= 1 MARGINAL",P_cr formula,FAIL,E=0.2 GPa ~ long-term creep modulus at 35 C (ASSUMED)
+T08,"HDPE ring-buckling pressure SDR33, E=0.7 GPa",0.5357,bar,">= 2 x 1.0 bar (full vacuum, SF 2) PASS; >= 1 MARGINAL",P_cr formula,FAIL,E=0.2 GPa ~ long-term creep modulus at 35 C (ASSUMED)
+T08,"HDPE ring-buckling pressure SDR33, E=0.2 GPa",0.1531,bar,">= 2 x 1.0 bar (full vacuum, SF 2) PASS; >= 1 MARGINAL",P_cr formula,FAIL,E=0.2 GPa ~ long-term creep modulus at 35 C (ASSUMED)
+T08,gravity-line run-down time vs 2L/a (3 km),5.2372,x,">1 => slow (rigid-column) transient, not Joukowsky",rigid column,PASS,run-down ~105 s; 2L/a 20 s
+T08,gravity-line run-down time vs 2L/a (5 km),3.3935,x,">1 => slow (rigid-column) transient, not Joukowsky",rigid column,PASS,run-down ~113 s; 2L/a 33 s
+T08,"submerged weight, water-filled, no ballast",-0.2114,kN/m,> 0 (sinks),Archimedes,FAIL,"OD 1.36 m SDR17, pipe 308 kg/m"
+T08,"submerged weight, air-filled, no ballast",-11.5837,kN/m,> 0,Archimedes,FAIL,air ingress at the head tank would float the line
+T08,on-bottom stability: required submerged weight [nearshore 3-4 m; p99 Hs + p99 current],13.0512,kN/m,ballast <= 1.0 m3 concrete per m (practical collar) PASS; <= 2 MARGINAL,DNV-RP-F109-style simplified (E305 coeffs),PASS,"H=1.56 m, u_b=0.92 m/s, concrete 0.98 m3/m (~2.4 t/m)"
+T08,on-bottom stability: required submerged weight [nearshore 3-4 m; max Hs + max current],20.6168,kN/m,ballast <= 1.0 m3 concrete per m (practical collar) PASS; <= 2 MARGINAL,DNV-RP-F109-style simplified (E305 coeffs),MARGINAL,"H=2.53 m, u_b=1.62 m/s, concrete 1.54 m3/m (~3.7 t/m)"
+T08,"on-bottom stability: required submerged weight [nearshore 3-4 m; storm, depth-limited]",17.5978,kN/m,ballast <= 1.0 m3 concrete per m (practical collar) PASS; <= 2 MARGINAL,DNV-RP-F109-style simplified (E305 coeffs),MARGINAL,"H=2.73 m, u_b=2.06 m/s, concrete 1.32 m3/m (~3.2 t/m)"
+T08,on-bottom stability: required submerged weight [5 km out ~7-9 m; p99 Hs + p99 current],5.6567,kN/m,ballast <= 1.0 m3 concrete per m (practical collar) PASS; <= 2 MARGINAL,DNV-RP-F109-style simplified (E305 coeffs),PASS,"H=1.56 m, u_b=0.40 m/s, concrete 0.44 m3/m (~1.0 t/m)"
+T08,on-bottom stability: required submerged weight [5 km out ~7-9 m; max Hs + max current],10.2941,kN/m,ballast <= 1.0 m3 concrete per m (practical collar) PASS; <= 2 MARGINAL,DNV-RP-F109-style simplified (E305 coeffs),PASS,"H=2.53 m, u_b=0.80 m/s, concrete 0.78 m3/m (~1.9 t/m)"
+T08,"on-bottom stability: required submerged weight [5 km out ~7-9 m; storm, depth-limited]",23.0615,kN/m,ballast <= 1.0 m3 concrete per m (practical collar) PASS; <= 2 MARGINAL,DNV-RP-F109-style simplified (E305 coeffs),MARGINAL,"H=5.46 m, u_b=2.60 m/s, concrete 1.73 m3/m (~4.1 t/m)"
+T08,ballast to keep the line down if half air-filled,5.8976,kN/m,covered by stability ballast? (compare row above),Archimedes,PASS,= 0.44 m3 concrete/m
+T08,"free thermal length change [seasonal water 20->35.8 C], 3.0 km",9.48,m,must be restrained/anchored,alpha=2e-4 /K (PE),PASS,
+T08,"free thermal length change [seasonal water 20->35.8 C], 5.0 km",15.8,m,must be restrained/anchored,alpha=2e-4 /K (PE),PASS,
+T08,"fully-restrained thermal stress [seasonal water 20->35.8 C], E=0.8 GPa",2.528,MPa,<= 8 MPa PE100 design stress (MRS10/1.25) PASS; <= 10 MARGINAL,E alpha dT,PASS,short-term E overestimates (creep relaxes)
+T08,"fully-restrained thermal stress [seasonal water 20->35.8 C], E=0.3 GPa",0.948,MPa,<= 8 MPa PE100 design stress (MRS10/1.25) PASS; <= 10 MARGINAL,E alpha dT,PASS,short-term E overestimates (creep relaxes)
+T08,"free thermal length change [exposed on breakwater, sun 25->65 C (ASSUMED)], 0.2 km",1.6,m,must be restrained/anchored,alpha=2e-4 /K (PE),MARGINAL,
+T08,"fully-restrained thermal stress [exposed on breakwater, sun 25->65 C (ASSUMED)], E=0.8 GPa",6.4,MPa,<= 8 MPa PE100 design stress (MRS10/1.25) PASS; <= 10 MARGINAL,E alpha dT,PASS,short-term E overestimates (creep relaxes)
+T08,"fully-restrained thermal stress [exposed on breakwater, sun 25->65 C (ASSUMED)], E=0.3 GPa",2.4,MPa,<= 8 MPa PE100 design stress (MRS10/1.25) PASS; <= 10 MARGINAL,E alpha dT,PASS,short-term E overestimates (creep relaxes)
+T09,"total power per unit [3 km; best (new pipe, clean water)]",301.1567,kW,"< 0.1 % of 1,400 MWe PASS; < 0.25 % MARGINAL (ASSUMED)",sum of T04/T07/T08,PASS,"0.022 % of unit; screw 186 (lift 6.7 m), dewater 60, drums 42, CW 2.6, ctrl 10 kW"
+T09,"total power per unit [3 km; worst (aged, 13.5 % bells)]",349.0539,kW,"< 0.1 % of 1,400 MWe PASS; < 0.25 % MARGINAL (ASSUMED)",sum of T04/T07/T08,PASS,"0.025 % of unit; screw 231 (lift 8.3 m), dewater 60, drums 42, CW 5.9, ctrl 10 kW"
+T09,"total power per unit [5 km; best (new pipe, clean water)]",379.5757,kW,"< 0.1 % of 1,400 MWe PASS; < 0.25 % MARGINAL (ASSUMED)",sum of T04/T07/T08,PASS,"0.027 % of unit; screw 265 (lift 9.5 m), dewater 60, drums 42, CW 2.6, ctrl 10 kW"
+T09,"total power per unit [5 km; worst (aged, 13.5 % bells)]",457.2083,kW,"< 0.1 % of 1,400 MWe PASS; < 0.25 % MARGINAL (ASSUMED)",sum of T04/T07/T08,PASS,"0.033 % of unit; screw 339 (lift 12.1 m), dewater 60, drums 42, CW 5.9, ctrl 10 kW"
+T09,"4 units, 5 km, worst case",1.8288,MW,"< 0.1 % of 5,600 MWe",calc,PASS,0.033 % of plant gross
+T09,"energy per 60-day bloom season, 4 units, worst",2633.5198,MWh,"vs one avoided unit-day = 32,280 MWh (1,345 MW x 24 h)",16_FLAW_AUDIT #10,PASS,= 8.2 % of one unit-day
+T10,PREN 316L,24.73,-,>= 40 seawater rule of thumb (NORSOK M-001 style),composition,FAIL,
+T10,crevice margin (316L),no data,,CCT >= T_max + 15 K,not found tonight,FAIL,"316L pits/crevices in warm Gulf seawater; 2205 only for free-draining, flow-cleaned, non-crevice parts"
+T10,PREN 2205 duplex (S32205),35.45,-,>= 40 seawater rule of thumb (NORSOK M-001 style),composition,MARGINAL,
+T10,crevice margin (2205 duplex (S32205)),no data,,CCT >= T_max + 15 K,not found tonight,MARGINAL,"316L pits/crevices in warm Gulf seawater; 2205 only for free-draining, flow-cleaned, non-crevice parts"
+T10,PREN 2507 super duplex (S32750),42.68,-,>= 40 seawater rule of thumb (NORSOK M-001 style),composition,PASS,
+T10,crevice margin CCT - T_max (2507 super duplex (S32750)),28.2,K,>= 15 K PASS; >= 5 K MARGINAL (ASSUMED),Alleima SAF 2507 datasheet,PASS,
+T10,PREN 6Mo (S31254 / 6Mo+N),43.33,-,>= 40 seawater rule of thumb (NORSOK M-001 style),composition,PASS,
+T10,crevice margin CCT - T_max (6Mo (S31254 / 6Mo+N)),25.2,K,>= 15 K PASS; >= 5 K MARGINAL (ASSUMED),Alleima SAF 2507 datasheet,PASS,
+T10,"material selection: Guide rails, bottom-bar seat, drum shafts (permanently wetted crevices)",2507 super duplex or titanium Gr2; GRP/UHMWPE liner in rail slots,,"fit for 35.8 C / 48 PSU, 60-yr plant life (with replacement)",see module docstring,PASS,crevice at 35.8 C needs CCT margin; 2205 marginal
+T10,material selection: Curtain mesh,2205/2507 woven wire OR UHMWPE net; 90/10 CuNi only if electrically isolated from SS/CP,,"fit for 35.8 C / 48 PSU, 60-yr plant life (with replacement)",see module docstring,MARGINAL,CuNi antifouling works only while freely corroding; galvanically coupled to SS or CP it loses Cu-ion release; stored dry 10 months so antifouling value is limited
+T10,material selection: Piles / gantry steel,S355 with coating + sacrificial-anode CP + corrosion allowance in splash zone,,"fit for 35.8 C / 48 PSU, 60-yr plant life (with replacement)",see module docstring,PASS,"standard marine practice; splash zone is the critical zone (allowance to be set from local data, not available)"
+T10,material selection: Export pipe,"PE100 SDR17 (not SDR26: vacuum/collapse, T08), carbon-black UV-stabilised for breakwater crossing",,"fit for 35.8 C / 48 PSU, 60-yr plant life (with replacement)",see module docstring,PASS,PE100 rated to 40 C with ISO 13761 de-rating
+T10,material selection: Archimedes screw / head tank,"2205 or coated carbon steel with CP; rotating tube in 2205; bearings water-lubricated, non-metallic",,"fit for 35.8 C / 48 PSU, 60-yr plant life (with replacement)",see module docstring,PASS,free-draining between seasons; inspectable
+T10,material selection: Fasteners in mesh/rails,2507 or titanium; never 316/A4 in submerged crevices,,"fit for 35.8 C / 48 PSU, 60-yr plant life (with replacement)",see module docstring,PASS,316 crevice corrodes in warm seawater
+T10,fouling exposure of curtain per season (30 d deployed),30,days,"<= 60 d before first clean (ASSUMED: barnacle/mussel settlement within weeks at 30+ C, audit #16)",16_FLAW_AUDIT #16,PASS,brush pass at each roll-up keeps mesh clean; rails/slots need a pre-season brush pig
+T10,fouling exposure of curtain per season (90 d deployed),90,days,"<= 60 d before first clean (ASSUMED: barnacle/mussel settlement within weeks at 30+ C, audit #16)",16_FLAW_AUDIT #16,MARGINAL,brush pass at each roll-up keeps mesh clean; rails/slots need a pre-season brush pig

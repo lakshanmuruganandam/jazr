@@ -1,0 +1,35 @@
+{
+  "surface (mean 1 m)": {
+    "open skirt 2 m": 0.791812821867835,
+    "open skirt 5 m": 0.9046809998682697,
+    "JAZR closed floor (seal gap 0-10 cm)": 0.9947885435836171,
+    "JAZR closed floor, unseated bar (10 cm everywhere)": 0.9946399999999997
+  },
+  "mixed (uniform)": {
+    "open skirt 2 m": 0.2219041087486162,
+    "open skirt 5 m": 0.5523682820219575,
+    "JAZR closed floor (seal gap 0-10 cm)": 0.9860167611658479,
+    "JAZR closed floor, unseated bar (10 cm everywhere)": 0.9769549999999999
+  },
+  "ebb-sinking (mean 0.6H)": {
+    "open skirt 2 m": 0.03883062204095254,
+    "open skirt 5 m": 0.4538428087812404,
+    "JAZR closed floor (seal gap 0-10 cm)": 0.9883449490671966,
+    "JAZR closed floor, unseated bar (10 cm everywhere)": 0.981875
+  },
+  "reference_context": "public reference model: open 2 m skirt 0-55% at 0.2 m/s; closed bag 84-100% (github.com/Shaaha-7/ENEC)",
+  "verdicts": {
+    "T8a_closed_vs_open_model": [
+      "PASS (model)",
+      "closed floor keeps >= 97.7% even with an unseated bar vs open 2 m skirt down to 4% -- consistent with a public 84-100% vs 0-55%"
+    ],
+    "T8b_floor_seal_physical": [
+      "UNKNOWN",
+      "retention depends on the bottom bar seating in a rail that collects sand/barnacles; needs seat sensor + tank test with sand in rail and bells at the bed"
+    ],
+    "T8c_mesh_extrusion": [
+      "UNKNOWN",
+      "bells/fragments extruding through mesh under dP not modelled (16_FLAW_AUDIT #5) -> tank test at 2 densities"
+    ]
+  }
+}
