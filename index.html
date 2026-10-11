@@ -65,7 +65,7 @@ h3{font-size:clamp(20px,2.2vw,24px);letter-spacing:-.01em;line-height:1.2}
 @media(max-width:860px){.nav ul{display:none}}
 
 /* hero */
-.hero{min-height:100svh;display:flex;align-items:center;overflow:hidden;padding:110px 0 70px;isolation:isolate}
+.hero{min-height:100svh;display:flex;align-items:center;overflow:hidden;padding:88px 0 56px;isolation:isolate}
 .hero-bg{position:absolute;inset:0;z-index:-2}
 .hero-bg img{width:100%;height:100%;object-fit:cover;object-position:60% 40%;transform:scale(1.08);animation:drift 26s ease-in-out infinite alternate}
 @keyframes drift{to{transform:scale(1.16) translate(-1.5%,-1%)}}
@@ -74,11 +74,11 @@ h3{font-size:clamp(20px,2.2vw,24px);letter-spacing:-.01em;line-height:1.2}
   linear-gradient(180deg,rgba(6,20,28,.35) 0%,rgba(6,20,28,.2) 40%,var(--navy) 100%)}
 .hero-inner{width:100%}
 .hero-top{display:flex;align-items:center;gap:clamp(16px,2.4vw,28px);flex-wrap:wrap}
-.hero-top .mark{width:clamp(72px,9vw,118px);height:auto;filter:drop-shadow(0 0 30px rgba(95,240,220,.35))}
-.word{font-family:var(--fh);font-weight:700;font-size:clamp(76px,14vw,184px);line-height:.86;letter-spacing:-.04em;background:linear-gradient(180deg,#fff 20%,#9FEFE4);-webkit-background-clip:text;background-clip:text;color:transparent}
+.hero-top .mark{width:clamp(64px,7vw,96px);height:auto;filter:drop-shadow(0 0 30px rgba(95,240,220,.35))}
+.word{font-family:var(--fh);font-weight:700;font-size:clamp(72px,10vw,136px);line-height:.86;letter-spacing:-.04em;background:linear-gradient(180deg,#fff 20%,#9FEFE4);-webkit-background-clip:text;background-clip:text;color:transparent}
 .ar{font-family:"Noto Kufi Arabic",var(--fh);font-weight:700;font-size:clamp(44px,7vw,92px);line-height:1.1;color:var(--teal-lt);opacity:.92}
-.hero .tag{font-family:var(--fh);font-size:clamp(24px,3.4vw,44px);font-weight:600;line-height:1.12;margin:26px 0 10px;letter-spacing:-.015em;max-width:900px}
-.hero .sub{color:var(--ink-2);max-width:640px;font-size:clamp(16px,1.5vw,19px)}
+.hero .tag{font-family:var(--fh);font-size:clamp(24px,3.4vw,44px);font-weight:600;line-height:1.12;margin:18px 0 8px;letter-spacing:-.015em;max-width:900px}
+.hero .sub{color:var(--ink-2);max-width:780px;font-size:clamp(16px,1.5vw,19px)}
 .hero .meta{margin-top:18px;font-size:13px;letter-spacing:.12em;text-transform:uppercase;color:var(--ink-3)}
 .choices{display:grid;grid-template-columns:1fr 1fr;gap:clamp(12px,2vw,22px);margin-top:clamp(30px,4.5vw,48px);max-width:980px}
 .choice{position:relative;overflow:hidden;border-radius:var(--r);padding:clamp(22px,3vw,34px);min-height:clamp(150px,17vw,210px);display:flex;flex-direction:column;justify-content:flex-end;text-align:left;border:1px solid rgba(95,240,220,.28);background:linear-gradient(140deg,rgba(20,190,170,.22),rgba(6,20,28,.55));backdrop-filter:blur(14px);-webkit-backdrop-filter:blur(14px);transition:transform .45s var(--ease),border-color .3s,box-shadow .45s}
@@ -102,10 +102,29 @@ h3{font-size:clamp(20px,2.2vw,24px);letter-spacing:-.01em;line-height:1.2}
 @keyframes cue{60%{transform:translateY(12px);opacity:0}100%{opacity:0}}
 @media(max-width:640px){
   .choices{grid-template-columns:1fr}
-  .choice{min-height:136px;padding-left:92px;justify-content:center}
-  .choice .ic{top:50%;left:22px;transform:translateY(-50%)}
   .scroll-cue{display:none}
 }
+
+/* hero choice cards with live preview thumbnails */
+.choice{padding:0!important;min-height:0!important;justify-content:flex-start!important}
+.choice .thumb{position:relative;display:block;aspect-ratio:16/8.4;overflow:hidden;border-bottom:1px solid rgba(95,240,220,.22);background:#0a1e28}
+.choice .thumb video{position:absolute;inset:0;width:100%;height:100%;object-fit:cover;display:block;transform:scale(1.02);transition:transform .9s var(--ease),filter .5s}
+.choice:hover .thumb video{transform:scale(1.08);filter:brightness(1.08)}
+.choice .thumb::after{content:"";position:absolute;inset:0;background:linear-gradient(180deg,rgba(6,20,28,0) 45%,rgba(6,20,28,.75));pointer-events:none}
+.choice .play{position:absolute;left:50%;top:50%;z-index:2;width:clamp(62px,6.5vw,84px);height:clamp(62px,6.5vw,84px);margin:calc(clamp(62px,6.5vw,84px)/-2) 0 0 calc(clamp(62px,6.5vw,84px)/-2);border-radius:50%;display:grid;place-items:center;background:var(--teal-lt);color:var(--navy);animation:pulse 2.6s infinite;transition:transform .35s var(--ease)}
+.choice.b .play{background:var(--amber);animation:pulseA 2.6s infinite}
+.choice:hover .play{transform:scale(1.12)}
+.choice .play svg{width:42%;height:42%;margin-left:6%}
+.choice.b .play svg{margin-left:0}
+.choice .chip{position:absolute;left:14px;top:14px;z-index:2;font-size:12px;font-weight:700;letter-spacing:.12em;text-transform:uppercase;color:var(--ink);background:rgba(6,20,28,.72);backdrop-filter:blur(8px);-webkit-backdrop-filter:blur(8px);padding:6px 11px;border-radius:999px;border:1px solid rgba(95,240,220,.35);display:flex;align-items:center;gap:7px}
+.choice .chip .live{width:8px;height:8px;border-radius:50%;background:#ff5a5a;box-shadow:0 0 0 0 rgba(255,90,90,.7);animation:livep 1.6s infinite}
+.choice .dur{position:absolute;right:12px;bottom:10px;z-index:2;font-size:13px;font-weight:700;color:var(--ink);background:rgba(6,20,28,.78);padding:4px 9px;border-radius:7px}
+.choice .body{position:relative;display:block;padding:clamp(16px,2.2vw,24px) clamp(18px,2.6vw,28px) clamp(18px,2.4vw,26px)}
+.choice .body .t,.choice .body .d{display:block}
+.choice .body .arrow{top:clamp(16px,2.2vw,24px)}
+@keyframes pulseA{0%{box-shadow:0 0 0 0 rgba(255,205,120,.6)}70%{box-shadow:0 0 0 18px rgba(255,205,120,0)}100%{box-shadow:0 0 0 0 rgba(255,205,120,0)}}
+@keyframes livep{0%{box-shadow:0 0 0 0 rgba(255,90,90,.7)}70%{box-shadow:0 0 0 8px rgba(255,90,90,0)}100%{box-shadow:0 0 0 0 rgba(255,90,90,0)}}
+@media (prefers-reduced-motion:reduce){.choice .thumb video{transform:none}}
 
 /* stats */
 .stats{padding:clamp(70px,9vw,120px) 0 clamp(60px,8vw,110px);border-top:1px solid var(--line);background:linear-gradient(180deg,var(--navy),var(--navy-2))}
@@ -275,6 +294,7 @@ footer .disc{margin-top:22px;font-size:12.5px}
 }
 </style>
 <script>document.documentElement.classList.add('js')</script>
+<link rel="preconnect" href="https://cdn.jsdelivr.net" crossorigin>
 </head>
 <body>
 
@@ -289,7 +309,7 @@ footer .disc{margin-top:22px;font-size:12.5px}
       <li><a href="#evidence">Evidence</a></li>
       <li><a href="#gallery">Gallery</a></li>
     </ul>
-    <a class="pill" href="3d/index.html">Live 3D twin</a>
+    <a class="pill" href="https://github.com/lakshanmuruganandam/jazr" target="_blank" rel="noopener"><svg viewBox="0 0 24 24" fill="currentColor" width="17" height="17" style="vertical-align:-3px;margin-right:7px"><path d="M12 .5a11.5 11.5 0 0 0-3.6 22.4c.6.1.8-.3.8-.6v-2c-3.2.7-3.9-1.5-3.9-1.5-.5-1.3-1.3-1.7-1.3-1.7-1-.7.1-.7.1-.7 1.2.1 1.8 1.2 1.8 1.2 1 1.8 2.8 1.3 3.5 1 .1-.8.4-1.3.7-1.6-2.6-.3-5.3-1.3-5.3-5.7 0-1.3.5-2.3 1.2-3.1-.1-.3-.5-1.5.1-3.1 0 0 1-.3 3.2 1.2a11 11 0 0 1 5.8 0C17.3 4.6 18.3 5 18.3 5c.6 1.6.2 2.8.1 3.1.8.8 1.2 1.8 1.2 3.1 0 4.4-2.7 5.4-5.3 5.7.4.4.8 1.1.8 2.2v3.2c0 .3.2.7.8.6A11.5 11.5 0 0 0 12 .5z"/></svg>Open in GitHub</a>
   </div>
 </header>
 
@@ -308,17 +328,23 @@ footer .disc{margin-top:22px;font-size:12.5px}
     <p class="meta rv d2">IIT Delhi – Abu Dhabi · ATRC Advanced Technology Pioneers 2026 · ENEC track</p>
 
     <div class="choices">
-      <button class="choice rv d3" data-video="media/pitch.mp4" data-cap="JAZR — the pitch">
-        <span class="ic"><svg viewBox="0 0 24 24" fill="currentColor"><path d="M8 5.5v13l11-6.5z"/></svg></span>
-        <span class="arrow">↗</span>
-        <span class="t">Watch the pitch</span>
-        <span class="d">The whole idea in under two minutes.</span>
+      <button class="choice rv d3" data-video="media/pitch.mp4" data-cap="JAZR — the pitch" aria-label="Watch the pitch film">
+        <span class="thumb">
+          <video class="pv" src="media/preview/pitch_loop.mp4" poster="media/preview/pitch_poster.jpg" muted loop autoplay playsinline preload="auto" aria-hidden="true"></video>
+          <span class="chip">▶ The pitch film</span>
+          <span class="play"><svg viewBox="0 0 24 24" fill="currentColor"><path d="M8 5.5v13l11-6.5z"/></svg></span>
+          <span class="dur">1:52</span>
+        </span>
+        <span class="body"><span class="t">Watch the pitch</span><span class="d">The whole idea in under two minutes. Click to play with sound.</span><span class="arrow">↗</span></span>
       </button>
-      <a class="choice b rv d4" href="3d/index.html">
-        <span class="ic"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linejoin="round"><path d="M12 2 3 7v10l9 5 9-5V7z"/><path d="M3 7l9 5 9-5M12 12v10"/></svg></span>
-        <span class="arrow">↗</span>
-        <span class="t">Launch the live 3D twin</span>
-        <span class="d">Fly the intake. Trigger a bloom. Watch it work.</span>
+      <a class="choice b rv d4" href="3d/index.html" aria-label="Launch the live 3D digital twin">
+        <span class="thumb">
+          <video class="pv" src="media/preview/3d_loop.mp4" poster="media/preview/3d_poster.jpg" muted loop autoplay playsinline preload="auto" aria-hidden="true"></video>
+          <span class="chip"><i class="live"></i>Live · runs in your browser</span>
+          <span class="play"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linejoin="round"><path d="M12 2 3 7v10l9 5 9-5V7z"/><path d="M3 7l9 5 9-5M12 12v10"/></svg></span>
+          <span class="dur">Interactive</span>
+        </span>
+        <span class="body"><span class="t">Launch the live 3D twin</span><span class="d">Fly the intake. Trigger a bloom. Press deploy. Watch it work.</span><span class="arrow">↗</span></span>
       </a>
     </div>
     <div class="sec-btns rv d4">
@@ -482,11 +508,11 @@ footer .disc{margin-top:22px;font-size:12.5px}
     </div>
     <div class="grid2">
       <figure class="film rv">
-        <video controls playsinline preload="none" poster="media/cover.jpg"><source src="media/pitch.mp4" type="video/mp4"></video>
+        <video controls playsinline preload="none" poster="media/cover.jpg" data-stream="pitch"></video>
         <figcaption class="cap"><b>The pitch</b><span>Why it matters and how it works</span></figcaption>
       </figure>
       <figure class="film rv d1">
-        <video controls playsinline preload="none" poster="media/shots/15_aerial_all_elements_labelled.jpg"><source src="media/tour.mp4" type="video/mp4"></video>
+        <video controls playsinline preload="none" poster="media/shots/15_aerial_all_elements_labelled.jpg" data-stream="tour"></video>
         <figcaption class="cap"><b>Narrated 3D tour</b><span>Every element, stop by stop</span></figcaption>
       </figure>
     </div>
@@ -602,6 +628,7 @@ footer .disc{margin-top:22px;font-size:12.5px}
   <div class="stage" id="lbstage"></div>
 </div>
 
+<script src="https://cdn.jsdelivr.net/npm/hls.js@1.5.13/dist/hls.min.js"></script>
 <script>
 (function(){
   var reduce = window.matchMedia('(prefers-reduced-motion: reduce)').matches;
@@ -661,15 +688,39 @@ footer .disc{margin-top:22px;font-size:12.5px}
   }
   function close(){
     if (!lb.classList.contains('open')) return;
-    stage.querySelectorAll('video').forEach(function(v){ v.pause(); v.removeAttribute('src'); v.load(); });
+    stage.querySelectorAll('video').forEach(function(v){ v.pause(); if (v._hls) { v._hls.destroy(); v._hls = null; } v.removeAttribute('src'); v.load(); });
     lb.classList.remove('show'); lb.classList.remove('open');
     stage.innerHTML = ''; document.body.style.overflow = '';
     if (lastFocus) lastFocus.focus();
   }
+
+  // ---- adaptive streaming (HLS): instant start, no buffering stalls ----
+  function attachStream(v, name){
+    if (v._attached) return; v._attached = true;
+    var m = 'media/hls/' + name + '/master.m3u8', mp4 = 'media/' + name + '.mp4';
+    if (window.Hls && Hls.isSupported()) {
+      var h = new Hls({ startLevel: -1, capLevelToPlayerSize: true, abrEwmaDefaultEstimate: 4000000, maxBufferLength: 30, startFragPrefetch: true, enableWorker: true });
+      h.on(Hls.Events.ERROR, function(e, d){ if (d.fatal) { h.destroy(); v._hls = null; v.src = mp4; } });
+      h.loadSource(m); h.attachMedia(v); v._hls = h;
+    } else if (v.canPlayType('application/vnd.apple.mpegurl')) { v.src = m; }
+    else { v.src = mp4; }
+  }
+  // warm the inline players as they approach the viewport
+  var films = document.querySelectorAll('video[data-stream]');
+  if ('IntersectionObserver' in window) {
+    var fo = new IntersectionObserver(function(es){ es.forEach(function(e){ if (e.isIntersecting) { e.target.preload = 'auto'; attachStream(e.target, e.target.dataset.stream); fo.unobserve(e.target); } }); }, { rootMargin: '600px' });
+    films.forEach(function(v){ fo.observe(v); });
+  } else { films.forEach(function(v){ attachStream(v, v.dataset.stream); }); }
+  // pre-fetch the opening seconds of the pitch so the hero button starts instantly
+  window.addEventListener('load', function(){
+    setTimeout(function(){
+      ['media/hls/pitch/master.m3u8','media/hls/pitch/v1/index.m3u8','media/hls/pitch/v1/seg_000.ts','media/hls/pitch/v1/seg_001.ts','media/hls/pitch/v0/seg_000.ts'].forEach(function(u){ try { fetch(u, { cache: 'force-cache' }); } catch(e){} });
+    }, 800);
+  });
   document.querySelectorAll('[data-video]').forEach(function(b){
     b.addEventListener('click', function(){
       var v = document.createElement('video');
-      v.controls = true; v.autoplay = true; v.playsInline = true; v.src = b.dataset.video;
+      v.controls = true; v.autoplay = true; v.playsInline = true; v.poster = /tour/.test(b.dataset.video) ? 'media/shots/15_aerial_all_elements_labelled.jpg' : 'media/cover.jpg'; attachStream(v, /tour/.test(b.dataset.video) ? 'tour' : 'pitch');
       v.addEventListener('error', function(){
         var m = document.createElement('p'); m.className = 'msg';
         m.textContent = 'This film is being uploaded — please check back shortly.';
